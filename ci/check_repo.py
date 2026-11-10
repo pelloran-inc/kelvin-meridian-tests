@@ -5,7 +5,8 @@
 2. every pinned file in the tests' lists names a sha256 of 64 hex digits;
 3. every relative link in a Markdown file leads to a file or folder that exists;
 4. every number the README cites still stands in its run record (the claims below, as REPRODUCE.md lists them);
-5. every run record has its run.json and its requests (plain or gzipped), and no file is over 95 MB.
+5. every run record has its run.json and its requests (plain or gzipped), and no file is over 95 MB;
+6. meridian_binary.py packs and unpacks a request unchanged, and refuses a malformed body.
 
     python3 ci/check_repo.py          exit 0: all hold · 1: something does not (each named)
 """
@@ -65,10 +66,10 @@ CLAIMS = [
     ("runs/2026-11-09T23-59-37+0100-typed-decisions/result.json", "all.kelvin.brier", 0.089, 0.0005),
     ("runs/2026-11-09T23-59-37+0100-typed-decisions/result.json", "all.kelvin.ece", 0.131, 0.0005),
     ("runs/2026-11-09T23-59-37+0100-typed-decisions/result.json", "all.control_shuffled.accuracy", 0.508, 0.0006),
-    ("runs/2026-11-10T17-34-26+0100-pictures/result.json", "kelvin.again.as_told", 24, 0),
-    ("runs/2026-11-10T17-34-26+0100-pictures/result.json", "kelvin.unseen.right", 50, 0),
-    ("runs/2026-11-10T17-34-26+0100-pictures/result.json", "control_swapped.again.right", 0, 0),
-    ("runs/2026-11-10T17-34-26+0100-pictures/result.json", "control_swapped.unseen.right", 10, 0),
+    ("runs/2026-11-10T18-23-27+0100-pictures/result.json", "kelvin.again.as_told", 24, 0),
+    ("runs/2026-11-10T18-23-27+0100-pictures/result.json", "kelvin.unseen.right", 50, 0),
+    ("runs/2026-11-10T18-23-27+0100-pictures/result.json", "control_swapped.again.right", 0, 0),
+    ("runs/2026-11-10T18-23-27+0100-pictures/result.json", "control_swapped.unseen.right", 10, 0),
     ("runs/2026-11-10T07-00-50+0100-sound-object-name/result.json", "real names.claims.name to clip by picture", 23, 0),
     ("runs/2026-11-10T07-00-50+0100-sound-object-name/result.json", "real names.claims.sound to name", 14, 0),
     ("runs/2026-11-10T07-00-50+0100-sound-object-name/result.json", "real names.claims.never-lived name answered", 0, 0),
@@ -107,6 +108,23 @@ for root, dirs, names in os.walk("."):
         p = os.path.join(root, n)
         if os.path.getsize(p) > 95 * 1024 * 1024:
             faults.append(f"{p}: over 95 MB")
+
+# 6 · Meridian Binary 1: the tool round-trips, and refuses what the door refuses
+sys.path.insert(0, ROOT)
+import base64 as _b64  # noqa: E402
+import meridian_binary as _mb  # noqa: E402
+_req = {"model": "kelvin", "state": {"picture": "x"}, "questions": {"q": {"type": "choice", "criteria": {"a": None}}},
+        "assets": {"x": {"type": "image", "format": "jpg", "data_base64": _b64.b64encode(bytes(range(256)) * 20).decode()},
+                   "y": {"type": "image", "format": "png", "data_base64": _b64.b64encode(b"\x89PNG").decode()}}}
+_body = _mb.pack(_req)
+if _body[:4] != b"MB1\n" or _mb.unpack(_body) != _req:
+    faults.append("meridian_binary: unpack(pack(request)) is not the request")
+for _bad in (b"MB1\n\0\0", b"MB1\n" + (99).to_bytes(4, "big") + b"{}", b"MB1\n" + (3).to_bytes(4, "big") + b"xyz"):
+    try:
+        _mb.unpack(_bad)
+        faults.append(f"meridian_binary: a malformed body was accepted: {_bad[:12]!r}")
+    except ValueError:
+        pass
 
 if faults:
     print("check_repo: NOT all hold")

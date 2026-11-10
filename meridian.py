@@ -8,10 +8,14 @@
 - The busy and limit rule: one request in flight per key, at most 120 a minute per key (paced here, so the limit is
   rarely met); 503 and 429 wait the server's Retry-After and ask again, up to five times; 413 (the memory is full) is
   returned as it is. Tests may ask several memories side by side, each on its own key.
+- A request that carries files (pictures, clips) is sent as Meridian Binary 1 (MB1, see meridian_binary.py): the files
+  as raw bytes, not base64, so about a third fewer bytes travel. MERIDIAN_FORMAT=json sends JSON instead. The answer
+  is the same either way, byte for byte. Each record line names the form, "mb1" or "json".
 - Every request and its answer go into the run's record (runs/<date>-<name>/requests.jsonl): when it was sent (UTC), the status, the time,
   the bytes each way and the answer exactly as the server sent it. A request's pictures, clips and sounds are recorded
   by their sha256, not their bytes.
 """
+import base64
 import datetime
 import hashlib
 import http.client
@@ -25,6 +29,9 @@ import sys
 import threading
 import time
 import urllib.parse
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import meridian_binary  # noqa: E402
 
 RETRIES = 5
 PER_MINUTE = 120  # a tester key's limit
@@ -152,16 +159,16 @@ class Meridian:
 
     def request(self, method, path, body=None, memory=None, headers=None):
         """One request with the busy and limit rule. Returns (status, answer as JSON or None, raw bytes, ms, bytes sent)."""
-        data = None if body is None else json.dumps(body).encode()
+        data, ctype, form = encode(body) if body is not None else (None, "application/json", None)
         key = self.key(memory)
-        hdr = {"Authorization": f"Bearer {key}", "Content-Type": "application/json", **(headers or {})}
+        hdr = {"Authorization": f"Bearer {key}", "Content-Type": ctype, **(headers or {})}
         if _local():
             hdr["KELVIN-Memory"] = memory or "demo"
             key = memory or "demo"
         with self._lock:
             key_lock = self._key_locks.setdefault(key, threading.Lock())
         with key_lock:
-            return self._request(method, path, body, data, hdr, memory, headers, key)
+            return self._request(method, path, body, data, hdr, memory, headers, key, form)
 
     def _connection(self, key):
         """The key's kept connection when it can carry the next request; else a new one, connected now, before anything
@@ -188,7 +195,7 @@ class Meridian:
                 self.record.write(json.dumps(line, ensure_ascii=False) + "\n")
                 self.record.flush()
 
-    def _request(self, method, path, body, data, hdr, memory, headers, key):
+    def _request(self, method, path, body, data, hdr, memory, headers, key, form=None):
         broke = 0
         attempt = 0
         while attempt <= RETRIES:
@@ -200,7 +207,7 @@ class Meridian:
             sent_at = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="milliseconds")
             t0 = time.perf_counter()
             base = {"at": sent_at, "method": method, "path": path, "memory": memory, "headers": dict(headers or {}),
-                    "body": _without_media(body)}
+                    "format": form, "body": _without_media(body)}
             try:
                 conn, how = self._connection(key)
             except OSError as e:
@@ -277,27 +284,53 @@ def stop(message, code=1):
     os._exit(code)
 
 
+def _asset_bytes(a):
+    """An asset's raw bytes: from its file (assets made by asset()), or from its base64."""
+    if "_file" in a:
+        with open(a["_file"], "rb") as f:
+            return f.read()
+    return base64.b64decode(a["data_base64"])
+
+
+def encode(body):
+    """A request's body as it is sent: (bytes, content type, "mb1" or "json"). A request with files goes as MB1 (the
+    files' raw bytes) unless MERIDIAN_FORMAT=json; any other request goes as JSON."""
+    assets = (body or {}).get("assets") if isinstance(body, dict) else None
+    if assets and os.environ.get("MERIDIAN_FORMAT", "mb1") != "json":
+        files = {n: _asset_bytes(a) for n, a in assets.items()}
+        request = dict(body, assets={n: {k: v for k, v in a.items() if k not in ("_file", "data_base64")} for n, a in assets.items()})
+        return meridian_binary.pack(request, files), meridian_binary.CONTENT_TYPE, "mb1"
+    if assets:
+        body = dict(body, assets={n: ({k: v for k, v in a.items() if k != "_file"} | {"data_base64": base64.b64encode(_asset_bytes(a)).decode()})
+                                  if "_file" in a else a for n, a in assets.items()})
+    return json.dumps(body).encode(), "application/json", "json"
+
+
+def encoded_size(body):
+    """How many bytes a request's body has as it is sent (for the 32 MiB limit)."""
+    return len(encode(body)[0])
+
+
 def _without_media(body):
-    """The request as recorded: every base64 asset replaced by its sha256 and size."""
+    """The request as recorded: every file replaced by its sha256 and its size in bytes."""
     if not isinstance(body, dict) or "assets" not in body:
         return body
     out = dict(body)
     out["assets"] = {}
     for name, a in body["assets"].items():
-        a = dict(a)
-        if "data_base64" in a:
-            raw = a.pop("data_base64").encode()
-            a["sha256_of_base64"] = hashlib.sha256(raw).hexdigest()
-            a["base64_bytes"] = len(raw)
-        out["assets"][name] = a
+        raw = _asset_bytes(a)
+        rec = {k: v for k, v in a.items() if k not in ("_file", "data_base64")}
+        rec["sha256"] = hashlib.sha256(raw).hexdigest()
+        rec["bytes"] = len(raw)
+        out["assets"][name] = rec
     return out
 
 
 def asset(path, kind, fmt=None):
-    """A file as the API's asset: kind "image" (a picture) or "video" (an mp4 clip); fmt, if given, its format (e.g. "mp4",
-    "jpg"). The API also takes "sound" (flac or wav), which none of these tests sends."""
-    import base64
-    out = {"type": kind, "data_base64": base64.b64encode(open(path, "rb").read()).decode()}
+    """A file as the API's asset: kind "image" (a picture) or "video" (an mp4 clip); fmt, if given, its format (e.g.
+    "mp4", "jpg"). The file is read when the request is sent: as raw bytes in MB1, or as base64 in JSON. The API also
+    takes "sound" (flac or wav), which none of these tests sends."""
+    out = {"type": kind, "_file": path}
     if fmt:
         out["format"] = fmt
     return out

@@ -96,16 +96,16 @@
   }
  },
  "times_ms": {
-  "tell_p50": 662.6,
-  "tell_p90": 1022.5,
-  "ask_p50": 479.1,
-  "ask_p90": 828.9
+  "tell_p50": 593.5,
+  "tell_p90": 938.5,
+  "ask_p50": 440.2,
+  "ask_p90": 719.6
  },
  "bytes": {
-  "tell_sent_p50": 191219,
-  "ask_sent_p50": 170363,
+  "tell_sent_p50": 143489,
+  "ask_sent_p50": 127841,
   "answer_received_p50": 195
  },
  "requests_sent_again_after_a_broken_upload": 0,
- "run_record": "runs/2026-11-10T17-34-26+0100-pictures"
+ "run_record": "runs/2026-11-10T18-23-27+0100-pictures"
 }

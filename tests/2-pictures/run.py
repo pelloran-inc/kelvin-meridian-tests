@@ -158,8 +158,7 @@ def picture(path):
     """A picture as the API's image asset, with its format named as the standard's form does."""
     with open(path, "rb") as f:
         png = f.read(8) == b"\x89PNG\r\n\x1a\n"
-    a = meridian.asset(path, "image")
-    return {"type": "image", "format": "png" if png else "jpg", "data_base64": a["data_base64"]}
+    return meridian.asset(path, "image", "png" if png else "jpg")  # read when sent: raw in MB1, base64 in JSON
 
 
 def ask_body(it, paths):
@@ -286,7 +285,8 @@ def markdown(r, m):
     t, b = r["times_ms"], r["bytes"]
     lines += [f"Times: a tell {t['tell_p50']} / {t['tell_p90']} ms, an ask {t['ask_p50']} / {t['ask_p90']} ms (p50 / p90), including the network "
               f"between you and the address. Sent: a tell {b['tell_sent_p50'] / 1e6:.2f} MB, an ask {b['ask_sent_p50'] / 1e6:.2f} MB "
-              f"(the picture as base64, p50); an answer {b['answer_received_p50']:.0f} bytes."]
+              f"(the picture {'as raw bytes in MB1' if os.environ.get('MERIDIAN_FORMAT', 'mb1') != 'json' else 'as base64 in JSON'}, p50); "
+              f"an answer {b['answer_received_p50']:.0f} bytes."]
     return "\n".join(lines)
 
 

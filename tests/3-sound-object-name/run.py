@@ -54,8 +54,7 @@ RECORDED_CONTROL = {"sound to name": 0, "picture to name": 0, "name to clip by p
 
 def clip_asset(path):
     """A clip as the request's asset, as the recorded run sent it (type video, format mp4)."""
-    a = meridian.asset(path, "video")
-    return {"type": "video", "format": "mp4", "data_base64": a["data_base64"]}
+    return meridian.asset(path, "video", "mp4")  # read when sent: raw in MB1, base64 in JSON
 
 
 def the_clips():
@@ -103,7 +102,7 @@ def run_life(m, life, label, have, arm):
     recs = []
 
     def send(body, ask, thing, truth):
-        size = len(json.dumps(body))
+        size = meridian.encoded_size(body)  # the body as it is sent (MB1 or JSON)
         if size > MAX_BODY:
             recs.append({"arm": arm, "life": li, "ask": ask, "thing": thing, "truth": truth, "status": None, "lost": f"the request is {size} bytes, over 32 MiB; not sent"})
             return None

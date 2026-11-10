@@ -1,6 +1,6 @@
 # Test 2 · a picture: this one, else its kind · result
 
-Address: our test address (a test door of our own, on the published release 5ddaa4fc, reached over the public internet with TLS like any tester's address), release 5ddaa4fc, run record `runs/2026-11-10T17-34-26+0100-pictures`; address family: IPv4 only.
+Address: our test address (a test door of our own, on the published release 5ddaa4fc, reached over the public internet with TLS like any tester's address), release b0984839, run record `runs/2026-11-10T18-23-27+0100-pictures`; address family: IPv4 only.
 
 KELVIN lived 500 photos and 500 documents, each told with its kind, then was asked the kind of 114 pictures, one at a time.
 
@@ -18,22 +18,21 @@ KELVIN lived 500 photos and 500 documents, each told with its kind, then was ask
 
 **The control** (every photo told "document" and every document told "photo", in its own memory) must fall below 22 of 24 and at most 30 of 60: 0 of 24 and 10 of 60, so it breaks.
 
-Times: a tell 662.6 / 1022.5 ms, an ask 479.1 / 828.9 ms (p50 / p90), including the network between you and the address. Sent: a tell 0.19 MB, an ask 0.17 MB (the picture as base64, p50); an answer 195 bytes.
+Times: a tell 593.5 / 938.5 ms, an ask 440.2 / 719.6 ms (p50 / p90), including the network between you and the address. Sent: a tell 0.14 MB, an ask 0.13 MB (the picture as raw bytes in MB1, p50); an answer 195 bytes.
 
 Requests sent again because their upload broke before the body was whole (the door never received them whole): 0. Each broken attempt is in the run record.
 
-## At the server (measured by the address's operator, release 5ddaa4fc, 2026-11-10 16:34:27–16:48:26 UTC)
+## At the server (measured by the address's operator, release b0984839, 2026-11-10 17:23:27–17:36:29 UTC)
 
-The address took each request whole before KELVIN read it, so the server's times below are KELVIN's own, without the upload. The client kept one connection per key and reused it (each request's record says "new" or "reused"). The test's earlier run, with a new connection for every request, is kept under runs/ as well.
+The address took each request whole before KELVIN read it, so the server's times below are KELVIN's own, without the upload. The client kept one connection per key and sent each picture as raw bytes (Meridian Binary 1). The test's earlier runs, as JSON with a kept connection and as JSON with a new connection for every request, are kept under runs/.
 
 | | |
 |---|---|
-| requests at the server | 2 230, equal to this run's 2 230, all answered 200 |
-| the server busy | 478.2 s of a 14 min run (57 %) |
-| KELVIN's own time, a picture lived and saved | n 1 996: p50 244 ms, p90 311 ms, max 362 ms |
-| KELVIN's own time, a picture that saved nothing | n 234 (228 asks, 2 checks that the memories were new, and 4 pictures that gave it nothing to keep): p50 65 ms, p90 123 ms, max 172 ms |
-| processor (sampled, the whole run) | 474.6 core-seconds; at its busiest second 1.01 cores (a picture is read on one core) |
-| memory | peak 1.35 GB, 1.35 GB after, for everything the server held |
+| requests at the server | 2 230, equal to this run's 2 230, all answered 200, all sent as MB1 |
+| the server busy | 436.8 s of a 13 min 2 s run (56 %) |
+| KELVIN's own time, a picture lived and saved | n 1 996: p50 225 ms, p90 282 ms, max 650 ms |
+| KELVIN's own time, a picture that saved nothing | n 234 (228 asks, 2 checks that the memories were new, and 4 pictures that gave it nothing to keep): p50 63 ms, p90 114 ms, max 163 ms |
 | disk after (these memories) | 7.41 MB |
-| network at the address | 450.1 MB received, 9.9 MB sent |
-| what you wait, split | of a p50 tell of 663 ms the server's share is 244 ms, of a p50 ask of 479 ms it is 65 ms; the rest, about 0.4 s, is sending the picture (0.17–0.19 MB as base64) |
+| request / answer bodies | 329.6 MB / 0.55 MB (the same requests as JSON: 439.2 MB) |
+| processor, memory, network | not attributable to this test: another user's clip requests ran on the same server in the same window |
+| what you wait, split | of a p50 tell of 594 ms the server's share is 225 ms, of a p50 ask of 440 ms it is 63 ms; the rest is sending the picture (about 0.13–0.14 MB as raw bytes) |

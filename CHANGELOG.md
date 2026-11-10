@@ -7,6 +7,29 @@ made: [RELEASING.md](RELEASING.md).
 
 ## [Unreleased]
 
+## [0.0.4] - 2026-11-10
+
+### Added
+
+- **Meridian Binary 1 (MB1):** a request's files as raw bytes instead of base64 inside JSON, in an open envelope:
+  `MB1\n`, the header's length (u32, big-endian), the request as JSON with `data_ref: [offset, length]` for each file,
+  then the files. The answer is the same JSON, byte for byte. About 25 % fewer bytes for pictures and clips.
+  - `meridian.py` sends a request with files as MB1 (`MERIDIAN_FORMAT=json` turns it off) and names the form in
+    each record line; it reads the files directly, with no base64 step.
+  - `meridian_binary.py`: `pack`, `unpack` and `from-files`, with a `curl` line in its help.
+  - README: "Files as raw bytes", with the form.
+  - `ci/check_repo.py` checks that the tool round-trips a request and refuses a malformed body.
+
+### Changed
+
+- The run record names each file by the sha256 of its raw bytes and its size (before: of its base64).
+- **Test 2 was run again with MB1,** on fresh memories of release `b0984839`, the release that added MB1:
+  - all 114 answers in each memory equal to the earlier runs';
+  - a picture asked takes 440 ms (p50; 479 ms as JSON with a kept connection, 583 ms with a new connection each
+    time), a picture lived 594 ms; the request shrank from 0.17 MB to 0.13 MB, the whole run from 439 MB to 330 MB;
+  - the server's own time: 63 ms an ask, 225 ms a picture lived;
+  - its `results/` are now this run. The two earlier runs stay under `runs/`.
+
 ## [0.0.3] - 2026-11-10
 
 ### Changed
@@ -72,7 +95,8 @@ made: [RELEASING.md](RELEASING.md).
 - **REPRODUCE.md:** every number the README cites, with its run record, field and command.
 - **CI:** `.github/workflows/ci.yml`, the same checks as `ci/gates.sh`, and a secret scan of every commit.
 
-[Unreleased]: https://github.com/pelloran-inc/kelvin-meridian-tests/compare/v0.0.3...HEAD
+[Unreleased]: https://github.com/pelloran-inc/kelvin-meridian-tests/compare/v0.0.4...HEAD
+[0.0.4]: https://github.com/pelloran-inc/kelvin-meridian-tests/compare/v0.0.3...v0.0.4
 [0.0.3]: https://github.com/pelloran-inc/kelvin-meridian-tests/compare/v0.0.2...v0.0.3
 [0.0.2]: https://github.com/pelloran-inc/kelvin-meridian-tests/compare/v0.0.1...v0.0.2
 [0.0.1]: https://github.com/pelloran-inc/kelvin-meridian-tests/releases/tag/v0.0.1

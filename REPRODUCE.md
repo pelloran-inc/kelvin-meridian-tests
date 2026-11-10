@@ -4,7 +4,7 @@ This file lists every number that this repository's README cites. For each one i
 the field, and the command that produces it. Run the commands from the repository root, with your address and your
 keys set (see the README). Every run record is under `runs/`; each test's `results/RESULT.md` is its readable form.
 
-All runs: release `5ddaa4fc`, on our test address (a test door of our own, reached over the public internet with TLS
+All runs: release `5ddaa4fc` (test 2's latest run: `b0984839`, the release that added MB1), on our test address (a test door of our own, reached over the public internet with TLS
 like any tester's address), 2026-11-09 and 2026-11-10, Central European Time as in the run records' names.
 
 ## The seven tests
@@ -13,7 +13,7 @@ like any tester's address), 2026-11-09 and 2026-11-10, Central European Time as 
 |---|---|---|---|
 | **0.706** · 0.162 · 0.089 · 0.131 | Test 1: accuracy, KL from gold, Brier, ECE over 2 000 answers, by the dataset's own scorer | `runs/2026-11-09T23-59-37+0100-typed-decisions/result.json` · `all.kelvin` | `python3 tests/1-typed-decisions/run.py` |
 | 0.508 | Test 1's control, the answers shuffled | the same · `all.control_shuffled.accuracy` (0.5075) | the same |
-| **24 of 24** | Test 2: lived pictures asked again, answered as told | `runs/2026-11-10T17-34-26+0100-pictures/result.json` · `kelvin.again.as_told` | `python3 tests/2-pictures/run.py` |
+| **24 of 24** | Test 2: lived pictures asked again, answered as told | `runs/2026-11-10T18-23-27+0100-pictures/result.json` · `kelvin.again.as_told` | `python3 tests/2-pictures/run.py` |
 | **50 of 60** | Test 2: unseen photos and documents, named by their kind | the same · `kelvin.unseen.right` | the same |
 | 25 of 30 · 5 | Test 2: screens given a lived kind (21 document, 4 photo) · silent | the same · `kelvin.screens` | the same |
 | 0 of 24 · 10 of 60 | Test 2's control, the kinds swapped | the same · `control_swapped.again.right`, `control_swapped.unseen.right` | the same |
@@ -42,12 +42,15 @@ like any tester's address), 2026-11-09 and 2026-11-10, Central European Time as 
 | 252 ms | The same, with a new connection for every request (the earlier client) | `runs/2026-11-09T23-35-32+0100-remember/result.json` (`ask_ms_p50`: 252.1) |
 | 245 – 285 ms · 12.0 – 30.5 ms | A text question with a new connection each time (tests 5, 4, 1, the earlier client) · the server's own time (p50; test 6's earlier run 17.5) | each run's `result.json` (`ask_ms_p50`) · each test's `results/RESULT.md`, "At the server" |
 | 20.6 s · 156 s | The server's time to teach 1 835 examples (test 5) and 15 100 (test 4), once | the same sections |
-| 663 ms · 244 ms | A picture lived and saved, one kept connection: what you wait (p50) · the server's own time (test 2) | `runs/2026-11-10T17-34-26+0100-pictures/` · `tests/2-pictures/results/RESULT.md` |
-| 479 ms · 65 ms | A picture asked, one kept connection: what you wait (p50) · the server's own time (test 2) | the same |
+| 594 ms · 225 ms | A picture lived and saved, one kept connection, MB1: what you wait (p50) · the server's own time (test 2) | `runs/2026-11-10T18-23-27+0100-pictures/` · `tests/2-pictures/results/RESULT.md` |
+| 440 ms · 63 ms | A picture asked, one kept connection, MB1: what you wait (p50) · the server's own time (test 2) | the same |
+| 663 ms · 479 ms | The same tell and ask with a kept connection as JSON (test 2's earlier run) | `runs/2026-11-10T17-34-26+0100-pictures/result.json` (`times_ms`) |
+| 583 ms | The same ask with a new connection for every request, as JSON (test 2's first run) | `runs/2026-11-10T00-14-09+0100-pictures/` |
+| 0.13 MB · 0.17 MB | A picture ask's request as MB1 · as JSON (p50) | the two runs' `requests.jsonl.gz` (`bytes_sent`) |
 | 24.6 s · 638 ms | A clip asked by its name: what you wait (p50) · the server's own time for any ask (test 3) | `tests/3-sound-object-name/results/RESULT.md` |
 
-The earlier runs of tests 6 and 2 (a new connection for every request) stay under `runs/`: their answers equal the
-new runs', and their times are the earlier client's.
+The earlier runs of tests 6 and 2 stay under `runs/`: their answers equal the latest runs', and their times are the
+earlier clients' (a new connection for every request; for test 2 also a kept connection as JSON).
 
 The server's times are its operator's measurement, from the server's own log and samples; they cannot be re-run from
 this repository. Your own run records your side of every request, so you can set your times beside ours.

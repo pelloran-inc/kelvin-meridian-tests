@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/python-3.10%2B-blue.svg" alt="Python 3.10 or newer">
   <img src="https://img.shields.io/badge/dependencies-standard%20library-brightgreen.svg" alt="Dependencies: the standard library">
   <img src="https://img.shields.io/badge/tests-7%20passed%20%C2%B7%207%20controls%20broke-brightgreen.svg" alt="7 tests passed, 7 controls broke">
-  <img src="https://img.shields.io/badge/release%20tested-5ddaa4fc-lightgrey.svg" alt="Release tested: 5ddaa4fc">
+  <img src="https://img.shields.io/badge/releases%20tested-5ddaa4fc%20%C2%B7%20b0984839-lightgrey.svg" alt="Releases tested: 5ddaa4fc and b0984839">
 </p>
 
 **Get a key, run one command, read every answer.**
@@ -25,14 +25,15 @@ guessing. It needs no training run and no graphics unit.
 This repository holds:
 - **a demo** that runs by itself, for a first look;
 - **seven tests** that anyone with a tester key can run, with the same data and the same controls we used;
-- **our own result of each test** on the published release `5ddaa4fc`, with every request and every answer recorded.
+- **our own result of each test** on the published releases `5ddaa4fc` and, for test 2's latest run, `b0984839`, with every
+  request and every answer recorded.
 
 ## Seven claims, each with a control that must break
 
 Every test also runs a **control**: the same test in a memory of its own, with the thing that should matter taken
 away. KELVIN must clearly beat it, or the run does not count, and the script says so.
 
-| | What KELVIN does | Our result, release `5ddaa4fc` | The control that must break |
+| | What KELVIN does | Our result (release `5ddaa4fc`; test 2's latest run `b0984839`, the same answers) | The control that must break |
 |---|---|---|---|
 | [**1 · Typed decisions**](tests/1-typed-decisions/) | Its only teaching is 300 solved cases per business area. It then answers 100 new cases, scored by the dataset's own scorer. | accuracy **0.706** · KL 0.162 · Brier 0.089 · ECE 0.131 | the answers shuffled: 0.508 |
 | [**2 · A picture**](tests/2-pictures/) | It is told 1 000 photos and documents, each with its kind (on the server's own count it kept 998: two of them give it nothing to keep). It knows each again, and names the kind of pictures it never saw. | **24 of 24** known as told · **50 of 60** unseen named by kind | the kinds swapped: 0 of 24 · 10 of 60 |
@@ -85,6 +86,37 @@ python3 tests/6-remember/run.py
   sends everything over IPv4 (or IPv6) only. Each run records which it used.
 - **Python 3.10 or newer,** its standard library only. Test 1 also needs `pip install pyarrow` to read its dataset.
 
+## Files as raw bytes: Meridian Binary 1
+
+A request that carries pictures or clips can send them as raw bytes instead of base64 inside JSON. The client does
+this by itself (`MERIDIAN_FORMAT=json` turns it off), and every record line names the form, `mb1` or `json`. The answer
+is the same JSON either way, byte for byte. On test 2's pictures and test 3's clips, MB1 sent 25 % fewer bytes.
+
+MB1 is an open envelope; the request inside is the JSON request as always:
+
+| bytes | what |
+|---|---|
+| 0 – 3 | `MB1\n` (`0x4D 0x42 0x31 0x0A`), the magic and the version |
+| 4 – 7 | H, the header's length, an unsigned 32-bit integer, big-endian |
+| 8 to 8 + H | the header: the request as UTF-8 JSON, exactly as the JSON form, except that an asset carries `"data_ref": [offset, length]` instead of `"data_base64"` |
+| 8 + H to the end | the data region: the files' raw bytes; each offset counts from the data region's start |
+
+- An asset carries exactly one of `data_base64` and `data_ref`; a request may mix them.
+- Send it with `Content-Type: application/x-meridian-binary`. A JSON body never begins with `MB1\n`.
+- A malformed MB1 body is answered 400 (`binary_form: …`) before anything is read or taught.
+- The body limit is 32 MiB in either form, so MB1 carries about a third more media.
+
+[`meridian_binary.py`](meridian_binary.py) makes and reads it, with Python's standard library only:
+
+```sh
+python3 meridian_binary.py from-files --state state.json --questions questions.json \
+    --asset p=photo.jpg:image:jpg > request.mb1
+python3 meridian_binary.py pack request.json > request.mb1      # a JSON request with data_base64, to MB1
+python3 meridian_binary.py unpack request.mb1 > request.json    # and back
+curl --data-binary @request.mb1 -H 'Content-Type: application/x-meridian-binary' \
+     -H "Authorization: Bearer $MERIDIAN_KEY" "$MERIDIAN_URL/v1/systemone"
+```
+
 ## How a run is kept honest
 
 - **A control that must break,** in every test, judged by a rule fixed before our first run.
@@ -108,13 +140,17 @@ python3 tests/6-remember/run.py
 | a text question, a new connection each time (tests 1, 4, 5: the earlier client) | 245 – 285 ms | 12.0 – 30.5 ms |
 | teaching 1 835 examples, once (test 5) | 50 s, 29 s of it waiting behind the control's teach | **20.6 s** |
 | teaching 15 100 examples, once (test 4) | 160 s | **156 s** |
-| a picture lived and saved, one kept connection (test 2) | 663 ms | **244 ms** |
-| a picture asked, one kept connection (test 2) | 479 ms | **65 ms** |
+| a picture lived and saved: one kept connection, raw bytes in MB1 (test 2) | **594 ms** | **225 ms** |
+| a picture asked: one kept connection, raw bytes in MB1 (test 2) | **440 ms** | **63 ms** |
 | a clip asked by its name, 4 clips sent (test 3) | 24.6 s, almost all of it the upload | 638 ms for any ask of test 3 |
 
 **Keep your connection.** The client keeps one connection per key and reuses it; every request's record says "new" or
 "reused". On our path that alone took a text question from 252 ms to 104 ms (test 6, the same answers byte for byte):
 a new connection costs about 150 ms before anything is sent. Your own programs gain the same by reusing theirs.
+
+**Send files as raw bytes.** A picture asked took 583 ms with a new connection and base64, 479 ms with a kept
+connection, and 440 ms with a kept connection and MB1 (test 2, the same answers each time); the request shrank from
+0.17 MB to 0.13 MB.
 
 The server's times are its operator's measurement. Tests 2, 3, 4 and 6 were measured with the server taking each
 request whole before KELVIN reads it, so their times are KELVIN's own. For tests 1, 5 and 7 they include the request
@@ -127,15 +163,16 @@ gives the server's busy share, processor, memory, disk and network, where they w
 - **Not every result is a strength.** Screens, a kind KELVIN was never shown, got the nearest kind it knew 25 of 30
   times and silence only 5 times (test 2). One answer in three is wrong on when to call a tool (test 5). Where no
   intent fits, it said "none of the above" 337 of 1 000 times (test 4).
-- **Not fixed across releases.** The results are release `5ddaa4fc`'s. Against an earlier release, test 3 changed 4
-  of its 216 answers; its README names each one.
+- **Not fixed across releases.** The results are release `5ddaa4fc`'s, and test 2's latest is `b0984839`'s, with the
+  same answers. Against an earlier release, test 3 changed 4 of its 216 answers; its README names each one.
 - **Not your network's time.** What you wait depends on your path to your address.
 
 ## Layout
 
 | Path | What |
 |---|---|
-| `meridian.py` | the one client: keys, pacing, the busy rule, the run record |
+| `meridian.py` | the one client: keys, one kept connection per key, pacing, the busy rule, MB1 for files, the run record |
+| `meridian_binary.py` | Meridian Binary 1: pack, unpack and make requests with files as raw bytes |
 | `demo.py` | the demo, with `--autoplay` or `--step` |
 | `tests/<n>-<name>/` | one test: its README, `run.py`, its data's pins, and `results/` |
 | `tests/common.py` | fetching pinned files, the control rule, the result |
