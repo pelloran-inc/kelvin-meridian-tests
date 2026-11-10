@@ -7,7 +7,7 @@ authors:
   - family-names: Karim
     given-names: Sayed Amir
     affiliation: Pelloran Inc.
-version: 0.0.1
+version: 0.0.2
 date-released: 2026-11-10
 license: Apache-2.0
 repository-code: "https://github.com/pelloran-inc/kelvin-meridian-tests"

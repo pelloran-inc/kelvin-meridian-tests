@@ -7,6 +7,18 @@ made: [RELEASING.md](RELEASING.md).
 
 ## [Unreleased]
 
+## [0.0.2] - 2026-11-10
+
+### Fixed
+
+- **`tests/keys_needed.py` on Python 3.10,** the oldest Python the tests support. It failed with a `NameError` where a
+  test builds its memory names in a list comprehension (tests 1 and 3), so v0.0.1's CI was red. The tests, their
+  results and their records are unchanged.
+
+### Changed
+
+- RELEASING.md: the gate runs on Python 3.10.
+
 ## [0.0.1] - 2026-11-10
 
 ### Added
@@ -37,5 +49,6 @@ made: [RELEASING.md](RELEASING.md).
 - **REPRODUCE.md:** every number the README cites, with its run record, field and command.
 - **CI:** `.github/workflows/ci.yml`, the same checks as `ci/gates.sh`, and a secret scan of every commit.
 
-[Unreleased]: https://github.com/pelloran-inc/kelvin-meridian-tests/compare/v0.0.1...HEAD
+[Unreleased]: https://github.com/pelloran-inc/kelvin-meridian-tests/compare/v0.0.2...HEAD
+[0.0.2]: https://github.com/pelloran-inc/kelvin-meridian-tests/compare/v0.0.1...v0.0.2
 [0.0.1]: https://github.com/pelloran-inc/kelvin-meridian-tests/releases/tag/v0.0.1

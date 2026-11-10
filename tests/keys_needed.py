@@ -21,7 +21,8 @@ def memories(path):
                 consts[name] = ast.literal_eval(node.value)
             except ValueError:
                 if name == "MEMORIES":  # a list built from another constant, e.g. one memory per area
-                    return eval(compile(ast.Expression(node.value), path, "eval"), {}, dict(consts))
+                    # the constants as globals: a list comprehension sees globals in every Python version
+                    return eval(compile(ast.Expression(node.value), path, "eval"), dict(consts))
     return consts.get("MEMORIES", [])
 
 
