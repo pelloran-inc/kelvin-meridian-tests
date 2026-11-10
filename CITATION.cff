@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use these tests or their results, please cite this repository."
+type: software
+title: "KELVIN Meridian · tests"
+abstract: "A demo and seven tests of KELVIN Meridian's API, each with a control that must break, and our results on release 5ddaa4fc with every request and answer recorded."
+authors:
+  - family-names: Karim
+    given-names: Sayed Amir
+    affiliation: Pelloran Inc.
+version: 0.0.1
+date-released: 2026-11-10
+license: Apache-2.0
+repository-code: "https://github.com/pelloran-inc/kelvin-meridian-tests"
+url: "https://pelloran.com/products/meridian/"
+keywords:
+  - KELVIN Meridian
+  - memory
+  - learning from one experience
+  - reproducible evaluation

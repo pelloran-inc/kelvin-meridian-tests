@@ -1,7 +1,7 @@
 # Test 2 · A picture: this one, else its kind
 
 **What it shows.**
-- KELVIN is shown 500 photos and 500 documents, one picture a request, each told with its kind ("photo" or "document"). This is the only teaching; there is no training run.
+- KELVIN is shown 500 photos and 500 documents, one picture a request, each told with its kind ("photo" or "document"). On the server's own count it kept 998 of them: two give it nothing to keep. This is the only teaching; there is no training run.
 - Asked again about 24 of these pictures, it should answer the kind it was told for that very picture.
 - Asked about 30 photos and 30 documents it has never seen, it should answer their kind.
 - Asked about 30 screens (pictures of web pages), a kind it was never told about, it should never answer "screen".
@@ -57,7 +57,7 @@ Python's standard library is all it needs.
 - Our own result below comes from such a door. Its full run record, every request and every answer, is in this repository.
 
 **The control that must break.**
-- In a memory of its own, KELVIN lives the same 1 000 pictures, with every photo told "document" and every document told "photo". It is then asked the same 114 pictures.
+- In a memory of its own, KELVIN is told the same 1 000 pictures, with every photo told "document" and every document told "photo" (on the server's own count it kept 998 there too). It is then asked the same 114 pictures.
 - It must fall below 22 of 24 on the lived pictures and to at most 30 of 60 on the unseen ones. If it does not, the run does not count, and `run.py` says so.
 
 **What KELVIN answered when this test was decided** (2026-11-04, on an earlier release):

@@ -1,0 +1,9 @@
+KELVIN Meridian · tests
+Copyright 2026 Pelloran Inc.
+
+This product includes software developed at Pelloran Inc.
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The datasets the tests use are not part of this product. They keep their own licences, named in each test's README,
+and are fetched from their sources at run time. The one exception, tests/6-remember/parents.tsv, holds 346 facts from
+Wikidata, which are CC0.
