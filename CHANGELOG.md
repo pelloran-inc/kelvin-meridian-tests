@@ -7,6 +7,29 @@ made: [RELEASING.md](RELEASING.md).
 
 ## [Unreleased]
 
+## [0.0.3] - 2026-11-10
+
+### Changed
+
+- **The client keeps its connection.** `meridian.py` keeps one HTTPS connection per key, with TCP keepalive, and reuses
+  it for the key's next request.
+  - A connection idle for a minute, or closed by the server, is replaced before anything of the request is sent.
+  - A connection that cannot be made, where nothing was sent, is tried again on a new one, at most three times.
+  - Every other request without an answer still stops the run as void, as before.
+  - Every request's record says `"connection": "new"` or `"reused"`.
+- **Tests 6 and 2 were run again with it,** on fresh memories of the same release, `5ddaa4fc`:
+  - test 6: all 1 712 answers byte for byte those of the earlier run. A text question now takes 104 ms instead of
+    252 ms (p50, network included); the server's own time is 17.7 ms.
+  - test 2: all 114 answers in each memory equal to the earlier run's. A picture asked takes 479 ms instead of 583 ms,
+    a picture lived 663 ms instead of 767 ms; the server's own time is 65 ms and 244 ms.
+  - Their `results/` are now these runs. The earlier runs stay under `runs/`, as the earlier client's.
+- **README, "Speed, on both sides",** and REPRODUCE.md: the new times beside the earlier client's, named as such, and
+  "Keep your connection".
+
+### Added
+
+- Tests 6 and 2's "At the server" now give processor, memory and network too, sampled over their whole runs.
+
 ## [0.0.2] - 2026-11-10
 
 ### Fixed
@@ -49,6 +72,7 @@ made: [RELEASING.md](RELEASING.md).
 - **REPRODUCE.md:** every number the README cites, with its run record, field and command.
 - **CI:** `.github/workflows/ci.yml`, the same checks as `ci/gates.sh`, and a secret scan of every commit.
 
-[Unreleased]: https://github.com/pelloran-inc/kelvin-meridian-tests/compare/v0.0.2...HEAD
+[Unreleased]: https://github.com/pelloran-inc/kelvin-meridian-tests/compare/v0.0.3...HEAD
+[0.0.3]: https://github.com/pelloran-inc/kelvin-meridian-tests/compare/v0.0.2...v0.0.3
 [0.0.2]: https://github.com/pelloran-inc/kelvin-meridian-tests/compare/v0.0.1...v0.0.2
 [0.0.1]: https://github.com/pelloran-inc/kelvin-meridian-tests/releases/tag/v0.0.1

@@ -11,13 +11,14 @@
  "another_memory_silent": 345,
  "control_follows_what_it_was_told": 345,
  "control_right_against_the_truth": 4,
- "ask_ms_p50": 252.1,
- "ask_ms_p90": 271.5,
+ "ask_ms_p50": 103.6,
+ "ask_ms_p90": 113.2,
  "control": {
   "breaks": true,
   "kelvin_right_control_wrong": 341,
   "control_right_kelvin_wrong": 0,
   "sign_test_p": 2.2323972485981933e-103
  },
- "run_record": "runs/2026-11-09T23-35-32+0100-remember"
+ "requests_sent_again_after_a_broken_upload": 0,
+ "run_record": "runs/2026-11-10T17-19-53+0100-remember"
 }

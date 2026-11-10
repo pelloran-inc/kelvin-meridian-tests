@@ -13,7 +13,7 @@ like any tester's address), 2026-11-09 and 2026-11-10, Central European Time as 
 |---|---|---|---|
 | **0.706** · 0.162 · 0.089 · 0.131 | Test 1: accuracy, KL from gold, Brier, ECE over 2 000 answers, by the dataset's own scorer | `runs/2026-11-09T23-59-37+0100-typed-decisions/result.json` · `all.kelvin` | `python3 tests/1-typed-decisions/run.py` |
 | 0.508 | Test 1's control, the answers shuffled | the same · `all.control_shuffled.accuracy` (0.5075) | the same |
-| **24 of 24** | Test 2: lived pictures asked again, answered as told | `runs/2026-11-10T00-14-09+0100-pictures/result.json` · `kelvin.again.as_told` | `python3 tests/2-pictures/run.py` |
+| **24 of 24** | Test 2: lived pictures asked again, answered as told | `runs/2026-11-10T17-34-26+0100-pictures/result.json` · `kelvin.again.as_told` | `python3 tests/2-pictures/run.py` |
 | **50 of 60** | Test 2: unseen photos and documents, named by their kind | the same · `kelvin.unseen.right` | the same |
 | 25 of 30 · 5 | Test 2: screens given a lived kind (21 document, 4 photo) · silent | the same · `kelvin.screens` | the same |
 | 0 of 24 · 10 of 60 | Test 2's control, the kinds swapped | the same · `control_swapped.again.right`, `control_swapped.unseen.right` | the same |
@@ -28,7 +28,7 @@ like any tester's address), 2026-11-09 and 2026-11-10, Central European Time as 
 | 19 of 4 500 | Test 4's control, the intents shuffled | the same · `control_shuffled.in_scope_right` | the same |
 | **816 of 1 216** | Test 5: the right reaction | `runs/2026-11-10T00-03-02+0100-when-to-call-a-tool/result.json` · `kelvin.right` | `python3 tests/5-when-to-call-a-tool/run.py` |
 | 430 of 1 216 | Test 5's control, the reactions shuffled | the same · `control_shuffled.right` | the same |
-| **345 of 345** | Test 6: a told fact answered later | `runs/2026-11-09T23-35-32+0100-remember/result.json` · `right` | `python3 tests/6-remember/run.py` |
+| **345 of 345** | Test 6: a told fact answered later | `runs/2026-11-10T17-19-53+0100-remember/result.json` · `right` | `python3 tests/6-remember/run.py` |
 | 345 · 332 of 332 | Test 6: asked twice, the same bytes · never told, silent | the same · `asked_twice_identical`, `never_told_silent` | the same |
 | 4 of 345 | Test 6's control, the facts shuffled: right against the truth | the same · `control_right_against_the_truth` | the same |
 | **558 of 558** · 389 of 389 | Test 7: right overall · "none of the above" where it could not know | `runs/2026-11-09T23-50-07+0100-i-dont-know/result.json` · `right_overall`, `not_known_none_of_the_above` | `python3 tests/7-i-dont-know/run.py` |
@@ -38,11 +38,16 @@ like any tester's address), 2026-11-09 and 2026-11-10, Central European Time as 
 
 | Number | What it is | Where it stands |
 |---|---|---|
-| 245 – 285 ms | What you wait for a text question (p50), network included: tests 5, 6, 4, 1 | each run's `result.json` (`ask_ms_p50`) and `RESULT.md` |
-| 12.0 – 30.5 ms | The server's own time for a text question (p50): test 5 12.0, test 4 14.7, test 6 17.5, test 1 30.5 | each test's `results/RESULT.md`, section "At the server" |
+| 104 ms · 17.7 ms | A text question with one kept connection: what you wait (p50) · the server's own time (test 6) | `runs/2026-11-10T17-19-53+0100-remember/result.json` (`ask_ms_p50`: 103.6) · `tests/6-remember/results/RESULT.md`, "At the server" |
+| 252 ms | The same, with a new connection for every request (the earlier client) | `runs/2026-11-09T23-35-32+0100-remember/result.json` (`ask_ms_p50`: 252.1) |
+| 245 – 285 ms · 12.0 – 30.5 ms | A text question with a new connection each time (tests 5, 4, 1, the earlier client) · the server's own time (p50; test 6's earlier run 17.5) | each run's `result.json` (`ask_ms_p50`) · each test's `results/RESULT.md`, "At the server" |
 | 20.6 s · 156 s | The server's time to teach 1 835 examples (test 5) and 15 100 (test 4), once | the same sections |
-| 583 ms · 166 ms | A picture asked: what you wait (p50) · the server's own time (test 2) | `tests/2-pictures/results/RESULT.md` |
+| 663 ms · 244 ms | A picture lived and saved, one kept connection: what you wait (p50) · the server's own time (test 2) | `runs/2026-11-10T17-34-26+0100-pictures/` · `tests/2-pictures/results/RESULT.md` |
+| 479 ms · 65 ms | A picture asked, one kept connection: what you wait (p50) · the server's own time (test 2) | the same |
 | 24.6 s · 638 ms | A clip asked by its name: what you wait (p50) · the server's own time for any ask (test 3) | `tests/3-sound-object-name/results/RESULT.md` |
+
+The earlier runs of tests 6 and 2 (a new connection for every request) stay under `runs/`: their answers equal the
+new runs', and their times are the earlier client's.
 
 The server's times are its operator's measurement, from the server's own log and samples; they cannot be re-run from
 this repository. Your own run records your side of every request, so you can set your times beside ours.

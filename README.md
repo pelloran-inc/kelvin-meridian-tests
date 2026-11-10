@@ -102,17 +102,24 @@ python3 tests/6-remember/run.py
 
 ## Speed, on both sides
 
-| | What you wait, network included | The server's own time |
+| | What you wait, network included (p50) | The server's own time (p50) |
 |---|---|---|
-| a text question (tests 1, 4, 5, 6) | **245 – 285 ms** (p50) | **12.0 – 30.5 ms** (p50) |
+| a text question, **one kept connection** (test 6) | **104 ms** | **17.7 ms** |
+| a text question, a new connection each time (tests 1, 4, 5: the earlier client) | 245 – 285 ms | 12.0 – 30.5 ms |
 | teaching 1 835 examples, once (test 5) | 50 s, 29 s of it waiting behind the control's teach | **20.6 s** |
 | teaching 15 100 examples, once (test 4) | 160 s | **156 s** |
-| a picture asked (test 2) | 583 ms | 166 ms |
+| a picture lived and saved, one kept connection (test 2) | 663 ms | **244 ms** |
+| a picture asked, one kept connection (test 2) | 479 ms | **65 ms** |
 | a clip asked by its name, 4 clips sent (test 3) | 24.6 s, almost all of it the upload | 638 ms for any ask of test 3 |
 
-The server's times are its operator's measurement. For tests 1, 2, 5, 6 and 7 they include the request arriving,
-because the server then read a request as it came: small for text, large for pictures. Each test's
-`results/RESULT.md` also gives the server's busy share, processor, memory, disk and network, where they were measured.
+**Keep your connection.** The client keeps one connection per key and reuses it; every request's record says "new" or
+"reused". On our path that alone took a text question from 252 ms to 104 ms (test 6, the same answers byte for byte):
+a new connection costs about 150 ms before anything is sent. Your own programs gain the same by reusing theirs.
+
+The server's times are its operator's measurement. Tests 2, 3, 4 and 6 were measured with the server taking each
+request whole before KELVIN reads it, so their times are KELVIN's own. For tests 1, 5 and 7 they include the request
+arriving, because the server then read a request as it came: small for text. Each test's `results/RESULT.md` also
+gives the server's busy share, processor, memory, disk and network, where they were measured.
 
 ## What we do *not* claim
 

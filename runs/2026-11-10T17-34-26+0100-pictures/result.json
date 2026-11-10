@@ -1,0 +1,109 @@
+{
+ "test": "a picture: this one, else its kind",
+ "read": {
+  "read": "staircase"
+ },
+ "seed": 2097911,
+ "kelvin": {
+  "again": {
+   "of": 24,
+   "right": 24,
+   "silent": 0,
+   "wrong": 0,
+   "no_answer": 0,
+   "as_told": 24
+  },
+  "unseen": {
+   "of": 60,
+   "right": 50,
+   "silent": 0,
+   "wrong": 10,
+   "no_answer": 0,
+   "as_told": 0
+  },
+  "screens": {
+   "of": 30,
+   "photo": 4,
+   "document": 21,
+   "screen": 0,
+   "silent": 5,
+   "no_answer": 0
+  }
+ },
+ "control_swapped": {
+  "again": {
+   "of": 24,
+   "right": 0,
+   "silent": 0,
+   "wrong": 24,
+   "no_answer": 0,
+   "as_told": 24
+  },
+  "unseen": {
+   "of": 60,
+   "right": 10,
+   "silent": 0,
+   "wrong": 50,
+   "no_answer": 0,
+   "as_told": 0
+  },
+  "screens": {
+   "of": 30,
+   "photo": 21,
+   "document": 4,
+   "screen": 0,
+   "silent": 5,
+   "no_answer": 0
+  }
+ },
+ "predictions": {
+  "again": "at least 22 of 24",
+  "unseen": "at least 46 of 60",
+  "screen_never_named": "0 of 30"
+ },
+ "holds": {
+  "again": true,
+  "unseen": true,
+  "screen_never_named": true
+ },
+ "control": "below 22 of 24 and at most 30 of 60",
+ "control_breaks": true,
+ "when_decided": {
+  "again": {
+   "right": 24,
+   "of": 24
+  },
+  "unseen": {
+   "right": 50,
+   "of": 60
+  },
+  "screens": {
+   "photo": 4,
+   "document": 21,
+   "screen": 0,
+   "silent": 5,
+   "of": 30
+  },
+  "control": {
+   "again": {
+    "right": 0,
+    "of": 24
+   },
+   "unseen": {
+    "right": 10,
+    "of": 60
+   }
+  }
+ },
+ "times_ms": {
+  "tell_p50": 662.6,
+  "tell_p90": 1022.5,
+  "ask_p50": 479.1,
+  "ask_p90": 828.9
+ },
+ "bytes": {
+  "tell_sent_p50": 191219,
+  "ask_sent_p50": 170363,
+  "answer_received_p50": 195
+ }
+}

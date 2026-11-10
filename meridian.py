@@ -3,6 +3,8 @@
 - The address comes from MERIDIAN_URL (https://<your address>, given with your key).
 - The key comes from MERIDIAN_KEY, or, for a benchmark that keeps several memories, from the file MERIDIAN_KEYS_FILE
   (one line a memory: `name<TAB>key`, the file readable by you only). A key is never printed, logged or written.
+- One kept HTTPS connection per key (TCP keepalive on), reused for the key's next request; a connection idle for a
+  minute, or closed by the server, is replaced before anything is sent. Every record line says "new" or "reused".
 - The busy and limit rule: one request in flight per key, at most 120 a minute per key (paced here, so the limit is
   rarely met); 503 and 429 wait the server's Retry-After and ask again, up to five times; 413 (the memory is full) is
   returned as it is. Tests may ask several memories side by side, each on its own key.
@@ -15,13 +17,14 @@ import hashlib
 import http.client
 import json
 import os
+import select
 import socket
+import ssl
 import stat
 import sys
 import threading
 import time
-import urllib.error
-import urllib.request
+import urllib.parse
 
 RETRIES = 5
 PER_MINUTE = 120  # a tester key's limit
@@ -53,17 +56,20 @@ class _KeepAliveHTTP(http.client.HTTPConnection):
         _keepalive(self.sock)
 
 
-class _KeepAliveHTTPSHandler(urllib.request.HTTPSHandler):
-    def https_open(self, req):
-        return self.do_open(_KeepAliveHTTPS, req, context=self._context)
+IDLE_REUSE_S = 60  # a connection idle longer than this is not reused: servers close idle ones (nginx after about 75 s)
 
 
-class _KeepAliveHTTPHandler(urllib.request.HTTPHandler):
-    def http_open(self, req):
-        return self.do_open(_KeepAliveHTTP, req)
-
-
-_OPENER = urllib.request.build_opener(_KeepAliveHTTPSHandler(), _KeepAliveHTTPHandler())
+def _dropped(conn):
+    """True when a kept connection was closed by the server while it was idle: nothing is expected on an idle HTTP/1.1
+    connection, so anything readable on it (its close) means it cannot carry the next request."""
+    sock = getattr(conn, "sock", None)
+    if sock is None:
+        return True
+    try:
+        readable, _, _ = select.select([sock], [], [], 0)
+    except (OSError, ValueError):
+        return True
+    return bool(readable)
 
 
 def _pin_family():
@@ -120,6 +126,10 @@ class Meridian:
         self._lock = threading.Lock()  # the run record is shared by every memory's thread
         self._key_locks = {}  # one request in flight per key
         self._last = {}  # the time of each key's last request, for pacing
+        self._conns = {}  # one kept connection per key, and when it was last used
+        u = urllib.parse.urlsplit(self.url)
+        self._host, self._port, self._https = u.hostname, u.port, u.scheme == "https"
+        self._tls = ssl.create_default_context() if self._https else None
         if record:
             stamp = datetime.datetime.now().astimezone().strftime("%Y-%m-%dT%H-%M-%S%z")
             runs = "runs-local" if _local() else "runs"  # a local check never mixes with the published runs
@@ -153,6 +163,31 @@ class Meridian:
         with key_lock:
             return self._request(method, path, body, data, hdr, memory, headers, key)
 
+    def _connection(self, key):
+        """The key's kept connection when it can carry the next request; else a new one, connected now, before anything
+        of the request is sent. Returns (connection, "new" or "reused")."""
+        kept = self._conns.get(key)
+        if kept and time.monotonic() - kept[1] < IDLE_REUSE_S and not _dropped(kept[0]):
+            return kept[0], "reused"
+        if kept:
+            kept[0].close()
+        cls = _KeepAliveHTTPS if self._https else _KeepAliveHTTP
+        conn = cls(self._host, self._port, timeout=600, **({"context": self._tls} if self._https else {}))
+        conn.connect()
+        self._conns[key] = (conn, time.monotonic())
+        return conn, "new"
+
+    def _forget(self, key):
+        kept = self._conns.pop(key, None)
+        if kept:
+            kept[0].close()
+
+    def _record_line(self, line):
+        if self.record:
+            with self._lock:
+                self.record.write(json.dumps(line, ensure_ascii=False) + "\n")
+                self.record.flush()
+
     def _request(self, method, path, body, data, hdr, memory, headers, key):
         broke = 0
         attempt = 0
@@ -162,25 +197,39 @@ class Meridian:
             if wait_for > 0:
                 time.sleep(wait_for)
             self._last[key] = time.monotonic()
-            req = urllib.request.Request(self.url + path, data=data, headers=hdr, method=method)
             sent_at = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="milliseconds")
             t0 = time.perf_counter()
+            base = {"at": sent_at, "method": method, "path": path, "memory": memory, "headers": dict(headers or {}),
+                    "body": _without_media(body)}
             try:
-                with _OPENER.open(req, timeout=600) as r:
-                    status, raw, wait = r.status, r.read(), None
-            except urllib.error.HTTPError as e:
-                status, raw, wait = e.code, e.read(), e.headers.get("Retry-After")
-            except (urllib.error.URLError, OSError, http.client.HTTPException) as e:
+                conn, how = self._connection(key)
+            except OSError as e:
+                # The connection could not be made: nothing of the request was sent, so it may be sent on a new one.
                 ms = (time.perf_counter() - t0) * 1e3
+                again = broke < SEND_BROKE_RETRIES
+                self._record_line({**base, "status": None, "ms": round(ms, 2), "connection": "not made",
+                                   "error": f"{type(e).__name__}: {e}", "sent_again": again})
+                if again:
+                    broke += 1
+                    attempt -= 1
+                    time.sleep(5 * broke)
+                    continue
+                stop(f"No connection to the address for the memory '{memory}' ({type(e).__name__}: {e}). Nothing was sent; "
+                     f"this run stops here.")
+            try:
+                conn.request(method, path, body=data, headers=hdr)
+                resp = conn.getresponse()
+                status, raw, wait = resp.status, resp.read(), resp.getheader("Retry-After")
+                if resp.will_close:
+                    self._forget(key)
+                else:
+                    self._conns[key] = (conn, time.monotonic())
+            except (OSError, http.client.HTTPException) as e:
+                ms = (time.perf_counter() - t0) * 1e3
+                self._forget(key)
                 again = _send_broke(e) and broke < SEND_BROKE_RETRIES
-                if self.record:
-                    line = json.dumps({"at": sent_at, "method": method, "path": path, "memory": memory, "headers": dict(headers or {}),
-                                       "body": _without_media(body), "status": None, "ms": round(ms, 2),
-                                       "error": f"{type(e).__name__}: {e}",
-                                       "sent_again": again}, ensure_ascii=False)
-                    with self._lock:
-                        self.record.write(line + "\n")
-                        self.record.flush()
+                self._record_line({**base, "status": None, "ms": round(ms, 2), "connection": how,
+                                   "error": f"{type(e).__name__}: {e}", "sent_again": again})
                 if again:
                     # The upload broke before the body was whole, so the door cannot have read it (a door refuses a body
                     # that is not whole): sending it again cannot live anything twice.
@@ -191,8 +240,8 @@ class Meridian:
                 # Any other request without an answer (a timeout, a connection lost while waiting for the answer): the
                 # door may have lived it, so it is never sent again, and the run stops here and is void.
                 stop(f"No answer to a request for the memory '{memory}' after {ms / 1000:.0f} s ({type(e).__name__}: {e}). "
-                         f"It may have been lived anyway, so it is not sent again and this run is void. Start again from "
-                         f"new memories (on our test address: ask for them fresh).")
+                     f"It may have been lived anyway, so it is not sent again and this run is void. Start again from "
+                     f"new memories (on our test address: ask for them fresh).")
             ms = (time.perf_counter() - t0) * 1e3
             if status in (429, 503) and attempt <= RETRIES:
                 time.sleep(float(wait or 5))
@@ -202,13 +251,8 @@ class Meridian:
             answer = json.loads(raw)
         except ValueError:
             answer = None
-        if self.record:
-            line = json.dumps({"at": sent_at, "method": method, "path": path, "memory": memory, "headers": dict(headers or {}),
-                               "body": _without_media(body), "status": status, "ms": round(ms, 2),
-                               "bytes_sent": len(data or b""), "bytes_received": len(raw), "answer": answer}, ensure_ascii=False)
-            with self._lock:
-                self.record.write(line + "\n")
-                self.record.flush()
+        self._record_line({**base, "status": status, "ms": round(ms, 2), "connection": how,
+                           "bytes_sent": len(data or b""), "bytes_received": len(raw), "answer": answer})
         return status, answer, raw, ms, len(data or b"")
 
     def ask(self, body, memory=None, headers=None):

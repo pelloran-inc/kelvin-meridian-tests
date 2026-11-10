@@ -1,6 +1,6 @@
 # Test 6 · remember what you were told · result
 
-Address: our test address (a test door of our own, on the published release 5ddaa4fc, reached over the public internet with TLS like any tester's address), release 5ddaa4fc, run record `runs/2026-11-09T23-35-32+0100-remember`; address family: not recorded (the system's default).
+Address: our test address (a test door of our own, on the published release 5ddaa4fc, reached over the public internet with TLS like any tester's address), release 5ddaa4fc, run record `runs/2026-11-10T17-19-53+0100-remember`; address family: IPv4 only.
 
 KELVIN was told 346 facts, then asked in new requests that did not carry them.
 
@@ -10,22 +10,26 @@ KELVIN was told 346 facts, then asked in new requests that did not carry them.
 | the same questions asked again | 345 of 345 answers byte for byte the same |
 | people whose parents it was never told | 332 of 332 silent, 0 answered |
 | the same questions in another memory (nothing told there) | 345 of 345 silent |
-| time per ask, p50 / p90 | 252.1 / 271.5 ms |
+| time per ask, p50 / p90 | 103.6 / 113.2 ms |
 
 The control (parents shuffled among the people): KELVIN followed what it was told 345 of 345 times, and so was right against the truth only 4 times. The control breaks (sign test p = 2.2e-103).
 
 Times include the network between you and the address.
 
-## At the server (measured by the address's operator, release 5ddaa4fc, 2026-11-09 22:35:32–22:50:07 UTC)
+Requests sent again because their upload broke before the body was whole (the door never received them whole): 0. Each broken attempt is in the run record.
 
-These figures were measured before the address took each request whole before KELVIN reads it: the server's times below include reading the request as it arrived over our uplink.
+## At the server (measured by the address's operator, release 5ddaa4fc, 2026-11-10 16:19:54–16:34:25 UTC)
+
+The address took each request whole before KELVIN read it, so the server's times below are KELVIN's own, without the upload. The client kept one connection per key and reused it (each request's record says "new" or "reused"). The test's earlier run, with a new connection for every request, is kept under runs/ as well.
 
 | | |
 |---|---|
 | requests at the server | 1 729, equal to this run's 1 729, all answered 200 |
-| the server busy | 29.5 s of a 14 min 35 s run (3.4 %) |
-| KELVIN's own time, an ask | n 1 715: p50 17.5 ms, p90 17.9 ms, max 24.9 ms |
-| KELVIN's own time, a teach (50 facts) | n 14: p50 497 ms, p90 527 ms, max 533 ms |
+| the server busy | 30.7 s of a 14 min 31 s run (3.5 %) |
+| KELVIN's own time, an ask | n 1 715: p50 17.7 ms, p90 18.0 ms, max 25.8 ms |
+| KELVIN's own time, a teach (50 facts) | n 14: p50 579 ms, p90 584 ms, max 606 ms |
+| processor (sampled, 99.3 % of the run) | 28.7 core-seconds; at its busiest second 0.92 cores |
+| memory | peak 1.32 GB, 1.32 GB after, for everything the server held |
 | disk after (these memories) | 0.23 MB |
-| request / answer bodies | 0.79 MB / 0.67 MB |
-| processor, memory, network | not measured for this run |
+| network at the address | 1.53 MB received, 1.31 MB sent |
+| what you wait, split | a p50 ask of 103.6 ms here is the server's 17.7 ms plus about 86 ms of network |

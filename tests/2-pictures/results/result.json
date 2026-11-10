@@ -96,15 +96,16 @@
   }
  },
  "times_ms": {
-  "tell_p50": 766.6,
-  "tell_p90": 922.6,
-  "ask_p50": 583.3,
-  "ask_p90": 693.8
+  "tell_p50": 662.6,
+  "tell_p90": 1022.5,
+  "ask_p50": 479.1,
+  "ask_p90": 828.9
  },
  "bytes": {
   "tell_sent_p50": 191219,
   "ask_sent_p50": 170363,
   "answer_received_p50": 195
  },
- "run_record": "runs/2026-11-10T00-14-09+0100-pictures"
+ "requests_sent_again_after_a_broken_upload": 0,
+ "run_record": "runs/2026-11-10T17-34-26+0100-pictures"
 }
