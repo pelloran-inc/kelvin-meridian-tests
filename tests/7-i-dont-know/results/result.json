@@ -1,0 +1,61 @@
+{
+ "test": "say I don't know",
+ "facts_told": 170,
+ "asked": 558,
+ "kelvin": {
+  "told": {
+   "n": 169,
+   "right": 169,
+   "none_of_the_above": 0
+  },
+  "truth_left_out": {
+   "n": 169,
+   "right": 169,
+   "none_of_the_above": 169
+  },
+  "relation_not_told": {
+   "n": 51,
+   "right": 51,
+   "none_of_the_above": 51
+  },
+  "never_told": {
+   "n": 169,
+   "right": 169,
+   "none_of_the_above": 169
+  }
+ },
+ "control_nothing_told": {
+  "told": {
+   "n": 169,
+   "right": 0,
+   "none_of_the_above": 169
+  },
+  "truth_left_out": {
+   "n": 169,
+   "right": 169,
+   "none_of_the_above": 169
+  },
+  "relation_not_told": {
+   "n": 51,
+   "right": 51,
+   "none_of_the_above": 51
+  },
+  "never_told": {
+   "n": 169,
+   "right": 169,
+   "none_of_the_above": 169
+  }
+ },
+ "not_known": 389,
+ "not_known_none_of_the_above": 389,
+ "right_overall": 558,
+ "ask_ms_p50": 249.8,
+ "ask_ms_p90": 268.0,
+ "control": {
+  "breaks": true,
+  "kelvin_right_control_wrong": 169,
+  "control_right_kelvin_wrong": 0,
+  "sign_test_p": 1.3363823550460978e-51
+ },
+ "run_record": "runs/2026-11-09T23-50-07+0100-i-dont-know"
+}

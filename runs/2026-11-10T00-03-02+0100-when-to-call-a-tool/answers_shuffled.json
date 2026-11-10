@@ -1,0 +1,8514 @@
+[
+ {
+  "id": "47207221-e048-497a-885f-23d22bac3c5f",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 20688.589500030503
+ },
+ {
+  "id": "32f9589d-75b0-4151-b472-3b8d59f1a768",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 255.18649991136044
+ },
+ {
+  "id": "3f0640ce-de3d-4d05-8b6a-3b1c69138cfc",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 257.42604199331254
+ },
+ {
+  "id": "7183a2b2-95e1-4082-aa9e-38757db4c505",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 230.36158399190754
+ },
+ {
+  "id": "b0868b65-dc85-4e9b-9e32-e235dc85d167",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 304.3359159491956
+ },
+ {
+  "id": "9f31f886-7c30-42ea-8cf0-f7d0df616fa5",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 316.17195904254913
+ },
+ {
+  "id": "a9765445-adfe-4c4c-8e36-68793022dd54",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 262.84537510946393
+ },
+ {
+  "id": "b049f93a-cca9-41bf-b676-cec3ddf5bd18",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 273.753417073749
+ },
+ {
+  "id": "a12e30e7-9126-4723-ae14-0f12ccbdd3e2",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 264.1602080548182
+ },
+ {
+  "id": "98c0955d-ff55-4ba9-a0a1-cad6e7f0d0f7",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 317.349832970649
+ },
+ {
+  "id": "4ed86a86-aa03-4680-b2b4-b4a6c5493761",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 240.91079202480614
+ },
+ {
+  "id": "6da5c2fa-c1b7-4810-9564-e180a8545119",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 233.80725004244596
+ },
+ {
+  "id": "78121403-50b4-47b2-82bf-eba7950a4ca6",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 232.74933395441622
+ },
+ {
+  "id": "d2959e5f-3005-49b4-9013-e7922e55b1f7",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 232.08554205484688
+ },
+ {
+  "id": "567c384f-fe28-44c6-9e32-c2dde09e40e0",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 237.43620794266462
+ },
+ {
+  "id": "a23248cd-f166-4999-87fe-0cb801dd46a7",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 236.75816704053432
+ },
+ {
+  "id": "8b6d7693-c232-4962-a61c-c688efbb40b0",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 228.69608306791633
+ },
+ {
+  "id": "ebe86491-ec22-43f7-80d2-ffc6345e4b24",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 231.08966695144773
+ },
+ {
+  "id": "024f2dec-41fd-4156-b8ab-2e426c1b9f87",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 235.19358306657523
+ },
+ {
+  "id": "dd674587-fe89-4c4f-9dc5-2ee0b70f825b",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 218.37516699451953
+ },
+ {
+  "id": "b8193a23-bcde-4542-82c1-2f562cc0d29d",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 215.1989999692887
+ },
+ {
+  "id": "ed70d6b3-c584-4e89-b8f4-5c2685652085",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 230.75933300424367
+ },
+ {
+  "id": "7dfb712c-e12b-4156-b3d3-f0b36ee992e2",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 246.05604191310704
+ },
+ {
+  "id": "da075b87-b1ac-4a1d-9428-70f8bcecd6d9",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 263.5894159320742
+ },
+ {
+  "id": "0ab39c2e-5911-42df-a42a-70e62b75d535",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 239.51874999329448
+ },
+ {
+  "id": "f54cc2c7-e845-48d9-af9f-c53403dfc49f",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 247.42475000675768
+ },
+ {
+  "id": "5ac5c137-7009-4228-9d0c-b3e1b17aa822",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 233.54187502991408
+ },
+ {
+  "id": "25d96dfd-56db-4b41-986f-75ecab360525",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 225.89966701343656
+ },
+ {
+  "id": "179b262f-7442-41c7-b564-6294e6d1d4e8",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 253.7635409971699
+ },
+ {
+  "id": "acbfbbe2-a1aa-4676-9203-5c2af247dfe1",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 230.43612495530397
+ },
+ {
+  "id": "11d27568-7fd5-4de8-8bfa-e68e1dcd140f",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 229.6834170119837
+ },
+ {
+  "id": "912cf345-df7f-4314-96d2-20104277b48f",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 228.53949991986156
+ },
+ {
+  "id": "7fdc75bf-8af1-415b-8f32-222d1fd49f23",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 232.07041702698916
+ },
+ {
+  "id": "bbe14f66-8fbd-49ed-9fe3-020c88d44f14",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 231.7182079423219
+ },
+ {
+  "id": "2e1f5e14-c65f-4b74-8d26-f71dd0487cbb",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 227.47475001960993
+ },
+ {
+  "id": "d23aafa6-8292-4aad-b1a4-eeaf6d09dc87",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 238.088957965374
+ },
+ {
+  "id": "0631032b-5a30-444e-b19a-184796c27426",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 241.5962079539895
+ },
+ {
+  "id": "d43efdac-89f9-4b31-adec-6d65fc156a4f",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 332.6673749834299
+ },
+ {
+  "id": "d843279c-6bdc-4528-b134-63b560f6e605",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 250.2222079783678
+ },
+ {
+  "id": "a3115e63-da53-491e-8114-6af6a4abb137",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 254.9933340633288
+ },
+ {
+  "id": "c3e649b5-b7ca-4fea-bf98-2956968eb3f7",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 237.0918340748176
+ },
+ {
+  "id": "12c977a7-82c7-4d2a-960e-0a7d62edcb70",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 239.98191696591675
+ },
+ {
+  "id": "f2ce5561-2823-46f2-96c4-7cfc81204dd2",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 248.96341701969504
+ },
+ {
+  "id": "bf50df2f-815b-4215-af76-eda962de0269",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 247.32029205188155
+ },
+ {
+  "id": "8261687f-9197-4894-b870-4b9c7f4ca2bf",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 238.07720793411136
+ },
+ {
+  "id": "0bcc59ba-e2c1-4c83-b8b9-93c5804b27a2",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 239.93720801081508
+ },
+ {
+  "id": "3cddac7f-1733-4bad-b008-8c40a4873b34",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 224.52166595030576
+ },
+ {
+  "id": "f7a446d0-0bd6-44b3-83b5-0835d1d22d6e",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 228.9159579668194
+ },
+ {
+  "id": "c38c6471-c320-451a-bfe5-e85dbc1c49b2",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 240.1902909623459
+ },
+ {
+  "id": "4c5a1a73-345f-46c6-bdaa-49625c22b5ec",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 240.20649993326515
+ },
+ {
+  "id": "a1494943-b619-4117-a380-dccc5791f3bc",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 220.8393750479445
+ },
+ {
+  "id": "c49fd0c5-aa3f-4cc6-aa96-ab58c4c919bb",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 239.3809159984812
+ },
+ {
+  "id": "e26b933e-a185-4d7d-81d2-ea36a54abb18",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 223.70341699570417
+ },
+ {
+  "id": "a99abcf7-7078-4b88-bf5f-5d08f3ff021a",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 237.73449996951967
+ },
+ {
+  "id": "08ec15a4-dd9e-4416-9260-2464b271b98a",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 255.01395796891302
+ },
+ {
+  "id": "a9ba419a-c8be-448c-aa97-267ed61c1e3f",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 236.63133289664984
+ },
+ {
+  "id": "57065a33-393a-4383-b24b-a138fb74808c",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 232.91562497615814
+ },
+ {
+  "id": "de06016d-e455-41d3-bf63-a32973fdcf84",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 229.5767079340294
+ },
+ {
+  "id": "b8c6574a-8448-41e2-a667-aec366f03ff9",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 241.43762502353638
+ },
+ {
+  "id": "8082982b-2cb1-4f74-ae1f-9cb7c5f12b88",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 236.72595794778317
+ },
+ {
+  "id": "72fd31bf-15a1-4906-9d72-d59e992b7a3c",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 223.5864169197157
+ },
+ {
+  "id": "ac080994-8c85-4d95-a02b-e242c78250e7",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 229.22541701700538
+ },
+ {
+  "id": "a3273832-66c9-47f3-9e41-0795d2111784",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 226.77954100072384
+ },
+ {
+  "id": "8bfa498f-05a6-4ffc-985a-4177ab47317d",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 254.66262502595782
+ },
+ {
+  "id": "15810f98-fec2-4a8d-b833-00770d49cfad",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 224.7087499126792
+ },
+ {
+  "id": "1dd07042-26ee-49aa-b962-e391bdba1492",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 246.41395907383412
+ },
+ {
+  "id": "76ccbb11-1a41-4a71-b782-2d586b100284",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 229.91933301091194
+ },
+ {
+  "id": "04a63a26-c054-446c-bed3-306e7a1cf49a",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 301.2961669592187
+ },
+ {
+  "id": "38516f90-3d5c-4d22-a71e-eee86a98348c",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 242.92133294511586
+ },
+ {
+  "id": "b309f97c-9b1f-44c3-88fe-bfed8a2034e9",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 242.63599992264062
+ },
+ {
+  "id": "c2320878-ff33-4834-bc1a-2df509f37a31",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 224.50200002640486
+ },
+ {
+  "id": "47e51311-f5da-482e-9318-c4f0f0b87803",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 242.55808303132653
+ },
+ {
+  "id": "01bf2c33-07d8-4402-ad55-4a412f98163a",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 227.44004102423787
+ },
+ {
+  "id": "70062e39-b1b2-4f41-ae66-589d39e91bf8",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 234.68595801386982
+ },
+ {
+  "id": "304ceb88-36c5-4616-93c7-34f9dbba1773",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 249.34624996967614
+ },
+ {
+  "id": "b7eda254-c737-43e8-97e1-f3994af37da4",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 220.74312495533377
+ },
+ {
+  "id": "62d3bdd3-d4e7-47d5-b28f-71dc0c7944ad",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 250.47816697042435
+ },
+ {
+  "id": "a204a5d9-cd4e-4ebf-9bbf-9ab3aa1f2af5",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 232.52270801458508
+ },
+ {
+  "id": "3c149834-08c0-4f30-a4e7-efd4ce3278fb",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 237.9287079675123
+ },
+ {
+  "id": "213a6cd9-1cb7-4ee2-a130-177bc82df678",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 240.8209159038961
+ },
+ {
+  "id": "9f1b2c73-56e6-4105-b183-7665a004e178",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 232.6834169216454
+ },
+ {
+  "id": "d727f4f7-1b94-4791-a86d-73017e88bcc5",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 237.68999997992069
+ },
+ {
+  "id": "f02bfb37-d6aa-459a-af37-fbecc7d64d4f",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 243.3422909816727
+ },
+ {
+  "id": "d0067e6c-6977-4de0-8811-f41d9b3b4c74",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 243.79787500947714
+ },
+ {
+  "id": "bc7e5162-da58-4808-b88a-5469d58cc345",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 259.8699170630425
+ },
+ {
+  "id": "0cecf25c-2a75-400c-ad79-cb494584c82f",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 227.71262505557388
+ },
+ {
+  "id": "13b311a4-59aa-475c-939b-617ba2e9543f",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 231.00066697224975
+ },
+ {
+  "id": "00dd08e1-9374-4b55-bdc9-74fff5be735c",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 225.53187503945082
+ },
+ {
+  "id": "f1dbe505-8ce1-4941-934c-e8e04115f970",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 251.27108406741172
+ },
+ {
+  "id": "4b0c6da2-953f-4333-8810-5285ff1e679d",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 246.0598750039935
+ },
+ {
+  "id": "7f591ec4-93e6-4492-82a7-20963e99ae53",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 243.74041694682091
+ },
+ {
+  "id": "4c125225-9148-48e9-a514-227fa88497d5",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 235.55049998685718
+ },
+ {
+  "id": "db2a61bf-ce0a-4e39-a0a0-7cfda2e3f4c2",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 248.4905420569703
+ },
+ {
+  "id": "a937326d-e23c-41a3-92f3-ffacd9fc66a0",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 245.10254198685288
+ },
+ {
+  "id": "e53882c6-104d-4b66-b6b5-cdbdf18e2bf6",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 237.33770800754428
+ },
+ {
+  "id": "26b8b228-96cf-46db-845f-4d2f707c0fc6",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 250.7885410450399
+ },
+ {
+  "id": "58eb7904-6e68-43fb-8516-7094e6c0aae5",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 235.97841698210686
+ },
+ {
+  "id": "eaf6f6c7-3e59-4de3-9bcf-094cba2bc64f",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 251.18037511128932
+ },
+ {
+  "id": "5b5092e2-76a0-410f-91e9-f441fd66511b",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 240.65762502141297
+ },
+ {
+  "id": "e87e7879-3f47-44a1-ab06-ae602411af31",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 247.99533293116838
+ },
+ {
+  "id": "6d5f6273-dbd6-46ae-8ff1-66e787820876",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 237.97454207669944
+ },
+ {
+  "id": "54a555f7-7535-4733-94fc-6b38eaf969b2",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 248.426542035304
+ },
+ {
+  "id": "87ad168f-d275-431b-8df3-ffa129fcb1e4",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 243.603290989995
+ },
+ {
+  "id": "b7727782-c5ec-4b5d-93bf-68fe811237f4",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 234.7603749949485
+ },
+ {
+  "id": "103dcc84-69a4-4ff7-a257-ee9a2e15887c",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 242.14612506330013
+ },
+ {
+  "id": "c0bd70bd-b93d-45c1-85f9-585f4ee4e314",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 249.1274590138346
+ },
+ {
+  "id": "fb27b9d5-b73c-4a71-a705-ca117219bf2b",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 238.65195806138217
+ },
+ {
+  "id": "65567630-5cb2-44ff-bafb-36e71f00d192",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 248.81241703405976
+ },
+ {
+  "id": "d33822ba-fce1-49f6-95a0-0d968a117297",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 235.5595410335809
+ },
+ {
+  "id": "3658481f-805a-448d-aa7e-41f17f335606",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 233.87070803437382
+ },
+ {
+  "id": "bb7efd04-38a4-4d36-b302-df03b516cb14",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 234.9208330269903
+ },
+ {
+  "id": "cad5a8b3-2474-466b-8221-d1a118f09ed6",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 247.58604099042714
+ },
+ {
+  "id": "39c9e3e8-c375-4ba4-a340-080e0f2732ad",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 238.01437497604638
+ },
+ {
+  "id": "9d98776f-d3e9-4611-9e40-2bd744524576",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 233.73241594526917
+ },
+ {
+  "id": "45620445-6cda-4698-8c5f-16047954b38b",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 230.02445802558213
+ },
+ {
+  "id": "ec30051c-462d-4533-a0f1-794ccc71a70a",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 231.9924159673974
+ },
+ {
+  "id": "da1f9a01-0768-477e-ad1f-ed047d43d9da",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 219.69062509015203
+ },
+ {
+  "id": "8821d690-4950-475f-8303-e167a48988a1",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 242.58133408147842
+ },
+ {
+  "id": "dce36740-2d72-4f6a-ac7d-d84a60ee6424",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 234.7534999717027
+ },
+ {
+  "id": "b1e707e7-7f3d-4de2-a75d-36163a8d5941",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 252.1068750647828
+ },
+ {
+  "id": "a32f5394-d520-4728-91bd-51a2e8ca8722",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 258.37708299513906
+ },
+ {
+  "id": "b76d9cb5-d46b-44ae-8c68-7404325026b4",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 246.98150006588548
+ },
+ {
+  "id": "ad871c24-14a9-44fb-ab20-c13bc2b67355",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 234.68841693829745
+ },
+ {
+  "id": "51561477-473e-4e99-b40f-60f6c73ee8a9",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 236.59729200880975
+ },
+ {
+  "id": "86ea05a1-69b4-4bf2-a1c7-2e1ac6092eb8",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 243.90170897822827
+ },
+ {
+  "id": "37063868-ea37-4f40-8ade-f497a2620a93",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 238.19520801771432
+ },
+ {
+  "id": "23123feb-5cc7-4156-89ba-1c54f87a9f48",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 321.56858406960964
+ },
+ {
+  "id": "b2aa6cc4-23ab-484b-85dd-343b8678e25e",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 239.8799160728231
+ },
+ {
+  "id": "97d6314c-2033-4852-98fb-0ac4211bee26",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 242.10024997591972
+ },
+ {
+  "id": "81709017-bd23-4f30-b225-55e52c4b530c",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 253.52062506135553
+ },
+ {
+  "id": "64103a07-ada3-4c39-82fa-78064b1fa712",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 244.3433339940384
+ },
+ {
+  "id": "46d44bf1-09d9-4c4f-851a-ff0cf09e0fea",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 245.48275000415742
+ },
+ {
+  "id": "87578678-b82f-4cf5-83a8-805601ac908c",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 245.10195897892118
+ },
+ {
+  "id": "d60daa86-16fe-4b58-baaa-43f408c10354",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 243.48504201043397
+ },
+ {
+  "id": "8cf18123-c6a9-4894-ae5a-280140c174b5",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 241.4914999390021
+ },
+ {
+  "id": "ccf2a6b1-d2f1-43c8-a6b1-51863401bbd9",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 246.5550829656422
+ },
+ {
+  "id": "da2ee10b-cc9c-4aca-a9ab-c2b42f9d1a14",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 249.48595790192485
+ },
+ {
+  "id": "b74ac9b3-5eb0-4951-9b4d-04e7ce900ad3",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 240.0225839810446
+ },
+ {
+  "id": "04f8a98e-130d-4948-b5cb-1d38eee4f73b",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 252.4638338945806
+ },
+ {
+  "id": "d6bc1b88-b63d-4b28-b942-fc7313c2c7e2",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 266.8530830414966
+ },
+ {
+  "id": "32cb4fe4-6740-49b2-9d60-ba52b227afa1",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 244.735834072344
+ },
+ {
+  "id": "994c95b6-6330-4238-ba03-b43f20bfca46",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 231.88412503805012
+ },
+ {
+  "id": "4ee521bf-dba3-448e-8a4d-19d734f04151",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 249.74620796274394
+ },
+ {
+  "id": "447820a0-5b11-47df-b6a1-f51d4ee13096",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 237.43420897517353
+ },
+ {
+  "id": "023e18a8-8bcd-4069-8609-ba69ff795e88",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 241.54600000474602
+ },
+ {
+  "id": "c294a23d-f47c-49c6-98bd-80873aa9fed3",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 231.18999996222556
+ },
+ {
+  "id": "c5e1ea69-8dc2-4b40-96c7-c648b72b50ec",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 239.34991599526256
+ },
+ {
+  "id": "8321a0e4-0d9c-4a39-8af3-7aacad4e080e",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 248.8395000109449
+ },
+ {
+  "id": "7e985e75-35fe-4e19-a41c-ce40782e1317",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 235.76808301731944
+ },
+ {
+  "id": "1ef7bd0e-71ae-4a61-8658-d4761a6048aa",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 247.40845803171396
+ },
+ {
+  "id": "1291014f-e28b-457c-aa0d-7e9dee58d7bb",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 253.28983389772475
+ },
+ {
+  "id": "8b03a885-3c94-4ed4-adc2-975b05015757",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 249.88333298824728
+ },
+ {
+  "id": "3802e4ac-a327-4e85-8273-b0c236e1a274",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 236.41454195603728
+ },
+ {
+  "id": "5c7fa093-2455-4209-82a3-fc1162d6aafc",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 232.24087501876056
+ },
+ {
+  "id": "245fb840-620d-4b49-a129-b00c04e0a012",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 225.67199997138232
+ },
+ {
+  "id": "72e6a112-0e1b-43a2-bcb0-be1fcb28fabb",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 242.29545798152685
+ },
+ {
+  "id": "792cdbd8-e7b1-492c-ab31-d1fb3d6a5241",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 234.2116249492392
+ },
+ {
+  "id": "d7925933-0d29-49e6-b63d-20714650f3a7",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 242.41283407900482
+ },
+ {
+  "id": "1ce5ffae-c6b7-40ba-a158-6f2dfa8706f5",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 229.84908404760063
+ },
+ {
+  "id": "628e4d04-bc4a-4ef0-99f0-6913a535a13f",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 253.42187494970858
+ },
+ {
+  "id": "3d3ad397-82a9-4a05-9075-ea1f4b8dfc98",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 239.0695420326665
+ },
+ {
+  "id": "836008de-6654-4229-acad-bdd83795ac29",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 237.0087499730289
+ },
+ {
+  "id": "527cdb3c-6636-42cc-9fbd-045533fbdfa9",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 236.55829101335257
+ },
+ {
+  "id": "8fac6eab-c82d-494d-ab94-7fbece5140fa",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 249.69637498725206
+ },
+ {
+  "id": "d29af282-c3e0-4662-92a1-0f8594930c4b",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 236.9538339553401
+ },
+ {
+  "id": "bfa58c66-8b29-4555-a4a5-27a379730e2b",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 232.93670802377164
+ },
+ {
+  "id": "8249fc40-c5c9-4782-b28c-02df0bb18c62",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 238.17916598636657
+ },
+ {
+  "id": "729f55a2-a9cd-4b4a-a772-1df5af36fae1",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 233.0050419550389
+ },
+ {
+  "id": "75e4a7e9-74ea-4119-9a41-34f4b67a33eb",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 255.53770794067532
+ },
+ {
+  "id": "24008d4f-8634-4c0d-b11f-27142dd4198b",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 232.1960829431191
+ },
+ {
+  "id": "af4ef0a7-3d97-486a-91cf-855ea95a8a03",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 244.3647909676656
+ },
+ {
+  "id": "be9fa9de-ccab-43ad-93e4-a55d7bf69511",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 247.16795899439603
+ },
+ {
+  "id": "f1414f24-e2aa-4ac0-ac02-a7a40e425c44",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 248.84858296718448
+ },
+ {
+  "id": "69f3d62a-7e34-48e5-bed1-ea9c90e51f56",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 251.0624589631334
+ },
+ {
+  "id": "77598f43-0198-4c7d-a2a3-c7b9a4b4b587",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 240.3477500192821
+ },
+ {
+  "id": "69e723a7-4be6-4ba1-90aa-95f21d4219c1",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 250.53462502546608
+ },
+ {
+  "id": "67523749-0a55-4037-98f1-363d2ad6d3eb",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 239.30729203857481
+ },
+ {
+  "id": "4a0bb8f4-07a3-4125-b90c-c26b6cce592d",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 249.01266698725522
+ },
+ {
+  "id": "a10857f6-b321-45d9-bae1-a90dce7a42c6",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 234.1434999834746
+ },
+ {
+  "id": "75c70f08-9600-4cef-8a50-49b651a969fe",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 232.43304202333093
+ },
+ {
+  "id": "9585545c-a2e2-47a0-b10a-754a4c8c11d4",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 243.81204205565155
+ },
+ {
+  "id": "8b2fd5b6-3b33-46bd-badf-4fa221a72381",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 240.82029098644853
+ },
+ {
+  "id": "f3c58fd7-f504-4d98-8092-89ef996bc2c4",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 252.45112495031208
+ },
+ {
+  "id": "247e4430-6824-4e9b-b6df-35742f34e449",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 251.0457090102136
+ },
+ {
+  "id": "df868b65-6c8e-4da7-807e-b05f7a2a177f",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 244.19304099865258
+ },
+ {
+  "id": "50b6ce99-4f5b-4a65-816e-c917fbd609a1",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 230.09441699832678
+ },
+ {
+  "id": "9516e6de-d5a5-46b8-a757-aa48c2a546e4",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 253.1958749750629
+ },
+ {
+  "id": "80e81da5-9b7e-47fb-b0d6-50d6218c6f4d",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 234.32095802854747
+ },
+ {
+  "id": "c34bc86a-9802-4763-9dd9-ade729717198",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 263.55408399831504
+ },
+ {
+  "id": "d403f5e0-8964-425d-ac3e-888a13cc2f84",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 255.34637493547052
+ },
+ {
+  "id": "bd01ac73-f184-409a-9819-a1c27d1a9019",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 252.6756670558825
+ },
+ {
+  "id": "8dc7e153-5264-4560-8371-c6f7361f9483",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 240.83583301398903
+ },
+ {
+  "id": "4f24f7af-d442-425f-ba19-0d2d72e2f7a1",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 227.6781250257045
+ },
+ {
+  "id": "da97998e-a67a-443a-b386-bc679c086d8f",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 236.82162503246218
+ },
+ {
+  "id": "2cfdfd22-5577-456d-a3f0-23209437fc45",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 242.92041698936373
+ },
+ {
+  "id": "c0026808-8ec7-45ef-9ad1-bdabe0d34394",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 242.81266704201698
+ },
+ {
+  "id": "7b9254d1-6d9c-4c52-888f-f15740a5d410",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 245.67749991547316
+ },
+ {
+  "id": "92d426dd-3f99-4e96-8f64-2a08175aaef0",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 236.7129169870168
+ },
+ {
+  "id": "0987671b-f198-45c1-a52c-a59798c7200e",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 238.3267910918221
+ },
+ {
+  "id": "ad3cb966-de21-4424-8b5d-1d6638fa9e6e",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 252.9386670794338
+ },
+ {
+  "id": "a85d8c5c-0cbd-4edd-a010-221e91bb186f",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 243.16583294421434
+ },
+ {
+  "id": "063e8921-95ac-46a8-8840-4e9be7a9b252",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 232.6275419909507
+ },
+ {
+  "id": "2de089d8-fe5b-47c7-a079-8c66d83d1c09",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 236.57937499228865
+ },
+ {
+  "id": "464fc02d-5b0b-4c59-9fbf-c4b2582358f2",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 228.70704194065183
+ },
+ {
+  "id": "aa4dc441-7a02-4c03-a00d-b6d1beedc3a3",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 229.4521250296384
+ },
+ {
+  "id": "cf89d262-3ba5-40d5-8173-985774fffca2",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 240.11816689744592
+ },
+ {
+  "id": "d6bf1f50-7f42-48fb-9bce-cabd24d4a526",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 233.440832933411
+ },
+ {
+  "id": "7cb01d4f-7488-4143-a0e9-3a287be133f8",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 241.50341702625155
+ },
+ {
+  "id": "fd3d3c40-7c17-4be6-a1bd-53cf2f84ca0a",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 253.1256660586223
+ },
+ {
+  "id": "e5d5f2a8-df7b-413d-ba6d-2a3d644ae185",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 239.04537502676249
+ },
+ {
+  "id": "f5b80e70-c002-4e06-802f-e7db5aac77b2",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 254.29179205093533
+ },
+ {
+  "id": "8aabc570-ab07-47ac-a6c5-bd1c83bd2a34",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 246.61449994891882
+ },
+ {
+  "id": "cfdb0f40-59c6-43be-9e8f-d96873de6b7e",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 242.90245806332678
+ },
+ {
+  "id": "95158163-65c9-4eab-8123-b488b830fb96",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 245.6083750585094
+ },
+ {
+  "id": "e0e88557-7fb3-4e0d-b0d3-d3f1ccb38662",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 233.1231669522822
+ },
+ {
+  "id": "af7c2d44-22b4-4309-9c8d-f02cbe2e3ed5",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 307.8235419234261
+ },
+ {
+  "id": "96d580a3-98ce-46eb-8da0-a798c90049ed",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 234.32845808565617
+ },
+ {
+  "id": "8fa2c43b-1832-4b4f-9bb2-42313d78bc3e",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 250.5184590118006
+ },
+ {
+  "id": "8c342d67-1764-4e7a-a075-849edb83ab13",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 236.26979102846235
+ },
+ {
+  "id": "7e8d589c-5d30-43a4-9705-578e4dea30ab",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 248.6605419544503
+ },
+ {
+  "id": "5b45fbd7-38ad-48dc-a4c8-7b7cfa16feb0",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 242.36141704022884
+ },
+ {
+  "id": "e52883d5-9e25-4ca2-907a-d017be403cd5",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 252.2466250229627
+ },
+ {
+  "id": "e33ec96d-808d-49af-9a64-3436c119d2df",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 240.46283308416605
+ },
+ {
+  "id": "f0f4e87e-6a0b-4054-978c-15b483b35ce7",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 246.58475001342595
+ },
+ {
+  "id": "fc91eb2f-1137-423d-9c17-9105d4c9dc8d",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 226.418791920878
+ },
+ {
+  "id": "eed5a23f-bd4f-4da5-a54a-09708c634c8e",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 259.61125001776963
+ },
+ {
+  "id": "3e7bcf99-5e05-4a3d-aafd-8ceecada511a",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 263.68570793420076
+ },
+ {
+  "id": "7aa27660-fc5c-41f1-bb66-03d27b26a146",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 311.0047091031447
+ },
+ {
+  "id": "2202f4bf-372a-436e-a6d5-900ba26647db",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 290.37900001276284
+ },
+ {
+  "id": "e2618026-4f21-4be8-836a-4ad9fabd73c6",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 248.64629202056676
+ },
+ {
+  "id": "c72927b3-b1c8-42c2-b4ff-8ae44ffb2cb0",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 245.1166670070961
+ },
+ {
+  "id": "27d63a59-681d-4b79-a1d1-202aad677707",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 229.10741704981774
+ },
+ {
+  "id": "2836326b-7990-4920-a74a-c131bcd3a8f2",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 219.59229209460318
+ },
+ {
+  "id": "79e778f8-2940-4b2f-bc34-4969a9484b51",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 232.0768750505522
+ },
+ {
+  "id": "9e9d18ca-6e1e-4dcb-a40f-adf6d6944e8c",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 254.56087500788271
+ },
+ {
+  "id": "4f9e80d7-4a42-43de-90a7-a917d3f630bc",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 235.53404095582664
+ },
+ {
+  "id": "783cbf02-9df9-4a0b-a35e-0fe99a0b6f5e",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 260.2197090163827
+ },
+ {
+  "id": "eb545211-343b-4d32-8371-49b0113f9f99",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 235.0367089966312
+ },
+ {
+  "id": "aa846074-88e7-4be7-b6aa-36820b60c477",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 251.2512500397861
+ },
+ {
+  "id": "24436b10-98b5-4fe0-924b-8fc67e82fd4f",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 236.2928750226274
+ },
+ {
+  "id": "edb603a1-d4bf-443a-b278-7532f6457745",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 238.25937509536743
+ },
+ {
+  "id": "93d9af8f-ce68-4f54-a771-6fee1548c432",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 282.5866249622777
+ },
+ {
+  "id": "7bbecc1a-ec74-4807-89e4-ff5494b34801",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 240.3871250571683
+ },
+ {
+  "id": "642bd8a6-02ea-401f-9f47-78590a5235ed",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 260.5364170158282
+ },
+ {
+  "id": "e4440778-17cc-4e85-9824-38e576a43c14",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 286.8322499562055
+ },
+ {
+  "id": "fc332e73-8a1d-49b4-8000-877ea24e343c",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 236.74212500918657
+ },
+ {
+  "id": "9eda354d-cc48-401a-b118-935f1b022911",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 240.8356659580022
+ },
+ {
+  "id": "d1aef9b6-6a5f-4779-bce4-61d80ffb14cd",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 236.65295797400177
+ },
+ {
+  "id": "f8ec6aca-d997-4fd0-917e-11a938ec5c82",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 223.96087495144457
+ },
+ {
+  "id": "661ca4d4-278b-4abd-843f-7ec819f30158",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 235.6460829032585
+ },
+ {
+  "id": "934503e8-a4b6-4116-a7c2-36d5c634f604",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 249.8897920595482
+ },
+ {
+  "id": "21eb2ce5-ddca-4831-8ff4-aad6f0761062",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 244.79483405593783
+ },
+ {
+  "id": "7ec87628-ed46-4e5d-a021-294c5fdb0fae",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 251.7623748863116
+ },
+ {
+  "id": "bb4beff4-5035-4509-8076-9e70e30f0fae",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 244.84633409883827
+ },
+ {
+  "id": "8fed283c-5c71-4036-918e-1c1ae5973add",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 254.09820792265236
+ },
+ {
+  "id": "07721673-5ac1-4412-b3fc-a543f863e616",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 227.36579203046858
+ },
+ {
+  "id": "e95d43a1-3520-422f-8f42-3c20c42171e3",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 248.706458020024
+ },
+ {
+  "id": "4ae55d9e-315d-4588-a9a5-6bde7c13f585",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 251.03358295746148
+ },
+ {
+  "id": "9d0f600d-6c2d-4acc-9a01-9af577f63450",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 230.85991595871747
+ },
+ {
+  "id": "8979322d-48ba-4c14-a326-6d48b062465a",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 255.60475001111627
+ },
+ {
+  "id": "84b13041-244f-4911-a24f-1778404cd661",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 233.7477080291137
+ },
+ {
+  "id": "2361a4b2-2425-4cf0-9cae-268232c8de4f",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 242.8615839453414
+ },
+ {
+  "id": "dea40001-e863-477f-ac2b-6f78c8fa7cd0",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 235.5550000211224
+ },
+ {
+  "id": "9aa94abc-8ec6-4ef4-99cf-2f3202afcbd8",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 235.928958049044
+ },
+ {
+  "id": "58f497e4-a7d9-48a4-98af-2acc09f5a288",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 244.18754200451076
+ },
+ {
+  "id": "f3a6a4f5-869c-4a28-ba80-8dc43eefe257",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 232.06333303824067
+ },
+ {
+  "id": "e0a55690-ac15-4152-83b5-d936cbeff56c",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 241.63049994967878
+ },
+ {
+  "id": "7cbd8665-7660-4b11-8aac-020c401209b8",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 232.63333307113498
+ },
+ {
+  "id": "e27164db-e2d9-456f-b16c-7b0075492168",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 227.79725003056228
+ },
+ {
+  "id": "85262b99-0383-4dea-a869-93de894a4446",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 243.72104206122458
+ },
+ {
+  "id": "6b3948eb-64fa-4cf5-9576-871862b72abe",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 217.90566598065197
+ },
+ {
+  "id": "26aed6de-b6e6-4759-812c-57e4f2792ff7",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 232.60874999687076
+ },
+ {
+  "id": "8e49e273-f768-416e-bbca-84a790f0c800",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 212.6288330182433
+ },
+ {
+  "id": "36b94503-a859-4034-b5b4-cf7918b9bd19",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 225.48187500797212
+ },
+ {
+  "id": "ddc4a250-facd-4862-9bd2-c660705f32b7",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 304.78108301758766
+ },
+ {
+  "id": "ec4bae55-e067-4a5e-b72b-aba4be2dd936",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 258.1144169671461
+ },
+ {
+  "id": "d9bcd323-e5c3-4995-b8ea-40f2b62e23ff",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 250.05187501665205
+ },
+ {
+  "id": "d1d58b56-a840-4404-a7c2-17cde1523821",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 225.31566594261676
+ },
+ {
+  "id": "f758209d-e6dd-4a1c-b454-c1bead8ab287",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 246.20087502989918
+ },
+ {
+  "id": "3519df25-8fa3-41c6-a4dc-48962677117e",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 249.99237502925098
+ },
+ {
+  "id": "4057cc0a-2037-43ff-88ed-cfee0feef8dd",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 238.3162910118699
+ },
+ {
+  "id": "5f12dce7-500b-4f62-a031-860a2e4cdbef",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 239.11249998491257
+ },
+ {
+  "id": "45b30f8f-9a91-4d39-813a-e5bbf08599dc",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 233.23095892556012
+ },
+ {
+  "id": "6ddf2f37-daee-4ce9-a4a4-26e257885922",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 236.3475839374587
+ },
+ {
+  "id": "34b951ac-0f36-43df-bde8-bf53929c6875",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 242.27808404248208
+ },
+ {
+  "id": "ff4ad555-3d27-4f57-9a3c-d29da22bfaa0",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 243.27212502248585
+ },
+ {
+  "id": "76baa7df-cb87-4933-957b-6dbd87ea0e27",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 233.6070410674438
+ },
+ {
+  "id": "4e9e74cd-12b5-454c-a1fb-10b72448c682",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 230.47104198485613
+ },
+ {
+  "id": "0168591a-6ea1-4cd7-b348-088eb4699d9c",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 228.52120804600418
+ },
+ {
+  "id": "1ae9c358-7b0d-4f4c-9504-0608063b4e79",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 247.00933299027383
+ },
+ {
+  "id": "0a770c8d-fb11-4524-91a6-91d3c36da7bf",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 259.0624160366133
+ },
+ {
+  "id": "191f587a-7b5e-4b0c-948a-6c73dd6ad7ba",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 234.16524997446686
+ },
+ {
+  "id": "27e7fc38-ddd9-4bd9-94f2-a77255a9cbb3",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 241.81083298753947
+ },
+ {
+  "id": "7e6950ad-f700-46f2-a597-1022a587022e",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 415.47204193193465
+ },
+ {
+  "id": "12be5756-b7b7-467a-bd5e-247770119840",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 237.2072080615908
+ },
+ {
+  "id": "48dca557-24f0-4aa3-934f-21787455ed7f",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 241.81070795748383
+ },
+ {
+  "id": "f4bbdce6-5c0a-45c3-ba11-5f329feabd49",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 250.84979203529656
+ },
+ {
+  "id": "fec70dfe-f584-4e12-9653-b15fb159f926",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 233.5500830085948
+ },
+ {
+  "id": "111f7c94-6243-4ce2-ba9e-5398e25b3244",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 245.63070794101804
+ },
+ {
+  "id": "f00e3e41-33bb-4cd7-ac65-478d02874d11",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 252.50704097561538
+ },
+ {
+  "id": "528eac01-b792-42da-9eac-272f2755b5e4",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 235.64754205290228
+ },
+ {
+  "id": "db7cb5cd-646e-44ab-81d5-ab2cd04eeb8d",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 251.71695894096047
+ },
+ {
+  "id": "b66112cf-2505-4b62-81d4-a0e4362a813c",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 242.06170800607651
+ },
+ {
+  "id": "bb9e3798-8b40-4741-980d-0a45d4a10752",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 254.0387089829892
+ },
+ {
+  "id": "aef72561-d03d-4914-aa57-6fc258e65e7c",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 246.01637502200902
+ },
+ {
+  "id": "6b71c238-af12-48c5-8929-5853e341e0e5",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 247.98666697461158
+ },
+ {
+  "id": "c4ee7c14-ded0-4613-ba77-266ac8b39ab8",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 236.6201669210568
+ },
+ {
+  "id": "e267b0c3-e602-4f06-9073-b8c080b3cd12",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 237.3442080570385
+ },
+ {
+  "id": "5697967c-aadd-4902-933f-4c9a288d83bf",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 237.60016704909503
+ },
+ {
+  "id": "99490fa8-b40a-4769-894e-4f813e3ca56a",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 228.27616694848984
+ },
+ {
+  "id": "f7c6b19d-b8d9-4c10-814d-ae4fbc9afff5",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 226.86433303169906
+ },
+ {
+  "id": "5c0b4e26-54d5-496d-a1c0-6984f6fc248c",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 227.14395797811449
+ },
+ {
+  "id": "02debbaa-19c3-4e7d-9d3d-26b35d308214",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 225.40975001174957
+ },
+ {
+  "id": "5de578ff-f838-4be0-8e43-0c33b09b761e",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 231.19275004137307
+ },
+ {
+  "id": "f1d7a6f4-5c1c-4c7f-830f-addbc74debcf",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 229.76083401590586
+ },
+ {
+  "id": "4b8f8df7-8342-4b9f-8d1a-2da31385b399",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 227.22274996340275
+ },
+ {
+  "id": "e575c408-a28c-4cdc-8dc2-d6171e6fc386",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 234.94741693139076
+ },
+ {
+  "id": "d84b3b89-86ef-47c2-91a5-582024427792",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 215.6444580759853
+ },
+ {
+  "id": "228b4d09-64ce-42b3-a7a0-e3ab2864a549",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 215.08945792447776
+ },
+ {
+  "id": "12da269e-52df-4359-a2af-6065ec5b9bc2",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 225.3533749608323
+ },
+ {
+  "id": "f0ae0618-95eb-42d4-a565-04471af40767",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 229.68983300961554
+ },
+ {
+  "id": "bf6b8a6b-780f-450f-a7fb-1d2e332a81bd",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 235.9876249684021
+ },
+ {
+  "id": "64e6c9ad-c601-47db-a4d3-0c121a4e3646",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 250.22241694387048
+ },
+ {
+  "id": "8db1d96e-51c0-487d-ad73-d34314f1575f",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 232.5064999749884
+ },
+ {
+  "id": "29e9ae40-86a3-46ce-bb71-61f4827ed1a6",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 246.80987501051277
+ },
+ {
+  "id": "2d5ca3b1-ce44-4d5a-847a-1ffe85f43cb1",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 230.80225009471178
+ },
+ {
+  "id": "a6404669-8138-4b92-9375-99e24ddbb415",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 236.34924995712936
+ },
+ {
+  "id": "8201797a-ecfd-439d-bfac-d96db9a2f6e7",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 255.17629203386605
+ },
+ {
+  "id": "184e6cfc-85d5-4231-858a-56d991a76ad9",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 243.2730000000447
+ },
+ {
+  "id": "d83a5ef4-984c-4e1c-bb6d-c50485b0637a",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 239.57254097331315
+ },
+ {
+  "id": "e8507d86-da0b-4480-810c-ea22803b5623",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 228.45804097596556
+ },
+ {
+  "id": "8a08c29a-2b71-49d0-896c-64a89bfdffae",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 228.71162497904152
+ },
+ {
+  "id": "9365753d-75bd-47da-89fe-6e3cbe89de72",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 234.9073749501258
+ },
+ {
+  "id": "77711e6b-663c-4977-8839-ad5c018bf708",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 222.06149995326996
+ },
+ {
+  "id": "ae456dd5-3c55-4db3-bc48-69851d7cbce2",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 227.2059579845518
+ },
+ {
+  "id": "0ae0015a-6cfd-43d0-a820-e3b723fcbf5a",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 236.81341600604355
+ },
+ {
+  "id": "f6fd6918-3aaf-4c31-a22e-001be6353aaa",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 245.81899994518608
+ },
+ {
+  "id": "410b1fd8-1299-4c1d-a1c4-226d84969e66",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 241.81520799174905
+ },
+ {
+  "id": "7a4313e6-7b9d-49be-9d1e-cad721bb3d45",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 256.5144579857588
+ },
+ {
+  "id": "3cd58202-14fe-4c1a-9aaa-f0c25373cbdd",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 248.6558750970289
+ },
+ {
+  "id": "821b3801-66af-4181-b476-f361f8375506",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 235.10424990672618
+ },
+ {
+  "id": "3ff80278-55e6-4c3d-b29a-1b1c58b25c3a",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 257.4699589749798
+ },
+ {
+  "id": "03443202-58d2-40f9-9b49-22099d0bf354",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 235.5404170230031
+ },
+ {
+  "id": "fcd4ad43-7a2c-4627-8411-dda3bf285800",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 246.75016710534692
+ },
+ {
+  "id": "2082f45f-cb58-42c6-a004-5421db9ace6c",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 235.48029200173914
+ },
+ {
+  "id": "e3012904-d812-4f51-9023-fb4a0275e4db",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 261.95170800201595
+ },
+ {
+  "id": "e152e6cf-5e49-45f4-b18b-7660c57aff0c",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 246.21454102452844
+ },
+ {
+  "id": "29dcf5d9-563b-4036-9fad-150ae221c0d3",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 240.36541697569191
+ },
+ {
+  "id": "7f576454-661d-4da7-a41d-c4188873d288",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 239.85033307690173
+ },
+ {
+  "id": "5f16fb4c-33ae-4e76-8a99-2473d8657d14",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 238.71145793236792
+ },
+ {
+  "id": "c30b2f7a-3ad6-4926-9ad2-1e89cc6180f0",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 238.4605830302462
+ },
+ {
+  "id": "7c7df8a9-ee4f-4830-b8d2-cf8d54a2c7cd",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 264.20812495052814
+ },
+ {
+  "id": "8da2bcdf-b627-4421-8f04-3fc5dabd0f9e",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 245.77991699334234
+ },
+ {
+  "id": "67274e5b-18dc-46b1-bd6d-e5b4ad4819a5",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 235.95624999143183
+ },
+ {
+  "id": "e5a3f1e9-ddf4-4243-b319-ad63860b8e3b",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 261.95599988568574
+ },
+ {
+  "id": "dd3917f8-1ec0-4618-ba6d-16d5c6362cbf",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 238.64112491719425
+ },
+ {
+  "id": "9472e8f7-c763-4f7c-87d8-7e6ffb9ffb0e",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 243.70083294343203
+ },
+ {
+  "id": "9c3a9e33-b995-4b49-9c38-6b7327e8b052",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 240.78633298631757
+ },
+ {
+  "id": "baa86adf-f970-40cd-bd1d-5c3b58725b7e",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 234.40895800013095
+ },
+ {
+  "id": "a69d49e9-4266-4c9b-981f-ac8d79632c96",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 229.0435420582071
+ },
+ {
+  "id": "03a649ef-4aad-4eb9-9114-bbbbf9ca1cf9",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 235.97287491429597
+ },
+ {
+  "id": "6065e474-a320-441e-915e-8057573029fe",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 256.92075002007186
+ },
+ {
+  "id": "d3625c0c-ad5e-45ae-b19e-817a8860a72b",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 227.12391591630876
+ },
+ {
+  "id": "27fa2f0d-fae5-42e5-b82a-7e16e61b85a8",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 351.50316695217043
+ },
+ {
+  "id": "fc239189-3636-4444-9da9-83f75bff29ca",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 251.83154200203717
+ },
+ {
+  "id": "617a0d0a-a160-4643-9ebc-51863e9a67b1",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 265.7832079567015
+ },
+ {
+  "id": "bbe4ee7e-d0f6-478d-b3df-86ba30696757",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 236.77733296062797
+ },
+ {
+  "id": "d3a5a2ad-f22f-4b61-8a16-5995e9246a42",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 248.158041969873
+ },
+ {
+  "id": "11ca6def-5b57-4286-ba6c-75a139ad8b96",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 250.15345797874033
+ },
+ {
+  "id": "26cb3c0c-5873-4f2f-837b-e00fd4d393e4",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 250.3623339580372
+ },
+ {
+  "id": "c7138231-f30e-422e-8761-2e6e73b92b93",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 235.2258749306202
+ },
+ {
+  "id": "9eb41b32-6163-47b7-ac9b-310d97b2cc83",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 252.39416700787842
+ },
+ {
+  "id": "b20b6ecc-f602-4aef-8c62-2d79e9547e3a",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 237.5128329731524
+ },
+ {
+  "id": "c9cf98bc-59d6-4cf2-b62c-0473ae094cee",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 251.71233410947025
+ },
+ {
+  "id": "2bf3162c-8dbd-4305-8dbc-b765998783fa",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 237.81033407431096
+ },
+ {
+  "id": "bd97b884-fdc8-4aad-8f09-67ef16c42f9d",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 246.15754198748618
+ },
+ {
+  "id": "822b0177-e57d-4f33-9a97-79fabf15c19c",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 241.16766697261482
+ },
+ {
+  "id": "4278694b-0ac1-465d-b46f-27caa7e3c079",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 245.07029191590846
+ },
+ {
+  "id": "ff9815f7-9902-4f51-be8c-1d95cc426a67",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 244.05745801050216
+ },
+ {
+  "id": "12cc7435-8bd5-4079-b1b5-ff2c6b37d659",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 231.13279091194272
+ },
+ {
+  "id": "9408701b-0579-4ec0-8070-85fa1315efd1",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 236.72545806039125
+ },
+ {
+  "id": "d366cd1f-4d23-4bda-ac16-79f5ebd68436",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 241.05104093905538
+ },
+ {
+  "id": "5212d7fa-e3c4-4e26-9783-dfe560817eed",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 246.75720802042633
+ },
+ {
+  "id": "fe6abbd4-1e28-40bb-b9c4-f34d84541641",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 292.5897079985589
+ },
+ {
+  "id": "287a2a3a-f934-46ef-bad5-a403b584a941",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 229.81016605626792
+ },
+ {
+  "id": "ef5a4aef-3f47-4c4f-afa6-a2b8f94ffca1",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 230.03466695081443
+ },
+ {
+  "id": "4db95b97-2184-4cca-a5e7-6a0ef75e41f4",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 237.3433749889955
+ },
+ {
+  "id": "111918b1-9b83-4771-a7f1-c6dcce735323",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 239.14504202548414
+ },
+ {
+  "id": "890c4f1b-4e1d-44b5-8485-86ca794d6864",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 252.84266599919647
+ },
+ {
+  "id": "4beb3a77-7e6c-4dae-9a73-72a045169bb0",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 232.86541597917676
+ },
+ {
+  "id": "c45c71a0-4945-44c7-aa9e-3fe3072a15c9",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 246.02158297784626
+ },
+ {
+  "id": "8b6fd2c6-176c-4bf4-996f-f9bd0922c865",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 235.09987501893193
+ },
+ {
+  "id": "458f688f-3e92-422e-97d6-7535131658f4",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 251.84895901475102
+ },
+ {
+  "id": "2a0bda66-6118-4582-a5ef-d80b01d3da39",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 289.28124997764826
+ },
+ {
+  "id": "2917d648-c004-40a0-bcff-0fee54bdf65c",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 259.36954107601196
+ },
+ {
+  "id": "3876e568-b745-4f93-9f6b-64bc9844b88c",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 278.6591249750927
+ },
+ {
+  "id": "677b8954-cba4-4c7d-9c6d-fe52c9bfe6ab",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 271.0739999311045
+ },
+ {
+  "id": "216e518e-c9f6-43f8-aef6-1a3c72f63e93",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 271.13762497901917
+ },
+ {
+  "id": "03efea84-ec9c-4c72-a8c5-ac7bf69baf56",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 269.4960830267519
+ },
+ {
+  "id": "c7cee21c-9d1e-4163-b5d0-2605c4e163b7",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 261.88754197210073
+ },
+ {
+  "id": "bf4de796-bb9b-4ef1-bfb5-5e995f9d0ae3",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 291.07595898676664
+ },
+ {
+  "id": "155f35db-08e0-45cb-95cf-6dc1b11e05b9",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 301.36708298232406
+ },
+ {
+  "id": "5ade4125-3d90-4d46-a4cc-56703dfa9f56",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 260.87620796170086
+ },
+ {
+  "id": "971ce79c-3040-4464-8074-f98c5d24b356",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 301.21041601523757
+ },
+ {
+  "id": "7d77d7cf-48db-4355-a7fa-87c13dfe3cf2",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 255.69841696415097
+ },
+ {
+  "id": "4f908682-f77b-4724-a947-3fd0bbe6e133",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 268.8182080164552
+ },
+ {
+  "id": "c3b7962f-38ae-4736-ae3e-4e48991f3380",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 272.5095829227939
+ },
+ {
+  "id": "0400ab69-aca8-4dfb-8142-12fad000b445",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 275.11299995239824
+ },
+ {
+  "id": "f6aee608-9448-45b2-a43e-ee701d8e1917",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 243.2641671039164
+ },
+ {
+  "id": "44c33f95-9c0c-4e50-bd6e-910277a4121b",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 235.33091694116592
+ },
+ {
+  "id": "6c87b1a5-5b7d-45fb-bcab-08f08df41366",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 291.79629194550216
+ },
+ {
+  "id": "e9fd687d-0a37-4372-bd1a-3ab025f0138a",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 256.6104999277741
+ },
+ {
+  "id": "617cbbfb-4d16-4126-8220-4b87e4711a37",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 297.4499579286203
+ },
+ {
+  "id": "f8df55e3-2f51-41a4-8aae-b99085023388",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 266.2892499938607
+ },
+ {
+  "id": "ffd16601-8411-4974-9b80-b4d6456d6b44",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 260.2559169754386
+ },
+ {
+  "id": "8e402e7d-8d12-4606-b187-706ee5ebc716",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 289.31829205248505
+ },
+ {
+  "id": "839a7bc5-46b9-4f9e-a5eb-494471211bb3",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 280.96887504216284
+ },
+ {
+  "id": "8f637b97-7acc-4203-9019-5188bc8608a1",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 262.5501250149682
+ },
+ {
+  "id": "87a66f8c-fce2-4f5b-9874-b93f52690b05",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 285.6687910389155
+ },
+ {
+  "id": "df0c1856-c9e3-4086-a629-cbaed342f7cc",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 289.58404203876853
+ },
+ {
+  "id": "ac5c24b4-7605-4827-ac6c-480fa668c7c1",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 297.86970803979784
+ },
+ {
+  "id": "778f3881-a2f0-4c27-a0e3-0997117eca1a",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 270.2252089511603
+ },
+ {
+  "id": "551547bb-b5fb-46ae-90d4-6aebb82ed64d",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 304.46595803368837
+ },
+ {
+  "id": "016fc227-3dd0-42e0-aa32-c37c8cef58ef",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 248.35004203487188
+ },
+ {
+  "id": "1f8221f0-7906-4e11-80f3-6cbe38ce49c8",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 226.70491598546505
+ },
+ {
+  "id": "5554582e-3b5d-4e10-a1ae-d7c76fa150ab",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 235.75570795219392
+ },
+ {
+  "id": "5b15a327-fbb5-4e0b-9412-57f4986b09ad",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 243.43158304691315
+ },
+ {
+  "id": "9b12eb4b-6900-44c7-a75e-836bcdd8d037",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 235.43791705742478
+ },
+ {
+  "id": "8cf4e559-f310-4c29-b06b-746f6f750124",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 241.7408749461174
+ },
+ {
+  "id": "18d4d35b-9ef1-4098-be0f-dd6f5cb5531b",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 241.61158397328109
+ },
+ {
+  "id": "92bc9716-dcee-4654-90ce-f07b9a643894",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 230.92787503264844
+ },
+ {
+  "id": "ead20d6a-4030-42ca-b6cb-fd43bd9f5e7a",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 727.3686249973252
+ },
+ {
+  "id": "25f7d42b-3b35-417d-916f-32bb2068cf93",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 225.78249999787658
+ },
+ {
+  "id": "7d8e7851-d7b6-409d-b11c-57850e67c491",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 249.77037508506328
+ },
+ {
+  "id": "adcaa540-53c7-4269-897e-d1d9291d07d7",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 228.05712500121444
+ },
+ {
+  "id": "05b9c962-3a77-4646-809d-04455d1561ca",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 225.56295793037862
+ },
+ {
+  "id": "b217a098-a785-436c-a5e9-259623e48b3b",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 244.86175004858524
+ },
+ {
+  "id": "d2b741ad-4770-4ca4-b7de-3458e274a464",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 253.48312500864267
+ },
+ {
+  "id": "f69b320e-72b6-4027-a5fa-10083b3065b7",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 249.40587510354817
+ },
+ {
+  "id": "a963a08e-1ec8-40d4-9c48-e85acef340cb",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 232.6411659596488
+ },
+ {
+  "id": "56ea5713-9dd9-4b7d-ad46-a8efc58eed43",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 247.57837504148483
+ },
+ {
+  "id": "2259eb78-a924-4a81-8c9d-94d8107a3199",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 239.40720898099244
+ },
+ {
+  "id": "8bd5d5fb-7613-458c-89f8-a1f61270ba31",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 235.0125419907272
+ },
+ {
+  "id": "5593600d-085c-466b-8755-ab3fb9a58af5",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 229.8507089726627
+ },
+ {
+  "id": "26f4a667-959d-45d0-be83-d172f21089f1",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 248.088208027184
+ },
+ {
+  "id": "0d5f08c1-b9d8-4804-a9cd-3cd7729356da",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 254.4772089459002
+ },
+ {
+  "id": "5b968198-07ad-41ba-a785-81b3e5806677",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 243.24437498580664
+ },
+ {
+  "id": "e1b565e5-f3df-42ab-88da-442c4da28ac0",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 234.8993750056252
+ },
+ {
+  "id": "fd7fa731-6bd9-4727-b109-8a166932a8c8",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 243.54529206175357
+ },
+ {
+  "id": "8470679f-b503-4849-9ca8-b37f8342978e",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 230.72154191322625
+ },
+ {
+  "id": "e13be5b4-044f-404c-8efb-a16b14fd3d9f",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 234.32554199825972
+ },
+ {
+  "id": "afb272df-5b9f-44f7-9c00-53e5938bb8be",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 242.02975002117455
+ },
+ {
+  "id": "dc1d07ca-ba24-4f71-927a-5ad9c974539b",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 247.96762503683567
+ },
+ {
+  "id": "2b0a7d3c-2db7-4067-b049-74284314f2d0",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 234.85120804980397
+ },
+ {
+  "id": "b5203ca9-ab2a-49b8-b77b-974a8d067bdf",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 241.1385839805007
+ },
+ {
+  "id": "4ca1cb98-9023-4531-bf94-befd107b8932",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 257.9810000024736
+ },
+ {
+  "id": "bee2f95a-45a0-43d7-8695-cc7a1b7fdfed",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 243.56170801911503
+ },
+ {
+  "id": "7b44231c-a19d-40f8-9eeb-cf363790603d",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 255.5676669580862
+ },
+ {
+  "id": "a70b9344-13fb-44ab-91ce-f76525202802",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 248.9245419856161
+ },
+ {
+  "id": "7127557f-59ac-4847-9fa0-e58d14e8265c",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 235.37479096557945
+ },
+ {
+  "id": "c4c9a4ca-82e4-4e98-a97a-364b80cfdb36",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 230.95545801334083
+ },
+ {
+  "id": "f8ca2de7-d96e-4d64-83c9-1aaf9e7c17bf",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 253.81887494586408
+ },
+ {
+  "id": "3ce40c36-e671-419b-acee-cfddd55e1de3",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 241.32979195564985
+ },
+ {
+  "id": "9e6252ed-1091-4f9e-a000-a93711581fa1",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 239.3411670345813
+ },
+ {
+  "id": "14019bee-7935-4df7-8f15-b6d13264c020",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 225.36645794752985
+ },
+ {
+  "id": "114068ef-a5de-4486-8ba5-0b10d5d0f567",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 239.45820797234774
+ },
+ {
+  "id": "1196fc81-67e3-4acf-bfea-6b0a6ee04883",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 234.35129201970994
+ },
+ {
+  "id": "c5999b20-9e21-449e-b8a8-69b6e4538f0f",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 246.44024996086955
+ },
+ {
+  "id": "0d04aeff-4e5b-406b-b6ff-ec7f1834ec07",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 253.29079199582338
+ },
+ {
+  "id": "b86f6955-e209-4bf0-a8a0-dc08dcfee8e7",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 237.30870801955462
+ },
+ {
+  "id": "07e93e34-9274-49fd-80e9-b5feb447175f",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 240.98499992396683
+ },
+ {
+  "id": "dfb42beb-cc37-42cb-baa8-579d663d5c70",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 246.33379199076444
+ },
+ {
+  "id": "fe4221be-2d3c-4d0a-a1ac-b7834241dec8",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 237.79204196762294
+ },
+ {
+  "id": "8cc041d7-95ce-4810-91e7-206e2634eb7f",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 249.02783299330622
+ },
+ {
+  "id": "ef73fa0e-f011-4cba-a865-3b10fee539de",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 232.45999997016042
+ },
+ {
+  "id": "efb8dfcb-f793-486c-a769-d34c6b4ed7b8",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 233.6497080978006
+ },
+ {
+  "id": "1281bbe5-6434-419e-b456-9e681c51bef4",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 238.19449997972697
+ },
+ {
+  "id": "112541fb-7073-49e4-8e30-9d0240449841",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 257.0977919967845
+ },
+ {
+  "id": "788bee7d-87f8-48a9-b794-faa341bcf9ed",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 263.77812505234033
+ },
+ {
+  "id": "29215f69-48a2-4eb4-b2f9-383ae77b0f6f",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 271.6404589591548
+ },
+ {
+  "id": "03eac3b7-5a6b-447b-8352-7838eee440ff",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 276.604791986756
+ },
+ {
+  "id": "1ca93e17-35dc-47b7-99a2-57478d3138f0",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 361.51245806831867
+ },
+ {
+  "id": "f5139183-30a7-4a7f-a525-186cc688b867",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 271.3170420611277
+ },
+ {
+  "id": "bd912824-6345-4f4b-b60a-735bb809bff2",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 276.99387492612004
+ },
+ {
+  "id": "92fd79d3-262e-40a1-a9dd-27c123602644",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 285.81237501930445
+ },
+ {
+  "id": "0e3be8aa-9fc9-429c-829d-c431974eea0b",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 284.5836670603603
+ },
+ {
+  "id": "3f01bd90-4c7e-421c-8393-82cfe4297ac4",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 262.55200000014156
+ },
+ {
+  "id": "3834d509-e741-4a1f-905f-cbd7d5519001",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 272.8407500544563
+ },
+ {
+  "id": "bdd02d5f-3b64-44bd-ac7a-feea9e6749be",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 250.9571659611538
+ },
+ {
+  "id": "dfd37224-8d90-40c6-873c-925a4c800559",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 266.7355409357697
+ },
+ {
+  "id": "29b9b676-1681-4dd0-b903-845798d545f8",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 232.90854203514755
+ },
+ {
+  "id": "e7a14cbb-1e5a-41a4-b5c6-75fb7e31dc95",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 247.945333016105
+ },
+ {
+  "id": "c8d83563-baab-442c-ab1c-c5c86b0bfe77",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 233.80904190707952
+ },
+ {
+  "id": "65c74be3-b5e1-4a02-a115-021ded428f17",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 254.87474992405623
+ },
+ {
+  "id": "23b37205-f341-4259-bb5d-8b9eb12c2812",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 280.88520804885775
+ },
+ {
+  "id": "66c96505-49e7-4f05-8863-211d92d4aa82",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 268.3268330292776
+ },
+ {
+  "id": "f79d805c-f15c-4964-8447-b9aaa6e190ef",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 293.6281249858439
+ },
+ {
+  "id": "6c9e24a7-a543-4d25-9c2e-21c793684cca",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 284.553499892354
+ },
+ {
+  "id": "8c80576c-9c6d-48bb-a0f7-8abd4a0c415a",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 262.31308409478515
+ },
+ {
+  "id": "c94b9545-f7f4-4f64-a0b2-68c03993e170",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 240.26541702914983
+ },
+ {
+  "id": "766c0e3d-3c9c-4f14-be39-bf68a16ef3b5",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 260.5501669459045
+ },
+ {
+  "id": "038ab82c-655f-4747-8541-baca8aac530c",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 262.7507499419153
+ },
+ {
+  "id": "ef66bb13-8e35-4ba3-a24f-493a3bc9a6da",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 249.82799997087568
+ },
+ {
+  "id": "24fa7882-7b23-4a5e-9fd4-cf437aef8abe",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 238.2795000448823
+ },
+ {
+  "id": "8b48aaff-cbe8-4ab3-b834-f5e8efe95cc4",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 261.8090830510482
+ },
+ {
+  "id": "aa99f44d-bbdd-4c2e-9cc8-1bae860b2565",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 274.18787498027086
+ },
+ {
+  "id": "79966fdd-b557-4b8d-a173-437370a76e61",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 264.5892919972539
+ },
+ {
+  "id": "1e9d13d8-3c38-42ae-81ed-a3a0403b619e",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 271.4510419173166
+ },
+ {
+  "id": "b8b3bb58-baec-44a9-84ac-2935880ae183",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 247.86466592922807
+ },
+ {
+  "id": "4b767f1f-99f2-445c-b2f7-a45a95a47667",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 256.17620802950114
+ },
+ {
+  "id": "0e200b33-2b62-4dd5-bc10-d81356c12d6b",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 266.83812495321035
+ },
+ {
+  "id": "63d47b26-534d-4862-af6b-d8574bc854c9",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 252.9756670119241
+ },
+ {
+  "id": "0d0ac112-8b07-46b7-b4f1-fa433081eecf",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 235.42995809111744
+ },
+ {
+  "id": "40721981-50f8-4858-8e40-d4e1e17860ff",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 246.0913750110194
+ },
+ {
+  "id": "5f4f4896-8875-4c7d-b0b8-7bc338184c1d",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 251.02379196323454
+ },
+ {
+  "id": "b1e67c4f-717c-474f-8bbb-88583fe079ea",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 241.2606660509482
+ },
+ {
+  "id": "cb5d1c09-ec53-4322-aa62-0340ed5014a9",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 233.15120791085064
+ },
+ {
+  "id": "a3c882d4-a51d-45b3-b15a-67bc044050f0",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 248.11787495855242
+ },
+ {
+  "id": "aa2bf951-bd5a-437e-b340-562b3f845be0",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 254.0351670468226
+ },
+ {
+  "id": "42a5b514-a05e-40ae-9a6b-4e8685773786",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 232.37612494267523
+ },
+ {
+  "id": "f41ca68b-2ed9-4629-84ce-d34092cd4c5f",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 230.24650011211634
+ },
+ {
+  "id": "1106c8e9-13ff-4eb6-8a5c-a1a11fd518f6",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 248.35945898666978
+ },
+ {
+  "id": "8fa75872-3ae9-404d-a84a-5cc30bfa94ce",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 251.0534169850871
+ },
+ {
+  "id": "dd864261-7358-48c7-9d42-544d4c7fa0c6",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 228.93087507691234
+ },
+ {
+  "id": "7b95a7f2-7fd9-4ee6-9771-f57bce0bc621",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 244.913584087044
+ },
+ {
+  "id": "a25aeed8-5a4c-409f-92d0-a67f17efa720",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 249.0965829929337
+ },
+ {
+  "id": "cf3f3278-87cf-4801-bd74-a99b35093481",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 244.38420799560845
+ },
+ {
+  "id": "61fd42e2-f5e3-4d24-94c3-8158d67b0ab8",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 249.13795792963356
+ },
+ {
+  "id": "9c391c52-9501-407c-874f-43f9e3284448",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 249.09562501125038
+ },
+ {
+  "id": "545a3b0a-0d93-4095-a08a-247d0c09d281",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 262.083875015378
+ },
+ {
+  "id": "38e39d03-a392-4a89-8438-cdfedff0bb21",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 248.12674999702722
+ },
+ {
+  "id": "6f65fdf7-b8d1-46a8-83a3-dd3fcc200772",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 259.50924993958324
+ },
+ {
+  "id": "2fb73448-2b8d-4393-b522-9ce8394aa187",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 245.51595805678517
+ },
+ {
+  "id": "305b5ae0-b715-4a0f-88fc-f5c7081e59c0",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 245.79033290501684
+ },
+ {
+  "id": "61d2de1e-3344-40b4-b00a-8de347ef5757",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 232.49870806466788
+ },
+ {
+  "id": "a35c9674-4b14-44dc-bb92-6693352fefac",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 226.8306250916794
+ },
+ {
+  "id": "66f0d134-0285-492a-9d58-68f4c6163a80",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 228.391999960877
+ },
+ {
+  "id": "0ca137c4-8b01-4727-8912-0b1e85f29d2a",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 231.9530420936644
+ },
+ {
+  "id": "8d938342-df3d-48cb-8947-b3b9fd2b73fd",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 234.3440830009058
+ },
+ {
+  "id": "3de1a848-cbbe-4c64-b766-a4772e6e9334",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 232.24816692527384
+ },
+ {
+  "id": "a8009204-3462-4d78-8960-23e133c6358d",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 276.02258301340044
+ },
+ {
+  "id": "2d86ab7d-7ff0-4912-8e60-7d2330f871a5",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 236.19237507227808
+ },
+ {
+  "id": "5980e1a5-1a3c-4eed-a219-feb8ac608c02",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 234.36695896089077
+ },
+ {
+  "id": "034406d1-ebea-4851-9d56-82663a395ed7",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 248.30595799721777
+ },
+ {
+  "id": "cb1b8e49-5e68-43b5-92e8-1db2ff6e6803",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 235.54541601333767
+ },
+ {
+  "id": "2da546d2-dbab-4fe7-bcd3-8cb02b5f8357",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 234.88354205619544
+ },
+ {
+  "id": "0d8d7161-1c80-4213-b5c2-f75cc7c39f49",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 263.62337497994304
+ },
+ {
+  "id": "d0e6905b-73cf-4415-b847-130854f129e9",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 253.59750003553927
+ },
+ {
+  "id": "3ce7158a-3ace-419c-bbf5-51ae23c97e22",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 251.39516592025757
+ },
+ {
+  "id": "0b74e214-f8d0-40cc-bb90-b853b346a37e",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 238.2253750693053
+ },
+ {
+  "id": "f15841ca-777a-4c3b-ba4c-06b0cf87a0a4",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 239.33758295606822
+ },
+ {
+  "id": "7b093b32-89d8-4018-b165-31fdeb7a7874",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 247.35970806796104
+ },
+ {
+  "id": "c4c2a9cd-f7cc-4f4f-82b1-b1ddb2ebc039",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 241.0488750319928
+ },
+ {
+  "id": "a5e8170e-63a9-4a55-925b-b2aee3fb4c28",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 253.71229206211865
+ },
+ {
+  "id": "3afc5774-3db6-405e-8da6-75f2c292ab0a",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 252.2511249408126
+ },
+ {
+  "id": "beae128c-cbe0-4e2e-b332-1b52a22e7900",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 255.36033406388015
+ },
+ {
+  "id": "f6602183-19e8-4e72-8fc9-7007eec33557",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 240.45579100493342
+ },
+ {
+  "id": "8ebc6889-4b68-4004-ab14-833b1f7e3266",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 245.5329999793321
+ },
+ {
+  "id": "d61a2187-d350-4ecf-a780-4d632142922c",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 229.67312496621162
+ },
+ {
+  "id": "f218501d-9d8b-426d-9933-49d3b8b6374f",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 244.27829205524176
+ },
+ {
+  "id": "4b1c7c88-8202-4c48-8a94-a63315a115b9",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 299.903167062439
+ },
+ {
+  "id": "8e2d9471-40ad-4f0a-a24d-c4b2458e7560",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 233.77854109276086
+ },
+ {
+  "id": "f82caced-b23f-4807-b682-09fdc3b0bcf4",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 246.65620899759233
+ },
+ {
+  "id": "d33e6704-4373-4087-a450-a4db00627993",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 237.1834999648854
+ },
+ {
+  "id": "100b6c74-5727-493c-8694-0eb513891314",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 248.24691703543067
+ },
+ {
+  "id": "83c9ee1c-4fc8-42c5-bda2-fc557ed5384a",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 240.47379195690155
+ },
+ {
+  "id": "fbebcd11-ad77-48f1-9215-98466968f30b",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 241.02112499531358
+ },
+ {
+  "id": "4bb80b9d-9ef8-492f-9f0a-c25904131e18",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 260.1868329802528
+ },
+ {
+  "id": "8750943a-0388-43c3-b083-757cd2a4a9ba",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 240.55929202586412
+ },
+ {
+  "id": "526cbab1-884a-433a-8505-214ad5bfe6f6",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 247.68108304124326
+ },
+ {
+  "id": "48a75762-82bd-49b6-a2a1-601bbea57adf",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 245.31516595743597
+ },
+ {
+  "id": "39304a7b-148a-4a30-a14a-44ec75399c52",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 235.9081250615418
+ },
+ {
+  "id": "a1d39eb3-21e4-47f4-85be-2df72b490936",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 232.10000002291054
+ },
+ {
+  "id": "7eb6408e-163a-49bc-9311-52b8eb8becde",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 241.09133298043162
+ },
+ {
+  "id": "199399bb-e26e-455f-9205-d60c25776bdb",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 238.800875027664
+ },
+ {
+  "id": "2b24659d-42a1-4d56-a2ad-e35ae53736ee",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 249.31095796637237
+ },
+ {
+  "id": "233a2d44-119b-470e-afba-4430973d219f",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 257.66549992840737
+ },
+ {
+  "id": "0ffe80f6-861d-4caa-a015-a076caa02372",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 246.53899995610118
+ },
+ {
+  "id": "7d6c0bf3-682a-4050-aa8e-9e86ae0959da",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 236.9455830194056
+ },
+ {
+  "id": "622cb8f9-e7c6-4159-8461-2ef13398f77c",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 243.0643750121817
+ },
+ {
+  "id": "ad5e89f6-eec4-40cc-9af5-779ee3c6b99f",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 237.08045901730657
+ },
+ {
+  "id": "245a1c91-c91f-4ec6-b8ca-c5171c151be2",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 253.72608297038823
+ },
+ {
+  "id": "18b38a38-6e8b-4536-89b1-46e43db2c17a",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 230.62649997882545
+ },
+ {
+  "id": "fff8753b-22d7-4304-b69a-a01cb339f2ad",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 223.6384170828387
+ },
+ {
+  "id": "4ab0be58-691f-4237-850d-ba7c1c1ee93d",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 236.7892919573933
+ },
+ {
+  "id": "5ba042b3-a703-4918-8218-338f2f941063",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 232.48875001445413
+ },
+ {
+  "id": "5f00f0a5-c0ee-412f-b5c3-cef2dafa8529",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 230.92170897871256
+ },
+ {
+  "id": "1fa13e0f-dc0c-4b13-b766-c0e5918f1ab9",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 242.59420891758054
+ },
+ {
+  "id": "24509fb5-f1a6-405a-8865-e846a2c3e286",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 233.2298749824986
+ },
+ {
+  "id": "2620ba73-c643-4e68-a47d-291ec857d0ca",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 252.8550000861287
+ },
+ {
+  "id": "f5a81467-75f6-453c-ba83-c8b066d50679",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 245.37620809860528
+ },
+ {
+  "id": "58315ef9-4547-4a52-9ff1-628a84204103",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 232.2354579810053
+ },
+ {
+  "id": "0d28df09-0d21-4f38-9c99-3364936828f7",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 241.12408293876797
+ },
+ {
+  "id": "c2797781-2e9c-4e94-8b44-16de8c41de69",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 257.5347500387579
+ },
+ {
+  "id": "abea4094-31f4-42ee-b26d-27348715556e",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 241.11062509473413
+ },
+ {
+  "id": "59f02457-7718-45bb-a5f5-23d81ab76c41",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 244.6000420022756
+ },
+ {
+  "id": "470e8369-3a16-4f1a-89bc-fc2cfd56dd33",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 250.05762500222772
+ },
+ {
+  "id": "4e9cbcc6-69f0-4695-8e06-9789557fbf71",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 254.9669169820845
+ },
+ {
+  "id": "ae34fdce-e074-4d27-ae30-d11c533f69a6",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 237.84225003328174
+ },
+ {
+  "id": "5e836599-a381-4ff5-aa76-915a095cd2a7",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 249.16041700635105
+ },
+ {
+  "id": "aaeeb0fb-6202-402d-be68-cf0d9f9772fe",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 244.55583305098116
+ },
+ {
+  "id": "a95299df-0374-4896-baab-c663fb5fa229",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 247.29974998626858
+ },
+ {
+  "id": "5262bc35-2db0-49b2-a37e-c15d093485b4",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 233.87808294501156
+ },
+ {
+  "id": "9d30b16f-8236-4b32-b3d8-a4bf7f351845",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 231.32020805496722
+ },
+ {
+  "id": "fd88ddab-6910-449b-b093-042845980b28",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 233.45945903565735
+ },
+ {
+  "id": "e35308b2-d00b-4e83-8c41-b5c08b737251",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 245.7357089733705
+ },
+ {
+  "id": "0fc91fc2-ae16-4c93-97ad-1b34bdd46e28",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 240.8171669812873
+ },
+ {
+  "id": "495a2c40-0ad0-4b68-b2a1-48fb61e3feb2",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 235.63975002616644
+ },
+ {
+  "id": "72de877d-b99c-404e-8eb9-588a4eddbdf9",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 253.8434590678662
+ },
+ {
+  "id": "cd80ba26-cfac-451f-8d6a-500bee1a068e",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 235.38450000341982
+ },
+ {
+  "id": "ee619534-5e2f-4455-9ba6-f5ade414e0d1",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 246.51487509254366
+ },
+ {
+  "id": "5a1ea2fc-9f1f-4614-b1b0-a68f37af54d9",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 237.0225409977138
+ },
+ {
+  "id": "c094a013-65d9-4fed-9951-c6d13cd1edfc",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 239.7640000563115
+ },
+ {
+  "id": "0e9c3389-c0b4-49aa-b562-877db0176969",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 243.3157080085948
+ },
+ {
+  "id": "b932ead0-60fc-4472-b3e7-bfe121b20a2f",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 249.43791690748185
+ },
+ {
+  "id": "df1a8bb5-cc02-4e48-b818-6427150c6efc",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 235.3640829678625
+ },
+ {
+  "id": "a6195691-1b97-4722-8c7f-1a1c44aaebfe",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 245.38058298639953
+ },
+ {
+  "id": "debdaa18-8884-43b4-89e8-be762625de0f",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 235.68712500855327
+ },
+ {
+  "id": "2cf9b572-5d90-4a5f-9cdb-b4866000ad12",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 252.34529201406986
+ },
+ {
+  "id": "b0e10a8c-1253-47ba-a854-71b0dfe9d4bb",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 241.2646251032129
+ },
+ {
+  "id": "6f762b80-1feb-4d2c-8b18-1ddcf852e116",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 241.69062508735806
+ },
+ {
+  "id": "5d68587a-b3bd-4cc8-80b8-009b39957a31",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 251.7362500075251
+ },
+ {
+  "id": "d435295a-2374-47de-9b70-be7333502663",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 247.48583394102752
+ },
+ {
+  "id": "50b9ac27-bf7b-4136-9b3c-c52e8f7fb1d5",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 246.40016700141132
+ },
+ {
+  "id": "c26333db-6884-4bb6-9be3-106e297ec4fd",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 235.49816699232906
+ },
+ {
+  "id": "e33cbaa4-8571-4449-b228-c33668451a76",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 234.68750005122274
+ },
+ {
+  "id": "a738f72d-35b8-47c4-a8e1-1bbdefa857b2",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 250.9510840754956
+ },
+ {
+  "id": "565c474f-42b0-45c6-b5b8-ed0f73e44043",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 241.1243749083951
+ },
+ {
+  "id": "0e94bb9b-6e3f-4ab2-83f8-3d7bfab4a97d",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 232.90604108478874
+ },
+ {
+  "id": "4f1775d4-dd05-4372-8ff0-6d84e1a6e06f",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 243.2736250339076
+ },
+ {
+  "id": "0f87f363-5e85-4107-a0d4-59157b6c357c",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 267.0019579818472
+ },
+ {
+  "id": "500a70d7-ed88-4a28-95ee-e58aba6be3f4",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 246.5510000474751
+ },
+ {
+  "id": "aafd2563-0fc3-426c-a8d3-93f4bb8db725",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 256.59795803949237
+ },
+ {
+  "id": "5a7b4767-136c-4c03-a19d-39f6cce04463",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 246.6738329967484
+ },
+ {
+  "id": "eb94a3fa-7614-495e-a650-ce03cbdb3681",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 252.3844160605222
+ },
+ {
+  "id": "197e2676-1308-43e7-94de-3273c337ae49",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 239.95316599030048
+ },
+ {
+  "id": "42e11a3b-0b3a-4690-9beb-7ab65d3ac1cc",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 263.48108309321105
+ },
+ {
+  "id": "d48dac6d-cc53-427a-a142-08cfb643f66d",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 258.8559999130666
+ },
+ {
+  "id": "8f12f898-a11f-47ab-9d97-c2adaf2b75d4",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 240.7417920185253
+ },
+ {
+  "id": "62022dd5-cf63-49b9-ad77-1f0b1812a259",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 244.41962502896786
+ },
+ {
+  "id": "a63171d2-2cd5-4808-9ef8-9a546089528a",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 255.49224996939301
+ },
+ {
+  "id": "3517c859-9503-455d-8acd-a363cac0e8c6",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 239.48320804629475
+ },
+ {
+  "id": "df5c92c9-0f51-4f55-9db7-63e5098a77d6",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 231.77841596771032
+ },
+ {
+  "id": "1f1bea3a-8501-46ac-aa8d-fe85a3d861f7",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 239.67695806641132
+ },
+ {
+  "id": "db03c9e8-1ea2-4995-ab4e-6a2528ee0586",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 262.1227080235258
+ },
+ {
+  "id": "03741490-fd7f-4cd2-94bb-e9d75306ebf3",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 271.33275009691715
+ },
+ {
+  "id": "c5940615-5136-4d3d-97a2-a39a70ce4249",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 258.48970795050263
+ },
+ {
+  "id": "f5692908-d50b-421a-96b7-523cfb76c2f0",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 248.8198330393061
+ },
+ {
+  "id": "9469e37e-a12e-4294-aaef-5d17536895d5",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 254.48266696184874
+ },
+ {
+  "id": "59deb434-78a6-4140-84de-0a12b5a70d52",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 264.69983404967934
+ },
+ {
+  "id": "4fe15311-4d1b-499a-bee1-38ddbe2317b9",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 242.24091693758965
+ },
+ {
+  "id": "ad580e8b-285f-4c23-b0af-abdba49615e4",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 248.06216603610665
+ },
+ {
+  "id": "9b0aea28-e90e-4350-82fc-91277306b309",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 239.2040410777554
+ },
+ {
+  "id": "6cd37611-dfd6-4554-ab6a-a4a0d99632d0",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 235.7565409038216
+ },
+ {
+  "id": "b478a5e0-5c3b-4a52-94cc-0c9f9cc84cd3",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 237.91424999944866
+ },
+ {
+  "id": "61be708d-7a4f-46d5-8655-ee3b22ca799e",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 233.00141701474786
+ },
+ {
+  "id": "1681dcb6-d7de-403c-b8e4-fc14fdac2f81",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 234.70995901152492
+ },
+ {
+  "id": "82c14a94-f88c-4b22-a9bc-a8b6246f9107",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 232.6352499658242
+ },
+ {
+  "id": "e72adef2-8366-474c-bad3-13c620b2f9b4",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 266.2158750463277
+ },
+ {
+  "id": "fa317ecf-a93f-486b-8af3-9eefda4d2e6f",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 232.30450006667525
+ },
+ {
+  "id": "91320919-f4a0-48a6-bbe1-f0f9b09dbd4a",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 246.96183402556926
+ },
+ {
+  "id": "2e83478a-f515-485c-925f-ea3a8c55007b",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 233.87116694357246
+ },
+ {
+  "id": "78bcb269-58f1-47d9-8958-77e1b4955115",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 257.533208001405
+ },
+ {
+  "id": "c5953255-560d-4ec5-82ba-8afee6bcfe02",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 240.64820900093764
+ },
+ {
+  "id": "6a453693-e9c9-42dd-9e50-719ea44aa592",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 239.53720892313868
+ },
+ {
+  "id": "ed4482b5-a6f8-4941-99f9-66d149d4bb94",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 241.37133394833654
+ },
+ {
+  "id": "472c09a4-aa1b-49a7-8683-5d940690efa5",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 236.09362507704645
+ },
+ {
+  "id": "16b5e7f1-0f17-47d3-9e05-b7ef12f52617",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 242.51191702205688
+ },
+ {
+  "id": "63c4b4e5-d4f2-42d6-a3f2-2182a80a792f",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 230.9859589440748
+ },
+ {
+  "id": "75be28e2-2199-4006-95db-66771af4d332",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 239.1638329718262
+ },
+ {
+  "id": "d6627e48-f8e8-4f9e-8c0d-8ed508feca2b",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 249.96716703753918
+ },
+ {
+  "id": "8d8e7cdd-27d9-41a4-b36d-60feb24924b2",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 247.11454205680639
+ },
+ {
+  "id": "1fdbc2f8-0183-4ac0-b68f-530401aded00",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 244.8716249782592
+ },
+ {
+  "id": "fc943407-f4e4-4555-9a53-8e8c593ca4c2",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 235.0483329501003
+ },
+ {
+  "id": "b4aeb2d4-4930-492c-b338-e4bb4194fa63",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 245.26129104197025
+ },
+ {
+  "id": "6103f69d-5d6b-4c09-9fdb-3283c5d9781b",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 244.59541693795472
+ },
+ {
+  "id": "b010a97b-bce4-4270-b481-88a75104dd28",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 247.2194159636274
+ },
+ {
+  "id": "08563248-3949-4f93-8f1c-c9823776b94f",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 237.73358401376754
+ },
+ {
+  "id": "e8eb2a67-207e-400a-835d-55aa079b2422",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 252.01929197646677
+ },
+ {
+  "id": "ebbd8cc5-1368-4f67-a825-87a1f8b6b1ae",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 240.26525008957833
+ },
+ {
+  "id": "40b933e2-f454-466e-9c7a-18e79f447b2f",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 239.67983399052173
+ },
+ {
+  "id": "923c72e1-60da-4e6e-b5b3-b6756c68f312",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 243.18099999800324
+ },
+ {
+  "id": "5c80805f-7931-40c1-b04d-7609b99ae1de",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 246.2170000653714
+ },
+ {
+  "id": "261fb097-f66a-4f88-a152-53e592ab3aac",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 233.5591670125723
+ },
+ {
+  "id": "c23cdd1c-a396-4ddc-ac8a-c2b77fedbded",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 252.5063749635592
+ },
+ {
+  "id": "5400d263-ca52-4b78-9b47-e7f45f506e81",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 240.9529589349404
+ },
+ {
+  "id": "e71d63e6-ee51-491f-8ef2-95c829cd91b1",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 237.34404100105166
+ },
+ {
+  "id": "a61a3566-d64f-471a-a59f-c3563760817d",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 241.72420799732208
+ },
+ {
+  "id": "d22a1da1-e7c9-4e97-af1e-00ad89b27683",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 245.87004096247256
+ },
+ {
+  "id": "5e87ddf1-c1f2-4d66-a1a0-c12a1ff27472",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 247.51975003164262
+ },
+ {
+  "id": "944f5afd-05c5-4e6d-8e9e-46282d7aa13c",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 261.44612510688603
+ },
+ {
+  "id": "2f76e750-ee7f-4444-a1a8-0236cfd4e930",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 254.72620804794133
+ },
+ {
+  "id": "f95c4ff6-e53c-4d95-879f-1637e9e29584",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 234.68133399728686
+ },
+ {
+  "id": "b43c0fc7-66bb-4996-b926-73e37fe395eb",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 258.03595897741616
+ },
+ {
+  "id": "99884b9c-b943-4492-8583-e60ae29c5446",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 260.81933302339166
+ },
+ {
+  "id": "73e0db86-e980-4068-a71b-566defce8076",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 251.06320797931403
+ },
+ {
+  "id": "09dcc1ca-512b-4abd-94e5-5afb13f3783a",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 258.6439169244841
+ },
+ {
+  "id": "bdd32895-bcdd-43fb-992f-2711e658e257",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 238.0271248985082
+ },
+ {
+  "id": "a68f47a6-6cc4-48de-bcba-e323cf4f9fd9",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 236.55870801303536
+ },
+ {
+  "id": "78f7a56b-7a15-4eb2-a008-5372c8af1724",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 229.67933304607868
+ },
+ {
+  "id": "2aa1568e-d1d0-4141-ba40-c826e995fbd9",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 258.4614170482382
+ },
+ {
+  "id": "b17db547-8941-49a1-b54b-9a36666dfa99",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 252.65983399003744
+ },
+ {
+  "id": "3c604a03-0695-4aff-8331-123fbd5322e4",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 266.5243339724839
+ },
+ {
+  "id": "05834920-fcc1-4da6-8722-917ae24beb52",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 249.50499995611608
+ },
+ {
+  "id": "48359a3e-d6e3-410b-b5df-3dd61180b40b",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 255.79295796342194
+ },
+ {
+  "id": "b258e851-f3b0-42b0-b337-98bedfbac853",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 237.36566700972617
+ },
+ {
+  "id": "0ada4c55-0c4b-4ef0-b5bd-fb097fdea739",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 243.23516595177352
+ },
+ {
+  "id": "b85f4eb6-7eb4-4d37-a0c3-f0460dd66cbc",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 234.99508306849748
+ },
+ {
+  "id": "7c48068d-ca9d-417f-8de4-16980ce5d9f5",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 248.66849998943508
+ },
+ {
+  "id": "55d2fae8-ce7e-40ca-a100-b1b3e865bc8a",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 241.3791249273345
+ },
+ {
+  "id": "bea158ff-0f04-474e-a348-e87ed8570a49",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 258.4421669598669
+ },
+ {
+  "id": "1d8896e8-5eb6-400f-ae0b-116a5c334d45",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 258.9007919887081
+ },
+ {
+  "id": "f2497d36-79cd-46c2-b8c9-4cd6b5655836",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 253.2018329948187
+ },
+ {
+  "id": "820d9a1b-b958-43b2-bbe9-6d76a7b8ab34",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 262.5123329926282
+ },
+ {
+  "id": "1c9a9a88-67f2-4935-8f28-10a13d2009e9",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 241.32787494454533
+ },
+ {
+  "id": "e7463ce1-8e31-4535-8c37-47e45bd9fb57",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 243.54695796500891
+ },
+ {
+  "id": "8ad0890c-0d55-4bf5-a14b-d3f16dbac299",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 262.25891697686166
+ },
+ {
+  "id": "e4f580d4-297e-474e-beba-349165827ce5",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 241.1179170012474
+ },
+ {
+  "id": "1c7c43e2-40d5-4999-ae34-3b3a3985bf6e",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 253.59008403029293
+ },
+ {
+  "id": "a1a73a01-fbf5-4273-93e6-510ead55864c",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 236.94604204501957
+ },
+ {
+  "id": "a5e77357-4b5b-4d05-bf41-90ee30287d16",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 246.70841603074223
+ },
+ {
+  "id": "26a4f315-41af-4487-810c-00d1192db573",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 230.65124999266118
+ },
+ {
+  "id": "ecf6ce48-7240-47bb-8b2e-ac88d7b15a85",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 257.2901250096038
+ },
+ {
+  "id": "8951a174-fdaa-4b5e-a8b1-e42a508cd30a",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 254.624875029549
+ },
+ {
+  "id": "58749942-9408-4784-976a-1dc1747f9c91",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 251.2014169478789
+ },
+ {
+  "id": "b9941a6a-a1cf-4823-8e1b-157af952293f",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 257.18429195694625
+ },
+ {
+  "id": "6385828b-5d79-42fa-9ec0-e9aa3ecfc441",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 236.65500001516193
+ },
+ {
+  "id": "2b212e76-88a7-41f9-9db4-cc8f1b0bbae9",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 249.733499949798
+ },
+ {
+  "id": "89b56b7f-2bd1-44f5-9c3b-d541bd8431a8",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 249.73570799920708
+ },
+ {
+  "id": "59c2daf0-5e3f-4457-b969-83f45583b332",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 247.17737501487136
+ },
+ {
+  "id": "3eb7f320-474c-462a-98eb-7c379b7a6675",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 251.748250098899
+ },
+ {
+  "id": "fbd82ac9-9b6c-4510-8789-5178f8fd20b9",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 236.70379200484604
+ },
+ {
+  "id": "0381f9b7-5b5a-47c2-93ba-7f2e7c54c8b8",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 238.67033305577934
+ },
+ {
+  "id": "dc80280f-3140-42d6-9979-0febf35c63d8",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 253.19104199297726
+ },
+ {
+  "id": "e7c91fa6-16f8-4489-b854-6a7c6c670ef2",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 233.61258301883936
+ },
+ {
+  "id": "8bfd75ae-5cc3-46a6-8dba-bc50b699a3a5",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 233.0810830462724
+ },
+ {
+  "id": "aac4160b-ce18-45c7-9ce7-05eebfb04c06",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 244.21312508638948
+ },
+ {
+  "id": "31b4176c-2606-4b9a-bcb8-4dcf98270a5c",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 244.5293749915436
+ },
+ {
+  "id": "3739a3c5-c2a7-4b77-96ce-54c0aa0c3a45",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 251.9643750274554
+ },
+ {
+  "id": "710a3868-4772-41ef-9bfb-46c48b8cb865",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 251.12949998583645
+ },
+ {
+  "id": "ab7333f6-769b-4ca9-a949-95b585e1e972",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 254.13562508765608
+ },
+ {
+  "id": "43e072db-d19d-45b9-80b0-7ae2cf292858",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 250.6850000936538
+ },
+ {
+  "id": "e5e848c2-2cdf-4e6b-a808-a2ed3e7065ee",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 251.38733396306634
+ },
+ {
+  "id": "47ec94ab-71e4-4389-a440-dac2a92ff96c",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 251.29579205531627
+ },
+ {
+  "id": "f8c57447-b76b-4c4e-a83b-bc737252afc0",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 247.94812500476837
+ },
+ {
+  "id": "5443fce6-09d4-4c59-b0ca-dd64c8f9e97b",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 234.97912497259676
+ },
+ {
+  "id": "205d4269-1f9f-4c69-9b2e-694d2e232291",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 232.30608308222145
+ },
+ {
+  "id": "f8c98ae1-8fdc-4df3-bf6f-0713926bc2c2",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 247.59187502786517
+ },
+ {
+  "id": "754ae336-567a-4d06-9204-d2f8e734da86",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 244.12612500600517
+ },
+ {
+  "id": "2700bbfb-eb5c-4d57-8ef5-135e8d714c74",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 247.04062496311963
+ },
+ {
+  "id": "27b5e9b1-c8fb-40ae-b546-a2c9d48bebef",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 240.12479197699577
+ },
+ {
+  "id": "67d63386-e609-451d-a3cb-fd16ac0a5a30",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 258.47770902328193
+ },
+ {
+  "id": "5b617d12-1bd8-4271-afff-8f1778c283b7",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 237.9271249519661
+ },
+ {
+  "id": "86a7093c-6a54-4565-8275-edbb347c610a",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 250.51195896230638
+ },
+ {
+  "id": "252a886b-b705-4041-a8ac-7f482683c5d9",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 226.8937909975648
+ },
+ {
+  "id": "58cd5b26-85f8-491f-a44a-e5ed7e446f06",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 255.16195804812014
+ },
+ {
+  "id": "b7f69092-137e-4cc0-9b36-7b421def2881",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 266.4113329956308
+ },
+ {
+  "id": "fb8671f1-3ae6-4ec8-90be-5d7d379403c3",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 266.75133407115936
+ },
+ {
+  "id": "1d8c2933-cdbf-4ca5-97f9-722f2b66e23b",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 229.06545805744827
+ },
+ {
+  "id": "efc6b5f3-cc29-4ece-8919-2641df2d217c",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 248.9449999993667
+ },
+ {
+  "id": "97a37a05-aa71-48ab-8983-dda746e73d42",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 228.39366702828556
+ },
+ {
+  "id": "5dee1ab8-015e-4a31-a222-64ae43fbf603",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 247.31991696171463
+ },
+ {
+  "id": "b6b26c7e-ebc3-413f-87ec-a61b1f1e4fe7",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 263.73216696083546
+ },
+ {
+  "id": "0816b8ce-d013-4548-a743-a07641367e24",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 246.7948750127107
+ },
+ {
+  "id": "9dced13d-7f26-4170-80fb-0b51c0b070e9",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 252.57804209832102
+ },
+ {
+  "id": "e086e5ac-b445-46ec-bf3e-78c1b8a9bf07",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 266.9362920569256
+ },
+ {
+  "id": "df0ad2dd-0f8d-44cf-b0b5-9a42d266593c",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 250.57620904408395
+ },
+ {
+  "id": "c52cb67a-ca8c-40be-a598-183e0253c10d",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 244.9440829223022
+ },
+ {
+  "id": "908c8aa6-c8ba-4884-b5bd-5e86e1fd616d",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 253.77537496387959
+ },
+ {
+  "id": "fa519479-0a0c-49b5-86ea-4cc030a5ac8a",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 262.53529207315296
+ },
+ {
+  "id": "5ce19067-938e-41f5-acd5-0e8e66683f62",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 226.6507080057636
+ },
+ {
+  "id": "4e78734d-04da-43fe-acde-ba560dccfd2c",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 247.78595799580216
+ },
+ {
+  "id": "7ffe14a2-d948-4703-adbd-93cc90891f77",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 244.76341693662107
+ },
+ {
+  "id": "5b404f5f-0d9b-4737-9de1-14029785d2bb",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 239.00295794010162
+ },
+ {
+  "id": "fcdd414d-a9c3-4203-a4a0-2a0c44e32f10",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 253.37112497072667
+ },
+ {
+  "id": "5b5515b0-781c-46c3-bb80-49da38b2bca5",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 259.5463749021292
+ },
+ {
+  "id": "4f02bfd1-1b36-4036-9bf6-5233fa4297a1",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 227.98445797525346
+ },
+ {
+  "id": "e5d41814-44cf-4679-a5e8-794679028914",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 296.19745805393904
+ },
+ {
+  "id": "ace0e591-000a-4f05-a8da-2732b47f459f",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 247.62466608081013
+ },
+ {
+  "id": "2ef7654c-87d4-4c35-885f-79b74f1bcfd7",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 229.65983301401138
+ },
+ {
+  "id": "2f7df3af-c490-49f9-aa9a-030360689ca7",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 247.1785000525415
+ },
+ {
+  "id": "5d32e726-e1cc-4da7-91ad-e714f14b4daa",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 238.62954194191843
+ },
+ {
+  "id": "19130f9b-5916-4637-ba13-d70f403ba31c",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 232.83925000578165
+ },
+ {
+  "id": "3bfe35a3-204e-43e9-9eea-2e623a621225",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 234.6172920661047
+ },
+ {
+  "id": "8696e719-265a-475f-a2c9-947056a80f7d",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 220.60720797162503
+ },
+ {
+  "id": "ae371746-89ed-45b6-9c35-9ab791bc80a0",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 223.97749999072403
+ },
+ {
+  "id": "8b57cf0d-3ab5-4f65-bf30-d65cd7a1ecb5",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 227.9255409957841
+ },
+ {
+  "id": "9d8b2793-e28d-4960-8f08-cdbd6014bf71",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 238.89762500766665
+ },
+ {
+  "id": "4ba6215c-ee00-4636-bfd5-0ee171db4433",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 239.65783300809562
+ },
+ {
+  "id": "088c2eab-ed1b-4a4d-b846-1f62a0bcccb5",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 243.95291705150157
+ },
+ {
+  "id": "672c6a87-e994-4542-863e-9d7ea596c996",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 246.04508408810943
+ },
+ {
+  "id": "5e76c7fa-a885-413b-aaf1-1d341df62f07",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 231.4743340248242
+ },
+ {
+  "id": "3871060a-8d44-421b-b8d5-fd1de0eea546",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 210.95249999780208
+ },
+ {
+  "id": "30124d05-6a66-4ac0-a65c-0a2615c4587c",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 247.03983403742313
+ },
+ {
+  "id": "e784b9d4-5951-4d7d-a4e4-52db7a530d76",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 238.06254100054502
+ },
+ {
+  "id": "618c5e39-215a-498d-af94-1dcdbe9fbcd7",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 243.03012492600828
+ },
+ {
+  "id": "87507ac5-ee3b-4e64-a27b-8c5fe43b6341",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 239.7570420289412
+ },
+ {
+  "id": "2fbecd6f-5e91-4d19-b12c-ef68926de468",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 234.7091669216752
+ },
+ {
+  "id": "c5cb2c79-2001-4cd5-b80d-62d34f111b0e",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 243.21112490724772
+ },
+ {
+  "id": "00dc99e6-c5cb-4402-b046-53741cce8c96",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 243.9725419972092
+ },
+ {
+  "id": "df0e4910-7354-45c7-80be-b1e7aa4ab2ff",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 244.26341697108
+ },
+ {
+  "id": "063c8a83-a3a1-47d5-acac-ab91aaea9430",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 249.61350008379668
+ },
+ {
+  "id": "c4395b40-0a11-41b5-a15c-0976d9ae64c4",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 262.02258304692805
+ },
+ {
+  "id": "443085f1-ef20-4181-9dd7-10f4ea92ace5",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 253.5617919638753
+ },
+ {
+  "id": "040ccb13-26e5-4d8c-8f3f-6f273750cd02",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 233.57612499967217
+ },
+ {
+  "id": "e66ee8c4-a102-48b0-a71f-e7300e7a0786",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 258.0207090359181
+ },
+ {
+  "id": "80852add-d4de-4758-8611-ada95a1b3e6f",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 237.27345804218203
+ },
+ {
+  "id": "d75ba9cc-58aa-4889-b415-2b1d43768d95",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 307.3769159382209
+ },
+ {
+  "id": "de38a380-a212-4efb-92ec-8ef84f55fc13",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 247.39641696214676
+ },
+ {
+  "id": "235cc1ec-ff57-4879-9e9c-60784b4bb0b0",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 244.9972500326112
+ },
+ {
+  "id": "55a1e76c-288d-456a-a9e2-5be7ce43034d",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 249.1629170253873
+ },
+ {
+  "id": "7172e128-7bfe-4940-b8e8-0643ea0803ab",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 235.66962499171495
+ },
+ {
+  "id": "76e9e5f0-ec76-45c4-a3bc-0af154466927",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 229.00154208764434
+ },
+ {
+  "id": "81ca3f6e-cc13-4680-ab9f-967fd270fc92",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 242.85720894113183
+ },
+ {
+  "id": "03167efa-28e3-4cbd-8e4c-657042f4c71d",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 229.56879204139113
+ },
+ {
+  "id": "e02689f8-b9f0-4d0f-a865-a2e90d26ff81",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 242.23837500903755
+ },
+ {
+  "id": "8c34095e-ae55-490e-b837-b8b188750caf",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 256.45462493412197
+ },
+ {
+  "id": "0ee4fdd2-b1da-4439-9b49-1d60c15d6f7c",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 234.36712508555502
+ },
+ {
+  "id": "6dd54d01-cbd2-40b1-8764-b0ec4960581b",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 234.90566690452397
+ },
+ {
+  "id": "850d9862-de58-4d85-8e26-0631b042b79a",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 246.54162500519305
+ },
+ {
+  "id": "f85265d4-8cf6-473c-92e2-60186d79428a",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 242.16812499798834
+ },
+ {
+  "id": "d6caf852-75db-4cd9-8820-df7a1747cd69",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 236.0197079833597
+ },
+ {
+  "id": "0eb950a2-8f0a-4526-8813-e613d0005f16",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 230.918041896075
+ },
+ {
+  "id": "727117ce-e788-40c3-a76d-36e21996b208",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 236.94962495937943
+ },
+ {
+  "id": "1ef9f1ca-59db-491f-8198-0fa818446f12",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 242.60245799086988
+ },
+ {
+  "id": "ebee163d-85f7-4012-b968-2dd6fe5c6117",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 237.85550007596612
+ },
+ {
+  "id": "0a414308-70d2-40b8-b181-17e4874fc065",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 228.65604190155864
+ },
+ {
+  "id": "9a5aaaf8-d7cd-4f4b-955b-7502f0f8992e",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 230.59620801359415
+ },
+ {
+  "id": "22929dc7-c75d-46cd-9b07-47e6ba9f1724",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 240.2099169557914
+ },
+ {
+  "id": "6edc4c22-12a7-4d14-bbff-3d98319e31c5",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 233.54799998924136
+ },
+ {
+  "id": "a988bf67-04f2-42be-8f47-ad0f178b6aa4",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 244.46666706353426
+ },
+ {
+  "id": "236089a2-62ba-4aa4-871b-1825b9173f75",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 236.1267500091344
+ },
+ {
+  "id": "6f42dab9-e5e9-4e20-9479-6a2545a39aac",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 245.27066596783698
+ },
+ {
+  "id": "8840dd56-cb1a-43f4-bc02-b8f20da45279",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 249.15254092775285
+ },
+ {
+  "id": "1751fb33-d1b5-40ea-a486-2e638db19db4",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 242.3227080143988
+ },
+ {
+  "id": "0f3ffd20-67ab-4057-882f-41fac12d4eb6",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 236.06233403552324
+ },
+ {
+  "id": "b495630a-bd40-4afb-aa2b-b18ee0f456c4",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 256.25570898409933
+ },
+ {
+  "id": "9d4630d9-82da-4ed0-b686-dd405dc43b3f",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 236.38587503228337
+ },
+ {
+  "id": "36c9e4e7-d2b8-4989-bfab-0e16049968d0",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 248.67408396676183
+ },
+ {
+  "id": "7d4294e4-d627-434d-a80e-8295ed2a5187",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 249.40212501678616
+ },
+ {
+  "id": "300edbb4-36df-4627-a604-0a93edb26192",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 245.88225001934916
+ },
+ {
+  "id": "9e565bbe-da69-4277-8211-667eac44457f",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 232.42587491404265
+ },
+ {
+  "id": "eada9e6d-964a-44dd-82bc-188ddc13bbdd",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 232.48283297289163
+ },
+ {
+  "id": "a13119a5-bdcc-41bc-9382-603c20866fdd",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 240.48820894677192
+ },
+ {
+  "id": "c476d578-5cfb-42ab-bac3-890bf0c8bfc1",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 267.38554204348475
+ },
+ {
+  "id": "f4f0bcbe-d34b-4739-8758-a4e17556a32d",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 245.51112507469952
+ },
+ {
+  "id": "2cbcdbf4-7cbd-4169-90ab-ea9b9bda7544",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 256.2662089476362
+ },
+ {
+  "id": "306365ae-15ff-4f9c-8bdd-a65503076242",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 241.255542030558
+ },
+ {
+  "id": "b2c43f46-4e24-4610-96b0-c6313cb945e6",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 254.44383302237839
+ },
+ {
+  "id": "f66dd8d9-f9be-46ae-ba9f-bed3f07aa82e",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 244.56866702530533
+ },
+ {
+  "id": "54e54efa-76ea-4023-a04b-d8f4e2498f56",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 246.7444579815492
+ },
+ {
+  "id": "3da60b58-1f09-4764-bcb8-7ec10b96d1af",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 232.06608300097287
+ },
+ {
+  "id": "d71c1ba0-bc4c-44ea-a1e6-ca2182c8bc0c",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 254.09633305389434
+ },
+ {
+  "id": "33ed28b9-fbeb-4a8a-85fb-7927bf405f30",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 233.53545903228223
+ },
+ {
+  "id": "03ff4299-b0e2-4b3d-9b14-f6880db2aeb3",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 231.62304202560335
+ },
+ {
+  "id": "410ee6c9-fcdc-45a1-a6b6-c2ec51d8128c",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 242.41399997845292
+ },
+ {
+  "id": "0f560dcc-d3da-4168-ad2e-9d01f46ae122",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 251.06670893728733
+ },
+ {
+  "id": "29a15408-96eb-4378-b8f3-42d05f40f3c8",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 234.63754204567522
+ },
+ {
+  "id": "df0ac2ed-57f8-46d2-9976-6ffd5f830af9",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 238.80216700490564
+ },
+ {
+  "id": "661e046c-a7a4-435c-a420-16bad47b1e2e",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 247.11287498939782
+ },
+ {
+  "id": "2ce11417-f183-470e-9b1f-a9561b88d44d",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 246.94724997971207
+ },
+ {
+  "id": "f32a25c2-3596-4328-9a63-bbb058ede574",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 237.11987503338605
+ },
+ {
+  "id": "255a03b9-f8af-4c44-ae60-67f05a343556",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 225.22787493653595
+ },
+ {
+  "id": "ab9edf8e-01a9-441a-9ec6-41bfe83bbcb0",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 249.29208296816796
+ },
+ {
+  "id": "095a14c3-1837-4361-921c-b4b4e7b7012e",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 250.53729198407382
+ },
+ {
+  "id": "d9a0adaa-e7dc-46ca-b3ce-848591ebf566",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 257.1013749111444
+ },
+ {
+  "id": "8cf846e3-2db8-4320-bc60-6d947856e076",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 305.0632909871638
+ },
+ {
+  "id": "321cbd6a-892d-405b-bad0-486963b1ffdc",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 223.4475410077721
+ },
+ {
+  "id": "afa6e6f2-905b-475c-84cf-a4186a53540b",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 228.83008397184312
+ },
+ {
+  "id": "f2ac6ec7-45b3-4dd7-9d42-228fc43fa0dc",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 303.78179205581546
+ },
+ {
+  "id": "53e771ab-d5e6-4c1e-97d4-c970caf7e700",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 239.15304196998477
+ },
+ {
+  "id": "ed64ad49-2df0-4466-89b0-e181cf79e3d3",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 251.99629098642617
+ },
+ {
+  "id": "ae67122e-cbd8-4e10-9a8c-1ef247d49ce7",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 235.7781670289114
+ },
+ {
+  "id": "220e5ff7-ce50-4959-a61b-01db17224746",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 234.46512501686811
+ },
+ {
+  "id": "87f65a70-ea70-4e7f-b363-6d24b6342539",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 240.46533403452486
+ },
+ {
+  "id": "cc31202e-3cc0-45aa-bfc0-97efca9bcf98",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 231.19595798198134
+ },
+ {
+  "id": "673bda24-096e-4849-9d93-0d1576c18d56",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 236.41637503169477
+ },
+ {
+  "id": "8440e014-5ca6-444a-860d-fabc08e46ec4",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 237.60695906821638
+ },
+ {
+  "id": "3af9f4e6-38be-4571-b74f-d626def4742e",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 241.81379098445177
+ },
+ {
+  "id": "71e054bb-420b-4cc7-9761-42d6f2ca26ca",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 244.2949580727145
+ },
+ {
+  "id": "37473ebb-ac2e-497c-803c-379a735db63d",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 247.89187498390675
+ },
+ {
+  "id": "d651c287-d827-43ed-b689-3bbf17fbdda4",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 244.98950003180653
+ },
+ {
+  "id": "83f9a224-43ac-4770-a460-22ed2916efea",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 230.6283339858055
+ },
+ {
+  "id": "474e1e8c-889c-43e2-aa39-cb61f21af105",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 228.47958304919302
+ },
+ {
+  "id": "d4d64a60-1e15-42b7-ad72-5fece4d2cd2f",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 227.37116599455476
+ },
+ {
+  "id": "eea6c532-369c-4296-9cac-2c666fa52e05",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 241.33299989625812
+ },
+ {
+  "id": "0e381f20-1cd5-4fbf-b6c9-e2f669524cc6",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 235.95699993893504
+ },
+ {
+  "id": "1154584e-99ad-4a18-833a-24d2b00a191a",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 239.28758292458951
+ },
+ {
+  "id": "2e083f89-2edf-49e6-bbe2-35809e1b04c2",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 254.68016706872731
+ },
+ {
+  "id": "fad15e9b-826c-4c49-a1db-8797aadd9e0c",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 228.15912507940084
+ },
+ {
+  "id": "f20071e4-b6e7-4e32-ba0a-632122584c6a",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 243.23033296968788
+ },
+ {
+  "id": "67fd5e78-5f0c-44b3-b1c9-b62905b583d1",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 237.03683307394385
+ },
+ {
+  "id": "d9763ab7-0006-41b7-a882-6e5b779ee5ea",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 246.29675003234297
+ },
+ {
+  "id": "56a479ab-ce32-4b75-aa59-0c93f02157c0",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 251.20525003876537
+ },
+ {
+  "id": "41c0561e-01d2-42ee-b07b-e5dce86fd737",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 261.10983407124877
+ },
+ {
+  "id": "8ed27778-d6da-4cc0-8d02-bbfb01b90ce8",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 236.22449999675155
+ },
+ {
+  "id": "9bddddad-987a-4039-8c09-35c1f0456c29",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 239.97820902150124
+ },
+ {
+  "id": "fbfc37d2-8a29-4f6a-977d-8870015533c5",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 230.63654196448624
+ },
+ {
+  "id": "9c2deb1c-d6dc-458a-bc92-cf3961e590ec",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 230.56216700933874
+ },
+ {
+  "id": "1e6e7ed5-0af7-414a-b9b6-4e17d9e088cb",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 253.34733410272747
+ },
+ {
+  "id": "7afe1383-5f7b-4080-af1a-f13c81ee7261",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 222.6247499929741
+ },
+ {
+  "id": "4b98a331-3db0-4ed9-a7cc-24dd6d88836f",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 257.245208020322
+ },
+ {
+  "id": "fa397570-c395-48a9-952f-8221ed1f1290",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 230.41379207279533
+ },
+ {
+  "id": "38f4da29-e88d-4d2f-b4c8-2e666ba7edea",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 235.31495803035796
+ },
+ {
+  "id": "ea689b4f-5818-46d5-9797-580211903105",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 241.74904101528227
+ },
+ {
+  "id": "598a5d43-5663-4205-817b-394dce41ea6e",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 239.53554092440754
+ },
+ {
+  "id": "672e02b4-61bc-4afb-b5de-7d3847f4b202",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 225.24437494575977
+ },
+ {
+  "id": "583a62f2-0989-4b0b-8373-ae503499777c",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 238.47641702741385
+ },
+ {
+  "id": "1223e1de-7017-44a7-8ea9-71bfc822f3cf",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 227.63770807068795
+ },
+ {
+  "id": "866d57b2-2ac8-41ef-adda-e70914db57db",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 245.59079203754663
+ },
+ {
+  "id": "ba422099-fbe4-4699-834f-76fca4292d0f",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 224.6103750076145
+ },
+ {
+  "id": "8e4a7306-d54e-4750-b1da-ea284cdb822c",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 239.10566698759794
+ },
+ {
+  "id": "7d0d1cf1-ced5-4581-8c18-27b47f292594",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 239.18208305258304
+ },
+ {
+  "id": "5cf78857-1914-4c16-9b7a-e4ea5ccbd3a8",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 238.0858330288902
+ },
+ {
+  "id": "18af56e2-a465-4fab-b9e2-25ec1f8b1570",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 236.1969999037683
+ },
+ {
+  "id": "fe6f0986-e220-45a4-b6ee-9db704899552",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 232.81583306379616
+ },
+ {
+  "id": "1730a6c5-5c42-47db-a67f-377dcd1f4638",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 228.35566604044288
+ },
+ {
+  "id": "e0262970-9c63-4d6f-a925-3916e39aed59",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 245.604999945499
+ },
+ {
+  "id": "027f99dc-5112-4886-9a9e-3405e01c8d6c",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 246.37258402071893
+ },
+ {
+  "id": "45f57eb7-fbc3-4c0a-820e-ca20c2a24666",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 250.67204202059656
+ },
+ {
+  "id": "8c97fe4b-555f-4380-ab6d-318b11a3403e",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 259.89783299155533
+ },
+ {
+  "id": "bbcc9e84-5459-433b-a7bd-54f0b71ad3b5",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 252.05341598484665
+ },
+ {
+  "id": "4df61e7e-4393-4ee9-9c97-077e81fe4f9c",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 248.5934590222314
+ },
+ {
+  "id": "ee6f7168-85ee-46ac-a26f-4c3e19696781",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 233.11404103878886
+ },
+ {
+  "id": "8d318b8e-dc45-47ee-8f64-930eb25feb3e",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 248.60579206142575
+ },
+ {
+  "id": "28791150-19aa-4caa-ae18-a712a672ba65",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 223.27050007879734
+ },
+ {
+  "id": "8202eb37-09ca-4234-83d8-bf49ed15dbbd",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 233.16812503617257
+ },
+ {
+  "id": "fb4811f4-1886-4792-b497-2f7dbe087fdf",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 239.64433302171528
+ },
+ {
+  "id": "92e61e27-e6d0-4fae-a605-c4ddde6807b4",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 230.12770898640156
+ },
+ {
+  "id": "b37f6c75-98a4-4311-9f6f-d1fc8735b16b",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 236.2755419453606
+ },
+ {
+  "id": "a31346b4-bd2d-453c-981e-655971c8d44c",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 235.08295801002532
+ },
+ {
+  "id": "d060d9b4-cd0f-4683-9b70-148883a2bd57",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 226.42979200463742
+ },
+ {
+  "id": "476efe7e-1ebb-4b04-a70e-75ad92a5ad26",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 237.10512497927994
+ },
+ {
+  "id": "99f5276a-1a15-4d71-bffd-f9461b2c3787",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 229.74487498868257
+ },
+ {
+  "id": "4005324f-5cbf-473f-80ee-01fe4b095ecd",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 224.04870903119445
+ },
+ {
+  "id": "cf474eec-32d0-4cc6-9e2b-40b4520654ff",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 222.14337496552616
+ },
+ {
+  "id": "297c3d81-5c8d-45aa-aaa0-a182ac4759c4",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 229.52645900659263
+ },
+ {
+  "id": "d7ac4bf6-a37e-45aa-9845-2f241d2d12e4",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 236.20995797682554
+ },
+ {
+  "id": "2003689d-8405-4f0c-a6e7-770d9ea38533",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 251.7090829787776
+ },
+ {
+  "id": "076434e5-e4c4-41d5-957b-bfaa66acb784",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 241.54325004201382
+ },
+ {
+  "id": "071a6369-008d-4f51-bbef-520cdbdb967d",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 237.34054202213883
+ },
+ {
+  "id": "45d268c1-d7a0-47a5-8aa6-9972df5cd0c5",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 232.08625009283423
+ },
+ {
+  "id": "2e7bcab4-bbc8-41b6-9843-47466ff1aa19",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 238.7528750114143
+ },
+ {
+  "id": "3a59edf2-87cd-4d77-805d-36961dbddde9",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 244.59012504667044
+ },
+ {
+  "id": "0114f8da-a53a-4a33-8fcd-394fafe6b246",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 234.76741695776582
+ },
+ {
+  "id": "95e3780b-91ca-44a5-b9b4-1c0c3d96074d",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 241.7891250224784
+ },
+ {
+  "id": "b27e1e0d-f326-4fe6-9158-62eb14d73d3b",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 239.89500000607222
+ },
+ {
+  "id": "6577a1e4-88fd-4f7d-a616-44ff6b74a490",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 244.0554170170799
+ },
+ {
+  "id": "8ca5af9c-b6de-4e10-b40d-b8dc09a34447",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 246.97774997912347
+ },
+ {
+  "id": "f0ec7bf8-2938-43c4-a76c-dd7be7c1cd3e",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 241.41699995379895
+ },
+ {
+  "id": "9675a105-822c-4094-9e9a-7728b42c64a3",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 233.89183403924108
+ },
+ {
+  "id": "9ec5d343-2566-4aa5-95a3-7daee45157ef",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 254.87204198725522
+ },
+ {
+  "id": "87fee1a0-c1db-4df3-98d0-31e392ae7059",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 249.74262493196875
+ },
+ {
+  "id": "7c14c0bc-9786-4103-a432-9353fa461126",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 238.82670898456126
+ },
+ {
+  "id": "ef7bf47b-4134-439c-8e53-515d2d0c8ff3",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 248.23566700797528
+ },
+ {
+  "id": "c599c5d8-58cf-4a52-8517-4226cf4721c3",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 278.94425007980317
+ },
+ {
+  "id": "34b24670-b3c6-4794-a326-fd16b072c779",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 233.5561669897288
+ },
+ {
+  "id": "4fcbe7a8-9017-4ce8-ab27-782fc931873a",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 243.8638749299571
+ },
+ {
+  "id": "86d8260e-03bd-4c11-8864-1ec6315d89d2",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 236.5199999185279
+ },
+ {
+  "id": "633d4438-8a18-417d-a770-1f26b4306b78",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 293.9131249440834
+ },
+ {
+  "id": "66b130c5-ada3-4003-bb5f-84215d423b33",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 242.78912495356053
+ },
+ {
+  "id": "0e0909f9-ccf4-468c-a75a-5d4168973b66",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 237.00779199134558
+ },
+ {
+  "id": "23e77a4e-dc36-463b-b323-0050b249a765",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 232.56095801480114
+ },
+ {
+  "id": "eb834cd4-b4d5-4121-80a4-276b5ef0f963",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 240.35099998582155
+ },
+ {
+  "id": "ab5640ff-af12-40fc-88fb-12c6ea038411",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 245.98041700664908
+ },
+ {
+  "id": "4e6eb886-409e-4279-9173-1133c35648ee",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 233.69883396662772
+ },
+ {
+  "id": "d15fd446-7a7a-42d5-bd4e-11d5fbbb7b37",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 243.5582079924643
+ },
+ {
+  "id": "0001e68d-102c-4cdb-99ce-40e562ad11a1",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 232.55224991589785
+ },
+ {
+  "id": "48e5cba5-ddaa-4216-933c-d884aead9d32",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 249.0912500070408
+ },
+ {
+  "id": "f815b011-a62e-4198-b7c9-9352727f0e2f",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 246.76204193383455
+ },
+ {
+  "id": "7f37c1a3-cffa-4112-b488-8c418a59ecab",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 243.64225007593632
+ },
+ {
+  "id": "23facc02-16a0-4c1e-bba3-ed575296adf9",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 237.3102909186855
+ },
+ {
+  "id": "0ba2f178-e8d0-42ea-b49d-b1a5e72330bc",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 251.94904208183289
+ },
+ {
+  "id": "8155bea0-b018-4144-adef-b685e7903b38",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 252.3341670166701
+ },
+ {
+  "id": "82051eb7-5588-4a26-84a5-2cdb369c2b71",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 254.1890840511769
+ },
+ {
+  "id": "c4a551c1-e5c6-42f4-a402-f3b13701b918",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 236.60258296877146
+ },
+ {
+  "id": "30dbbf78-f63d-4f6b-9c14-8013f9719d31",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 243.30099998041987
+ },
+ {
+  "id": "049d03ec-5f2c-4859-bdaa-41bf3bc95bd7",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 240.98775000311434
+ },
+ {
+  "id": "1c177ab0-c9a0-4779-b5e0-d39b182712bc",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 228.8449170300737
+ },
+ {
+  "id": "1bd8dda9-a20e-4a9b-bb70-b743d9489fe9",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 244.79008303023875
+ },
+ {
+  "id": "3081c48d-6b68-4870-8e96-79c0971d3b36",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 239.2725000390783
+ },
+ {
+  "id": "c4976fe9-e323-4d17-a754-bf76b85bbbe9",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 251.2665829854086
+ },
+ {
+  "id": "488e6dcc-a4b0-4205-a38e-79ed5bc721f5",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 271.2611670140177
+ },
+ {
+  "id": "20b02120-e6d2-4597-b724-e977871e1348",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 240.500875050202
+ },
+ {
+  "id": "9be343a9-e9e9-4880-b6c6-a78c316c39a3",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 237.79929196462035
+ },
+ {
+  "id": "e50e8b99-d44c-4edc-9bb6-60768d85d376",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 246.86658300925046
+ },
+ {
+  "id": "c70f7e0d-fb00-44fa-8a1b-4745c4135a2f",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 225.88466701563448
+ },
+ {
+  "id": "a7408a97-f7c7-412a-a2db-f0161ac3cffc",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 237.36858391202986
+ },
+ {
+  "id": "2a5bc94f-5766-4869-b66c-6d03f7f8efdb",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 246.6730420710519
+ },
+ {
+  "id": "a91134be-45a0-4663-9e7f-bf7e64a2c4d6",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 233.57183299958706
+ },
+ {
+  "id": "aca425e9-a4cb-486d-810d-3e59ff4ee6bd",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 241.79937492590398
+ },
+ {
+  "id": "3c76b050-4d56-4a27-a69e-4b48948dd977",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 228.96504204254597
+ },
+ {
+  "id": "b0035c90-4370-47d3-9e72-44c961dee40a",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 234.11837499588728
+ },
+ {
+  "id": "1360c819-02db-4dd3-bb7b-08d721ca37fa",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 241.32987495977432
+ },
+ {
+  "id": "77d0eee0-099d-4e7f-ba25-92cd739d7257",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 252.1775000495836
+ },
+ {
+  "id": "99749c6b-0671-444c-8750-85e0b77e9449",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 250.28316699899733
+ },
+ {
+  "id": "77913dfb-d870-4533-bb77-748532d7e2bf",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 244.26258401945233
+ },
+ {
+  "id": "9ee94ab9-21e8-4862-b70e-a41ff7212946",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 241.06916703749448
+ },
+ {
+  "id": "391ff2d3-ed7e-4cfd-b25c-79c0688390ae",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 245.21249998360872
+ },
+ {
+  "id": "ede96bc7-69c1-49bd-9961-55386979ec23",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 244.85441704746336
+ },
+ {
+  "id": "21560d77-efda-4fe3-adfe-79e951768e6a",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 244.4872499909252
+ },
+ {
+  "id": "564b2182-bc27-4df9-a6f5-a741415df5cd",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 282.7792080352083
+ },
+ {
+  "id": "31d6deeb-c26d-43eb-a0a9-cae01cc9d981",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 254.4542079558596
+ },
+ {
+  "id": "04a18bb1-2ea2-45a8-b51e-16a286a9c32f",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 246.36075005400926
+ },
+ {
+  "id": "ce6c797d-3c59-4b27-bd22-4519fffa22eb",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 254.96641697827727
+ },
+ {
+  "id": "90429a1e-8850-4c40-8088-7c651b3bb54d",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 238.61787503119558
+ },
+ {
+  "id": "fc6dc806-3575-4549-bd1f-7cc47269ca53",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 245.72591704782099
+ },
+ {
+  "id": "cf3973db-1efb-4dc5-b64d-a9da1095e7cf",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 254.64549998287112
+ },
+ {
+  "id": "3ba5996c-ef96-4edb-a64f-4da7cfe249d4",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 250.68466691300273
+ },
+ {
+  "id": "cff093ef-6685-4792-8861-a29cbfdb74d1",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 248.67883301340044
+ },
+ {
+  "id": "d3ba2b8c-3503-4f8b-9d2e-6b05860bbd11",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 238.9702080981806
+ },
+ {
+  "id": "b3c39167-5cc4-4d9c-a608-0b336f26b501",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 252.32145795598626
+ },
+ {
+  "id": "9b495f14-98b2-4e26-9b25-1b8c2ce295d3",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 251.17441697511822
+ },
+ {
+  "id": "18298321-4ff3-4224-abaa-b90ebf645444",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 253.9759159553796
+ },
+ {
+  "id": "7fe0c924-c361-4ef3-8ae4-0ff6fb82afb1",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 302.7292079059407
+ },
+ {
+  "id": "1a790cb1-70c8-4f85-a119-da97a64afcf4",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 275.5616250215098
+ },
+ {
+  "id": "bbd3349d-6632-42b2-a0a9-f0923dde34e0",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 290.26679205708206
+ },
+ {
+  "id": "78a48dfc-f9b2-488b-b8cd-6ec742710af9",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 226.52187501080334
+ },
+ {
+  "id": "5ad3f9aa-fa9a-495a-847a-0c85e1083634",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 256.36754208244383
+ },
+ {
+  "id": "53b64335-72ae-4203-a804-a5ebe4e6bc7c",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 274.0423750365153
+ },
+ {
+  "id": "e8d23ee6-4d0d-4bfa-9b3f-d566258d8c18",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 281.61916695535183
+ },
+ {
+  "id": "7d661b2c-3e28-4f52-80cf-1011e9e647a7",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 236.28308402840048
+ },
+ {
+  "id": "83e6ce2c-4621-49af-ae86-69b7372e5773",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 253.92387493047863
+ },
+ {
+  "id": "3ea5fb1e-a567-46d4-a986-6b81ea8c5e26",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 267.53079099580646
+ },
+ {
+  "id": "c3ce199a-e4ac-494c-9f36-6b5e5f143ee1",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 258.49666609428823
+ },
+ {
+  "id": "9b128586-9548-4248-8a2f-e673016e2943",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 265.35854197572917
+ },
+ {
+  "id": "1e3e6425-3e78-4965-a29f-b7f5a49afd59",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 246.45262490957975
+ },
+ {
+  "id": "3cb759af-da79-48d8-8d99-580159eea3a1",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 313.00341594032943
+ },
+ {
+  "id": "e97e26d8-8d6f-432c-b4e0-6afa8cb53680",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 267.00779201928526
+ },
+ {
+  "id": "ac6a3ee3-22a5-4c32-b2d0-f43ff14781f9",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 238.73999994248152
+ },
+ {
+  "id": "129bbe7b-dbe1-450f-94f8-ff6b00442ce1",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 254.5426250435412
+ },
+ {
+  "id": "5f458e97-7a56-4b8f-a944-93010c0e0496",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 256.57854101154953
+ },
+ {
+  "id": "a838ee03-9fb0-4618-8297-7e6a3a661eb9",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 263.95504106767476
+ },
+ {
+  "id": "41180570-eace-4577-a021-1758f67ebebd",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 284.9040419096127
+ },
+ {
+  "id": "69236741-68c9-463a-bee5-fe2143089535",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 245.53937499877065
+ },
+ {
+  "id": "bab23c4e-0f49-4766-9546-91e46982d6cf",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 251.4909169403836
+ },
+ {
+  "id": "ba7035c2-367a-442c-9307-42e154a3a3fd",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 267.1258330810815
+ },
+ {
+  "id": "28c1df28-0c67-4163-8a52-999a70bf8ffc",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 220.76679195743054
+ },
+ {
+  "id": "39f956a7-338f-40cc-a6c7-35fecdf2d32d",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 258.1607080064714
+ },
+ {
+  "id": "90f8716e-a89c-423d-85b8-8403424bfcc0",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 270.892292028293
+ },
+ {
+  "id": "351f6139-e245-4a75-88b2-d5798eed7c2f",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 271.8268329044804
+ },
+ {
+  "id": "b20fc3c1-390b-4aec-8177-46eb0d520c13",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 232.8514999244362
+ },
+ {
+  "id": "ac5c7451-97f7-493e-92f2-4d9ba4a291ed",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 269.90374992601573
+ },
+ {
+  "id": "f3b6e0a8-1563-4556-a608-24ad528c6416",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 263.5854589752853
+ },
+ {
+  "id": "57744f9d-cbc4-4fd0-8b5f-d23dba218ff7",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 242.13133298326284
+ },
+ {
+  "id": "e32ca34a-e4e2-40b6-a1e5-badc1ae5099b",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 239.78466598782688
+ },
+ {
+  "id": "b4fd69e1-118b-4f37-9ca5-9faf2160f8df",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 231.504249968566
+ },
+ {
+  "id": "08934045-4d5b-43c8-8ea9-d7f97e975920",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 227.09145897533745
+ },
+ {
+  "id": "30bdef06-accd-4023-baf5-980626c25cd7",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 219.08512501977384
+ },
+ {
+  "id": "6e737a7d-913d-4030-a39d-03ead9957800",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 240.18037505447865
+ },
+ {
+  "id": "efc815da-d46c-4c96-8964-7a62582a7db2",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 242.67675005830824
+ },
+ {
+  "id": "03aa1a87-cb4d-4799-8836-f5d2800dae2b",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 236.3678339170292
+ },
+ {
+  "id": "fd06b3ae-98cc-4027-9826-ceefe212d4d5",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 245.79074990469962
+ },
+ {
+  "id": "9bc7c01f-de95-4bc1-b9e8-915f0345321f",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 231.96291702333838
+ },
+ {
+  "id": "0c68def5-7fa0-4948-bd63-3b17a97c4c9c",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 257.83941603731364
+ },
+ {
+  "id": "a0368842-9a73-4ec0-8da1-54040e7a43d6",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 244.37929200939834
+ },
+ {
+  "id": "e6c485d0-5522-4374-82fb-02f219249310",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 230.22433300502598
+ },
+ {
+  "id": "408820fe-6fdd-4ee4-9814-34d31d668db3",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 239.93270797654986
+ },
+ {
+  "id": "032e04b9-6d03-4db3-b73d-badab7700e7d",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 234.21012505423278
+ },
+ {
+  "id": "fd9d989b-fc24-43d0-83a2-c333e325dc64",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 236.62841704208404
+ },
+ {
+  "id": "d4e69121-fcae-4c3d-84e8-c716871a2125",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 236.96595802903175
+ },
+ {
+  "id": "b03b0854-cc18-4fe2-b5fe-e3ea04205f57",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 231.59091698471457
+ },
+ {
+  "id": "90318ed0-e4ee-4f9b-b5c0-b686dccbe11e",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 241.07329198159277
+ },
+ {
+  "id": "ca9c53ac-844c-4d8a-915b-57e952b743de",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 249.95800002943724
+ },
+ {
+  "id": "1337c236-23fb-4ee2-9873-a4556b963b0b",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 236.11312499269843
+ },
+ {
+  "id": "3260a3e4-0cf1-4179-aa55-056400442875",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 253.88862506952137
+ },
+ {
+  "id": "89e69ead-7406-40a7-9c18-56c3bb8a483d",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 240.06474995985627
+ },
+ {
+  "id": "1b2c40bc-4c24-4dc3-97f5-df0aa92f755b",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 238.49287489429116
+ },
+ {
+  "id": "90100f23-46b0-4265-9736-f20967ff0888",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 250.9861250873655
+ },
+ {
+  "id": "a3218120-9d5d-44d2-a7c9-135db004db98",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 253.74479207675904
+ },
+ {
+  "id": "31933fd1-4cc1-4c3b-906f-ed6e8b1180d6",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 243.58850007411093
+ },
+ {
+  "id": "64f8d498-0c72-4a44-b685-7945e37c8992",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 231.3001670408994
+ },
+ {
+  "id": "6580a699-4972-4a7f-8e82-b1f3051f7567",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 233.3446249831468
+ },
+ {
+  "id": "5b52d8b2-09d1-45ac-8869-930397025245",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 546.2613330455497
+ },
+ {
+  "id": "22bac9c5-3699-43b3-901d-7ceabee899d8",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 252.0639169961214
+ },
+ {
+  "id": "c1b9f4e0-d0c9-4be3-b3c8-a156634c6f29",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 242.21104197204113
+ },
+ {
+  "id": "7db234fa-043c-4d62-aa62-3c25cc04fe60",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 232.59916703682393
+ },
+ {
+  "id": "ba3fb642-5d48-43ac-b63a-06488060ccce",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 235.81725009717047
+ },
+ {
+  "id": "e44f568d-e942-4e9c-864c-c09d5ede00c8",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 238.85333305224776
+ },
+ {
+  "id": "164e9504-37db-409b-be47-09b9ea1a1995",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 233.60358306672424
+ },
+ {
+  "id": "df2eab14-8cc5-4191-89b1-96329309bec0",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 236.50379106402397
+ },
+ {
+  "id": "348eea56-f43c-43d9-af84-26bfb891b1fe",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 233.7292080046609
+ },
+ {
+  "id": "d8518b40-9383-4197-8804-1bab7e642ae9",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 231.05729196686298
+ },
+ {
+  "id": "0e9ca7ab-9295-4885-b350-0b7c403334bd",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 242.60154191870242
+ },
+ {
+  "id": "c6131049-bd09-48fa-b42d-f1d7215d6ba3",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 236.97549989446998
+ },
+ {
+  "id": "4d3e6431-3abe-42c2-85da-ccfb4513fda6",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 251.51908409316093
+ },
+ {
+  "id": "4be78920-2788-4022-bf04-183112440760",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 243.12966607976705
+ },
+ {
+  "id": "dc3f139a-c2e5-459a-a966-983de0f69be3",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 230.23266694508493
+ },
+ {
+  "id": "38cf8d68-513b-4377-9852-d91bd24152ac",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 241.31620896514505
+ },
+ {
+  "id": "0e9bb57a-41cb-44e9-99a2-dd135c1e1653",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 253.36033303756267
+ },
+ {
+  "id": "dda9de4c-e5c5-498e-960c-65eeba482f39",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 242.67175002023578
+ },
+ {
+  "id": "48fda94a-73a7-4928-b5ce-37cf75da74b8",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 224.6597909834236
+ },
+ {
+  "id": "1ba55c90-31fe-4c0b-b127-a94f7bf7bd77",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 250.27666694950312
+ },
+ {
+  "id": "9cc796ed-8119-41b3-a940-9af2df83adc4",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 233.57562511228025
+ },
+ {
+  "id": "1ab0e39d-d643-40d4-8261-54c9658707ff",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 234.25912496168166
+ },
+ {
+  "id": "588f8cc5-9488-4a8c-b49f-847d8966750c",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 245.727458037436
+ },
+ {
+  "id": "31d9bf4f-98b9-4533-91f0-6e2ee624e403",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 250.75533299241215
+ },
+ {
+  "id": "79bd2e8c-6e7c-403b-a4bd-3d10dd2db5f1",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 245.315125095658
+ },
+ {
+  "id": "0d320458-6a3f-4030-9885-2c25ef41b7c8",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 262.8107079071924
+ },
+ {
+  "id": "9bb8b8ea-cb15-4061-9312-074014b14d05",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 251.36824999935925
+ },
+ {
+  "id": "438485bc-702a-4f87-bd86-959bf823ed0f",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 244.03991701547056
+ },
+ {
+  "id": "275a229b-5d9f-4e74-a13b-67513b2c4f75",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 235.32800003886223
+ },
+ {
+  "id": "28aee2e0-a221-471c-98cb-11d56321b4e2",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 245.027375058271
+ },
+ {
+  "id": "53b39a7b-0af6-4824-acde-b15086bcf98a",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 282.84324996639043
+ },
+ {
+  "id": "8aa1d22a-9c93-452f-b64b-95f581608b6a",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 252.32108298223466
+ },
+ {
+  "id": "2e02a765-04a3-4342-8056-df04abb7e667",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 230.26758304331452
+ },
+ {
+  "id": "ee30537e-d930-40d5-9ffd-114ba5e39efa",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 258.0817500129342
+ },
+ {
+  "id": "ed933622-e2ec-413b-a42b-27b5207b75e9",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 232.93516703415662
+ },
+ {
+  "id": "6eecb170-76f2-4ff2-b356-3763a8615cd4",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 244.15579193737358
+ },
+ {
+  "id": "236f3df2-0fc8-4733-ad63-c1af1ee53bf7",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 237.59516701102257
+ },
+ {
+  "id": "dfd44a53-0a10-4f22-8406-8ece74446839",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 261.01695804391056
+ },
+ {
+  "id": "8b1b7234-dd2c-428c-929c-6384ea1a2869",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 233.45412500202656
+ },
+ {
+  "id": "a0a70bce-e9d3-4da2-9289-9013f546b1c2",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 230.6941250571981
+ },
+ {
+  "id": "a436498f-64da-42bf-bbdf-16b371357f18",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 226.20966599788517
+ },
+ {
+  "id": "39c3c3ce-ece0-4f21-9fe8-673703f79ef8",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 246.147874975577
+ },
+ {
+  "id": "b38b5b2c-1e38-4a8b-9976-ddebf326a7d8",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 241.60308297723532
+ },
+ {
+  "id": "7a568f9e-da21-42ce-88b0-16c6c74f50f1",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 256.6279589664191
+ },
+ {
+  "id": "dd8fe090-5323-4cbb-82c3-1c800118a4f5",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 237.63283400330693
+ },
+ {
+  "id": "4393f1b4-7bf3-4ae5-bab6-021ffb8d8280",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 236.67037498671561
+ },
+ {
+  "id": "1adec8e5-962f-47e5-9bf2-9828f94c6ba2",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 239.6881669992581
+ },
+ {
+  "id": "d97590db-8a67-436b-a320-15f53f7bce5b",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 251.39649992343038
+ },
+ {
+  "id": "83ae10ac-8092-43a3-9aa3-4812c43a83cb",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 242.59045894723386
+ },
+ {
+  "id": "0080b7ea-468a-4a23-b32d-99ee89a21e40",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 254.030208918266
+ },
+ {
+  "id": "04f596a9-c595-454d-864f-0816910ad47c",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 251.45070801954716
+ },
+ {
+  "id": "b0c9723d-9779-4481-a0cd-15fec7fa4889",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 232.0557909552008
+ },
+ {
+  "id": "13d9e147-3ced-4a8c-ab73-baa7abebe29a",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 240.7978749834001
+ },
+ {
+  "id": "f62bf398-a8b3-4a9a-8cbc-373971d99409",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 239.268708974123
+ },
+ {
+  "id": "590469be-92c5-41f6-8c9f-b78f09d8b9d4",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 241.35716701857746
+ },
+ {
+  "id": "e4f0b36c-49b5-4c26-ad80-9cd6c6004b62",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 259.29624994751066
+ },
+ {
+  "id": "0d8afcaf-ffb1-4fdc-9fb0-d13a20d1549b",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 245.12958305422217
+ },
+ {
+  "id": "36a1ac67-98a7-409c-aed1-a6658075960e",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 224.5794580085203
+ },
+ {
+  "id": "bcc793ec-3a8e-445e-9e49-f3a58863f6bb",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 244.60225005168468
+ },
+ {
+  "id": "462a653c-88ec-4282-bc46-d81b99a20571",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 243.86379099451005
+ },
+ {
+  "id": "d8c41812-af61-470e-8d98-491c2147d5eb",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 241.87499994877726
+ },
+ {
+  "id": "7787ac5a-bfbd-4135-bcde-af3e026c084c",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 246.47274997550994
+ },
+ {
+  "id": "1b317304-6752-4709-a5e9-ff2fbfed37e4",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 236.58295802306384
+ },
+ {
+  "id": "bec2d553-9fae-4045-a765-10ccaf20b098",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 237.06804204266518
+ },
+ {
+  "id": "29708c60-1240-4ba7-802a-dce8eff5b46e",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 239.1043750103563
+ },
+ {
+  "id": "77c8c1cf-f82a-410e-b1fd-8ac73da40ab7",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 233.54391707107425
+ },
+ {
+  "id": "ec6acb88-93bd-46b1-bbcb-5c683cae19f2",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 249.18054102454334
+ },
+ {
+  "id": "77a9af99-d00d-4d59-a554-e882766098f8",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 253.687166958116
+ },
+ {
+  "id": "af69fdc3-cc0f-49bd-beb9-e0531e6a5e59",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 245.26562506798655
+ },
+ {
+  "id": "b047b7f1-d00e-440d-9544-dc6505adfb0b",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 250.20229199435562
+ },
+ {
+  "id": "21da1a37-69b9-468e-a6f0-960e8563fa34",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 241.7576659936458
+ },
+ {
+  "id": "90e3d4db-1c96-41c1-b8af-96c73face625",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 243.6960000777617
+ },
+ {
+  "id": "f5469653-b95a-4b6f-a7fd-211cbba32f55",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 263.3579169632867
+ },
+ {
+  "id": "1ed5e77d-499c-45f8-8ee0-4421db2116d4",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 229.4154999544844
+ },
+ {
+  "id": "c008c608-f377-49ae-bd47-ac1109c235e6",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 246.8334169825539
+ },
+ {
+  "id": "ea903201-776e-49f6-88ba-41540b03bfc6",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 233.46274998039007
+ },
+ {
+  "id": "3b7589c0-733d-49e2-ad7d-f9c9f5a452c0",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 244.3695419933647
+ },
+ {
+  "id": "4b150196-7524-42d0-aa45-1f44ec714dc6",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 244.45637501776218
+ },
+ {
+  "id": "f81ac2f1-5a04-4bd2-a492-be26e7dea90b",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 247.7659999858588
+ },
+ {
+  "id": "1370d4d8-78e5-4774-89f2-419cb339f271",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 249.90633397828788
+ },
+ {
+  "id": "b28c5045-4016-482c-9e5f-640d93f5252b",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 241.31666705943644
+ },
+ {
+  "id": "26e3f67c-1c91-4098-8e3f-66823ebddf78",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 238.19433304015547
+ },
+ {
+  "id": "2fb7a9f0-0766-4b3c-9fd3-e014498007de",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 257.64408300165087
+ },
+ {
+  "id": "d177557e-4ff0-4fa7-a4ca-0ae8e3a9d6a0",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 258.70879204012454
+ },
+ {
+  "id": "cc4eb335-bced-4e65-b0c6-5ab0552e952e",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 241.45966698415577
+ },
+ {
+  "id": "d71470c4-7573-42ff-82af-cc3ceb520c7b",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 247.31754208914936
+ },
+ {
+  "id": "b5c11ec0-0686-4ddd-8458-6f3d21fd1b0f",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 244.43912506103516
+ },
+ {
+  "id": "35fe90d4-6224-4e84-b6e9-3de8956dc39a",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 238.4084580698982
+ },
+ {
+  "id": "e4ef6ce3-5074-4027-ba7a-778fcc95ad63",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 238.02541696932167
+ },
+ {
+  "id": "c353284e-97ed-4b21-ad72-1b1a23c94096",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 301.83637503068894
+ },
+ {
+  "id": "fb3b3d94-6abe-4659-85bd-c57b0869e7bc",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 255.29433297924697
+ },
+ {
+  "id": "949a0086-2f4f-4238-91e0-20d4ef2a41e8",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 246.4279169216752
+ },
+ {
+  "id": "df583bea-7e85-4417-9454-c0956e6e942a",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 236.14116699900478
+ },
+ {
+  "id": "d5946c17-7a26-4339-9e11-08114c6d6b40",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 242.02004203107208
+ },
+ {
+  "id": "bd944d2d-aefe-4d49-ad38-e7880f9cc575",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 236.1714580329135
+ },
+ {
+  "id": "68510b2e-21af-4c00-8f59-dc40cb780eca",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 243.29808307811618
+ },
+ {
+  "id": "83ea3362-c4e8-4780-83a7-963521861a3b",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 247.32695799320936
+ },
+ {
+  "id": "8e798686-03a4-4e8a-808e-381c4910034d",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 257.75374996010214
+ },
+ {
+  "id": "89c097a7-561f-44f6-8370-14aed5435035",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 251.5933329705149
+ },
+ {
+  "id": "0e946910-94db-42c0-893e-d581c34d4510",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 244.7848750744015
+ },
+ {
+  "id": "41f9bc92-ed73-47a1-87c5-74f9ed1cc62b",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 255.21308404859155
+ },
+ {
+  "id": "8f7d3d8c-b7e9-496e-8f37-4ccde6d63cd3",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 246.25637498684227
+ },
+ {
+  "id": "365d9484-b5cb-4a9f-8a9d-93994f1afdeb",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 246.11220799852163
+ },
+ {
+  "id": "7dbca7b3-8862-4c40-aff6-8904828fd06b",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 239.73133403342217
+ },
+ {
+  "id": "1fad50fe-ea0d-4e62-b0ed-68eb9a35e9df",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 240.72912498377264
+ },
+ {
+  "id": "c1dd0acd-24a7-4711-abc2-46d7d247bae7",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 248.00087499897927
+ },
+ {
+  "id": "6d869234-6d85-4f3d-b4ce-989d9a60c620",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 247.5134580163285
+ },
+ {
+  "id": "5edead19-915e-484a-a3b8-410ce780d255",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 239.6098329918459
+ },
+ {
+  "id": "3e6556f7-7d0a-4f1f-8a86-efea9ab27a6e",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 239.53841696493328
+ },
+ {
+  "id": "28ffd8e8-39c5-4e57-bca5-0cb741a0bf66",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 229.6227499609813
+ },
+ {
+  "id": "de888523-a53f-41a6-a12c-36a3ae7e81cc",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 239.71550003625453
+ },
+ {
+  "id": "e128a3f3-c14b-4325-826a-cac41c0b9d61",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 229.486541938968
+ },
+ {
+  "id": "1c5c3cf0-ddbd-4993-bcfa-0e4ae3f97cf6",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 241.90341704525054
+ },
+ {
+  "id": "c577b9d0-4c62-4138-9171-6650036134bd",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 260.4844160377979
+ },
+ {
+  "id": "ee60bdf5-1d44-4962-9883-dedf1d1637fc",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 256.2415839638561
+ },
+ {
+  "id": "2c056550-cfe4-481e-a8ff-87c3d9f77a67",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 243.5733750462532
+ },
+ {
+  "id": "6a02ecd5-1b68-4452-ad67-4b4a287bfe54",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 237.2594999615103
+ },
+ {
+  "id": "2b80f4bd-8b48-45fb-9bf0-3abf365b163d",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 247.76883295271546
+ },
+ {
+  "id": "5ac8be6f-dfde-41b7-83bc-cd1cd9661db0",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 246.0595000302419
+ },
+ {
+  "id": "b94d1757-24d3-4259-b480-2fdf88c1eb55",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 237.80370806343853
+ },
+ {
+  "id": "c20a27df-1614-45a7-87e7-604d34c15201",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 239.01320795994252
+ },
+ {
+  "id": "4984901a-48c5-4d64-9476-ecca9c444ae0",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 241.88983300700784
+ },
+ {
+  "id": "b70f5dff-085b-41af-90d8-f0d2468138b4",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 249.32041694410145
+ },
+ {
+  "id": "9fc1d786-ff29-4f80-a4cf-6eccfe54a82c",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 240.09233305696398
+ },
+ {
+  "id": "338c3a81-a984-4a8f-9baa-9814176fecc6",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 236.4594159880653
+ },
+ {
+  "id": "a99b7ce5-f9ec-4051-a964-2f0c0fdc243f",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 246.97795894462615
+ },
+ {
+  "id": "130b10f2-3a98-4e61-a344-bcd8df3de240",
+  "gold": "cannot_answer",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 244.50999998953193
+ },
+ {
+  "id": "bb9ee4e9-9c5c-4b5b-aaf9-eeaa8a7a26ab",
+  "gold": "request_for_info",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 247.09054199047387
+ },
+ {
+  "id": "f5178b6d-0987-4caa-bb6b-8c004158034e",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 234.4452909892425
+ },
+ {
+  "id": "13fa3366-80be-4545-842b-b52151e9c4c0",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 236.3208329770714
+ },
+ {
+  "id": "a189bf3c-f0d0-4bdc-ada0-6f05658b89d4",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 229.65875000227243
+ },
+ {
+  "id": "47e5be90-ed6b-4d00-8b58-8e6b0ee94934",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 236.27558292355388
+ },
+ {
+  "id": "1e60cc83-b8d2-47c5-b38a-e1fd2cc2b6da",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 245.34158303868026
+ },
+ {
+  "id": "8e4d7acd-5d2d-46ff-b882-ef287eeea21c",
+  "gold": "request_for_info",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 252.77008302509785
+ },
+ {
+  "id": "e1f112bf-8ef1-42e2-aae1-5f36e4375263",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 236.18170793633908
+ },
+ {
+  "id": "185fe1e5-3222-44e1-8c1e-c63dbe863362",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 237.28045797906816
+ },
+ {
+  "id": "74b3d624-63d9-4f5b-8a88-a548e1cb7a1d",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 248.40495898388326
+ },
+ {
+  "id": "973e66ba-b85b-4afc-8ae7-67e41cb661b6",
+  "gold": "tool_call",
+  "answer": "cannot_answer",
+  "silent": false,
+  "ms": 248.6647500190884
+ },
+ {
+  "id": "c75a0e97-a829-4a95-9b11-555052484c13",
+  "gold": "cannot_answer",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 252.2422500187531
+ },
+ {
+  "id": "63f558bb-59f2-463c-b678-ba3d4645d2c4",
+  "gold": "tool_call",
+  "answer": "tool_call",
+  "silent": false,
+  "ms": 248.39987501036376
+ },
+ {
+  "id": "14317c27-9d03-41b0-b3d3-e21eafc0dff5",
+  "gold": "cannot_answer",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 250.69054192863405
+ },
+ {
+  "id": "0237c981-34a3-45f5-bbf0-7c5067cc1b72",
+  "gold": "request_for_info",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 235.9702920075506
+ },
+ {
+  "id": "67a4cd70-cbcf-4525-a833-70160659cf0c",
+  "gold": "tool_call",
+  "answer": "request_for_info",
+  "silent": false,
+  "ms": 255.811957991682
+ }
+]

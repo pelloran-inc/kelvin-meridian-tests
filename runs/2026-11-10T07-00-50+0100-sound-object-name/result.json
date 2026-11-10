@@ -1,0 +1,534 @@
+{
+ "test": "a sound, an object and its name",
+ "clips": {
+  "route": "mirror",
+  "fetched": 54,
+  "of": 54,
+  "equal_to_the_recorded_bytes": 54,
+  "not_fetched": []
+ },
+ "complete": true,
+ "real names": {
+  "asks": 216,
+  "answered_200": 216,
+  "lost": 0,
+  "not_200": 0,
+  "per_ask": {
+   "sound to name": {
+    "asks": 24,
+    "answered_200": 24,
+    "right": 14,
+    "silent": 9,
+    "answered": 15,
+    "answered_a_lived_name": 15,
+    "first_option": 2,
+    "last_option": 2
+   },
+   "picture to name": {
+    "asks": 24,
+    "answered_200": 24,
+    "right": 17,
+    "silent": 7,
+    "answered": 17,
+    "answered_a_lived_name": 17,
+    "first_option": 5,
+    "last_option": 2
+   },
+   "name to clip by picture": {
+    "asks": 24,
+    "answered_200": 24,
+    "right": 23,
+    "silent": 0,
+    "answered": 24,
+    "answered_a_lived_name": 0,
+    "first_option": 9,
+    "last_option": 3
+   },
+   "name to clip by sound": {
+    "asks": 24,
+    "answered_200": 24,
+    "right": 18,
+    "silent": 0,
+    "answered": 24,
+    "answered_a_lived_name": 0,
+    "first_option": 8,
+    "last_option": 5
+   },
+   "never-lived thing by sound": {
+    "asks": 30,
+    "answered_200": 30,
+    "right": 0,
+    "silent": 23,
+    "answered": 7,
+    "answered_a_lived_name": 7,
+    "first_option": 0,
+    "last_option": 1
+   },
+   "never-lived thing by picture": {
+    "asks": 30,
+    "answered_200": 30,
+    "right": 0,
+    "silent": 26,
+    "answered": 4,
+    "answered_a_lived_name": 4,
+    "first_option": 0,
+    "last_option": 1
+   },
+   "never-lived name by picture": {
+    "asks": 30,
+    "answered_200": 30,
+    "right": 0,
+    "silent": 30,
+    "answered": 0,
+    "answered_a_lived_name": 0,
+    "first_option": 0,
+    "last_option": 0
+   },
+   "never-lived name by sound": {
+    "asks": 30,
+    "answered_200": 30,
+    "right": 0,
+    "silent": 30,
+    "answered": 0,
+    "answered_a_lived_name": 0,
+    "first_option": 0,
+    "last_option": 0
+   }
+  },
+  "claims": {
+   "sound to name": 14,
+   "picture to name": 17,
+   "name to clip by picture": 23,
+   "name to clip by sound": 18,
+   "never-lived thing answered with a lived name": 11,
+   "never-lived name answered": 0
+  },
+  "holds": {
+   "sound to name": true,
+   "picture to name": true,
+   "name to clip by picture": true,
+   "name to clip by sound": true,
+   "never-lived thing answered with a lived name": true,
+   "never-lived name answered": true
+  },
+  "speed": {
+   "tell": {
+    "ms_p50": 6003.6,
+    "ms_p90": 8553.0,
+    "bytes_sent_p50": 4481377,
+    "bytes_sent_max": 9216778
+   },
+   "by a sense": {
+    "ms_p50": 5610.5,
+    "ms_p90": 8988.7,
+    "bytes_sent_p50": 4177106,
+    "bytes_sent_max": 9216733
+   },
+   "by the name": {
+    "ms_p50": 24601.3,
+    "ms_p90": 35669.8,
+    "bytes_sent_p50": 16734660,
+    "bytes_sent_max": 20742758
+   },
+   "a never-lived name": {
+    "ms_p50": 23392.4,
+    "ms_p90": 34700.8,
+    "bytes_sent_p50": 16734656,
+    "bytes_sent_max": 20742766
+   }
+  }
+ },
+ "made-up names": {
+  "asks": 216,
+  "answered_200": 216,
+  "lost": 0,
+  "not_200": 0,
+  "per_ask": {
+   "sound to name": {
+    "asks": 24,
+    "answered_200": 24,
+    "right": 14,
+    "silent": 9,
+    "answered": 15,
+    "answered_a_lived_name": 15,
+    "first_option": 2,
+    "last_option": 2
+   },
+   "picture to name": {
+    "asks": 24,
+    "answered_200": 24,
+    "right": 17,
+    "silent": 7,
+    "answered": 17,
+    "answered_a_lived_name": 17,
+    "first_option": 5,
+    "last_option": 2
+   },
+   "name to clip by picture": {
+    "asks": 24,
+    "answered_200": 24,
+    "right": 23,
+    "silent": 0,
+    "answered": 24,
+    "answered_a_lived_name": 0,
+    "first_option": 6,
+    "last_option": 7
+   },
+   "name to clip by sound": {
+    "asks": 24,
+    "answered_200": 24,
+    "right": 18,
+    "silent": 0,
+    "answered": 24,
+    "answered_a_lived_name": 0,
+    "first_option": 6,
+    "last_option": 4
+   },
+   "never-lived thing by sound": {
+    "asks": 30,
+    "answered_200": 30,
+    "right": 0,
+    "silent": 23,
+    "answered": 7,
+    "answered_a_lived_name": 7,
+    "first_option": 0,
+    "last_option": 1
+   },
+   "never-lived thing by picture": {
+    "asks": 30,
+    "answered_200": 30,
+    "right": 0,
+    "silent": 26,
+    "answered": 4,
+    "answered_a_lived_name": 4,
+    "first_option": 0,
+    "last_option": 1
+   },
+   "never-lived name by picture": {
+    "asks": 30,
+    "answered_200": 30,
+    "right": 0,
+    "silent": 30,
+    "answered": 0,
+    "answered_a_lived_name": 0,
+    "first_option": 0,
+    "last_option": 0
+   },
+   "never-lived name by sound": {
+    "asks": 30,
+    "answered_200": 30,
+    "right": 0,
+    "silent": 30,
+    "answered": 0,
+    "answered_a_lived_name": 0,
+    "first_option": 0,
+    "last_option": 0
+   }
+  },
+  "claims": {
+   "sound to name": 14,
+   "picture to name": 17,
+   "name to clip by picture": 23,
+   "name to clip by sound": 18,
+   "never-lived thing answered with a lived name": 11,
+   "never-lived name answered": 0
+  },
+  "holds": {
+   "sound to name": true,
+   "picture to name": true,
+   "name to clip by picture": true,
+   "name to clip by sound": true,
+   "never-lived thing answered with a lived name": true,
+   "never-lived name answered": true
+  },
+  "speed": {
+   "tell": {
+    "ms_p50": 6210.0,
+    "ms_p90": 12139.4,
+    "bytes_sent_p50": 4481308,
+    "bytes_sent_max": 9216704
+   },
+   "by a sense": {
+    "ms_p50": 5286.4,
+    "ms_p90": 9233.6,
+    "bytes_sent_p50": 4177045,
+    "bytes_sent_max": 9216667
+   },
+   "by the name": {
+    "ms_p50": 24626.9,
+    "ms_p90": 33063.2,
+    "bytes_sent_p50": 16734648,
+    "bytes_sent_max": 20742742
+   },
+   "a never-lived name": {
+    "ms_p50": 20773.4,
+    "ms_p90": 29687.2,
+    "bytes_sent_p50": 16734648,
+    "bytes_sent_max": 20742742
+   }
+  }
+ },
+ "control: names rotated": {
+  "asks": 216,
+  "answered_200": 216,
+  "lost": 0,
+  "not_200": 0,
+  "per_ask": {
+   "sound to name": {
+    "asks": 24,
+    "answered_200": 24,
+    "right": 0,
+    "silent": 9,
+    "answered": 15,
+    "answered_a_lived_name": 15,
+    "first_option": 0,
+    "last_option": 3
+   },
+   "picture to name": {
+    "asks": 24,
+    "answered_200": 24,
+    "right": 0,
+    "silent": 7,
+    "answered": 17,
+    "answered_a_lived_name": 17,
+    "first_option": 1,
+    "last_option": 2
+   },
+   "name to clip by picture": {
+    "asks": 24,
+    "answered_200": 24,
+    "right": 0,
+    "silent": 0,
+    "answered": 24,
+    "answered_a_lived_name": 0,
+    "first_option": 5,
+    "last_option": 3
+   },
+   "name to clip by sound": {
+    "asks": 24,
+    "answered_200": 24,
+    "right": 1,
+    "silent": 0,
+    "answered": 24,
+    "answered_a_lived_name": 0,
+    "first_option": 4,
+    "last_option": 5
+   },
+   "never-lived thing by sound": {
+    "asks": 30,
+    "answered_200": 30,
+    "right": 0,
+    "silent": 23,
+    "answered": 7,
+    "answered_a_lived_name": 7,
+    "first_option": 1,
+    "last_option": 1
+   },
+   "never-lived thing by picture": {
+    "asks": 30,
+    "answered_200": 30,
+    "right": 0,
+    "silent": 26,
+    "answered": 4,
+    "answered_a_lived_name": 4,
+    "first_option": 0,
+    "last_option": 0
+   },
+   "never-lived name by picture": {
+    "asks": 30,
+    "answered_200": 30,
+    "right": 0,
+    "silent": 30,
+    "answered": 0,
+    "answered_a_lived_name": 0,
+    "first_option": 0,
+    "last_option": 0
+   },
+   "never-lived name by sound": {
+    "asks": 30,
+    "answered_200": 30,
+    "right": 0,
+    "silent": 30,
+    "answered": 0,
+    "answered_a_lived_name": 0,
+    "first_option": 0,
+    "last_option": 0
+   }
+  },
+  "claims": {
+   "sound to name": 0,
+   "picture to name": 0,
+   "name to clip by picture": 0,
+   "name to clip by sound": 1,
+   "never-lived thing answered with a lived name": 11,
+   "never-lived name answered": 0
+  },
+  "holds": {
+   "sound to name": false,
+   "picture to name": false,
+   "name to clip by picture": false,
+   "name to clip by sound": false,
+   "never-lived thing answered with a lived name": true,
+   "never-lived name answered": true
+  },
+  "speed": {
+   "tell": {
+    "ms_p50": 6268.0,
+    "ms_p90": 8776.2,
+    "bytes_sent_p50": 4481375,
+    "bytes_sent_max": 9216776
+   },
+   "by a sense": {
+    "ms_p50": 5526.0,
+    "ms_p90": 9258.4,
+    "bytes_sent_p50": 4177106,
+    "bytes_sent_max": 9216733
+   },
+   "by the name": {
+    "ms_p50": 25388.3,
+    "ms_p90": 35669.1,
+    "bytes_sent_p50": 16734660,
+    "bytes_sent_max": 20742758
+   },
+   "a never-lived name": {
+    "ms_p50": 23964.4,
+    "ms_p90": 39716.9,
+    "bytes_sent_p50": 16734656,
+    "bytes_sent_max": 20742766
+   }
+  }
+ },
+ "made-up answered like real": {
+  "equal": 216,
+  "of": 216
+ },
+ "equal to the recorded run": {
+  "real": {
+   "equal": 212,
+   "of": 216,
+   "differ": [
+    {
+     "life": 3,
+     "ask": "sound to name",
+     "thing": "thing 3.0",
+     "now": "cattle mooing",
+     "recorded": "silent"
+    },
+    {
+     "life": 4,
+     "ask": "picture to name",
+     "thing": "thing 4.1",
+     "now": "silent",
+     "recorded": "dog barking"
+    },
+    {
+     "life": 4,
+     "ask": "sound to name",
+     "thing": "thing 4.3",
+     "now": "silent",
+     "recorded": "duck quacking"
+    },
+    {
+     "life": 4,
+     "ask": "never-lived thing by sound",
+     "thing": "stranger 4.3",
+     "now": "silent",
+     "recorded": "duck quacking"
+    }
+   ]
+  },
+  "made-up": {
+   "equal": 212,
+   "of": 216,
+   "differ": [
+    {
+     "life": 3,
+     "ask": "sound to name",
+     "thing": "thing 3.0",
+     "now": "thing D",
+     "recorded": "silent"
+    },
+    {
+     "life": 4,
+     "ask": "picture to name",
+     "thing": "thing 4.1",
+     "now": "silent",
+     "recorded": "thing C"
+    },
+    {
+     "life": 4,
+     "ask": "sound to name",
+     "thing": "thing 4.3",
+     "now": "silent",
+     "recorded": "thing A"
+    },
+    {
+     "life": 4,
+     "ask": "never-lived thing by sound",
+     "thing": "stranger 4.3",
+     "now": "silent",
+     "recorded": "thing A"
+    }
+   ]
+  },
+  "rotated": {
+   "equal": 212,
+   "of": 216,
+   "differ": [
+    {
+     "life": 3,
+     "ask": "sound to name",
+     "thing": "thing 3.0",
+     "now": "elephant trumpeting",
+     "recorded": "silent"
+    },
+    {
+     "life": 4,
+     "ask": "picture to name",
+     "thing": "thing 4.1",
+     "now": "silent",
+     "recorded": "elephant trumpeting"
+    },
+    {
+     "life": 4,
+     "ask": "sound to name",
+     "thing": "thing 4.3",
+     "now": "silent",
+     "recorded": "chicken crowing"
+    },
+    {
+     "life": 4,
+     "ask": "never-lived thing by sound",
+     "thing": "stranger 4.3",
+     "now": "silent",
+     "recorded": "chicken crowing"
+    }
+   ]
+  }
+ },
+ "claims hold (real names)": true,
+ "control breaks": true,
+ "bars": {
+  "each lived-thing ask": ">= 12 of 24",
+  "never-lived thing answered with a lived name": "<= 29 of 60",
+  "never-lived name answered": "<= 6 of 60",
+  "control": "each lived-thing ask < 12 of 24"
+ },
+ "recorded": {
+  "real names": {
+   "sound to name": 14,
+   "picture to name": 18,
+   "name to clip by picture": 23,
+   "name to clip by sound": 18,
+   "never-lived thing answered with a lived name": 12,
+   "never-lived name answered": 0
+  },
+  "control": {
+   "sound to name": 0,
+   "picture to name": 0,
+   "name to clip by picture": 0,
+   "name to clip by sound": 1
+  },
+  "made-up answered like real": "216 of 216"
+ }
+}

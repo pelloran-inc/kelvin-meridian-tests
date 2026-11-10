@@ -1,0 +1,6002 @@
+{
+ "security_incidents_000000": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4770810449321935,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.30018233926627685,
+    "probabilities": {
+     "close_benign": 0.12207567465670045,
+     "contain": 0.20586320963767235,
+     "investigate": 0.47513675444970765,
+     "monitor": 0.19692436125591956
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.1537320343998264,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.07678627959771803,
+     "1": 0.17515477679602273,
+     "2": 0.2570009074710483,
+     "3": 0.32298562751986115,
+     "4": 0.16807240861534978
+    },
+    "score": 2.3304031087591017,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5745328935112336,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.22492581387691338,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.08050693067267521,
+     "1": 0.21626827503331647,
+     "2": 0.28453043388632326,
+     "3": 0.41869436040768504
+    },
+    "score": 2.0414122240290182,
+    "type": "score"
+   }
+  },
+  "ms": 271.72199997585267
+ },
+ "security_incidents_000001": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.47559780081527664,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3351708734648781,
+    "probabilities": {
+     "close_benign": 0.14940628224312869,
+     "contain": 0.16868650337389693,
+     "investigate": 0.5013781550986586,
+     "monitor": 0.18052905928431576
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.18217786370944544,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.0509379773691717,
+     "1": 0.1441277394414477,
+     "2": 0.31124391307605365,
+     "3": 0.3457422909675564,
+     "4": 0.14794807914577054
+    },
+    "score": 2.3956347550793065,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5752597828673599,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.19334657301670824,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0823729001794591,
+     "1": 0.20609030621848054,
+     "2": 0.31652686383952916,
+     "3": 0.3950099297625312
+    },
+    "score": 2.0241738231851327,
+    "type": "score"
+   }
+  },
+  "ms": 750.0326660228893
+ },
+ "security_incidents_000002": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.522608795852735,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3843378115923361,
+    "probabilities": {
+     "close_benign": 0.10244476239615163,
+     "contain": 0.20468333290451998,
+     "investigate": 0.5382533586942521,
+     "monitor": 0.15461854600507627
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.2342708470452381,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.029597024851222696,
+     "1": 0.13013124495120562,
+     "2": 0.2610431399031798,
+     "3": 0.3874166776361905,
+     "4": 0.19181191265820138
+    },
+    "score": 2.581715208298942,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.6144797289869991,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.283699087927951,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.039868875598601576,
+     "1": 0.18261459747737277,
+     "2": 0.31474221097806243,
+     "3": 0.46277431594596324
+    },
+    "score": 2.2004219672713874,
+    "type": "score"
+   }
+  },
+  "ms": 273.23937497567385
+ },
+ "security_incidents_000003": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.46502889003670184,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.34881867883870593,
+    "probabilities": {
+     "close_benign": 0.12305335902590481,
+     "contain": 0.16538217569513244,
+     "investigate": 0.5116140091290294,
+     "monitor": 0.19995045614993331
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.1736733076604905,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.059333902073632275,
+     "1": 0.16687891511912972,
+     "2": 0.2814167988359866,
+     "3": 0.3389386461283924,
+     "4": 0.15343173784285902
+    },
+    "score": 2.3602554025477165,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5714619891013658,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2036233044879409,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0724944570390528,
+     "1": 0.22659032556739617,
+     "2": 0.29819773902759533,
+     "3": 0.4027174783659557
+    },
+    "score": 2.0311382387204535,
+    "type": "score"
+   }
+  },
+  "ms": 269.15833295788616
+ },
+ "security_incidents_000004": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5030031165276764,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3394741692414896,
+    "probabilities": {
+     "close_benign": 0.13032553460784962,
+     "contain": 0.19198575888476946,
+     "investigate": 0.5046056269311172,
+     "monitor": 0.1730830795762638
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.20887849270330322,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.0472654942119745,
+     "1": 0.14700327293234564,
+     "2": 0.29397609006658365,
+     "3": 0.3671027941626426,
+     "4": 0.14465234862645368
+    },
+    "score": 2.4148732300592552,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5959207272947671,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.232267604159218,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0654872630182745,
+     "1": 0.20137274343676595,
+     "2": 0.3089392904255461,
+     "3": 0.4242007031194135
+    },
+    "score": 2.0918534336460985,
+    "type": "score"
+   }
+  },
+  "ms": 248.46420797985047
+ },
+ "security_incidents_000005": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.46286018765888687,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.34479125286029655,
+    "probabilities": {
+     "close_benign": 0.12383412105832219,
+     "contain": 0.16731510365173125,
+     "investigate": 0.5085934396452224,
+     "monitor": 0.20025733564472414
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.18185046855505943,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.058959038577758235,
+     "1": 0.162634576288683,
+     "2": 0.27672324882062393,
+     "3": 0.34548037484404753,
+     "4": 0.1562027614688873
+    },
+    "score": 2.3773332443376227,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5693364340675937,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2029251420709787,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.07095506602694185,
+     "1": 0.2286513093400691,
+     "2": 0.298199768079755,
+     "3": 0.40219385655323403
+    },
+    "score": 2.0316324151592813,
+    "type": "score"
+   }
+  },
+  "ms": 258.43087502289563
+ },
+ "security_incidents_000006": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.48134947161051367,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3266161795210185,
+    "probabilities": {
+     "close_benign": 0.15329470321813848,
+     "contain": 0.17546759848223809,
+     "investigate": 0.4949621346407639,
+     "monitor": 0.17627556365885955
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.1959081024418005,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.051939208707967206,
+     "1": 0.14115635856519343,
+     "2": 0.2996449647276139,
+     "3": 0.3567264819534404,
+     "4": 0.15053298604578502
+    },
+    "score": 2.4127576780638824,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5825112170492694,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.20851318994359516,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.08572064022671969,
+     "1": 0.1992811122440277,
+     "2": 0.30861335507155624,
+     "3": 0.4063848924576964
+    },
+    "score": 2.0356624997602295,
+    "type": "score"
+   }
+  },
+  "ms": 258.2267919788137
+ },
+ "security_incidents_000007": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4831432459443821,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.2800022387435976,
+    "probabilities": {
+     "close_benign": 0.13578535112129425,
+     "contain": 0.21872683890863906,
+     "investigate": 0.4600016790576982,
+     "monitor": 0.18548613091236849
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.2879699043321303,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.03309503905659087,
+     "1": 0.1229130223705076,
+     "2": 0.2943966641133692,
+     "3": 0.43037592346570425,
+     "4": 0.11921935099382815
+    },
+    "score": 2.4797115249696713,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5756315551126258,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.22946898712072042,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06534579479756479,
+     "1": 0.21807317158716616,
+     "2": 0.2944792932747287,
+     "3": 0.4221017403405403
+    },
+    "score": 2.0733369791582446,
+    "type": "score"
+   }
+  },
+  "ms": 254.36004204675555
+ },
+ "security_incidents_000008": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.481596025019355,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.2907372069378073,
+    "probabilities": {
+     "close_benign": 0.13381859968861334,
+     "contain": 0.21120351580475272,
+     "investigate": 0.46805290520335546,
+     "monitor": 0.18692497930327848
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.2962284026204075,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.029896858479257587,
+     "1": 0.1163623740987419,
+     "2": 0.3015239147125688,
+     "3": 0.436982722096326,
+     "4": 0.11523413061310578
+    },
+    "score": 2.4912948922652802,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5755660367217985,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.22263778892806596,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06099842487824578,
+     "1": 0.21891523835466656,
+     "2": 0.3031079950710382,
+     "3": 0.41697834169604947
+    },
+    "score": 2.0760662535848913,
+    "type": "score"
+   }
+  },
+  "ms": 255.17858390230685
+ },
+ "security_incidents_000009": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5739144461213056,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3395748276153596,
+    "probabilities": {
+     "close_benign": 0.07618259880537023,
+     "contain": 0.24008082853547302,
+     "investigate": 0.5046811207115197,
+     "monitor": 0.17905545194763703
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.21551557333473503,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.04420892181761441,
+     "1": 0.14864197308322288,
+     "2": 0.26817561845321836,
+     "3": 0.37241245866778805,
+     "4": 0.16656102797815633
+    },
+    "score": 2.4684746979056493,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.6584036698243986,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.30847730869397233,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.048952262215836824,
+     "1": 0.1778033170899716,
+     "2": 0.2918864391737123,
+     "3": 0.48135798152047926
+    },
+    "score": 2.205650139998834,
+    "type": "score"
+   }
+  },
+  "ms": 271.54312503989786
+ },
+ "security_incidents_000010": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4423258225081567,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.30416298642901246,
+    "probabilities": {
+     "close_benign": 0.17270161557139313,
+     "contain": 0.15695870836250858,
+     "investigate": 0.47812223982175933,
+     "monitor": 0.19221743624433899
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.12756482703498656,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.08028328169292513,
+     "1": 0.17053363644198752,
+     "2": 0.2857293555939876,
+     "3": 0.30205186162798925,
+     "4": 0.1614018646431105
+    },
+    "score": 2.293755391086372,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.532594795629527,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.1443480620086007,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0858869236332159,
+     "1": 0.2384308978697988,
+     "2": 0.3174211319905348,
+     "3": 0.3582610465064505
+    },
+    "score": 1.9480563013702201,
+    "type": "score"
+   }
+  },
+  "ms": 252.13591603096575
+ },
+ "security_incidents_000011": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4978345382338942,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.33893283489244297,
+    "probabilities": {
+     "close_benign": 0.1330203166228957,
+     "contain": 0.18818680678131566,
+     "investigate": 0.5041996261693322,
+     "monitor": 0.1745932504264565
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.21023964674220957,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.04837293167252989,
+     "1": 0.14621236292216336,
+     "2": 0.2958957231712595,
+     "3": 0.36819171739376766,
+     "4": 0.1413272648402796
+    },
+    "score": 2.407888020807104,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5924108180851594,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2264783128605173,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06687176158187808,
+     "1": 0.2032483006752023,
+     "2": 0.3100212030975316,
+     "3": 0.419858734645388
+    },
+    "score": 2.0828669108064295,
+    "type": "score"
+   }
+  },
+  "ms": 253.62570909783244
+ },
+ "security_incidents_000012": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.45073658220618773,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3037811330718272,
+    "probabilities": {
+     "close_benign": 0.16840951165043969,
+     "contain": 0.16359876922010302,
+     "investigate": 0.4778358498038704,
+     "monitor": 0.1901558693255869
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.13081582369246647,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.07955474950681084,
+     "1": 0.17053364797957396,
+     "2": 0.2867531247560252,
+     "3": 0.3046526589539732,
+     "4": 0.1585058188036168
+    },
+    "score": 2.2920211495680114,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5402907334575505,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.15491843804307162,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.08628490891339369,
+     "1": 0.23709423749076278,
+     "2": 0.3104320250635398,
+     "3": 0.3661888285323037
+    },
+    "score": 1.9565247732147535,
+    "type": "score"
+   }
+  },
+  "ms": 270.3591249883175
+ },
+ "security_incidents_000013": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4432118901257511,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3081674614144873,
+    "probabilities": {
+     "close_benign": 0.1690432905238689,
+     "contain": 0.1594826005557406,
+     "investigate": 0.48112559606086547,
+     "monitor": 0.19034851285952503
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.12959554945150542,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.0770560402878708,
+     "1": 0.1706663374101263,
+     "2": 0.2825033800578476,
+     "3": 0.3036764395612043,
+     "4": 0.16609780268295102
+    },
+    "score": 2.3110936269412385,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5371105178638168,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.15003697510429062,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.08729049044483997,
+     "1": 0.23771006456224386,
+     "2": 0.3124717136646982,
+     "3": 0.362527731328218
+    },
+    "score": 1.9502366858762943,
+    "type": "score"
+   }
+  },
+  "ms": 268.85741692967713
+ },
+ "security_incidents_000014": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5248728049533596,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3955558429095067,
+    "probabilities": {
+     "close_benign": 0.0989314478344983,
+     "contain": 0.19818571049123132,
+     "investigate": 0.54666688218213,
+     "monitor": 0.15621595949214034
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.22618233963739753,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.02589598061560749,
+     "1": 0.13202627213590004,
+     "2": 0.26906745846985725,
+     "3": 0.380945871709918,
+     "4": 0.19206441706871724
+    },
+    "score": 2.5812564724802374,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.6131635208283104,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2728512126731577,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.038660021656075495,
+     "1": 0.1850172656797697,
+     "2": 0.32168430315928653,
+     "3": 0.4546384095048683
+    },
+    "score": 2.192301100512948,
+    "type": "score"
+   }
+  },
+  "ms": 254.10770904272795
+ },
+ "security_incidents_000015": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.47415760315871325,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.28519095814933654,
+    "probabilities": {
+     "close_benign": 0.13708614026107174,
+     "contain": 0.20978428337504484,
+     "investigate": 0.4638932186120024,
+     "monitor": 0.18923635775188105
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.28047393804629484,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.034218750630152624,
+     "1": 0.12386618078842242,
+     "2": 0.3037331277794627,
+     "3": 0.4243791504370359,
+     "4": 0.11380279036492638
+    },
+    "score": 2.459681049118161,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5697683219780451,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2147612102118032,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06410175050252352,
+     "1": 0.2249851098604457,
+     "2": 0.2998422319781784,
+     "3": 0.4110709076588524
+    },
+    "score": 2.05788229679336,
+    "type": "score"
+   }
+  },
+  "ms": 254.73837496247143
+ },
+ "security_incidents_000020": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.46841392624888045,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.2722292427282522,
+    "probabilities": {
+     "close_benign": 0.14500455977966614,
+     "contain": 0.21086120529463623,
+     "investigate": 0.45417193204618916,
+     "monitor": 0.1899623028795085
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.2913487652849882,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.03287769950040904,
+     "1": 0.12159922214977066,
+     "2": 0.29417709213306203,
+     "3": 0.4330790122279906,
+     "4": 0.11826697398876766
+    },
+    "score": 2.482258339054937,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5611541513835713,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.20943684051065423,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06814281253756944,
+     "1": 0.225022005850044,
+     "2": 0.2997575512293959,
+     "3": 0.40707763038299066
+    },
+    "score": 2.045769999457808,
+    "type": "score"
+   }
+  },
+  "ms": 271.72820805571973
+ },
+ "security_incidents_000021": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5186131095588664,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.37243309917639794,
+    "probabilities": {
+     "close_benign": 0.08988048445117276,
+     "contain": 0.20700934477817873,
+     "investigate": 0.5293248243822984,
+     "monitor": 0.1737853463883501
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.21216524611800952,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.03449737665143294,
+     "1": 0.14458959845838978,
+     "2": 0.323427115664836,
+     "3": 0.3697321968944076,
+     "4": 0.1277537123309337
+    },
+    "score": 2.4116552697950193,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.6553055201079611,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2615737518852481,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04630056809764877,
+     "1": 0.18564610936024814,
+     "2": 0.32187300862816703,
+     "3": 0.4461803139139361
+    },
+    "score": 2.1679330683583906,
+    "type": "score"
+   }
+  },
+  "ms": 259.41970897838473
+ },
+ "security_incidents_000022": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.47414014896759343,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3000617729747396,
+    "probabilities": {
+     "close_benign": 0.152707127741135,
+     "contain": 0.17622541043027576,
+     "investigate": 0.4750463297310547,
+     "monitor": 0.19602113209753452
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.16405218366768026,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.06539106054660476,
+     "1": 0.1869715570568087,
+     "2": 0.3312417469341442,
+     "3": 0.30260275438026635,
+     "4": 0.11379288108217596
+    },
+    "score": 2.2124348383946,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5776576061888037,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.17317506097245747,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.08250760380670129,
+     "1": 0.2359462516208187,
+     "2": 0.30166484884313693,
+     "3": 0.3798812957293431
+    },
+    "score": 1.978919836495122,
+    "type": "score"
+   }
+  },
+  "ms": 256.7523329053074
+ },
+ "security_incidents_000023": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4876125993111898,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3525637269733621,
+    "probabilities": {
+     "close_benign": 0.12656934985207052,
+     "contain": 0.203649410195599,
+     "investigate": 0.5144227952300215,
+     "monitor": 0.15535844472230895
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.279821739923759,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.03213850936824103,
+     "1": 0.12100879167860498,
+     "2": 0.2660165756603535,
+     "3": 0.4238573919390072,
+     "4": 0.15697873135379334
+    },
+    "score": 2.552529044231507,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.6001611907389935,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.28468130429250355,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06506127545489622,
+     "1": 0.18034909402929605,
+     "2": 0.2910786522964301,
+     "3": 0.46351097821937765
+    },
+    "score": 2.1530393332802893,
+    "type": "score"
+   }
+  },
+  "ms": 257.2956660296768
+ },
+ "security_incidents_000024": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4631616273748707,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3587742727588732,
+    "probabilities": {
+     "close_benign": 0.12070980932457773,
+     "contain": 0.16356125924819484,
+     "investigate": 0.5190807045691549,
+     "monitor": 0.1966482268580726
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.18423363982724106,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.055487256662237854,
+     "1": 0.1576774477109116,
+     "2": 0.2809655881975628,
+     "3": 0.3473869118617928,
+     "4": 0.15848279556749492
+    },
+    "score": 2.395700541961395,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5755384897886376,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.21091001473411883,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.069282973223341,
+     "1": 0.2186141684433985,
+     "2": 0.30392034728267137,
+     "3": 0.4081825110505891
+    },
+    "score": 2.051002396160509,
+    "type": "score"
+   }
+  },
+  "ms": 259.2183749657124
+ },
+ "security_incidents_000025": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5508578441152481,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.37934739176477333,
+    "probabilities": {
+     "close_benign": 0.0759472020507849,
+     "contain": 0.22139173830493256,
+     "investigate": 0.53451054382358,
+     "monitor": 0.1681505158207026
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.2509388637615739,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.02506949956793096,
+     "1": 0.10263663995708634,
+     "2": 0.28161418098559865,
+     "3": 0.40075109100925915,
+     "4": 0.18992858848012484
+    },
+    "score": 2.6278326288765603,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.665418195712471,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.3131504665911167,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.034858955366862864,
+     "1": 0.1632462030318255,
+     "2": 0.3170319916579741,
+     "3": 0.48486284994333756
+    },
+    "score": 2.251898736177786,
+    "type": "score"
+   }
+  },
+  "ms": 289.4838750362396
+ },
+ "security_incidents_000026": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.44623895753104365,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.31240071483229026,
+    "probabilities": {
+     "close_benign": 0.16476165989582242,
+     "contain": 0.16042424779740813,
+     "investigate": 0.4843005361242177,
+     "monitor": 0.19051355618255172
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.1367733479344962,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.07747503435554727,
+     "1": 0.16726725375297313,
+     "2": 0.2808845621208058,
+     "3": 0.30941867834759695,
+     "4": 0.16495447142307684
+    },
+    "score": 2.317110298729683,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.540264560347717,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.15761464775269976,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0830448187846616,
+     "1": 0.2361278091971511,
+     "2": 0.31261638620366244,
+     "3": 0.3682109858145248
+    },
+    "score": 1.9659935390480505,
+    "type": "score"
+   }
+  },
+  "ms": 273.0903330957517
+ },
+ "security_incidents_000027": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.47957756509083793,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.27108876298804047,
+    "probabilities": {
+     "close_benign": 0.14124161958763146,
+     "contain": 0.21827459933896692,
+     "investigate": 0.45331657224103034,
+     "monitor": 0.18716720883237126
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.29787584662415567,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.031491679450003106,
+     "1": 0.11593627984623225,
+     "2": 0.2916706311601273,
+     "3": 0.43830067729932454,
+     "4": 0.12260073224431277
+    },
+    "score": 2.5045825030417115,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5727469503014702,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2296410281073801,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06563365703150716,
+     "1": 0.21954402799575937,
+     "2": 0.2925915438921984,
+     "3": 0.4222307710805351
+    },
+    "score": 2.0714194290217613,
+    "type": "score"
+   }
+  },
+  "ms": 278.7903749849647
+ },
+ "security_incidents_000028": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5268305275888922,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.39440397997706206,
+    "probabilities": {
+     "close_benign": 0.09750858542791425,
+     "contain": 0.20037254319573103,
+     "investigate": 0.5458029849827966,
+     "monitor": 0.1563158863935582
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.22581781752393104,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.028508615858803054,
+     "1": 0.1328112264461976,
+     "2": 0.26491066090658605,
+     "3": 0.3806542540191448,
+     "4": 0.19311524276926845
+    },
+    "score": 2.5770562813938778,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.6157963689397623,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.27639506869780434,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.03896416038975258,
+     "1": 0.18467506883572116,
+     "2": 0.319064469251173,
+     "3": 0.45729630152335327
+    },
+    "score": 2.1946929119081267,
+    "type": "score"
+   }
+  },
+  "ms": 261.63858303334564
+ },
+ "security_incidents_000029": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.51463542729339,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.37097645024121445,
+    "probabilities": {
+     "close_benign": 0.09242383067403738,
+     "contain": 0.20589494337586708,
+     "investigate": 0.5282323376809108,
+     "monitor": 0.1734488882691847
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.21250216385700088,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.03883912267572413,
+     "1": 0.14852149237332782,
+     "2": 0.3150115478109541,
+     "3": 0.3700017310856007,
+     "4": 0.1276261060543933
+    },
+    "score": 2.399054205469611,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.6527112633757284,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.26527238792521474,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.048429866270751645,
+     "1": 0.1845515352692064,
+     "2": 0.3180643075161309,
+     "3": 0.44895429094391104
+    },
+    "score": 2.1675430231332014,
+    "type": "score"
+   }
+  },
+  "ms": 270.41633299086243
+ },
+ "security_incidents_000030": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5178182443317964,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.387192330666529,
+    "probabilities": {
+     "close_benign": 0.10299706120030819,
+     "contain": 0.1973615138942317,
+     "investigate": 0.5403942479998968,
+     "monitor": 0.15924717690556336
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.22565261191453323,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.027596806051014576,
+     "1": 0.1322713835650418,
+     "2": 0.2672084255416797,
+     "3": 0.3805220895316266,
+     "4": 0.19240129531063735
+    },
+    "score": 2.5778596844858304,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.6056699405112199,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.26737408067632357,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.041406832328389584,
+     "1": 0.19053407892487167,
+     "2": 0.3175285282394961,
+     "3": 0.45053056050724266
+    },
+    "score": 2.177182816925592,
+    "type": "score"
+   }
+  },
+  "ms": 266.165041946806
+ },
+ "security_incidents_000031": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4875288975083093,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.30485370934425277,
+    "probabilities": {
+     "close_benign": 0.11327690053748177,
+     "contain": 0.2136999690778044,
+     "investigate": 0.4786402820081896,
+     "monitor": 0.19438284837652428
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.16066915507801233,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.07635632181020197,
+     "1": 0.1739262192678531,
+     "2": 0.2450400634738198,
+     "3": 0.3285353240624099,
+     "4": 0.17614207138571525
+    },
+    "score": 2.3541806039455833,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5858908311434915,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.23651225850420463,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.07773532657057704,
+     "1": 0.2121733355485421,
+     "2": 0.2827071440027274,
+     "3": 0.42738419387815346
+    },
+    "score": 2.059740205188457,
+    "type": "score"
+   }
+  },
+  "ms": 256.5927089890465
+ },
+ "security_incidents_000032": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4729329896587304,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.29852881036935375,
+    "probabilities": {
+     "close_benign": 0.15154194828463854,
+     "contain": 0.17789200878926834,
+     "investigate": 0.4738966077770153,
+     "monitor": 0.1966694351490778
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.16883499833996396,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.0636075973501116,
+     "1": 0.18606761858508386,
+     "2": 0.3350679986719712,
+     "3": 0.304102505041745,
+     "4": 0.11115428035108837
+    },
+    "score": 2.213128252458615,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5769755873513407,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.169104295464368,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.08141781089406218,
+     "1": 0.23610955927153165,
+     "2": 0.30564440823613015,
+     "3": 0.376828221598276
+    },
+    "score": 1.97788304053862,
+    "type": "score"
+   }
+  },
+  "ms": 244.95258403476328
+ },
+ "security_incidents_000033": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.49346723289873323,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.36252988221081245,
+    "probabilities": {
+     "close_benign": 0.12361254364271508,
+     "contain": 0.2000860762249146,
+     "investigate": 0.5218974116581093,
+     "monitor": 0.154403968474261
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.28726574861564147,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.02695045021588203,
+     "1": 0.11772985236321316,
+     "2": 0.2751358491291519,
+     "3": 0.42981259889251316,
+     "4": 0.15037124939923976
+    },
+    "score": 2.5589243448960155,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.6066638563852536,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.28650771100841405,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06294115371913145,
+     "1": 0.17661118628731698,
+     "2": 0.295566876737241,
+     "3": 0.46488078325631055
+    },
+    "score": 2.162387289530731,
+    "type": "score"
+   }
+  },
+  "ms": 259.4259170582518
+ },
+ "security_incidents_000034": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5264077182789972,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.38887976777611905,
+    "probabilities": {
+     "close_benign": 0.09742466972529844,
+     "contain": 0.2032085651319711,
+     "investigate": 0.5416598258320893,
+     "monitor": 0.15770693931064117
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.2380170661459956,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.027770762060674855,
+     "1": 0.12705720762662703,
+     "2": 0.2603107342949804,
+     "3": 0.39041365291679647,
+     "4": 0.19444764310092122
+    },
+    "score": 2.596710207370662,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.6170467056469575,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.28759890296859353,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.036335764296978296,
+     "1": 0.1823278894830902,
+     "2": 0.31563716899348637,
+     "3": 0.46569917722644516
+    },
+    "score": 2.2106997591493984,
+    "type": "score"
+   }
+  },
+  "ms": 251.51766696944833
+ },
+ "security_incidents_000035": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5260302859410356,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.36708356070654374,
+    "probabilities": {
+     "close_benign": 0.08672978907514335,
+     "contain": 0.21681291159663357,
+     "investigate": 0.5253126705299078,
+     "monitor": 0.17114462879831524
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.21498732229783513,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.035674358288536615,
+     "1": 0.1444792595169544,
+     "2": 0.31018684474329644,
+     "3": 0.3719898578382681,
+     "4": 0.13766967961294446
+    },
+    "score": 2.431501240970129,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.6606544744450631,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2784336880152674,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04349369156173066,
+     "1": 0.18418205061068368,
+     "2": 0.31349899181613505,
+     "3": 0.45882526601145057
+    },
+    "score": 2.187655832277305,
+    "type": "score"
+   }
+  },
+  "ms": 256.42200000584126
+ },
+ "security_incidents_000036": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5001262160315563,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.33571145827082366,
+    "probabilities": {
+     "close_benign": 0.13367943306296115,
+     "contain": 0.19059222076743093,
+     "investigate": 0.5017835937031178,
+     "monitor": 0.17394475246649016
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.21362677022454946,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.048253486138269984,
+     "1": 0.1438081521880362,
+     "2": 0.2945792787299576,
+     "3": 0.37090141617963956,
+     "4": 0.14245766676409666
+    },
+    "score": 2.4155016252432566,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5939198694124438,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.23222449237931406,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06634136970997405,
+     "1": 0.20152608047539622,
+     "2": 0.3079641805301442,
+     "3": 0.42416836928448554
+    },
+    "score": 2.089959549389141,
+    "type": "score"
+   }
+  },
+  "ms": 248.164749937132
+ },
+ "security_incidents_000037": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.45579372953781905,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3459059908830642,
+    "probabilities": {
+     "close_benign": 0.12764621377937943,
+     "contain": 0.1599299769346908,
+     "investigate": 0.5094294931622981,
+     "monitor": 0.2029943161236316
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.17593761178666267,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.06158363825654221,
+     "1": 0.16735139037976238,
+     "2": 0.279852002383314,
+     "3": 0.34075008942933016,
+     "4": 0.15046287955105125
+    },
+    "score": 2.3511571816385857,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.563324491635158,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.19096744596698123,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0742265188229027,
+     "1": 0.23133210814337055,
+     "2": 0.30121578855849085,
+     "3": 0.3932255844752359
+    },
+    "score": 2.01344043868606,
+    "type": "score"
+   }
+  },
+  "ms": 260.30108297709376
+ },
+ "security_incidents_000038": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4949835859861077,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.344189816523605,
+    "probabilities": {
+     "close_benign": 0.12801344550591245,
+     "contain": 0.2093698364623361,
+     "investigate": 0.5081423623927037,
+     "monitor": 0.15447435563904777
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.2906769768242621,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.028391716650736493,
+     "1": 0.11417331654478488,
+     "2": 0.2650272057283646,
+     "3": 0.43254158145940963,
+     "4": 0.15986617961670443
+    },
+    "score": 2.5813171908465606,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.6052322793707744,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2956198401480177,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06568112090221463,
+     "1": 0.17441982621314034,
+     "2": 0.2881841727736318,
+     "3": 0.47171488011101326
+    },
+    "score": 2.165932812093444,
+    "type": "score"
+   }
+  },
+  "ms": 247.16262507718056
+ },
+ "security_incidents_000039": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.47302627036621714,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.32184914904656775,
+    "probabilities": {
+     "close_benign": 0.15587291380074203,
+     "contain": 0.17184065480075847,
+     "investigate": 0.4913868617849258,
+     "monitor": 0.1808995696135737
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.1822316056490314,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.05097060409989269,
+     "1": 0.14167881202090843,
+     "2": 0.3038465723134106,
+     "3": 0.34578528451922513,
+     "4": 0.1577187270465631
+    },
+    "score": 2.4176027183916577,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5716168150952395,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.19409922580930047,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.08631197825751422,
+     "1": 0.20758395976127347,
+     "2": 0.31052964262423693,
+     "3": 0.39557441935697535
+    },
+    "score": 2.0153665030806733,
+    "type": "score"
+   }
+  },
+  "ms": 253.51641699671745
+ },
+ "security_incidents_000040": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4701051680002904,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.2786068032210743,
+    "probabilities": {
+     "close_benign": 0.14321062210858473,
+     "contain": 0.20668834205981962,
+     "investigate": 0.4589551024158057,
+     "monitor": 0.19114593341578992
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.29060743681989,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.03640097239853126,
+     "1": 0.1288444548816197,
+     "2": 0.29483133856237653,
+     "3": 0.432485949455912,
+     "4": 0.10743728470156046
+    },
+    "score": 2.4457141191803506,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5639470974316616,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2084718337073744,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06999757544399848,
+     "1": 0.22534125961986023,
+     "2": 0.2983072896556105,
+     "3": 0.4063538752805308
+    },
+    "score": 2.0410174647726738,
+    "type": "score"
+   }
+  },
+  "ms": 252.47637496795505
+ },
+ "security_incidents_000041": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4803867259207002,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.268635076367862,
+    "probabilities": {
+     "close_benign": 0.1400700955077235,
+     "contain": 0.22235688194568806,
+     "investigate": 0.4514763072758965,
+     "monitor": 0.18609671527069194
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.29432867253828476,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.030728878511910536,
+     "1": 0.11907825120156963,
+     "2": 0.29667552519862034,
+     "3": 0.4354629380306278,
+     "4": 0.11805440705727167
+    },
+    "score": 2.4910357439197806,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5768091579418129,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.23178586896341255,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06589602783140835,
+     "1": 0.21782064217803654,
+     "2": 0.2924439282679957,
+     "3": 0.4238394017225594
+    },
+    "score": 2.074226703881706,
+    "type": "score"
+   }
+  },
+  "ms": 259.6718749264255
+ },
+ "security_incidents_000042": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5233087437075935,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3689320905246249,
+    "probabilities": {
+     "close_benign": 0.0887743255948218,
+     "contain": 0.21466134553491895,
+     "investigate": 0.5266990678934687,
+     "monitor": 0.16986526097679058
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.2171807601782606,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.03383510222777072,
+     "1": 0.14394460486647573,
+     "2": 0.31996581364057375,
+     "3": 0.37374460814260846,
+     "4": 0.12850987112257134
+    },
+    "score": 2.4191495410657335,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.6590545718234585,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2710654915582789,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0449764865242904,
+     "1": 0.18302976882169297,
+     "2": 0.31869462598530746,
+     "3": 0.4532991186687092
+    },
+    "score": 2.1803163767984355,
+    "type": "score"
+   }
+  },
+  "ms": 273.9246250130236
+ },
+ "security_incidents_000043": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5189263814471958,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.39139921679995276,
+    "probabilities": {
+     "close_benign": 0.10390947185695693,
+     "contain": 0.19445898775587483,
+     "investigate": 0.5435494125999646,
+     "monitor": 0.15808212778720365
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.23949906527129383,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.028509617906519222,
+     "1": 0.12975955599341296,
+     "2": 0.2610348360044897,
+     "3": 0.39159925221703507,
+     "4": 0.1890967378785431
+    },
+    "score": 2.58301393616767,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.6086182370663001,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.27188389611854774,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04102057527176073,
+     "1": 0.18571441655119736,
+     "2": 0.3193520860881311,
+     "3": 0.4539129220889108
+    },
+    "score": 2.186157354994192,
+    "type": "score"
+   }
+  },
+  "ms": 258.9337080717087
+ },
+ "security_incidents_000044": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.47382903475266025,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3049800865909989,
+    "probabilities": {
+     "close_benign": 0.15118920473547218,
+     "contain": 0.1759654912367087,
+     "investigate": 0.4787350649432492,
+     "monitor": 0.1941102390845699
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.17110802885905552,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.06514428496768186,
+     "1": 0.18883677931646542,
+     "2": 0.3368864230872444,
+     "3": 0.29875816577570674,
+     "4": 0.11037434685290157
+    },
+    "score": 2.200381510229681,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5778651593738477,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.16893575082330856,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.08198219968796568,
+     "1": 0.2346306271049869,
+     "2": 0.30668536008956604,
+     "3": 0.3767018131174814
+    },
+    "score": 1.9781067866365631,
+    "type": "score"
+   }
+  },
+  "ms": 253.60162497963756
+ },
+ "security_incidents_000045": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4596166703315454,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.34927228824161033,
+    "probabilities": {
+     "close_benign": 0.12510641520018076,
+     "contain": 0.1636434595870924,
+     "investigate": 0.5119542161812077,
+     "monitor": 0.19929590903151911
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.17457462376418037,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.058581300952328275,
+     "1": 0.1652395841810671,
+     "2": 0.28252916853212773,
+     "3": 0.3396596990113443,
+     "4": 0.15399024732313257
+    },
+    "score": 2.365238007571886,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5671465747061688,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.19835073746792098,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.07081518021372758,
+     "1": 0.2286229494475188,
+     "2": 0.3017988172378129,
+     "3": 0.39876305310094073
+    },
+    "score": 2.0285097432259667,
+    "type": "score"
+   }
+  },
+  "ms": 249.83258300926536
+ },
+ "security_incidents_000046": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4715785312349266,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.2705200965495429,
+    "probabilities": {
+     "close_benign": 0.14571757955307368,
+     "contain": 0.2112222398381479,
+     "investigate": 0.4528900724121572,
+     "monitor": 0.19017010819662122
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.2829205961405816,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.033278073565834995,
+     "1": 0.12309239059912078,
+     "2": 0.2961297606194484,
+     "3": 0.42633647691246535,
+     "4": 0.12116329830313051
+    },
+    "score": 2.4790145357879356,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5627924820012586,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.21097621491956361,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06871255722335878,
+     "1": 0.22720115769498966,
+     "2": 0.29585412389197885,
+     "3": 0.4082321611896727
+    },
+    "score": 2.0436058890479654,
+    "type": "score"
+   }
+  },
+  "ms": 258.04625009186566
+ },
+ "security_incidents_000047": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.48784640617526,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3541021376616425,
+    "probabilities": {
+     "close_benign": 0.12757739005378135,
+     "contain": 0.20199278142454966,
+     "investigate": 0.5155766032462319,
+     "monitor": 0.1548532252754371
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.28463556471570284,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.0286891553807947,
+     "1": 0.1135029636088866,
+     "2": 0.27333090016281997,
+     "3": 0.4277084517725622,
+     "4": 0.15676852907493652
+    },
+    "score": 2.5703642355519594,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.60206014751088,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.28308696578332343,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06618533415132224,
+     "1": 0.1759478709772632,
+     "2": 0.295551570533922,
+     "3": 0.46231522433749256
+    },
+    "score": 2.1539966850575847,
+    "type": "score"
+   }
+  },
+  "ms": 248.59325005672872
+ },
+ "security_incidents_000048": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5007756488253824,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.34339414857623174,
+    "probabilities": {
+     "close_benign": 0.1299947973835649,
+     "contain": 0.18828231771790352,
+     "investigate": 0.5075456114321738,
+     "monitor": 0.17417727346635778
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.21302779094024643,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.046583306001220834,
+     "1": 0.14592796437265965,
+     "2": 0.2950725425500804,
+     "3": 0.37042223275219716,
+     "4": 0.14199395432384193
+    },
+    "score": 2.4153155650247795,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5949416719607089,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.23149067034052737,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06556887806325976,
+     "1": 0.20019619981227926,
+     "2": 0.31061691936906544,
+     "3": 0.4236180027553955
+    },
+    "score": 2.0922840468165966,
+    "type": "score"
+   }
+  },
+  "ms": 258.55150003917515
+ },
+ "security_incidents_000049": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5030305696222624,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3430520749916541,
+    "probabilities": {
+     "close_benign": 0.1276352711869765,
+     "contain": 0.19172289938093906,
+     "investigate": 0.5072890562437405,
+     "monitor": 0.17335277318834386
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.21441246676069126,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.04652282700772162,
+     "1": 0.14479615964852946,
+     "2": 0.29395261303247344,
+     "3": 0.371529973408553,
+     "4": 0.14319842690272253
+    },
+    "score": 2.4200850135500254,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5979822760988063,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.23430584753928443,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06389965711703383,
+     "1": 0.2011500302248548,
+     "2": 0.309220927003648,
+     "3": 0.42572938565446333
+    },
+    "score": 2.096780041195541,
+    "type": "score"
+   }
+  },
+  "ms": 264.1662909882143
+ },
+ "security_incidents_000050": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.474784077747005,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.32328419034897554,
+    "probabilities": {
+     "close_benign": 0.1591192956645305,
+     "contain": 0.1704046226128675,
+     "investigate": 0.49246314276173164,
+     "monitor": 0.1780129389608703
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.1939981564222859,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.052511505145522865,
+     "1": 0.1389745029097297,
+     "2": 0.30082835768246896,
+     "3": 0.35519852513782874,
+     "4": 0.15248710912444974
+    },
+    "score": 2.416175230185953,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5735084908661161,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.19961946531445554,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0892983853837414,
+     "1": 0.20310064398085334,
+     "2": 0.30788637164956356,
+     "3": 0.39971459898584166
+    },
+    "score": 2.0180171842375056,
+    "type": "score"
+   }
+  },
+  "ms": 264.6436670329422
+ },
+ "security_incidents_000051": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.552122812881188,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.37339090648135737,
+    "probabilities": {
+     "close_benign": 0.07293035072470422,
+     "contain": 0.22924627805657255,
+     "investigate": 0.530043179861018,
+     "monitor": 0.1677801913577052
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.2586589909199255,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.021011234186619612,
+     "1": 0.09503295539675234,
+     "2": 0.2816169622806191,
+     "3": 0.40692719273594036,
+     "4": 0.19541165540006858
+    },
+    "score": 2.6606950797660858,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.66899600784073,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.3235824711034776,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.03227514652245561,
+     "1": 0.15820077739953237,
+     "2": 0.3168372227504038,
+     "3": 0.4926868533276082
+    },
+    "score": 2.2699357828831648,
+    "type": "score"
+   }
+  },
+  "ms": 261.36454194784164
+ },
+ "security_incidents_000052": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.47306653124085735,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.2987199864806586,
+    "probabilities": {
+     "close_benign": 0.15288655827739137,
+     "contain": 0.1766898035875327,
+     "investigate": 0.47403998986049395,
+     "monitor": 0.19638364827458202
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.1702355294998527,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.06542587733705846,
+     "1": 0.18997951195187335,
+     "2": 0.33618842359988216,
+     "3": 0.29502606533959097,
+     "4": 0.1133801217715951
+    },
+    "score": 2.200955042256791,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5765864393826645,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.16904380536500221,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.08399587972579847,
+     "1": 0.2355737700427004,
+     "2": 0.3036474962077495,
+     "3": 0.37678285402375167
+    },
+    "score": 1.9732173245294544,
+    "type": "score"
+   }
+  },
+  "ms": 251.37370801530778
+ },
+ "security_incidents_000053": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5042356296125893,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.34536915083200315,
+    "probabilities": {
+     "close_benign": 0.12713579981828427,
+     "contain": 0.1929943429142136,
+     "investigate": 0.5090268631240024,
+     "monitor": 0.17084299414349977
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.21594551146825008,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.04552822520438552,
+     "1": 0.1428305581205998,
+     "2": 0.29681804512124216,
+     "3": 0.37275640917460007,
+     "4": 0.14206676237917246
+    },
+    "score": 2.423002925403574,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.599747734155611,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.23739311895736162,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0632523511425155,
+     "1": 0.1968334478440802,
+     "2": 0.3118693617953831,
+     "3": 0.4280448392180212
+    },
+    "score": 2.10470668908891,
+    "type": "score"
+   }
+  },
+  "ms": 261.38229202479124
+ },
+ "security_incidents_000054": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4680480563724079,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3160291504622407,
+    "probabilities": {
+     "close_benign": 0.16299283085532876,
+     "contain": 0.1678520360516345,
+     "investigate": 0.48702186284668053,
+     "monitor": 0.1821332702463562
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.17792204195109096,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.054918654728153514,
+     "1": 0.14716769586098238,
+     "2": 0.30447044448551136,
+     "3": 0.34233763356087277,
+     "4": 0.15110557136448002
+    },
+    "score": 2.3875437709725436,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5652469590822389,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.18695563263912085,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.09240455740504443,
+     "1": 0.21104560936312786,
+     "2": 0.3063331087524871,
+     "3": 0.39021672447934064
+    },
+    "score": 1.994362000306124,
+    "type": "score"
+   }
+  },
+  "ms": 265.3645420214161
+ },
+ "security_incidents_000055": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.47304782183125704,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3196407642626416,
+    "probabilities": {
+     "close_benign": 0.1563421529259614,
+     "contain": 0.1745979004087893,
+     "investigate": 0.4897305731969812,
+     "monitor": 0.17932937346826808
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.1863414100577629,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.05029075879789826,
+     "1": 0.14268969406783308,
+     "2": 0.3039874306936235,
+     "3": 0.3490731280462103,
+     "4": 0.1539589883944348
+    },
+    "score": 2.41371989317145,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5770468837740421,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.20409759222665969,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.08691079330096854,
+     "1": 0.20227797996606572,
+     "2": 0.307738032562971,
+     "3": 0.40307319416999476
+    },
+    "score": 2.026973627601992,
+    "type": "score"
+   }
+  },
+  "ms": 256.4404170261696
+ },
+ "security_incidents_000056": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.47612908197963333,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.282551820718991,
+    "probabilities": {
+     "close_benign": 0.13714006281592314,
+     "contain": 0.21351883397855592,
+     "investigate": 0.46191386553924324,
+     "monitor": 0.1874272376662777
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.2879988358406198,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.037028086933594995,
+     "1": 0.12077236650427513,
+     "2": 0.29204014770196707,
+     "3": 0.43039906867249583,
+     "4": 0.11976033018766696
+    },
+    "score": 2.4750911886763647,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5696260047188869,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.22028900039142343,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06494016875035934,
+     "1": 0.22443826721347623,
+     "2": 0.29540481374259686,
+     "3": 0.4152167502935676
+    },
+    "score": 2.060898145579373,
+    "type": "score"
+   }
+  },
+  "ms": 264.6898329257965
+ },
+ "security_incidents_000057": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4370425240760823,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3016464461100407,
+    "probabilities": {
+     "close_benign": 0.17294763832092508,
+     "contain": 0.15653964863396178,
+     "investigate": 0.4762348345825305,
+     "monitor": 0.19427787846258263
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.1295681986327447,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.0790633513999791,
+     "1": 0.16972155002523542,
+     "2": 0.28031495233042675,
+     "3": 0.30365455890619575,
+     "4": 0.16724558733816303
+    },
+    "score": 2.3102974807573284,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5288450022363284,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.1393479445069207,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0880131160002454,
+     "1": 0.24403882265585547,
+     "2": 0.31343710296370864,
+     "3": 0.35451095838019053
+    },
+    "score": 1.9344459037238442,
+    "type": "score"
+   }
+  },
+  "ms": 259.0686250478029
+ },
+ "security_incidents_000058": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4615710195199069,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.34781581177986487,
+    "probabilities": {
+     "close_benign": 0.1219023701384498,
+     "contain": 0.16734702090699913,
+     "investigate": 0.5108618588348987,
+     "monitor": 0.1998887501196524
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.17528137263096388,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.06046753446075241,
+     "1": 0.16349660175559888,
+     "2": 0.276586560711685,
+     "3": 0.3402250981047711,
+     "4": 0.15922420496719264
+    },
+    "score": 2.3742418373620526,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5697345113175546,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.20488554385989435,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.07107862640547298,
+     "1": 0.22686652584368228,
+     "2": 0.29839068985592393,
+     "3": 0.40366415789492077
+    },
+    "score": 2.0346403792402925,
+    "type": "score"
+   }
+  },
+  "ms": 261.11874997150153
+ },
+ "security_incidents_000059": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.47189623023410515,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.29446664486246044,
+    "probabilities": {
+     "close_benign": 0.12522045265401185,
+     "contain": 0.20338384617849994,
+     "investigate": 0.4708499836468453,
+     "monitor": 0.20054571752064287
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.14359781631439722,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.08302204699662243,
+     "1": 0.1826838173453749,
+     "2": 0.24988732242638428,
+     "3": 0.3148782530515178,
+     "4": 0.1695285601801006
+    },
+    "score": 2.305207462073099,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5685331890437276,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.21074957363481475,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.08378555451777678,
+     "1": 0.2228768689301873,
+     "2": 0.28527539632592486,
+     "3": 0.40806218022611107
+    },
+    "score": 2.0176142022603702,
+    "type": "score"
+   }
+  },
+  "ms": 259.39887505955994
+ },
+ "security_incidents_000060": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4975701359908157,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3430411983592605,
+    "probabilities": {
+     "close_benign": 0.13114951679863354,
+     "contain": 0.18752764295952806,
+     "investigate": 0.5072808987694454,
+     "monitor": 0.17404194147239296
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.21081716620105628,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.048401810088185816,
+     "1": 0.14626143749232515,
+     "2": 0.29534644635278146,
+     "3": 0.368653732960845,
+     "4": 0.14133657310586262
+    },
+    "score": 2.4082618215038734,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5920263888580425,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.22865051462083308,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06504744312613824,
+     "1": 0.20357351902740503,
+     "2": 0.30989115188083194,
+     "3": 0.4214878859656248
+    },
+    "score": 2.087819480685943,
+    "type": "score"
+   }
+  },
+  "ms": 252.3217499256134
+ },
+ "security_incidents_000061": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5507760270005537,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.38276974898891386,
+    "probabilities": {
+     "close_benign": 0.07315204559301862,
+     "contain": 0.2234068937890828,
+     "investigate": 0.5370773117416854,
+     "monitor": 0.16636374887621325
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.25889143670575665,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.021559864696494426,
+     "1": 0.09458517235660222,
+     "2": 0.2811266566595712,
+     "3": 0.4071131493646053,
+     "4": 0.19561515692272685
+    },
+    "score": 2.660638561460468,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.6659383542235437,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.31964503025901353,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.034868162711754094,
+     "1": 0.15600759481275042,
+     "2": 0.3193904697812353,
+     "3": 0.48973377269426016
+    },
+    "score": 2.2639898524580016,
+    "type": "score"
+   }
+  },
+  "ms": 263.25733307749033
+ },
+ "security_incidents_000062": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5047432263181769,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3433101922117158,
+    "probabilities": {
+     "close_benign": 0.12659255807964076,
+     "contain": 0.19273057138231842,
+     "investigate": 0.5074826441587869,
+     "monitor": 0.17319422637925397
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.21362594532897877,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.0462103159609939,
+     "1": 0.14546468342237867,
+     "2": 0.29520874332112085,
+     "3": 0.37090075626318303,
+     "4": 0.1422155010323235
+    },
+    "score": 2.4174464429834632,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5997657156444365,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.23628740784160915,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06402661401673104,
+     "1": 0.19851751017205072,
+     "2": 0.3102403199300114,
+     "3": 0.42721555588120685
+    },
+    "score": 2.100644817675694,
+    "type": "score"
+   }
+  },
+  "ms": 253.03991697728634
+ },
+ "security_incidents_000063": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.46685947717833887,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3413109967625161,
+    "probabilities": {
+     "close_benign": 0.12670367336012509,
+     "contain": 0.17049508985113596,
+     "investigate": 0.5059832475718871,
+     "monitor": 0.19681798921685187
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.17861474860453008,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.05825013698539796,
+     "1": 0.16250996602788212,
+     "2": 0.2765158122671263,
+     "3": 0.3428917988836241,
+     "4": 0.1598322858359695
+    },
+    "score": 2.3835461305568852,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5732261555109649,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2089883010170411,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.07367010389208277,
+     "1": 0.2253763708563644,
+     "2": 0.29421229948877203,
+     "3": 0.4067412257627808
+    },
+    "score": 2.034024647122251,
+    "type": "score"
+   }
+  },
+  "ms": 251.2789579341188
+ },
+ "security_incidents_000064": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5065954869988513,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3426821189440026,
+    "probabilities": {
+     "close_benign": 0.1266607590669128,
+     "contain": 0.19421022050539438,
+     "investigate": 0.5070115892080019,
+     "monitor": 0.1721174312196909
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.2139687014409456,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.04483190197001705,
+     "1": 0.14019345662971838,
+     "2": 0.29698564754732476,
+     "3": 0.3711749611527565,
+     "4": 0.14681403270018328
+    },
+    "score": 2.434945765983371,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5999843081766202,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.23964338308166444,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06328693217840044,
+     "1": 0.19723052693598192,
+     "2": 0.3097500035743693,
+     "3": 0.42973253731124833
+    },
+    "score": 2.1059281460184653,
+    "type": "score"
+   }
+  },
+  "ms": 333.56108400039375
+ },
+ "security_incidents_000065": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4508945039809375,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3120196699834601,
+    "probabilities": {
+     "close_benign": 0.1637232300519367,
+     "contain": 0.16334332138710086,
+     "investigate": 0.48401475248759507,
+     "monitor": 0.18891869607336736
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.13214896007474436,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.07703170237599309,
+     "1": 0.16895074636667537,
+     "2": 0.2799630203705103,
+     "3": 0.3057191680597955,
+     "4": 0.16833536282702577
+    },
+    "score": 2.3193757425951853,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5434827492276918,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.15843261715107157,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.08372930894962144,
+     "1": 0.2367733114044832,
+     "2": 0.3106729167825917,
+     "3": 0.36882446286330367
+    },
+    "score": 1.9645925335595775,
+    "type": "score"
+   }
+  },
+  "ms": 275.9441660018638
+ },
+ "security_incidents_000066": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.44433941338313393,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.30239231608395606,
+    "probabilities": {
+     "close_benign": 0.17013549877574272,
+     "contain": 0.1606357972983745,
+     "investigate": 0.47679423706296703,
+     "monitor": 0.19243446686291577
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.12463057971479419,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.08176122577732131,
+     "1": 0.17143920572670726,
+     "2": 0.281614226882653,
+     "3": 0.29970446377183535,
+     "4": 0.16548087784148316
+    },
+    "score": 2.295704562173452,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5352192401073353,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.14999560821513938,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0860428873881658,
+     "1": 0.23900209328641123,
+     "2": 0.31245831316406847,
+     "3": 0.36249670616135454
+    },
+    "score": 1.9514088380986119,
+    "type": "score"
+   }
+  },
+  "ms": 276.0423750150949
+ },
+ "security_incidents_000067": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.48377032443672224,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.27445218049461956,
+    "probabilities": {
+     "close_benign": 0.13608991373469176,
+     "contain": 0.22404395858957252,
+     "investigate": 0.45583913537096465,
+     "monitor": 0.1840269923047711
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.2950418986320402,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.02932390800619821,
+     "1": 0.11768901704836851,
+     "2": 0.29680900301155416,
+     "3": 0.43603351890563213,
+     "4": 0.12014455302824695
+    },
+    "score": 2.499985791901361,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5796039842945266,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.23585717926971891,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06171717128046264,
+     "1": 0.2189975942876527,
+     "2": 0.2923923499795955,
+     "3": 0.4268928844522892
+    },
+    "score": 2.084460947603711,
+    "type": "score"
+   }
+  },
+  "ms": 270.0519160134718
+ },
+ "security_incidents_000068": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4972728999320488,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.34423888304554523,
+    "probabilities": {
+     "close_benign": 0.12957716509148823,
+     "contain": 0.18625267593125783,
+     "investigate": 0.5081791622841589,
+     "monitor": 0.17599099669309504
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.2098997935876874,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.046691644915905856,
+     "1": 0.14639513790978767,
+     "2": 0.2991871736616568,
+     "3": 0.3679198348701499,
+     "4": 0.13980620864249976
+    },
+    "score": 2.40775382441355,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5933228719022902,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.22549263968351277,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06438729138421401,
+     "1": 0.20295758104987927,
+     "2": 0.3135356478032721,
+     "3": 0.4191194797626346
+    },
+    "score": 2.0873873159443272,
+    "type": "score"
+   }
+  },
+  "ms": 278.73108396306634
+ },
+ "security_incidents_000069": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4866071256223176,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.2973817536413131,
+    "probabilities": {
+     "close_benign": 0.11600280578512559,
+     "contain": 0.21312791686201496,
+     "investigate": 0.4730363152309848,
+     "monitor": 0.1978329621218746
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.15548655420109558,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.08035049386178925,
+     "1": 0.17448729752329484,
+     "2": 0.24467075937703991,
+     "3": 0.3243892433608765,
+     "4": 0.17610220587699948
+    },
+    "score": 2.341405369868002,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5819970401425802,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2346667623646559,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.07960557435569106,
+     "1": 0.21361461268762294,
+     "2": 0.28077974118319404,
+     "3": 0.4260000717734919
+    },
+    "score": 2.053174310374487,
+    "type": "score"
+   }
+  },
+  "ms": 268.2622919091955
+ },
+ "security_incidents_000070": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4935303286665764,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.36220224645263377,
+    "probabilities": {
+     "close_benign": 0.12163665195720248,
+     "contain": 0.2009462365295774,
+     "investigate": 0.5216516848394753,
+     "monitor": 0.1557654266737448
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.27838462665302377,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.02606982266860478,
+     "1": 0.11762022213488237,
+     "2": 0.27669523939633717,
+     "3": 0.422707701322419,
+     "4": 0.15690701447775668
+    },
+    "score": 2.5667618628058406,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.6051441631141755,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.28738153735703736,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.061307398865579545,
+     "1": 0.17631601255660612,
+     "2": 0.2968404355600363,
+     "3": 0.465536153017778
+    },
+    "score": 2.166605342730013,
+    "type": "score"
+   }
+  },
+  "ms": 295.0481250882149
+ },
+ "security_incidents_000071": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5415063780552575,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.37319651226101413,
+    "probabilities": {
+     "close_benign": 0.08093284732143552,
+     "contain": 0.21637438471341808,
+     "investigate": 0.5298973841957606,
+     "monitor": 0.17279538376938577
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.24820222453469726,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.029055590124559008,
+     "1": 0.1022788374981498,
+     "2": 0.27593988727866886,
+     "3": 0.3985617796277578,
+     "4": 0.19416390547086457
+    },
+    "score": 2.6264995728222194,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.6543004615596395,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.30380698618680496,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.03945132640691366,
+     "1": 0.16577817469427952,
+     "2": 0.31691525925870306,
+     "3": 0.47785523964010373
+    },
+    "score": 2.233174412131997,
+    "type": "score"
+   }
+  },
+  "ms": 267.48654106631875
+ },
+ "security_incidents_000072": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.47394066379226113,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.30448112924803494,
+    "probabilities": {
+     "close_benign": 0.1493490169815437,
+     "contain": 0.1751537071135043,
+     "investigate": 0.4783608469360262,
+     "monitor": 0.1971364289689258
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.1681481779918162,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.06403613194163212,
+     "1": 0.18735278574012362,
+     "2": 0.33451854239345297,
+     "3": 0.30014568218576715,
+     "4": 0.11394685773902409
+    },
+    "score": 2.2126143480404274,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5776422003689207,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.16989843713909822,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0814261807364254,
+     "1": 0.23448254792185827,
+     "2": 0.30666744348739267,
+     "3": 0.37742382785432366
+    },
+    "score": 1.9800889184596147,
+    "type": "score"
+   }
+  },
+  "ms": 269.7622920386493
+ },
+ "security_incidents_000073": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.46376162292059364,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.34784678525401125,
+    "probabilities": {
+     "close_benign": 0.12169696554043241,
+     "contain": 0.16853559525706546,
+     "investigate": 0.5108850889405084,
+     "monitor": 0.19888235026199363
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.18095096021064977,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.05727837636292695,
+     "1": 0.1617666417264833,
+     "2": 0.27882660033956963,
+     "3": 0.3447607681685198,
+     "4": 0.15736761340250033
+    },
+    "score": 2.383172600521183,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.572957891783478,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2075931770766309,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.07068865943643086,
+     "1": 0.22361833413473595,
+     "2": 0.29999812362136,
+     "3": 0.4056948828074732
+    },
+    "score": 2.0406992297998756,
+    "type": "score"
+   }
+  },
+  "ms": 279.98879097867757
+ },
+ "security_incidents_000074": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.49050259353510867,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.35184670615168584,
+    "probabilities": {
+     "close_benign": 0.1252505237544422,
+     "contain": 0.205527855239794,
+     "investigate": 0.5138850296137644,
+     "monitor": 0.15533659139199948
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.28547551168834384,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.026920684085806366,
+     "1": 0.11689010209174688,
+     "2": 0.2724639913588978,
+     "3": 0.4283804093506751,
+     "4": 0.15534481311287385
+    },
+    "score": 2.5683385653130633,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.6035633995549093,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.28486703715385603,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06545845331748135,
+     "1": 0.17550698879403598,
+     "2": 0.29538428002309064,
+     "3": 0.46365027786539204
+    },
+    "score": 2.1572263824363933,
+    "type": "score"
+   }
+  },
+  "ms": 257.86675000563264
+ },
+ "security_incidents_000075": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5453993833237594,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3783367359890832,
+    "probabilities": {
+     "close_benign": 0.07722575811040407,
+     "contain": 0.21892351683443342,
+     "investigate": 0.5337525519918124,
+     "monitor": 0.17009817306335018
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.24869432823345672,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.023975159008565256,
+     "1": 0.10084179862938315,
+     "2": 0.28402655969225277,
+     "3": 0.3989554625867654,
+     "4": 0.19220102008303339
+    },
+    "score": 2.6345653861063187,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.6589561152998483,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.3033431243720874,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0363977334779977,
+     "1": 0.16384837839501282,
+     "2": 0.322246544847924,
+     "3": 0.4775073432790655
+    },
+    "score": 2.240863497928057,
+    "type": "score"
+   }
+  },
+  "ms": 252.4985830532387
+ },
+ "security_incidents_000076": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5476575011070035,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3799301750392072,
+    "probabilities": {
+     "close_benign": 0.0753313668801339,
+     "contain": 0.22198569362631393,
+     "investigate": 0.5349476312794054,
+     "monitor": 0.16773530821414684
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.2576843312385878,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.022011346537490657,
+     "1": 0.09679826480164647,
+     "2": 0.28043494821323556,
+     "3": 0.40614746499087023,
+     "4": 0.19460797545675707
+    },
+    "score": 2.6545424580277563,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.6623445112566886,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.31479954616981937,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.03300621497232876,
+     "1": 0.1607930227452703,
+     "2": 0.32010110265503644,
+     "3": 0.4860996596273645
+    },
+    "score": 2.2592942069374367,
+    "type": "score"
+   }
+  },
+  "ms": 260.558791924268
+ },
+ "security_incidents_000077": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.46530672686830576,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3429736844100586,
+    "probabilities": {
+     "close_benign": 0.12354104733865758,
+     "contain": 0.17168991729399033,
+     "investigate": 0.507230263307544,
+     "monitor": 0.19753877205980813
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.18033966168340881,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.059453803279036335,
+     "1": 0.16157810912435525,
+     "2": 0.275243956860062,
+     "3": 0.34427172934672706,
+     "4": 0.15945240138981934
+    },
+    "score": 2.3826908164439375,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5755221612791407,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.21519740754105796,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.07056357684762841,
+     "1": 0.22331320425018306,
+     "2": 0.2947251632463951,
+     "3": 0.41139805565579346
+    },
+    "score": 2.0469576977103534,
+    "type": "score"
+   }
+  },
+  "ms": 271.5912919957191
+ },
+ "security_incidents_000078": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4497838532230221,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.31527012991659314,
+    "probabilities": {
+     "close_benign": 0.16250858730285556,
+     "contain": 0.1605628162903419,
+     "investigate": 0.48645259743744484,
+     "monitor": 0.19047599896935768
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.12910284205283706,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.07795892947427717,
+     "1": 0.1671869084935803,
+     "2": 0.28742311686992505,
+     "3": 0.3032822736422697,
+     "4": 0.16414877151994775
+    },
+    "score": 2.3084750492400303,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5409050699214994,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.15745523378200046,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.08211181505071084,
+     "1": 0.2363134438403441,
+     "2": 0.3134833157724447,
+     "3": 0.36809142533650036
+    },
+    "score": 1.9675543513947344,
+    "type": "score"
+   }
+  },
+  "ms": 278.6670409841463
+ },
+ "security_incidents_000079": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5250284127478626,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3938627653193105,
+    "probabilities": {
+     "close_benign": 0.09689087944477609,
+     "contain": 0.2010909831531351,
+     "investigate": 0.5453970739894829,
+     "monitor": 0.15662106341260593
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.2263350497349479,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.025392177857672494,
+     "1": 0.1334751157053337,
+     "2": 0.2672334953112997,
+     "3": 0.38106803978795833,
+     "4": 0.19283117133773578
+    },
+    "score": 2.5824709110427513,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.6154818253737775,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.277225461538366,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.03597734923151171,
+     "1": 0.1857851160829709,
+     "2": 0.3203184385317429,
+     "3": 0.4579190961537745
+    },
+    "score": 2.20017928160778,
+    "type": "score"
+   }
+  },
+  "ms": 268.26358295511454
+ },
+ "security_incidents_000080": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.448371858418874,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.30341532691499745,
+    "probabilities": {
+     "close_benign": 0.16692773157414853,
+     "contain": 0.16565709424565658,
+     "investigate": 0.4775614951862481,
+     "monitor": 0.18985367899394684
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.12741863692492505,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.07858095660386792,
+     "1": 0.16877216754267507,
+     "2": 0.2824524576497965,
+     "3": 0.30193490953994007,
+     "4": 0.16825950866372047
+    },
+    "score": 2.3125198461169703,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5406924582980589,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.1563251308050282,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0859849130915747,
+     "1": 0.2366079333688935,
+     "2": 0.31016330543576065,
+     "3": 0.36724384810377114
+    },
+    "score": 1.9586660885517282,
+    "type": "score"
+   }
+  },
+  "ms": 247.4861660739407
+ },
+ "security_incidents_000081": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.46636964973351247,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3539546678979117,
+    "probabilities": {
+     "close_benign": 0.11890175729746581,
+     "contain": 0.16791831240363927,
+     "investigate": 0.5154660009234338,
+     "monitor": 0.1977139293754612
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.1860854213778219,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.056558513773663784,
+     "1": 0.15821818976933832,
+     "2": 0.27564120828831423,
+     "3": 0.3488683371022575,
+     "4": 0.16071375106642616
+    },
+    "score": 2.3989606219184436,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5768034966878766,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.21880732161276248,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06794641828554733,
+     "1": 0.2196320254711483,
+     "2": 0.2983160650337325,
+     "3": 0.41410549120957185
+    },
+    "score": 2.058580629167329,
+    "type": "score"
+   }
+  },
+  "ms": 252.42974993307143
+ },
+ "security_incidents_000082": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.49969922998402216,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3439225683029162,
+    "probabilities": {
+     "close_benign": 0.1298908948002278,
+     "contain": 0.18914066833308332,
+     "investigate": 0.5079419262271871,
+     "monitor": 0.1730265106395017
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.21467943149770463,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.044558208176795865,
+     "1": 0.1412344615160754,
+     "2": 0.29638644453630064,
+     "3": 0.3717435451981637,
+     "4": 0.14607734057266433
+    },
+    "score": 2.4335473484738253,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5951089707234944,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.23040242441974987,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06459508646338025,
+     "1": 0.19972348782659433,
+     "2": 0.31287960739521303,
+     "3": 0.4228018183148124
+    },
+    "score": 2.093888157561458,
+    "type": "score"
+   }
+  },
+  "ms": 281.2847919994965
+ },
+ "security_incidents_000083": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5295569779547543,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3914260659324591,
+    "probabilities": {
+     "close_benign": 0.09573245236768423,
+     "contain": 0.20602430478382094,
+     "investigate": 0.5435695494493443,
+     "monitor": 0.15467369339915052
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.23826794986372135,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.024595208325948182,
+     "1": 0.13160433772603464,
+     "2": 0.26365907398144434,
+     "3": 0.3906143598909771,
+     "4": 0.18952702007559574
+    },
+    "score": 2.5888736456642376,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.6212458098352658,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2875666528788905,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.03531031973521839,
+     "1": 0.18194498313549093,
+     "2": 0.3170697074701228,
+     "3": 0.46567498965916787
+    },
+    "score": 2.21310936705324,
+    "type": "score"
+   }
+  },
+  "ms": 257.48941698111594
+ },
+ "security_incidents_000084": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5428633665835676,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3757218781329173,
+    "probabilities": {
+     "close_benign": 0.0812672412892463,
+     "contain": 0.21815827368843127,
+     "investigate": 0.531791408599688,
+     "monitor": 0.16878307642263443
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.2615638008558203,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.021943948578389178,
+     "1": 0.09671491293800037,
+     "2": 0.282193259423714,
+     "3": 0.4092510406846563,
+     "4": 0.18989683837524016
+    },
+    "score": 2.648441907340358,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.657061703548073,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.30564324443122204,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.03762774084121698,
+     "1": 0.16072015344581475,
+     "2": 0.3224196723895517,
+     "3": 0.47923243332341653
+    },
+    "score": 2.2432567981951674,
+    "type": "score"
+   }
+  },
+  "ms": 268.7294160714373
+ },
+ "security_incidents_000085": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5148298752588516,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3639843669278167,
+    "probabilities": {
+     "close_benign": 0.09414554464652539,
+     "contain": 0.2081870538559904,
+     "investigate": 0.5229882751958626,
+     "monitor": 0.1746791263016217
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.20720791473144318,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.03668197854469267,
+     "1": 0.147776181691458,
+     "2": 0.32020139744712584,
+     "3": 0.36576633178515455,
+     "4": 0.12957411053156892
+    },
+    "score": 2.403774414067449,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.6503692974630695,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.26446745657827403,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.045690561098283185,
+     "1": 0.18794171903803292,
+     "2": 0.3180171274299784,
+     "3": 0.4483505924337055
+    },
+    "score": 2.1690277511991063,
+    "type": "score"
+   }
+  },
+  "ms": 269.5142920129001
+ },
+ "security_incidents_000086": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5124297551809198,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3569746001456404,
+    "probabilities": {
+     "close_benign": 0.09678881248444697,
+     "contain": 0.2104604370467698,
+     "investigate": 0.5177309501092303,
+     "monitor": 0.17501980035955292
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.20949935455490287,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.03741260601659216,
+     "1": 0.14772328974688842,
+     "2": 0.3142241593298645,
+     "3": 0.3675994836439223,
+     "4": 0.13304046126273258
+    },
+    "score": 2.4111319043893147,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.6488735454348209,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2594843286946484,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04970007886148607,
+     "1": 0.18899763270854625,
+     "2": 0.3166890419089814,
+     "3": 0.44461324652098627
+    },
+    "score": 2.156215456089468,
+    "type": "score"
+   }
+  },
+  "ms": 266.52774994727224
+ },
+ "security_incidents_000087": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.47043328583314764,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.31717438498970013,
+    "probabilities": {
+     "close_benign": 0.16369376636348412,
+     "contain": 0.16852310550808453,
+     "investigate": 0.4878807887422751,
+     "monitor": 0.17990233938615627
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.19202066206218593,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.05655869357875269,
+     "1": 0.1425326725295769,
+     "2": 0.2997020360543415,
+     "3": 0.35361652964974877,
+     "4": 0.1475900681875801
+    },
+    "score": 2.393146606337827,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5695685374865204,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.1924924670123723,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.09207643593561216,
+     "1": 0.20606560099284268,
+     "2": 0.30748861281226597,
+     "3": 0.3943693502592792
+    },
+    "score": 2.0041508773952126,
+    "type": "score"
+   }
+  },
+  "ms": 280.1142919342965
+ },
+ "security_incidents_000088": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4732142252626483,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.2748439930697695,
+    "probabilities": {
+     "close_benign": 0.1402377624732652,
+     "contain": 0.21522510658619926,
+     "investigate": 0.4561329948023271,
+     "monitor": 0.18840413613820844
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.2977085730929131,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.028679816810425772,
+     "1": 0.11417411769650394,
+     "2": 0.2912828710452611,
+     "3": 0.4381668584743305,
+     "4": 0.12769633597347863
+    },
+    "score": 2.522025779103932,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5679349891037688,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.22457966434680898,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06497747517399688,
+     "1": 0.2197482649807749,
+     "2": 0.29683951158512145,
+     "3": 0.41843474826010674
+    },
+    "score": 2.068731532931338,
+    "type": "score"
+   }
+  },
+  "ms": 273.16854102537036
+ },
+ "security_incidents_000089": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.48668114617468655,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.33864505934347067,
+    "probabilities": {
+     "close_benign": 0.13380470201574984,
+     "contain": 0.20351447453252525,
+     "investigate": 0.503983794507603,
+     "monitor": 0.15869702894412188
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.2767012735954486,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.031643700190976454,
+     "1": 0.12040445874169513,
+     "2": 0.27113526526138226,
+     "3": 0.4213610188763589,
+     "4": 0.1554555569295873
+    },
+    "score": 2.5485802736118854,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5969484870999854,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2778199631047979,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06822584272812396,
+     "1": 0.1802702190169722,
+     "2": 0.29313896592630545,
+     "3": 0.4583649723285984
+    },
+    "score": 2.1416430678553784,
+    "type": "score"
+   }
+  },
+  "ms": 269.7676250245422
+ },
+ "security_incidents_000090": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4934553288232698,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.36603887621697906,
+    "probabilities": {
+     "close_benign": 0.11713820867401636,
+     "contain": 0.2017047177192034,
+     "investigate": 0.5245291571627343,
+     "monitor": 0.15662791644404594
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.2819424135126323,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.02494590443714323,
+     "1": 0.11655076031675955,
+     "2": 0.2764356394868622,
+     "3": 0.4255539308101058,
+     "4": 0.15651376494912922
+    },
+    "score": 2.5721388915173184,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.6063333576740306,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.28535957999792827,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.058790216603462765,
+     "1": 0.17604654961512503,
+     "2": 0.301143548782966,
+     "3": 0.4640196849984462
+    },
+    "score": 2.170392702176396,
+    "type": "score"
+   }
+  },
+  "ms": 277.49683300498873
+ },
+ "security_incidents_000091": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4616700890899515,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3448654995077394,
+    "probabilities": {
+     "close_benign": 0.12438826183212091,
+     "contain": 0.16862298176647092,
+     "investigate": 0.5086491246308046,
+     "monitor": 0.19833963177060354
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.17790129627367757,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.060227150072915174,
+     "1": 0.16326910891682467,
+     "2": 0.27599164423631284,
+     "3": 0.34232103701894206,
+     "4": 0.15819105975500528
+    },
+    "score": 2.3749797474662975,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5707342020286658,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.20604424074406272,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.07225548398310741,
+     "1": 0.2256954723509121,
+     "2": 0.2975158631079334,
+     "3": 0.40453318055804705
+    },
+    "score": 2.03432674024092,
+    "type": "score"
+   }
+  },
+  "ms": 279.28141702432185
+ },
+ "security_incidents_000092": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5449679411897675,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.37948058603874335,
+    "probabilities": {
+     "close_benign": 0.07908754178463358,
+     "contain": 0.21891348056275922,
+     "investigate": 0.5346104395290575,
+     "monitor": 0.16738853812354965
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.25939845581289334,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.021560199204460836,
+     "1": 0.09621236407813051,
+     "2": 0.2798702860360979,
+     "3": 0.40751876465031467,
+     "4": 0.19483838603099607
+    },
+    "score": 2.6578627742252543,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.6608728000385725,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.3139150942441677,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.03666544784408376,
+     "1": 0.1582470307086375,
+     "2": 0.319651200764153,
+     "3": 0.48543632068312575
+    },
+    "score": 2.2538583942863206,
+    "type": "score"
+   }
+  },
+  "ms": 272.87979202810675
+ },
+ "security_incidents_000093": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4670045625961982,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3006081240145957,
+    "probabilities": {
+     "close_benign": 0.15536655049607592,
+     "contain": 0.17114021827423428,
+     "investigate": 0.47545609301094677,
+     "monitor": 0.19803713821874303
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.17230268857614994,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.0668458410349266,
+     "1": 0.19296829379962932,
+     "2": 0.33784215086091995,
+     "3": 0.2942766039495457,
+     "4": 0.10806711035497849
+    },
+    "score": 2.1837508487900203,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5707638124622475,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.1556256027426833,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0843719193717704,
+     "1": 0.24234604852986233,
+     "2": 0.3065628300413548,
+     "3": 0.36671920205701247
+    },
+    "score": 1.9556293147836095,
+    "type": "score"
+   }
+  },
+  "ms": 291.2065840791911
+ },
+ "security_incidents_000094": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.47961985529334217,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3022010216375915,
+    "probabilities": {
+     "close_benign": 0.12089940642791878,
+     "contain": 0.2059656706261977,
+     "investigate": 0.47665076622819363,
+     "monitor": 0.1964841567176899
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.15214653454994093,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.07537922235539585,
+     "1": 0.171266216457277,
+     "2": 0.2526429836550098,
+     "3": 0.32171722763995275,
+     "4": 0.17899434989236457
+    },
+    "score": 2.3576812662566136,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5745112138112803,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.22386174263606776,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.08222491886375721,
+     "1": 0.2146989060811843,
+     "2": 0.28517986807800766,
+     "3": 0.4178963069770508
+    },
+    "score": 2.0387475631683523,
+    "type": "score"
+   }
+  },
+  "ms": 264.32187494356185
+ },
+ "security_incidents_000095": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4611220418678956,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3489569599530061,
+    "probabilities": {
+     "close_benign": 0.12213345137586086,
+     "contain": 0.16643393439598614,
+     "investigate": 0.5117177199647546,
+     "monitor": 0.1997148942633984
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.17928295811995393,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.06043211712367554,
+     "1": 0.16179004709545827,
+     "2": 0.2736424530868629,
+     "3": 0.34342636649596314,
+     "4": 0.1607090161980401
+    },
+    "score": 2.382190117549234,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5709685042345936,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.21013445341773007,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06998669470070529,
+     "1": 0.2252303998899372,
+     "2": 0.29718206534605995,
+     "3": 0.40760084006329755
+    },
+    "score": 2.0423970507719496,
+    "type": "score"
+   }
+  },
+  "ms": 255.42187504470348
+ },
+ "security_incidents_000096": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4737073279591143,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.2766939415744516,
+    "probabilities": {
+     "close_benign": 0.1433161386093925,
+     "contain": 0.2105175782898083,
+     "investigate": 0.4575204561808387,
+     "monitor": 0.18864582691996054
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.29054012002361396,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.03202308312799274,
+     "1": 0.12212311740763836,
+     "2": 0.2959933430368949,
+     "3": 0.43243209601889115,
+     "4": 0.11742836040858287
+    },
+    "score": 2.481119533172433,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.566200265047864,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.21389177585305355,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06869008355607575,
+     "1": 0.22408248518619697,
+     "2": 0.29680859936793713,
+     "3": 0.41041883188979017
+    },
+    "score": 2.0489561795914417,
+    "type": "score"
+   }
+  },
+  "ms": 268.6470419866964
+ },
+ "security_incidents_000097": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5019572575065395,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.34628555495266217,
+    "probabilities": {
+     "close_benign": 0.12785528486978937,
+     "contain": 0.18793135393564658,
+     "investigate": 0.5097141662144966,
+     "monitor": 0.17449919498006744
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.21120372119019842,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.046918446591632336,
+     "1": 0.14587803269120392,
+     "2": 0.29871759111922563,
+     "3": 0.36896297695215874,
+     "4": 0.13952295264577938
+    },
+    "score": 2.408293956369249,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5960988807142652,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.23005077031371313,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06402334267296642,
+     "1": 0.2013123056080787,
+     "2": 0.31212627398367004,
+     "3": 0.42253807773528484
+    },
+    "score": 2.0931790867812734,
+    "type": "score"
+   }
+  },
+  "ms": 262.4958750093356
+ },
+ "security_incidents_000098": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5517831767891951,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3862105829671704,
+    "probabilities": {
+     "close_benign": 0.07378621079151478,
+     "contain": 0.22039800236958057,
+     "investigate": 0.5396579372253778,
+     "monitor": 0.16615784961352678
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.2603246728391774,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.02133955906352446,
+     "1": 0.09837441296510195,
+     "2": 0.2840584909509516,
+     "3": 0.40825973827134193,
+     "4": 0.18796779874908007
+    },
+    "score": 2.6431418046773514,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.667219318468103,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.31610759242276026,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.03265056521130265,
+     "1": 0.15870596963417208,
+     "2": 0.3215627708374551,
+     "3": 0.4870806943170702
+    },
+    "score": 2.263073594260293,
+    "type": "score"
+   }
+  },
+  "ms": 269.8734160512686
+ },
+ "security_incidents_000099": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4775242090513708,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3015730846238311,
+    "probabilities": {
+     "close_benign": 0.11903213642072265,
+     "contain": 0.20505551723405488,
+     "investigate": 0.4761798134678733,
+     "monitor": 0.19973253287734913
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.15478511134923673,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.07664805083912683,
+     "1": 0.17672021522199305,
+     "2": 0.2528325920294275,
+     "3": 0.32382808907938937,
+     "4": 0.16997105283006325
+    },
+    "score": 2.333753877839269,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5721532170210599,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.22088115241638415,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.07816557117811754,
+     "1": 0.21932948785868012,
+     "2": 0.2868440766509142,
+     "3": 0.4156608643122881
+    },
+    "score": 2.0400002340973726,
+    "type": "score"
+   }
+  },
+  "ms": 249.65629202779382
+ },
+ "security_incidents_000016": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.471052391121399,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.30031733729517646,
+    "probabilities": {
+     "close_benign": 0.15474527793010542,
+     "contain": 0.1734985665263154,
+     "investigate": 0.47523800297138236,
+     "monitor": 0.19651815257219682
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.17097695290649084,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.0666822594893792,
+     "1": 0.18918599176396847,
+     "2": 0.3367815623251927,
+     "3": 0.2948864802440784,
+     "4": 0.11246370617738126
+    },
+    "score": 2.197263381856114,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5748368541744798,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.16505052516707264,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.08471776884257674,
+     "1": 0.23720376926156936,
+     "2": 0.30429056802054943,
+     "3": 0.3737878938753045
+    },
+    "score": 1.9671485869285816,
+    "type": "score"
+   }
+  },
+  "ms": 249.9029169557616
+ },
+ "security_incidents_000017": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.5248102814987071,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.393522625481973,
+    "probabilities": {
+     "close_benign": 0.09972321483135926,
+     "contain": 0.198528938171144,
+     "investigate": 0.5451419691114797,
+     "monitor": 0.15660587788601701
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.23150426329957147,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.0266059466046831,
+     "1": 0.1313896962954567,
+     "2": 0.26899336142854924,
+     "3": 0.3852034106396572,
+     "4": 0.18780758503165376
+    },
+    "score": 2.576216991198142,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.613764508185784,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.271311894610153,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.03963654053734736,
+     "1": 0.1852132504542088,
+     "2": 0.3216662880508291,
+     "3": 0.45348392095761475
+    },
+    "score": 2.1889975894287113,
+    "type": "score"
+   }
+  },
+  "ms": 263.042000005953
+ },
+ "security_incidents_000018": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.49345579103578935,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3547881207717835,
+    "probabilities": {
+     "close_benign": 0.12214126143445266,
+     "contain": 0.20711771549547559,
+     "investigate": 0.5160910905788376,
+     "monitor": 0.1546499324912341
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.2805892727794601,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.02611285570721903,
+     "1": 0.11819411093047483,
+     "2": 0.27271043482494156,
+     "3": 0.42447141822356804,
+     "4": 0.15851118031379655
+    },
+    "score": 2.571073956506248,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.6058880761948571,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2856788496858715,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.06407756623614862,
+     "1": 0.1760001671176792,
+     "2": 0.2956631293817686,
+     "3": 0.4642591372644036
+    },
+    "score": 2.160103837674427,
+    "type": "score"
+   }
+  },
+  "ms": 256.5059580374509
+ },
+ "security_incidents_000019": {
+  "answers": {
+   "credential_compromise": {
+    "noul": 0.4437296091458072,
+    "type": "noul"
+   },
+   "disposition": {
+    "choice": "investigate",
+    "confidence": 0.3130090910889836,
+    "probabilities": {
+     "close_benign": 0.16688836200130502,
+     "contain": 0.15972277096880627,
+     "investigate": 0.4847568183167377,
+     "monitor": 0.18863204871315098
+    },
+    "type": "choice"
+   },
+   "severity": {
+    "confidence": 0.1328292181763337,
+    "legend": {
+     "0": "Negligible: no access to anything sensitive.",
+     "1": "Low: limited access, easily reversed.",
+     "2": "Moderate: access to internal systems or non-public data.",
+     "3": "High: access to production, secrets or customer data.",
+     "4": "Critical: active compromise of crown-jewel systems."
+    },
+    "probabilities": {
+     "0": 0.07637096887377905,
+     "1": 0.16640167744175507,
+     "2": 0.282677650648235,
+     "3": 0.30626337454106695,
+     "4": 0.16828632849516392
+    },
+    "score": 2.3236924163420816,
+    "type": "score"
+   },
+   "true_positive": {
+    "noul": 0.5389901555740806,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.15578968300702276,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.08493697160940722,
+     "1": 0.23452237295085973,
+     "2": 0.31369839318446596,
+     "3": 0.36684226225526706
+    },
+    "score": 1.962445946085593,
+    "type": "score"
+   }
+  },
+  "ms": 251.39245809987187
+ }
+}

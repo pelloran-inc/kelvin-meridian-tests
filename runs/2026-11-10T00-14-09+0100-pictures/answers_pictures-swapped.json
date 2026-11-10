@@ -1,0 +1,2054 @@
+[
+ {
+  "part": "again",
+  "id": "coco-000000178553",
+  "kind": "photo",
+  "told": "document",
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "screen",
+   "document"
+  ],
+  "ms": 663.0,
+  "bytes_sent": 278327,
+  "bytes_received": 195
+ },
+ {
+  "part": "again",
+  "id": "coco-000000324250",
+  "kind": "photo",
+  "told": "document",
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "photo",
+   "document"
+  ],
+  "ms": 487.9,
+  "bytes_sent": 73439,
+  "bytes_received": 195
+ },
+ {
+  "part": "again",
+  "id": "coco-000000392404",
+  "kind": "photo",
+  "told": "document",
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "document",
+   "screen"
+  ],
+  "ms": 777.0,
+  "bytes_sent": 227539,
+  "bytes_received": 195
+ },
+ {
+  "part": "again",
+  "id": "coco-000000328119",
+  "kind": "photo",
+  "told": "document",
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "photo",
+   "screen"
+  ],
+  "ms": 772.3,
+  "bytes_sent": 248031,
+  "bytes_received": 195
+ },
+ {
+  "part": "again",
+  "id": "coco-000000220912",
+  "kind": "photo",
+  "told": "document",
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "screen",
+   "document"
+  ],
+  "ms": 673.6,
+  "bytes_sent": 252383,
+  "bytes_received": 195
+ },
+ {
+  "part": "again",
+  "id": "coco-000000388293",
+  "kind": "photo",
+  "told": "document",
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "screen",
+   "document"
+  ],
+  "ms": 823.2,
+  "bytes_sent": 184555,
+  "bytes_received": 195
+ },
+ {
+  "part": "again",
+  "id": "coco-000000408664",
+  "kind": "photo",
+  "told": "document",
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "document",
+   "screen"
+  ],
+  "ms": 676.1,
+  "bytes_sent": 342763,
+  "bytes_received": 195
+ },
+ {
+  "part": "again",
+  "id": "coco-000000122459",
+  "kind": "photo",
+  "told": "document",
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "document",
+   "photo"
+  ],
+  "ms": 666.3,
+  "bytes_sent": 163339,
+  "bytes_received": 195
+ },
+ {
+  "part": "again",
+  "id": "coco-000000557625",
+  "kind": "photo",
+  "told": "document",
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "screen",
+   "document"
+  ],
+  "ms": 603.6,
+  "bytes_sent": 186939,
+  "bytes_received": 195
+ },
+ {
+  "part": "again",
+  "id": "coco-000000246375",
+  "kind": "photo",
+  "told": "document",
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "screen",
+   "document"
+  ],
+  "ms": 742.7,
+  "bytes_sent": 334759,
+  "bytes_received": 195
+ },
+ {
+  "part": "again",
+  "id": "coco-000000536166",
+  "kind": "photo",
+  "told": "document",
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "screen",
+   "photo"
+  ],
+  "ms": 655.2,
+  "bytes_sent": 240807,
+  "bytes_received": 195
+ },
+ {
+  "part": "again",
+  "id": "coco-000000040783",
+  "kind": "photo",
+  "told": "document",
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "document",
+   "photo"
+  ],
+  "ms": 539.9,
+  "bytes_sent": 141951,
+  "bytes_received": 195
+ },
+ {
+  "part": "again",
+  "id": "document-000080",
+  "kind": "document",
+  "told": "photo",
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "screen",
+   "photo"
+  ],
+  "ms": 615.0,
+  "bytes_sent": 180247,
+  "bytes_received": 192
+ },
+ {
+  "part": "again",
+  "id": "document-001143",
+  "kind": "document",
+  "told": "photo",
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "document",
+   "screen"
+  ],
+  "ms": 555.3,
+  "bytes_sent": 97083,
+  "bytes_received": 192
+ },
+ {
+  "part": "again",
+  "id": "document-003668",
+  "kind": "document",
+  "told": "photo",
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "screen",
+   "photo"
+  ],
+  "ms": 631.7,
+  "bytes_sent": 208355,
+  "bytes_received": 192
+ },
+ {
+  "part": "again",
+  "id": "document-004775",
+  "kind": "document",
+  "told": "photo",
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "photo",
+   "screen"
+  ],
+  "ms": 590.6,
+  "bytes_sent": 191183,
+  "bytes_received": 192
+ },
+ {
+  "part": "again",
+  "id": "document-005468",
+  "kind": "document",
+  "told": "photo",
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "document",
+   "photo"
+  ],
+  "ms": 647.2,
+  "bytes_sent": 243711,
+  "bytes_received": 192
+ },
+ {
+  "part": "again",
+  "id": "document-003535",
+  "kind": "document",
+  "told": "photo",
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "document",
+   "screen"
+  ],
+  "ms": 603.4,
+  "bytes_sent": 122719,
+  "bytes_received": 192
+ },
+ {
+  "part": "again",
+  "id": "document-004471",
+  "kind": "document",
+  "told": "photo",
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "document",
+   "photo"
+  ],
+  "ms": 602.6,
+  "bytes_sent": 139195,
+  "bytes_received": 192
+ },
+ {
+  "part": "again",
+  "id": "document-006386",
+  "kind": "document",
+  "told": "photo",
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "document",
+   "screen"
+  ],
+  "ms": 597.3,
+  "bytes_sent": 167839,
+  "bytes_received": 192
+ },
+ {
+  "part": "again",
+  "id": "document-002148",
+  "kind": "document",
+  "told": "photo",
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "screen",
+   "document"
+  ],
+  "ms": 642.3,
+  "bytes_sent": 171919,
+  "bytes_received": 192
+ },
+ {
+  "part": "again",
+  "id": "document-001581",
+  "kind": "document",
+  "told": "photo",
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "document",
+   "screen"
+  ],
+  "ms": 579.2,
+  "bytes_sent": 114627,
+  "bytes_received": 192
+ },
+ {
+  "part": "again",
+  "id": "document-003367",
+  "kind": "document",
+  "told": "photo",
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "screen",
+   "photo"
+  ],
+  "ms": 640.2,
+  "bytes_sent": 286295,
+  "bytes_received": 192
+ },
+ {
+  "part": "again",
+  "id": "document-005562",
+  "kind": "document",
+  "told": "photo",
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "document",
+   "photo"
+  ],
+  "ms": 689.9,
+  "bytes_sent": 238311,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000360367",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "photo",
+   "screen"
+  ],
+  "ms": 687.0,
+  "bytes_sent": 360523,
+  "bytes_received": 195
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000526734",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "screen",
+   "document"
+  ],
+  "ms": 576.0,
+  "bytes_sent": 148495,
+  "bytes_received": 195
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000528579",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "screen",
+   "document"
+  ],
+  "ms": 551.6,
+  "bytes_sent": 113027,
+  "bytes_received": 195
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000505162",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "document",
+   "screen"
+  ],
+  "ms": 642.4,
+  "bytes_sent": 270799,
+  "bytes_received": 195
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000377952",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "screen",
+   "photo"
+  ],
+  "ms": 638.9,
+  "bytes_sent": 255135,
+  "bytes_received": 195
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000573954",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "screen",
+   "photo"
+  ],
+  "ms": 639.5,
+  "bytes_sent": 206795,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000035972",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "screen",
+   "document"
+  ],
+  "ms": 678.8,
+  "bytes_sent": 223311,
+  "bytes_received": 195
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000033017",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "document",
+   "screen"
+  ],
+  "ms": 707.3,
+  "bytes_sent": 280595,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000002276",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "document",
+   "photo"
+  ],
+  "ms": 575.3,
+  "bytes_sent": 217951,
+  "bytes_received": 195
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000319101",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "document",
+   "screen"
+  ],
+  "ms": 694.2,
+  "bytes_sent": 401387,
+  "bytes_received": 195
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000313569",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "photo",
+   "screen"
+  ],
+  "ms": 541.4,
+  "bytes_sent": 153739,
+  "bytes_received": 195
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000093430",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "screen",
+   "photo"
+  ],
+  "ms": 655.1,
+  "bytes_sent": 360939,
+  "bytes_received": 195
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000512206",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "document",
+   "photo"
+  ],
+  "ms": 561.3,
+  "bytes_sent": 206663,
+  "bytes_received": 195
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000108144",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "photo",
+   "screen"
+  ],
+  "ms": 571.4,
+  "bytes_sent": 155123,
+  "bytes_received": 195
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000410574",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "photo",
+   "screen"
+  ],
+  "ms": 678.9,
+  "bytes_sent": 295379,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000309552",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "screen",
+   "photo"
+  ],
+  "ms": 583.9,
+  "bytes_sent": 139075,
+  "bytes_received": 195
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000265374",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "photo",
+   "screen"
+  ],
+  "ms": 634.7,
+  "bytes_sent": 259663,
+  "bytes_received": 195
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000384659",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "document",
+   "screen"
+  ],
+  "ms": 659.0,
+  "bytes_sent": 222595,
+  "bytes_received": 195
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000522273",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "screen",
+   "document"
+  ],
+  "ms": 714.7,
+  "bytes_sent": 366007,
+  "bytes_received": 195
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000544794",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "document",
+   "photo"
+  ],
+  "ms": 678.8,
+  "bytes_sent": 298415,
+  "bytes_received": 195
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000252348",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "document",
+   "screen"
+  ],
+  "ms": 600.1,
+  "bytes_sent": 201491,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000424219",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "screen",
+   "document"
+  ],
+  "ms": 730.0,
+  "bytes_sent": 428815,
+  "bytes_received": 195
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000533011",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "document",
+   "photo"
+  ],
+  "ms": 655.0,
+  "bytes_sent": 323143,
+  "bytes_received": 195
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000344622",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "photo",
+   "screen"
+  ],
+  "ms": 675.2,
+  "bytes_sent": 289439,
+  "bytes_received": 195
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000394794",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "photo",
+   "document"
+  ],
+  "ms": 646.9,
+  "bytes_sent": 259143,
+  "bytes_received": 195
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000461114",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "screen",
+   "document"
+  ],
+  "ms": 587.4,
+  "bytes_sent": 207787,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000581008",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "document",
+   "photo"
+  ],
+  "ms": 580.6,
+  "bytes_sent": 205075,
+  "bytes_received": 195
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000217769",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "photo",
+   "document"
+  ],
+  "ms": 557.9,
+  "bytes_sent": 165659,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000199946",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "photo",
+   "document"
+  ],
+  "ms": 639.6,
+  "bytes_sent": 262499,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "coco-000000106688",
+  "kind": "photo",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "photo",
+   "document"
+  ],
+  "ms": 642.7,
+  "bytes_sent": 330699,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-005619",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "document",
+   "screen"
+  ],
+  "ms": 638.5,
+  "bytes_sent": 285051,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-005986",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "document",
+   "screen"
+  ],
+  "ms": 605.1,
+  "bytes_sent": 148943,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-006467",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "screen",
+   "document"
+  ],
+  "ms": 561.6,
+  "bytes_sent": 211783,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-006263",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "photo",
+   "document"
+  ],
+  "ms": 552.3,
+  "bytes_sent": 114631,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-002769",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "photo",
+   "document"
+  ],
+  "ms": 559.1,
+  "bytes_sent": 170363,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-001530",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "document",
+   "screen"
+  ],
+  "ms": 542.8,
+  "bytes_sent": 208103,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-003022",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "screen",
+   "document"
+  ],
+  "ms": 591.3,
+  "bytes_sent": 209275,
+  "bytes_received": 195
+ },
+ {
+  "part": "unseen",
+  "id": "document-001659",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "document",
+   "photo"
+  ],
+  "ms": 571.9,
+  "bytes_sent": 158023,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-006147",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "screen",
+   "photo"
+  ],
+  "ms": 626.8,
+  "bytes_sent": 240647,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-005144",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "photo",
+   "screen"
+  ],
+  "ms": 630.9,
+  "bytes_sent": 255455,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-004072",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "screen",
+   "document"
+  ],
+  "ms": 690.8,
+  "bytes_sent": 262715,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-003647",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "screen",
+   "photo"
+  ],
+  "ms": 707.3,
+  "bytes_sent": 253379,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-002573",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "screen",
+   "photo"
+  ],
+  "ms": 547.7,
+  "bytes_sent": 129787,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-004743",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "screen",
+   "document"
+  ],
+  "ms": 567.5,
+  "bytes_sent": 138267,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-003955",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "document",
+   "screen"
+  ],
+  "ms": 579.3,
+  "bytes_sent": 168875,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-002145",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "photo",
+   "screen"
+  ],
+  "ms": 355.6,
+  "bytes_sent": 35531,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-000784",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "screen",
+   "document"
+  ],
+  "ms": 513.2,
+  "bytes_sent": 109287,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-003190",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "photo",
+   "document"
+  ],
+  "ms": 552.7,
+  "bytes_sent": 209367,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-002630",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "screen",
+   "photo"
+  ],
+  "ms": 604.9,
+  "bytes_sent": 228291,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-002159",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "screen",
+   "document"
+  ],
+  "ms": 575.5,
+  "bytes_sent": 162519,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-001155",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "photo",
+   "screen"
+  ],
+  "ms": 572.2,
+  "bytes_sent": 187527,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-004545",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "screen",
+   "document"
+  ],
+  "ms": 630.4,
+  "bytes_sent": 238363,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-001243",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "screen",
+   "photo"
+  ],
+  "ms": 516.2,
+  "bytes_sent": 105411,
+  "bytes_received": 195
+ },
+ {
+  "part": "unseen",
+  "id": "document-000446",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "screen",
+   "photo"
+  ],
+  "ms": 556.3,
+  "bytes_sent": 176131,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-006245",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "document",
+   "screen"
+  ],
+  "ms": 565.3,
+  "bytes_sent": 196275,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-006123",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "screen",
+   "photo"
+  ],
+  "ms": 591.6,
+  "bytes_sent": 218307,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-001576",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "photo",
+   "screen"
+  ],
+  "ms": 551.5,
+  "bytes_sent": 148779,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-001798",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "document",
+   "screen"
+  ],
+  "ms": 716.4,
+  "bytes_sent": 162287,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-005753",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "screen",
+   "document"
+  ],
+  "ms": 546.7,
+  "bytes_sent": 200199,
+  "bytes_received": 192
+ },
+ {
+  "part": "unseen",
+  "id": "document-003684",
+  "kind": "document",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "screen",
+   "photo"
+  ],
+  "ms": 568.6,
+  "bytes_sent": 168631,
+  "bytes_received": 192
+ },
+ {
+  "part": "screen",
+  "id": "screen-218798",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "photo",
+   "document"
+  ],
+  "ms": 353.7,
+  "bytes_sent": 29195,
+  "bytes_received": 192
+ },
+ {
+  "part": "screen",
+  "id": "screen-303875",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "screen",
+   "photo"
+  ],
+  "ms": 454.7,
+  "bytes_sent": 67243,
+  "bytes_received": 192
+ },
+ {
+  "part": "screen",
+  "id": "screen-114090",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "screen",
+   "document"
+  ],
+  "ms": 444.6,
+  "bytes_sent": 63675,
+  "bytes_received": 192
+ },
+ {
+  "part": "screen",
+  "id": "screen-590372",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "photo",
+   "screen"
+  ],
+  "ms": 386.0,
+  "bytes_sent": 37427,
+  "bytes_received": 192
+ },
+ {
+  "part": "screen",
+  "id": "screen-081410",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "photo",
+   "screen"
+  ],
+  "ms": 298.1,
+  "bytes_sent": 15035,
+  "bytes_received": 192
+ },
+ {
+  "part": "screen",
+  "id": "screen-739547",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "document",
+   "screen"
+  ],
+  "ms": 540.0,
+  "bytes_sent": 94111,
+  "bytes_received": 195
+ },
+ {
+  "part": "screen",
+  "id": "screen-322585",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "photo",
+   "screen"
+  ],
+  "ms": 407.5,
+  "bytes_sent": 41743,
+  "bytes_received": 192
+ },
+ {
+  "part": "screen",
+  "id": "screen-623247",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "photo",
+   "document"
+  ],
+  "ms": 377.0,
+  "bytes_sent": 40731,
+  "bytes_received": 195
+ },
+ {
+  "part": "screen",
+  "id": "screen-216368",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "screen",
+   "document"
+  ],
+  "ms": 358.7,
+  "bytes_sent": 41551,
+  "bytes_received": 195
+ },
+ {
+  "part": "screen",
+  "id": "screen-303160",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "screen",
+   "document"
+  ],
+  "ms": 413.4,
+  "bytes_sent": 73887,
+  "bytes_received": 192
+ },
+ {
+  "part": "screen",
+  "id": "screen-324233",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "screen",
+   "photo"
+  ],
+  "ms": 523.7,
+  "bytes_sent": 117275,
+  "bytes_received": 192
+ },
+ {
+  "part": "screen",
+  "id": "screen-297229",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "screen",
+   "document"
+  ],
+  "ms": 475.1,
+  "bytes_sent": 67099,
+  "bytes_received": 192
+ },
+ {
+  "part": "screen",
+  "id": "screen-754106",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": null,
+  "confidence": 0.0,
+  "silent": true,
+  "options": [
+   "screen",
+   "document",
+   "photo"
+  ],
+  "ms": 314.2,
+  "bytes_sent": 28567,
+  "bytes_received": 254
+ },
+ {
+  "part": "screen",
+  "id": "screen-368854",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "document",
+   "photo"
+  ],
+  "ms": 324.8,
+  "bytes_sent": 16499,
+  "bytes_received": 192
+ },
+ {
+  "part": "screen",
+  "id": "screen-575667",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "screen",
+   "photo"
+  ],
+  "ms": 428.1,
+  "bytes_sent": 48891,
+  "bytes_received": 192
+ },
+ {
+  "part": "screen",
+  "id": "screen-071329",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "photo",
+   "document"
+  ],
+  "ms": 461.6,
+  "bytes_sent": 48283,
+  "bytes_received": 192
+ },
+ {
+  "part": "screen",
+  "id": "screen-327128",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "photo",
+   "document"
+  ],
+  "ms": 439.5,
+  "bytes_sent": 49019,
+  "bytes_received": 192
+ },
+ {
+  "part": "screen",
+  "id": "screen-633314",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "document",
+   "photo"
+  ],
+  "ms": 455.7,
+  "bytes_sent": 49987,
+  "bytes_received": 192
+ },
+ {
+  "part": "screen",
+  "id": "screen-776550",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": null,
+  "confidence": 0.0,
+  "silent": true,
+  "options": [
+   "screen",
+   "photo",
+   "document"
+  ],
+  "ms": 322.6,
+  "bytes_sent": 41931,
+  "bytes_received": 254
+ },
+ {
+  "part": "screen",
+  "id": "screen-420968",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "screen",
+   "photo"
+  ],
+  "ms": 455.7,
+  "bytes_sent": 54771,
+  "bytes_received": 192
+ },
+ {
+  "part": "screen",
+  "id": "screen-040180",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": null,
+  "confidence": 0.0,
+  "silent": true,
+  "options": [
+   "document",
+   "photo",
+   "screen"
+  ],
+  "ms": 234.8,
+  "bytes_sent": 7423,
+  "bytes_received": 254
+ },
+ {
+  "part": "screen",
+  "id": "screen-729089",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "photo",
+   "screen"
+  ],
+  "ms": 497.0,
+  "bytes_sent": 121927,
+  "bytes_received": 192
+ },
+ {
+  "part": "screen",
+  "id": "screen-007513",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "document",
+   "photo"
+  ],
+  "ms": 348.8,
+  "bytes_sent": 40567,
+  "bytes_received": 192
+ },
+ {
+  "part": "screen",
+  "id": "screen-719644",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "photo",
+   "document"
+  ],
+  "ms": 267.2,
+  "bytes_sent": 12319,
+  "bytes_received": 192
+ },
+ {
+  "part": "screen",
+  "id": "screen-484985",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": null,
+  "confidence": 0.0,
+  "silent": true,
+  "options": [
+   "photo",
+   "screen",
+   "document"
+  ],
+  "ms": 328.0,
+  "bytes_sent": 20319,
+  "bytes_received": 254
+ },
+ {
+  "part": "screen",
+  "id": "screen-169513",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "document",
+   "photo"
+  ],
+  "ms": 394.4,
+  "bytes_sent": 19815,
+  "bytes_received": 192
+ },
+ {
+  "part": "screen",
+  "id": "screen-710791",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "screen",
+   "document",
+   "photo"
+  ],
+  "ms": 452.4,
+  "bytes_sent": 56595,
+  "bytes_received": 192
+ },
+ {
+  "part": "screen",
+  "id": "screen-439195",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": "document",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "photo",
+   "screen",
+   "document"
+  ],
+  "ms": 266.3,
+  "bytes_sent": 14147,
+  "bytes_received": 195
+ },
+ {
+  "part": "screen",
+  "id": "screen-070577",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": "photo",
+  "confidence": 1.0,
+  "silent": false,
+  "options": [
+   "document",
+   "photo",
+   "screen"
+  ],
+  "ms": 437.0,
+  "bytes_sent": 51163,
+  "bytes_received": 192
+ },
+ {
+  "part": "screen",
+  "id": "screen-178649",
+  "kind": "screen",
+  "told": null,
+  "status": 200,
+  "choice": null,
+  "confidence": 0.0,
+  "silent": true,
+  "options": [
+   "screen",
+   "photo",
+   "document"
+  ],
+  "ms": 343.0,
+  "bytes_sent": 42847,
+  "bytes_received": 254
+ }
+]

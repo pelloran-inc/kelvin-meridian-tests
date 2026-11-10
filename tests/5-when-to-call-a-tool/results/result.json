@@ -1,0 +1,61 @@
+{
+ "test": "when to call a tool",
+ "switches": {
+  "KELVIN-Way": "foam+text:A2+rel",
+  "KELVIN-Weigh": "lived"
+ },
+ "lived": 1835,
+ "asked": 1216,
+ "kelvin": {
+  "right": 816,
+  "n": 1216,
+  "accuracy": 0.6710526315789473,
+  "silent": 0,
+  "per_reaction": {
+   "cannot_answer": {
+    "right": 310,
+    "of": 432
+   },
+   "request_for_info": {
+    "right": 208,
+    "of": 352
+   },
+   "tool_call": {
+    "right": 298,
+    "of": 432
+   }
+  },
+  "ask_ms_p50": 244.8,
+  "ask_ms_p90": 260.5
+ },
+ "control_shuffled": {
+  "right": 430,
+  "n": 1216,
+  "accuracy": 0.3536184210526316,
+  "silent": 0,
+  "per_reaction": {
+   "cannot_answer": {
+    "right": 165,
+    "of": 432
+   },
+   "request_for_info": {
+    "right": 95,
+    "of": 352
+   },
+   "tool_call": {
+    "right": 170,
+    "of": 432
+   }
+  },
+  "ask_ms_p50": 242.7,
+  "ask_ms_p90": 261.8
+ },
+ "live_seconds": 50.2,
+ "control": {
+  "breaks": true,
+  "kelvin_right_control_wrong": 502,
+  "control_right_kelvin_wrong": 116,
+  "sign_test_p": 1.953859674763046e-58
+ },
+ "run_record": "runs/2026-11-10T00-03-02+0100-when-to-call-a-tool"
+}

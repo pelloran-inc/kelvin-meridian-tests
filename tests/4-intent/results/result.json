@@ -1,0 +1,40 @@
+{
+ "test": "intent and none of the above",
+ "switches": {
+  "KELVIN-Way": "foam+text:A2",
+  "KELVIN-Silence": "lived"
+ },
+ "lived": 15100,
+ "asked": 5500,
+ "kelvin": {
+  "in_scope_right": 3821,
+  "in_scope": 4500,
+  "none_right": 337,
+  "none": 1000,
+  "in_scope_accuracy": 0.8491111111111111,
+  "none_of_the_above_recall": 0.337,
+  "overall_accuracy": 0.756,
+  "ask_ms_p50": 266.6,
+  "ask_ms_p90": 296.8
+ },
+ "control_shuffled": {
+  "in_scope_right": 19,
+  "in_scope": 4500,
+  "none_right": 317,
+  "none": 1000,
+  "in_scope_accuracy": 0.004222222222222222,
+  "none_of_the_above_recall": 0.317,
+  "overall_accuracy": 0.06109090909090909,
+  "ask_ms_p50": 266.0,
+  "ask_ms_p90": 294.7
+ },
+ "live_seconds": 159.5,
+ "control": {
+  "breaks": true,
+  "kelvin_right_control_wrong": 3803,
+  "control_right_kelvin_wrong": 1,
+  "sign_test_p": 0.0
+ },
+ "requests_sent_again_after_a_broken_upload": 0,
+ "run_record": "runs/2026-11-10T10-09-24+0100-intent"
+}

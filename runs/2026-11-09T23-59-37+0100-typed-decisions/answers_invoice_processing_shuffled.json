@@ -1,0 +1,5802 @@
+{
+ "invoice_processing_000000": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.3057526120736221,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4793144590552166,
+     "1": 0.06739206248744825,
+     "2": 0.23529170645153552,
+     "3": 0.21800177200579962
+    },
+    "score": 1.1919807914079181,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.22159472813294032,
+    "probabilities": {
+     "approve": 0.41619604609970523,
+     "hold": 0.1979130066940697,
+     "manual_review": 0.31123831980289507,
+     "reject": 0.07465262740333005
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.12654269401589863,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.593500792417273,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2112429046084016,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04196255603029841,
+     "1": 0.3479069263358067,
+     "2": 0.4084321784563012,
+     "3": 0.20169833917759364
+    },
+    "score": 1.7698663007811901,
+    "type": "score"
+   }
+  },
+  "ms": 278.4213750855997
+ },
+ "invoice_processing_000001": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.2648025486462446,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4486019114846834,
+     "1": 0.06547717750439416,
+     "2": 0.19339566968767158,
+     "3": 0.29252524132325086
+    },
+    "score": 1.32984424084949,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.26730410591583076,
+    "probabilities": {
+     "approve": 0.45047807943687307,
+     "hold": 0.19886676032478884,
+     "manual_review": 0.2946546065939358,
+     "reject": 0.056000553644402304
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.06355522466098598,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.530400205653538,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.18973026096358322,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.03886958524498529,
+     "1": 0.3922976957226874,
+     "2": 0.3741577074357788,
+     "3": 0.1946750115965485
+    },
+    "score": 1.7246381453838904,
+    "type": "score"
+   }
+  },
+  "ms": 274.39787494949996
+ },
+ "invoice_processing_000002": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.15902375300478377,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.36926781475358783,
+     "1": 0.05354934529719211,
+     "2": 0.25454595744926595,
+     "3": 0.32263688249995415
+    },
+    "score": 1.5305519076955865,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.17044453332442652,
+    "probabilities": {
+     "approve": 0.3171450497727273,
+     "hold": 0.2441074789075595,
+     "manual_review": 0.3778333999933199,
+     "reject": 0.06091407132639334
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.08752573746332527,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.44455774538032844,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.20224273782195593,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04440279875705497,
+     "1": 0.36064195353810025,
+     "2": 0.40168205336646695,
+     "3": 0.19327319433837786
+    },
+    "score": 1.7438256432861676,
+    "type": "score"
+   }
+  },
+  "ms": 271.960666985251
+ },
+ "invoice_processing_000003": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.18912187593319532,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.3918414069498965,
+     "1": 0.07815732855881993,
+     "2": 0.2301391546580049,
+     "3": 0.29986210983327866
+    },
+    "score": 1.4380219673746657,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.16500063854410954,
+    "probabilities": {
+     "approve": 0.37375047890808216,
+     "hold": 0.21657971689894753,
+     "manual_review": 0.3311317617387031,
+     "reject": 0.07853804245426717
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.0972715513976975,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5073899802231269,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.19086087430909618,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0464713445343094,
+     "1": 0.39314565573182214,
+     "2": 0.3677365828437231,
+     "3": 0.19264641689014533
+    },
+    "score": 1.7065580720897044,
+    "type": "score"
+   }
+  },
+  "ms": 275.5350839579478
+ },
+ "invoice_processing_000004": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.15117586697180316,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.36338190022885236,
+     "1": 0.07021724106576276,
+     "2": 0.21885764987159564,
+     "3": 0.34754320883378925
+    },
+    "score": 1.5505621673103218,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.154185893805569,
+    "probabilities": {
+     "approve": 0.36563942035417674,
+     "hold": 0.20997971854921602,
+     "manual_review": 0.34887094381260764,
+     "reject": 0.07550991728399964
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.08268595594081085,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.4568497506303753,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.21203977131494134,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04276301161277609,
+     "1": 0.409029828486206,
+     "2": 0.35482336686876714,
+     "3": 0.19338379303225076
+    },
+    "score": 1.6988279413204925,
+    "type": "score"
+   }
+  },
+  "ms": 252.99287505913526
+ },
+ "invoice_processing_000005": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.23453189591792914,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.42589892193844686,
+     "1": 0.06482602464974761,
+     "2": 0.27363901318460493,
+     "3": 0.23563604022720058
+    },
+    "score": 1.3190121717005592,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.17885294044410008,
+    "probabilities": {
+     "approve": 0.38413970533307507,
+     "hold": 0.24127323118493743,
+     "manual_review": 0.3223709608829934,
+     "reject": 0.052216102598994146
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.08608312667294603,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5170559268814688,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.21653736671024273,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.037582409558559536,
+     "1": 0.34570231650437805,
+     "2": 0.41240302503268206,
+     "3": 0.20431224890438032
+    },
+    "score": 1.7834451132828832,
+    "type": "score"
+   }
+  },
+  "ms": 283.2576249493286
+ },
+ "invoice_processing_000006": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.3511864370748854,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.513389827806164,
+     "1": 0.07565025616045763,
+     "2": 0.2484576922343237,
+     "3": 0.16250222379905463
+    },
+    "score": 1.060072312026269,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.27865574516810715,
+    "probabilities": {
+     "approve": 0.4589918088760804,
+     "hold": 0.2117814311583649,
+     "manual_review": 0.2811664853660364,
+     "reject": 0.04806027459951835
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.09100154800165783,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.6261906958683422,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.20492585077564693,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0401855864001631,
+     "1": 0.37000952835684503,
+     "2": 0.4036943880817352,
+     "3": 0.18611049716125666
+    },
+    "score": 1.7357297960040854,
+    "type": "score"
+   }
+  },
+  "ms": 284.48633302468807
+ },
+ "invoice_processing_000007": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.18663560016151534,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.3445652256183682,
+     "1": 0.05687300012785792,
+     "2": 0.20858507413263735,
+     "3": 0.3899767001211365
+    },
+    "score": 1.6439732487565422,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.15706474500036882,
+    "probabilities": {
+     "approve": 0.30937344451133564,
+     "hold": 0.2211975485271477,
+     "manual_review": 0.3677985587502766,
+     "reject": 0.10163044821124002
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.12921023116685856,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.45090867460979034,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.190531830808798,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.043453384987491656,
+     "1": 0.3928988731065985,
+     "2": 0.3654556225677945,
+     "3": 0.1981921193381153
+    },
+    "score": 1.7183864762565335,
+    "type": "score"
+   }
+  },
+  "ms": 282.901042024605
+ },
+ "invoice_processing_000008": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.26830597391139926,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.45122948043354943,
+     "1": 0.07243546835004573,
+     "2": 0.21878583957597733,
+     "3": 0.2575492116404275
+    },
+    "score": 1.282654782423283,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.1752792153440974,
+    "probabilities": {
+     "approve": 0.38145941150807305,
+     "hold": 0.2237302619086006,
+     "manual_review": 0.3100210554494866,
+     "reject": 0.08478927113383974
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.13564922997829826,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5581562406996602,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.20249879770564969,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04731713602347037,
+     "1": 0.36473717624414054,
+     "2": 0.40187409827923726,
+     "3": 0.18607158945315183
+    },
+    "score": 1.7267001411620706,
+    "type": "score"
+   }
+  },
+  "ms": 253.89212497975677
+ },
+ "invoice_processing_000009": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.22906736112292472,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.42180052084219355,
+     "1": 0.06224136983090549,
+     "2": 0.24692798764027282,
+     "3": 0.26903012168662815
+    },
+    "score": 1.3631877101713354,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.21008343856058875,
+    "probabilities": {
+     "approve": 0.40756257892044156,
+     "hold": 0.2026227824395656,
+     "manual_review": 0.3310799517669651,
+     "reject": 0.058734686873027755
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.06752521612285813,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.519622549736168,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.18534434138720304,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0465292596385453,
+     "1": 0.3870346812267985,
+     "2": 0.3890082560404023,
+     "3": 0.1774278030942539
+    },
+    "score": 1.6973346025903648,
+    "type": "score"
+   }
+  },
+  "ms": 289.0739169670269
+ },
+ "invoice_processing_000010": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.21060739323635272,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.40795554492726455,
+     "1": 0.06486122532150383,
+     "2": 0.26373927033506156,
+     "3": 0.2634439594161701
+    },
+    "score": 1.3826716442401372,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.16846337886884685,
+    "probabilities": {
+     "approve": 0.37634753415163513,
+     "hold": 0.23301235638797357,
+     "manual_review": 0.33561266401292084,
+     "reject": 0.05502744544747043
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.08209317380475971,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5002595834051806,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.21211058093854432,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.035979163106992756,
+     "1": 0.3467085779530029,
+     "2": 0.40908293570390825,
+     "3": 0.20822932323609605
+    },
+    "score": 1.7895624190691075,
+    "type": "score"
+   }
+  },
+  "ms": 247.7636670228094
+ },
+ "invoice_processing_000011": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.1162349384834364,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.33151805122046785,
+     "1": 0.06177959942477715,
+     "2": 0.26952614549217774,
+     "3": 0.3371762038625773
+    },
+    "score": 1.6123605019968643,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.1873379094587709,
+    "probabilities": {
+     "approve": 0.2924693597861547,
+     "hold": 0.2513377243565505,
+     "manual_review": 0.3905034320940782,
+     "reject": 0.06568948376321668
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.10484686547951452,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.4322750042087227,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.20982559446550528,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04154310671831472,
+     "1": 0.3551147956969216,
+     "2": 0.40736919584912895,
+     "3": 0.19597290173563475
+    },
+    "score": 1.7577718926020838,
+    "type": "score"
+   }
+  },
+  "ms": 284.53433397226036
+ },
+ "invoice_processing_000012": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.21201085950932352,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.40900814463199264,
+     "1": 0.06994890030679697,
+     "2": 0.24050197324329875,
+     "3": 0.28054098181791165
+    },
+    "score": 1.3925757922471296,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.1611974595306457,
+    "probabilities": {
+     "approve": 0.3708980946479843,
+     "hold": 0.23598050599687506,
+     "manual_review": 0.33748556832900967,
+     "reject": 0.05563583102613098
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.0899850626284037,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5152139934229216,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.259311328053563,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.039093395121458534,
+     "1": 0.3050188300469542,
+     "2": 0.44448349604017223,
+     "3": 0.21140427879141507
+    },
+    "score": 1.828198658501544,
+    "type": "score"
+   }
+  },
+  "ms": 260.9548750333488
+ },
+ "invoice_processing_000013": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.13584613695222644,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.3518846027141698,
+     "1": 0.05794650296034661,
+     "2": 0.23989342419135753,
+     "3": 0.350275470134126
+    },
+    "score": 1.5885597617454397,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.15108617494355422,
+    "probabilities": {
+     "approve": 0.33476206669580405,
+     "hold": 0.22810879919611132,
+     "manual_review": 0.36331463120766566,
+     "reject": 0.07381450290041895
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.08801715316867494,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.4230000785150031,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.22569928336630904,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04415687644841669,
+     "1": 0.4192744625247318,
+     "2": 0.34836952473943544,
+     "3": 0.18819913628741608
+    },
+    "score": 1.680610920865851,
+    "type": "score"
+   }
+  },
+  "ms": 258.0577499466017
+ },
+ "invoice_processing_000014": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.09588999550352972,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.3219174966276473,
+     "1": 0.07017225210710275,
+     "2": 0.3017190772977361,
+     "3": 0.30619117396751383
+    },
+    "score": 1.5921839286051165,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.16753046772028454,
+    "probabilities": {
+     "approve": 0.287292737021569,
+     "hold": 0.2823009063113688,
+     "manual_review": 0.3756478507902134,
+     "reject": 0.05475850587684883
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.0896770620268946,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.42740769056238526,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2147289643810885,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.042215222062846385,
+     "1": 0.3180768580384484,
+     "2": 0.4110467232858164,
+     "3": 0.22866119661288886
+    },
+    "score": 1.8261538944487476,
+    "type": "score"
+   }
+  },
+  "ms": 281.95650002453476
+ },
+ "invoice_processing_000015": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.23029758700323874,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.42272319025242905,
+     "1": 0.06392178380226007,
+     "2": 0.21946617020937537,
+     "3": 0.29388885573593554
+    },
+    "score": 1.3845206914288175,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.17505709137189873,
+    "probabilities": {
+     "approve": 0.38129281852892405,
+     "hold": 0.2380347100069336,
+     "manual_review": 0.31254973485118626,
+     "reject": 0.0681227366129561
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.09372257053619239,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5133900102681912,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.18329067649438238,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04767527975090358,
+     "1": 0.3874680073707868,
+     "2": 0.37984920854523974,
+     "3": 0.1850075043330699
+    },
+    "score": 1.702188937460476,
+    "type": "score"
+   }
+  },
+  "ms": 285.9701249981299
+ },
+ "invoice_processing_000016": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.144145626695539,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.34012003250492645,
+     "1": 0.06256779187166185,
+     "2": 0.23920295560175744,
+     "3": 0.35810922002165424
+    },
+    "score": 1.6153013631401394,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.15446745541857498,
+    "probabilities": {
+     "approve": 0.3166485014899954,
+     "hold": 0.23069146451834008,
+     "manual_review": 0.36585059156393124,
+     "reject": 0.0868094424277333
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.10425015031112911,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.421010649441859,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2554483690498479,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04844894138555694,
+     "1": 0.44158627678738593,
+     "2": 0.32128614738482036,
+     "3": 0.18867863444223673
+    },
+    "score": 1.6501944748837367,
+    "type": "score"
+   }
+  },
+  "ms": 285.48941598273814
+ },
+ "invoice_processing_000017": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.1491551251526261,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.3618663438644696,
+     "1": 0.05911564078470218,
+     "2": 0.22998498512627613,
+     "3": 0.3490330302245521
+    },
+    "score": 1.566184701710911,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.11667043143977478,
+    "probabilities": {
+     "approve": 0.3375028235798311,
+     "hold": 0.24070108640971252,
+     "manual_review": 0.33614897349116335,
+     "reject": 0.08564711651929309
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.10510062195843729,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.4400847125128123,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2663883861366873,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.05242285854362773,
+     "1": 0.44979128960251546,
+     "2": 0.32338433626885443,
+     "3": 0.17440151558500236
+    },
+    "score": 1.6197645088952315,
+    "type": "score"
+   }
+  },
+  "ms": 249.35641698539257
+ },
+ "invoice_processing_000018": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.1997061917015713,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.3997796437761785,
+     "1": 0.07694456776275459,
+     "2": 0.26329615344243035,
+     "3": 0.2599796350186366
+    },
+    "score": 1.383475779703525,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.14091764689048905,
+    "probabilities": {
+     "approve": 0.3556882351678668,
+     "hold": 0.2472899577139115,
+     "manual_review": 0.3224314743533555,
+     "reject": 0.07459033276486621
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.11784079745446746,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.51864082720819,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.1904995934434417,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.049186145716235065,
+     "1": 0.37831184017849745,
+     "2": 0.39287469508258127,
+     "3": 0.17962731902268622
+    },
+    "score": 1.7029431874117185,
+    "type": "score"
+   }
+  },
+  "ms": 251.4937079977244
+ },
+ "invoice_processing_000019": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.15520034976245767,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.36640026232184325,
+     "1": 0.07437938050478288,
+     "2": 0.21757170658183192,
+     "3": 0.3416486505915419
+    },
+    "score": 1.5344687454430725,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.14953350699791979,
+    "probabilities": {
+     "approve": 0.36215013024843984,
+     "hold": 0.21373312779617495,
+     "manual_review": 0.35414623529662603,
+     "reject": 0.06997050665875923
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.07263477801030971,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.4533388966381823,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.1775865011432801,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.03805697114138505,
+     "1": 0.3730651723589746,
+     "2": 0.38318987585746006,
+     "3": 0.20568798064218027
+    },
+    "score": 1.7565088660004355,
+    "type": "score"
+   }
+  },
+  "ms": 293.65791694726795
+ },
+ "invoice_processing_000020": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.23505809823031507,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4262935736727363,
+     "1": 0.07123960411485547,
+     "2": 0.258312357973688,
+     "3": 0.2441544642387202
+    },
+    "score": 1.3203277127783921,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.17879855248192156,
+    "probabilities": {
+     "approve": 0.38409891436144117,
+     "hold": 0.24069622306771768,
+     "manual_review": 0.32938626279617456,
+     "reject": 0.045818599774666596
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.08179351899345837,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5210277070098516,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.23903734554296263,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.039685832164430716,
+     "1": 0.32930253050952457,
+     "2": 0.429278009157222,
+     "3": 0.20173362816882273
+    },
+    "score": 1.7930594333304368,
+    "type": "score"
+   }
+  },
+  "ms": 293.63491607364267
+ },
+ "invoice_processing_000021": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.25051869498166174,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4378890212362463,
+     "1": 0.06026619592767135,
+     "2": 0.20395449888921177,
+     "3": 0.29789028394687056
+    },
+    "score": 1.3618460455467065,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.18305642451335694,
+    "probabilities": {
+     "approve": 0.3872923183850177,
+     "hold": 0.1990089221174575,
+     "manual_review": 0.3347037307859102,
+     "reject": 0.07899502871161458
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.11389263711913776,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.51962034253755,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.17771355818970572,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04907706829555794,
+     "1": 0.3832851686422793,
+     "2": 0.3691993082982908,
+     "3": 0.19843845476387195
+    },
+    "score": 1.7169991495304766,
+    "type": "score"
+   }
+  },
+  "ms": 289.2441659932956
+ },
+ "invoice_processing_000022": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.16763863128450676,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.3757289734633801,
+     "1": 0.0645275912644111,
+     "2": 0.2858356393135701,
+     "3": 0.27390779595863873
+    },
+    "score": 1.4579222577674675,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.15894333954417897,
+    "probabilities": {
+     "approve": 0.3636023268466779,
+     "hold": 0.2140192136717584,
+     "manual_review": 0.36920750465813423,
+     "reject": 0.053170954823429456
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.09366020482005107,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.4723084752125134,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.24221974718025416,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.03397908961534607,
+     "1": 0.3350894200885977,
+     "2": 0.4316648103851906,
+     "3": 0.1992666799108656
+    },
+    "score": 1.7962190805915759,
+    "type": "score"
+   }
+  },
+  "ms": 276.86300000641495
+ },
+ "invoice_processing_000023": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.2997702191366605,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4748276643524954,
+     "1": 0.06637998707560978,
+     "2": 0.23982268116889857,
+     "3": 0.21896966740299625
+    },
+    "score": 1.2029343516223956,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.23731582473372873,
+    "probabilities": {
+     "approve": 0.42798686855029655,
+     "hold": 0.21580467356391064,
+     "manual_review": 0.2901527907759304,
+     "reject": 0.0660556671098624
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.09072489044222559,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5572646311521153,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.16656305258728787,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04686707742025513,
+     "1": 0.3704901344894287,
+     "2": 0.3749222894404659,
+     "3": 0.2077204986498503
+    },
+    "score": 1.7434962093199113,
+    "type": "score"
+   }
+  },
+  "ms": 267.7447920432314
+ },
+ "invoice_processing_000024": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.24777983129209682,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4358348734690726,
+     "1": 0.05160151930185893,
+     "2": 0.2591490294160656,
+     "3": 0.2534145778130028
+    },
+    "score": 1.3301433115729986,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.15991664757178414,
+    "probabilities": {
+     "approve": 0.3699374856788381,
+     "hold": 0.24440035699507345,
+     "manual_review": 0.3295426100743037,
+     "reject": 0.056119547251784745
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.10600384212146031,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5195124056126258,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.1895804527084303,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0420979634362961,
+     "1": 0.349043143224742,
+     "2": 0.39218533953132273,
+     "3": 0.2166735538076392
+    },
+    "score": 1.783434483710305,
+    "type": "score"
+   }
+  },
+  "ms": 272.72179198917
+ },
+ "invoice_processing_000025": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.20833596174119343,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4062519713058951,
+     "1": 0.06475373323038126,
+     "2": 0.2051508082720851,
+     "3": 0.3238434871916385
+    },
+    "score": 1.446585811349467,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.20865449099007827,
+    "probabilities": {
+     "approve": 0.4064908682425587,
+     "hold": 0.19293000632793772,
+     "manual_review": 0.3362697028597784,
+     "reject": 0.06430942256972516
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.07249778516943887,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.4868054626159542,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.19817770978767277,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0408997826278348,
+     "1": 0.39863328234075457,
+     "2": 0.3713512651551314,
+     "3": 0.18911566987627926
+    },
+    "score": 1.7086828222798551,
+    "type": "score"
+   }
+  },
+  "ms": 246.69000005815178
+ },
+ "invoice_processing_000026": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.23711550179564692,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4278366263467352,
+     "1": 0.06592154584605811,
+     "2": 0.23702030087826836,
+     "3": 0.2692215269289383
+    },
+    "score": 1.3476267283894097,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.18658699806356113,
+    "probabilities": {
+     "approve": 0.38994024854767084,
+     "hold": 0.2488167680784579,
+     "manual_review": 0.3064512180284501,
+     "reject": 0.05479176534542114
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.08534935332623238,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5248789367615886,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.19195677142338022,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.03975091111906788,
+     "1": 0.3511463458952056,
+     "2": 0.39396757856753517,
+     "3": 0.21513516441819136
+    },
+    "score": 1.78448699628485,
+    "type": "score"
+   }
+  },
+  "ms": 290.58758297469467
+ },
+ "invoice_processing_000027": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.2781242801699173,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.458593210127438,
+     "1": 0.0662323312358998,
+     "2": 0.23746556324400217,
+     "3": 0.23770889539266005
+    },
+    "score": 1.2542901439018843,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.21210809905216013,
+    "probabilities": {
+     "approve": 0.4090810742891201,
+     "hold": 0.243080103349452,
+     "manual_review": 0.28227131157040825,
+     "reject": 0.0655675107910197
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.09862967975567995,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5756891918109824,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.1898272100233506,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04618640333463935,
+     "1": 0.3804144531495804,
+     "2": 0.39237040751751295,
+     "3": 0.1810287359982673
+    },
+    "score": 1.708241476179408,
+    "type": "score"
+   }
+  },
+  "ms": 293.9561669481918
+ },
+ "invoice_processing_000028": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.12642357303063748,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.3448176797729781,
+     "1": 0.060292152844026975,
+     "2": 0.2904600132114557,
+     "3": 0.3044301541715392
+    },
+    "score": 1.554502641781556,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.1697100223254823,
+    "probabilities": {
+     "approve": 0.29851780156833696,
+     "hold": 0.25941163650670135,
+     "manual_review": 0.37728251674411173,
+     "reject": 0.06478804518084995
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.11329358853178245,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.43636123357285805,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.23487113352121183,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04072650734276791,
+     "1": 0.35352475252620924,
+     "2": 0.4261533501409089,
+     "3": 0.17959538999011398
+    },
+    "score": 1.744617622778369,
+    "type": "score"
+   }
+  },
+  "ms": 266.0913330037147
+ },
+ "invoice_processing_000029": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.15651043485423818,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.32724750968022664,
+     "1": 0.06069192496762046,
+     "2": 0.24467773921147426,
+     "3": 0.36738282614067863
+    },
+    "score": 1.652195881812605,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.16021579320958748,
+    "probabilities": {
+     "approve": 0.2959053021567808,
+     "hold": 0.24600336209914345,
+     "manual_review": 0.3701618449071906,
+     "reject": 0.08792949083688513
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.09885903460010587,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.4040122673117022,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2658839249174884,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.052177293528254225,
+     "1": 0.4494129436881163,
+     "2": 0.3237004225885179,
+     "3": 0.17470934019511158
+    },
+    "score": 1.6209418094504868,
+    "type": "score"
+   }
+  },
+  "ms": 308.13329096417874
+ },
+ "invoice_processing_000030": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.2429232136556624,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4321924102417468,
+     "1": 0.050225247209596535,
+     "2": 0.2294307119550899,
+     "3": 0.28815163059356674
+    },
+    "score": 1.3735415629004766,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.14226017437753713,
+    "probabilities": {
+     "approve": 0.35669513078315285,
+     "hold": 0.2448195649234895,
+     "manual_review": 0.33029543765026476,
+     "reject": 0.0681898666430929
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.11724847990638243,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5209696835073122,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.20473375066604746,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.03812781945629243,
+     "1": 0.35573868295222383,
+     "2": 0.4035503129995356,
+     "3": 0.20258318459194816
+    },
+    "score": 1.7705888627271396,
+    "type": "score"
+   }
+  },
+  "ms": 302.6415000203997
+ },
+ "invoice_processing_000031": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.25079620798677776,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4380971559900833,
+     "1": 0.06913764103638445,
+     "2": 0.216114976494054,
+     "3": 0.27665022647947823
+    },
+    "score": 1.3313182734629272,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.22114172101379892,
+    "probabilities": {
+     "approve": 0.4158562907603492,
+     "hold": 0.23680158918034694,
+     "manual_review": 0.29472552690431375,
+     "reject": 0.05261659315499015
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.08033183189216848,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5485068809050895,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.20850498579101892,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.044316317965752194,
+     "1": 0.35061645141879594,
+     "2": 0.4063787393432642,
+     "3": 0.19868849127218768
+    },
+    "score": 1.7594394039218875,
+    "type": "score"
+   }
+  },
+  "ms": 257.2575829690322
+ },
+ "invoice_processing_000032": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.29166831187882414,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4687512339091181,
+     "1": 0.0680491734266384,
+     "2": 0.21690575147077445,
+     "3": 0.24629384119346906
+    },
+    "score": 1.2407421999485946,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.22727323296343185,
+    "probabilities": {
+     "approve": 0.4204549247225739,
+     "hold": 0.23256026324146128,
+     "manual_review": 0.29507770166958863,
+     "reject": 0.051907110366376207
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.08505401773753819,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5689556159550453,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.21720521236480458,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.040500589615817546,
+     "1": 0.33794265726331524,
+     "2": 0.41290390927360343,
+     "3": 0.2086528438472638
+    },
+    "score": 1.7897090073523136,
+    "type": "score"
+   }
+  },
+  "ms": 301.00370896980166
+ },
+ "invoice_processing_000033": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.308798420565405,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.48159881542405375,
+     "1": 0.06772039970472077,
+     "2": 0.23914319192984412,
+     "3": 0.21153759294138136
+    },
+    "score": 1.1806195623885531,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.2381531831219954,
+    "probabilities": {
+     "approve": 0.42861488734149655,
+     "hold": 0.22615505956633944,
+     "manual_review": 0.29682890965809916,
+     "reject": 0.048401143434064826
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.09652268220934959,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5909481262953761,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.179173966593972,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.041459735845555935,
+     "1": 0.3783562904928874,
+     "2": 0.384380474945479,
+     "3": 0.1958034987160777
+    },
+    "score": 1.7345277365320784,
+    "type": "score"
+   }
+  },
+  "ms": 258.6812089430168
+ },
+ "invoice_processing_000034": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.1708419551621311,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.37813146637159833,
+     "1": 0.06919997871421543,
+     "2": 0.27931495453095767,
+     "3": 0.27335360038322853
+    },
+    "score": 1.4478906889258165,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.11383375000957963,
+    "probabilities": {
+     "approve": 0.3353753125071847,
+     "hold": 0.2882882383594303,
+     "manual_review": 0.3211100486353311,
+     "reject": 0.05522640049805392
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.09644655659946653,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.48033553537938917,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.20477869167783128,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04253119981257884,
+     "1": 0.3659366282992242,
+     "2": 0.40358401875837346,
+     "3": 0.1879481531298235
+    },
+    "score": 1.7369491252054416,
+    "type": "score"
+   }
+  },
+  "ms": 305.60600000899285
+ },
+ "invoice_processing_000035": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.15107909850451287,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.3236832508800525,
+     "1": 0.06357168176760744,
+     "2": 0.24943574347395542,
+     "3": 0.36330932387838466
+    },
+    "score": 1.6523711403506722,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.14134140642358317,
+    "probabilities": {
+     "approve": 0.29846783237832164,
+     "hold": 0.25619877704225347,
+     "manual_review": 0.3560060548176874,
+     "reject": 0.08932733576173758
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.10790521504291052,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.41743260569041807,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.21680769198639246,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04979534875302688,
+     "1": 0.41260576898979434,
+     "2": 0.3434531045385707,
+     "3": 0.19414577771860805
+    },
+    "score": 1.68194931122276,
+    "type": "score"
+   }
+  },
+  "ms": 285.69579194299877
+ },
+ "invoice_processing_000036": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.2223137048516933,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.41673527863876997,
+     "1": 0.07569219122516108,
+     "2": 0.262561637242058,
+     "3": 0.24501089289401096
+    },
+    "score": 1.33584814439131,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.14884800447848812,
+    "probabilities": {
+     "approve": 0.3616360033588661,
+     "hold": 0.2122936436782644,
+     "manual_review": 0.3588169444414192,
+     "reject": 0.06725340852145031
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.10065678151970688,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5259910919312324,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2545124123295896,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.037792638488131844,
+     "1": 0.3005444596975145,
+     "2": 0.4408843092471922,
+     "3": 0.22077859256716148
+    },
+    "score": 1.8446488558933833,
+    "type": "score"
+   }
+  },
+  "ms": 284.737000009045
+ },
+ "invoice_processing_000037": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.16510585926798135,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.373829394450986,
+     "1": 0.06076224061663082,
+     "2": 0.26159099814345643,
+     "3": 0.30381736678892673
+    },
+    "score": 1.4953963372703238,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.11297773800491655,
+    "probabilities": {
+     "approve": 0.3283667714983766,
+     "hold": 0.2652614343811511,
+     "manual_review": 0.3347333035036874,
+     "reject": 0.07163849061678486
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.10889853192355074,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.4660874163612385,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2238431087775028,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0469682928636903,
+     "1": 0.33568942562701026,
+     "2": 0.4178823315831271,
+     "3": 0.19945994992617236
+    },
+    "score": 1.7698339385717816,
+    "type": "score"
+   }
+  },
+  "ms": 296.80758307222277
+ },
+ "invoice_processing_000038": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.2963294285178674,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.47224707138840055,
+     "1": 0.06353861241306312,
+     "2": 0.19738400673407158,
+     "3": 0.26683030946446473
+    },
+    "score": 1.2587975542746004,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.24709071386368686,
+    "probabilities": {
+     "approve": 0.43531803539776515,
+     "hold": 0.22305370402395708,
+     "manual_review": 0.28449141164103603,
+     "reject": 0.057136848937241774
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.09158851468351173,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.550685293939524,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.20036421245480174,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.041408604044774325,
+     "1": 0.3581068284955075,
+     "2": 0.4002731593411013,
+     "3": 0.20021140811861682
+    },
+    "score": 1.7592873715335606,
+    "type": "score"
+   }
+  },
+  "ms": 300.94470898620784
+ },
+ "invoice_processing_000039": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.1855502706881731,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.3891627030161298,
+     "1": 0.06595296037502958,
+     "2": 0.21411933862994809,
+     "3": 0.3307649979788925
+    },
+    "score": 1.4864866315716034,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.16478075127816946,
+    "probabilities": {
+     "approve": 0.3735855634586271,
+     "hold": 0.20011414714173262,
+     "manual_review": 0.34640647727852814,
+     "reject": 0.07989381212111216
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.08742563588588233,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.47387005980933256,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2076754175758154,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04281044522549144,
+     "1": 0.40575656318186154,
+     "2": 0.3669385200098426,
+     "3": 0.1844944715828044
+    },
+    "score": 1.6931170179499602,
+    "type": "score"
+   }
+  },
+  "ms": 317.2140000388026
+ },
+ "invoice_processing_000040": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.25091688057976963,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4381876604348272,
+     "1": 0.06441591409694494,
+     "2": 0.22086663983980068,
+     "3": 0.27652978562842717
+    },
+    "score": 1.3357385506618278,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.14248557353309668,
+    "probabilities": {
+     "approve": 0.3568641801498225,
+     "hold": 0.2404374359886173,
+     "manual_review": 0.33330026201164203,
+     "reject": 0.0693981218499182
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.11700012546392324,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5383957441127334,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2075767799384792,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.041050635229522785,
+     "1": 0.350661117171174,
+     "2": 0.4056825849538594,
+     "3": 0.20260566264544386
+    },
+    "score": 1.7698432750152242,
+    "type": "score"
+   }
+  },
+  "ms": 309.268334065564
+ },
+ "invoice_processing_000041": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.13757193067587195,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.35317894800690397,
+     "1": 0.06815519127884165,
+     "2": 0.29343051911948026,
+     "3": 0.28523534159477415
+    },
+    "score": 1.5107222543021246,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.17564223966625478,
+    "probabilities": {
+     "approve": 0.32830788311733383,
+     "hold": 0.2305619324325486,
+     "manual_review": 0.3817316797496911,
+     "reject": 0.05939850470042649
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.08789507798712094,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.4486108035148471,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.26087184714241635,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.03777396370028661,
+     "1": 0.30594134177831456,
+     "2": 0.4456538853568123,
+     "3": 0.21063080916458657
+    },
+    "score": 1.8291415399856987,
+    "type": "score"
+   }
+  },
+  "ms": 315.54112501908094
+ },
+ "invoice_processing_000042": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.20152094929082187,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4011407119681164,
+     "1": 0.07397050684263039,
+     "2": 0.26762737145958837,
+     "3": 0.2572614097296648
+    },
+    "score": 1.3810094789508016,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.15758657321445155,
+    "probabilities": {
+     "approve": 0.3618279382428753,
+     "hold": 0.21002834291260072,
+     "manual_review": 0.36818992991083865,
+     "reject": 0.059953788933685366
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.09789683420906678,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5026742050225779,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.24086753028182062,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04297682534613398,
+     "1": 0.3295357189065422,
+     "2": 0.43065064771136546,
+     "3": 0.19683680803595835
+    },
+    "score": 1.7813474384371482,
+    "type": "score"
+   }
+  },
+  "ms": 321.96933403611183
+ },
+ "invoice_processing_000043": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.16371881889644113,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.37278911417233085,
+     "1": 0.06987833418068494,
+     "2": 0.25173544067362996,
+     "3": 0.30559711097335424
+    },
+    "score": 1.4901405484480077,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.13942574104334504,
+    "probabilities": {
+     "approve": 0.3340837011030097,
+     "hold": 0.24226046585856523,
+     "manual_review": 0.3545693057825088,
+     "reject": 0.0690865272559163
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.10777501473215638,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.479995080939949,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.23061440433249691,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.046084224286198704,
+     "1": 0.3483352665787517,
+     "2": 0.4229608032493727,
+     "3": 0.18261970588567694
+    },
+    "score": 1.742115990734528,
+    "type": "score"
+   }
+  },
+  "ms": 294.88299996592104
+ },
+ "invoice_processing_000044": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.21051114161509102,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.40788335621131827,
+     "1": 0.05848894204178355,
+     "2": 0.2039880499627712,
+     "3": 0.32963965178412696
+    },
+    "score": 1.455383997319707,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.20693782601352875,
+    "probabilities": {
+     "approve": 0.40520336951014657,
+     "hold": 0.19696640173056662,
+     "manual_review": 0.32298485884253186,
+     "reject": 0.0748453699167549
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.08214034692440443,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.48927309743654707,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.22793412453768055,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04439106208629243,
+     "1": 0.4209505934032604,
+     "2": 0.35295998805508566,
+     "3": 0.18169835645536145
+    },
+    "score": 1.671965638879516,
+    "type": "score"
+   }
+  },
+  "ms": 279.9255420686677
+ },
+ "invoice_processing_000045": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.33062302315123676,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.49796726736342756,
+     "1": 0.05847695726496161,
+     "2": 0.22870516666200266,
+     "3": 0.21485060870960818
+    },
+    "score": 1.1604391167177917,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.26715292114221373,
+    "probabilities": {
+     "approve": 0.4503646908566603,
+     "hold": 0.21586864024263996,
+     "manual_review": 0.2846585987727959,
+     "reject": 0.04910807012790378
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.08665232367877614,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5849020153539926,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.20233212759624805,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0402984579372381,
+     "1": 0.37633791475772965,
+     "2": 0.40174909569718603,
+     "3": 0.18161453160784624
+    },
+    "score": 1.7246797009756403,
+    "type": "score"
+   }
+  },
+  "ms": 274.41366703715175
+ },
+ "invoice_processing_000046": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.10559686424963906,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.2752034397997372,
+     "1": 0.07372781632845402,
+     "2": 0.32187109568457944,
+     "3": 0.3291976481872293
+    },
+    "score": 1.7050629522593008,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.22961895336297525,
+    "probabilities": {
+     "approve": 0.24665034644722098,
+     "hold": 0.250833789759923,
+     "manual_review": 0.42221421502223144,
+     "reject": 0.0803016487706246
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.10526865762153827,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.37718214217915,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.20949887266440773,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.03687912174021558,
+     "1": 0.35046327604482735,
+     "2": 0.4071241544983058,
+     "3": 0.20553344771665127
+    },
+    "score": 1.7813119281913927,
+    "type": "score"
+   }
+  },
+  "ms": 258.09524999931455
+ },
+ "invoice_processing_000047": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.31178571052227627,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4838392828917072,
+     "1": 0.06334816265990105,
+     "2": 0.20131227297535834,
+     "3": 0.25150028147303344
+    },
+    "score": 1.2204735530297182,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.24868163526440643,
+    "probabilities": {
+     "approve": 0.4365112264483048,
+     "hold": 0.2125341244760382,
+     "manual_review": 0.27475248882180886,
+     "reject": 0.07620216025384811
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.12809806741694638,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5786267486313464,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.19348358633696403,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04921491817057236,
+     "1": 0.395112689752723,
+     "2": 0.37508367404952436,
+     "3": 0.1805887180271803
+    },
+    "score": 1.6870461919333126,
+    "type": "score"
+   }
+  },
+  "ms": 310.5817090254277
+ },
+ "invoice_processing_000048": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.206822714104583,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.40511703557843726,
+     "1": 0.0732487379832707,
+     "2": 0.2483041531133365,
+     "3": 0.27333007332495557
+    },
+    "score": 1.3898472641848105,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.16104849126667475,
+    "probabilities": {
+     "approve": 0.37078636845000607,
+     "hold": 0.21802536060633868,
+     "manual_review": 0.34680894283195285,
+     "reject": 0.06437932811170238
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.08773833728190397,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5149154252773605,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.23808818557905545,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.048619497649094436,
+     "1": 0.3503311585254795,
+     "2": 0.4285661391842916,
+     "3": 0.17248320464113445
+    },
+    "score": 1.7249130508174662,
+    "type": "score"
+   }
+  },
+  "ms": 324.4437079411
+ },
+ "invoice_processing_000049": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.2813681583936943,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4610261187952707,
+     "1": 0.07411446886757085,
+     "2": 0.22436207524439367,
+     "3": 0.24049733709276475
+    },
+    "score": 1.2443306306346524,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.2289253497415348,
+    "probabilities": {
+     "approve": 0.4216940123061511,
+     "hold": 0.22058900574440807,
+     "manual_review": 0.2969262868163809,
+     "reject": 0.06079069513305995
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.10212266559237301,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5785613873131616,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.20007791277900866,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.053499229626540905,
+     "1": 0.3676945385374972,
+     "2": 0.4000584345842565,
+     "3": 0.17874779725170542
+    },
+    "score": 1.7040547994611264,
+    "type": "score"
+   }
+  },
+  "ms": 323.72595893684775
+ },
+ "invoice_processing_000050": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.2314393104204239,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.42357948281531793,
+     "1": 0.0631946324204301,
+     "2": 0.24025923236485514,
+     "3": 0.2729666523993968
+    },
+    "score": 1.3626130543483308,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.16562774829684201,
+    "probabilities": {
+     "approve": 0.3742208112226315,
+     "hold": 0.223597222800821,
+     "manual_review": 0.3406182626191774,
+     "reject": 0.061563703357370124
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.06968828707866134,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5165641944938868,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2831355213661912,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.03761266903217522,
+     "1": 0.30839949986091825,
+     "2": 0.4623516410246434,
+     "3": 0.19163619008226312
+    },
+    "score": 1.8080113521569943,
+    "type": "score"
+   }
+  },
+  "ms": 295.2511669136584
+ },
+ "invoice_processing_000051": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.18579703510111623,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.38934777632583717,
+     "1": 0.06861389443713556,
+     "2": 0.2223422610535568,
+     "3": 0.31969606818347046
+    },
+    "score": 1.4723866210946606,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.16679495011999332,
+    "probabilities": {
+     "approve": 0.375096212589995,
+     "hold": 0.2152552700884824,
+     "manual_review": 0.32807313321356596,
+     "reject": 0.08157538410795669
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.09819040000423908,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.48033473911834695,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.22053700279719615,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.043825137879930226,
+     "1": 0.4154027520978971,
+     "2": 0.3538299923434384,
+     "3": 0.18694211767873423
+    },
+    "score": 1.6838890898209766,
+    "type": "score"
+   }
+  },
+  "ms": 283.8616670342162
+ },
+ "invoice_processing_000052": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.11477677120426022,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.33608257840319516,
+     "1": 0.06775466247109362,
+     "2": 0.29207830959761744,
+     "3": 0.30408444952809377
+    },
+    "score": 1.5641646302506098,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.1969691597861971,
+    "probabilities": {
+     "approve": 0.29789231200463,
+     "hold": 0.2364002182807369,
+     "manual_review": 0.39772686983964783,
+     "reject": 0.06798059987498521
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.0997111226165956,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.43070101678996725,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.20603756781024515,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04468061952604223,
+     "1": 0.3443767965377283,
+     "2": 0.40452817585768386,
+     "3": 0.20641440807854558
+    },
+    "score": 1.7726763724887327,
+    "type": "score"
+   }
+  },
+  "ms": 300.92937499284744
+ },
+ "invoice_processing_000053": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.27500823357468573,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4562561751810143,
+     "1": 0.05751070847605129,
+     "2": 0.23069796336157447,
+     "3": 0.25553515298136
+    },
+    "score": 1.28551209414328,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.23062582240708984,
+    "probabilities": {
+     "approve": 0.4229693668053174,
+     "hold": 0.22312266552054813,
+     "manual_review": 0.3049494488399976,
+     "reject": 0.0489585188341369
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.07900170726182347,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5540531037549173,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.1979775320816967,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04440711846651705,
+     "1": 0.36211478675886183,
+     "2": 0.3984831490612725,
+     "3": 0.19499494571334855
+    },
+    "score": 1.7440659220214525,
+    "type": "score"
+   }
+  },
+  "ms": 270.8905830513686
+ },
+ "invoice_processing_000054": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.1381609548847981,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.3341301567564237,
+     "1": 0.05968696593295874,
+     "2": 0.25256216114701896,
+     "3": 0.3536207161635986
+    },
+    "score": 1.6256734367177925,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.1398143280270808,
+    "probabilities": {
+     "approve": 0.3108674385360891,
+     "hold": 0.24377272352860022,
+     "manual_review": 0.3548607460203106,
+     "reject": 0.09049909191500005
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.10876659763388129,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.42390787387890166,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2047488390496691,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04394618838819759,
+     "1": 0.4035616292872518,
+     "2": 0.34547488028294077,
+     "3": 0.20701730204160984
+    },
+    "score": 1.715563295977963,
+    "type": "score"
+   }
+  },
+  "ms": 285.5861251009628
+ },
+ "invoice_processing_000055": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.2552339709578377,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.44142547821837824,
+     "1": 0.057353227180361795,
+     "2": 0.22804361929268993,
+     "3": 0.27317767530857
+    },
+    "score": 1.3329734916914517,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.19352497815039418,
+    "probabilities": {
+     "approve": 0.39514373361279564,
+     "hold": 0.22944842543324828,
+     "manual_review": 0.30466674558659995,
+     "reject": 0.07074109536735612
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.09539598129980241,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5257279625425723,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.18241298849026646,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04453672835740831,
+     "1": 0.38680974136769986,
+     "2": 0.3831420689984565,
+     "3": 0.18551146127643536
+    },
+    "score": 1.709628263193919,
+    "type": "score"
+   }
+  },
+  "ms": 263.5599169880152
+ },
+ "invoice_processing_000056": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.2546849122577428,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4410136841933071,
+     "1": 0.06803717234060665,
+     "2": 0.24618379449748348,
+     "3": 0.24476534896860275
+    },
+    "score": 1.2947008082413818,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.17144826857428264,
+    "probabilities": {
+     "approve": 0.378586201430712,
+     "hold": 0.2326067987968938,
+     "manual_review": 0.327302575380066,
+     "reject": 0.06150442439232825
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.10382388357865753,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5507878810620579,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.23826030451961233,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.040783302184664805,
+     "1": 0.32641197274547573,
+     "2": 0.42869522838970925,
+     "3": 0.20410949668015022
+    },
+    "score": 1.796130919565345,
+    "type": "score"
+   }
+  },
+  "ms": 282.5872499961406
+ },
+ "invoice_processing_000057": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.25858190472656917,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4439364285449269,
+     "1": 0.06858425300798293,
+     "2": 0.22632783515000465,
+     "3": 0.26115148329708554
+    },
+    "score": 1.3046943731992489,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.2065719319233051,
+    "probabilities": {
+     "approve": 0.40492894894247883,
+     "hold": 0.219902045131312,
+     "manual_review": 0.3252103285975645,
+     "reject": 0.04995867732864469
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.08239891305804066,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5439821354969249,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.22958097601280336,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.03601234248829413,
+     "1": 0.3406341553797781,
+     "2": 0.4221857320096025,
+     "3": 0.20116777012232526
+    },
+    "score": 1.7885089297659589,
+    "type": "score"
+   }
+  },
+  "ms": 283.51191710680723
+ },
+ "invoice_processing_000058": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.17708149885524316,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.30961142324025537,
+     "1": 0.057144717310595464,
+     "2": 0.25043273530771687,
+     "3": 0.38281112414143237
+    },
+    "score": 1.7064435603503263,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.19368515585507318,
+    "probabilities": {
+     "approve": 0.288308689241665,
+     "hold": 0.236463250911366,
+     "manual_review": 0.3952638668913049,
+     "reject": 0.07996419295566412
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.09998954222051588,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.3788246850360612,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.24461687783663844,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04863188698305099,
+     "1": 0.4334626583774788,
+     "2": 0.3411824445438276,
+     "3": 0.17672301009564256
+    },
+    "score": 1.6459965777520618,
+    "type": "score"
+   }
+  },
+  "ms": 272.8971668984741
+ },
+ "invoice_processing_000059": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.13693005642354925,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.3476223228078918,
+     "1": 0.061827964040000544,
+     "2": 0.2378521708344458,
+     "3": 0.3526975423176619
+    },
+    "score": 1.5956249326618779,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.15712507328353995,
+    "probabilities": {
+     "approve": 0.32100124239146305,
+     "hold": 0.23558873429078267,
+     "manual_review": 0.36784380496265495,
+     "reject": 0.07556621835509927
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.09858727236557263,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.43475742963488573,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.22073163498202186,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04524587915843062,
+     "1": 0.3356571974277764,
+     "2": 0.4155487262365164,
+     "3": 0.2035481971772766
+    },
+    "score": 1.7773992414326392,
+    "type": "score"
+   }
+  },
+  "ms": 337.3320830287412
+ },
+ "invoice_processing_000060": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.32928217602744914,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.49696163202058685,
+     "1": 0.06501861804184109,
+     "2": 0.21880624389817901,
+     "3": 0.21921350603939307
+    },
+    "score": 1.1602716239563784,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.2336441182744382,
+    "probabilities": {
+     "approve": 0.42523308870582865,
+     "hold": 0.21061984879020523,
+     "manual_review": 0.30124014192350146,
+     "reject": 0.06290692058046465
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.10187493578463351,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5943699578448975,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.21534992486604643,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.038619069845617776,
+     "1": 0.3571055489457962,
+     "2": 0.4115124436495348,
+     "3": 0.1927629375590512
+    },
+    "score": 1.7584192489220194,
+    "type": "score"
+   }
+  },
+  "ms": 278.4682500641793
+ },
+ "invoice_processing_000061": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.3265736737762452,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4949302553321839,
+     "1": 0.06951911691492224,
+     "2": 0.21698976234980089,
+     "3": 0.21856086540309297
+    },
+    "score": 1.159181237823803,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.24982777109680243,
+    "probabilities": {
+     "approve": 0.4373708283226018,
+     "hold": 0.20581870498447719,
+     "manual_review": 0.2882636255269661,
+     "reject": 0.06854684116595487
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.11149681601207377,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5942683212221427,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.19376209603057756,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04537499264365821,
+     "1": 0.37101918388698685,
+     "2": 0.39532157202293317,
+     "3": 0.1882842514464218
+    },
+    "score": 1.7265150822721185,
+    "type": "score"
+   }
+  },
+  "ms": 302.9097079997882
+ },
+ "invoice_processing_000062": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.2693705434490412,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4520279075867809,
+     "1": 0.06882017986154784,
+     "2": 0.2225790757723323,
+     "3": 0.25657283677933895
+    },
+    "score": 1.2836968417442294,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.2255275209184684,
+    "probabilities": {
+     "approve": 0.4191456406888513,
+     "hold": 0.23508917381722436,
+     "manual_review": 0.29377350023853227,
+     "reject": 0.05199168525539203
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.09020743139344858,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5502315288659966,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.18744021628045782,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.046584123429972056,
+     "1": 0.35906317932445514,
+     "2": 0.39058016221034336,
+     "3": 0.20377253503522944
+    },
+    "score": 1.7515411088508301,
+    "type": "score"
+   }
+  },
+  "ms": 302.1125419763848
+ },
+ "invoice_processing_000063": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.22352332205526615,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4176424915414496,
+     "1": 0.07111841697914781,
+     "2": 0.26491210714860614,
+     "3": 0.24632698433079647
+    },
+    "score": 1.3399235842687496,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.1554363163054294,
+    "probabilities": {
+     "approve": 0.36657723722907204,
+     "hold": 0.26331355959770386,
+     "manual_review": 0.3199252091425797,
+     "reject": 0.05018399403064435
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.09648182000741654,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5329929368332631,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.21097171243095217,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04480295692174374,
+     "1": 0.351259649751855,
+     "2": 0.40822878432321413,
+     "3": 0.1957086090031871
+    },
+    "score": 1.7548430454078443,
+    "type": "score"
+   }
+  },
+  "ms": 268.4845410985872
+ },
+ "invoice_processing_000064": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.23317203022668984,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.42487902267001737,
+     "1": 0.06507458958525095,
+     "2": 0.2654125050702975,
+     "3": 0.24463388267443417
+    },
+    "score": 1.3298012477491485,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.177031234769614,
+    "probabilities": {
+     "approve": 0.3827734260772105,
+     "hold": 0.21454703102925282,
+     "manual_review": 0.36094513766693265,
+     "reject": 0.04173440522660407
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.08659002034706213,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5142081144276306,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2573684332873367,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.03365448469203523,
+     "1": 0.3107309963302106,
+     "2": 0.44302632496550254,
+     "3": 0.21258819401225165
+    },
+    "score": 1.8345482282979706,
+    "type": "score"
+   }
+  },
+  "ms": 285.76074994634837
+ },
+ "invoice_processing_000065": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.23246267327865353,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.42434700495899014,
+     "1": 0.06116496542761033,
+     "2": 0.25245488672053606,
+     "3": 0.26203314289286345
+    },
+    "score": 1.3521741675472727,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.16966771469405417,
+    "probabilities": {
+     "approve": 0.37725078602054063,
+     "hold": 0.23620737502999806,
+     "manual_review": 0.32170539096273154,
+     "reject": 0.06483644798672973
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.1056287475152673,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5166125723937837,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.21209630215714026,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04498622492635976,
+     "1": 0.35384125042480535,
+     "2": 0.4090722266178552,
+     "3": 0.1921002980309797
+    },
+    "score": 1.7482865977534547,
+    "type": "score"
+   }
+  },
+  "ms": 275.16458299942315
+ },
+ "invoice_processing_000066": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.2879794439811238,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.46598458298584283,
+     "1": 0.06776234470522716,
+     "2": 0.22319873038433863,
+     "3": 0.24305434192459138
+    },
+    "score": 1.2433228312476785,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.2224132724039499,
+    "probabilities": {
+     "approve": 0.4168099543029624,
+     "hold": 0.22645621069449476,
+     "manual_review": 0.2821237026135348,
+     "reject": 0.07461013238900803
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.11628512833541753,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5653664483617219,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.19214461928307833,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04830758730401811,
+     "1": 0.3725913196932349,
+     "2": 0.39410846446230874,
+     "3": 0.18499262854043827
+    },
+    "score": 1.7157861342391671,
+    "type": "score"
+   }
+  },
+  "ms": 260.3966250317171
+ },
+ "invoice_processing_000067": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.21075814063897425,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4080686054792307,
+     "1": 0.07061676827792217,
+     "2": 0.2265312600902887,
+     "3": 0.2947833661525584
+    },
+    "score": 1.4080293869161746,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.1659248766536181,
+    "probabilities": {
+     "approve": 0.3744436574902136,
+     "hold": 0.23716263980109584,
+     "manual_review": 0.3304563158300304,
+     "reject": 0.057937386878660194
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.08321310269576056,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5153466133667474,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2214975606572848,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04576657889415621,
+     "1": 0.34636807314430335,
+     "2": 0.4161231704929636,
+     "3": 0.19174217746857689
+    },
+    "score": 1.7538409465359612,
+    "type": "score"
+   }
+  },
+  "ms": 266.7666249908507
+ },
+ "invoice_processing_000068": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.28861962197625757,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4664647164821932,
+     "1": 0.07138424052641132,
+     "2": 0.24132761002683786,
+     "3": 0.22082343296455764
+    },
+    "score": 1.21650975947376,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.22307764045624298,
+    "probabilities": {
+     "approve": 0.41730823034218223,
+     "hold": 0.2035833351267753,
+     "manual_review": 0.3120649726000677,
+     "reject": 0.0670434619309748
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.10515407415549637,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5585657782692796,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.19756775215733144,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.03862656320478182,
+     "1": 0.37597246734148987,
+     "2": 0.39817581411799857,
+     "3": 0.1872251553357297
+    },
+    "score": 1.733999561584676,
+    "type": "score"
+   }
+  },
+  "ms": 298.39108302257955
+ },
+ "invoice_processing_000069": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.17668787414898643,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.3825159056117398,
+     "1": 0.05807504908486148,
+     "2": 0.25891979249166636,
+     "3": 0.3004892528117324
+    },
+    "score": 1.4773823925033913,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.15584631916461947,
+    "probabilities": {
+     "approve": 0.3467532587069313,
+     "hold": 0.22294237576933504,
+     "manual_review": 0.3668847393734646,
+     "reject": 0.06341962615026905
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.06601590983643094,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.4658391927744935,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.26448135184851923,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.03793836214042432,
+     "1": 0.29885222956925955,
+     "2": 0.44836101388638944,
+     "3": 0.21484839440392667
+    },
+    "score": 1.8401194405538184,
+    "type": "score"
+   }
+  },
+  "ms": 282.9793749842793
+ },
+ "invoice_processing_000070": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.25661288971809154,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.44245966728856867,
+     "1": 0.059629401470341445,
+     "2": 0.1857406696003837,
+     "3": 0.31217026164070616
+    },
+    "score": 1.3676215255932274,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.24431024636637858,
+    "probabilities": {
+     "approve": 0.43323268477478394,
+     "hold": 0.18676234289376573,
+     "manual_review": 0.3008903106608531,
+     "reject": 0.07911466167059727
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.0833987433893294,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5223180971795083,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.22175521774310955,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.042547627116221204,
+     "1": 0.41631641330733216,
+     "2": 0.34500663552132993,
+     "3": 0.1961293240551167
+    },
+    "score": 1.694717656515342,
+    "type": "score"
+   }
+  },
+  "ms": 297.2983749350533
+ },
+ "invoice_processing_000071": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.19824320252223923,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.3986824018916794,
+     "1": 0.07508437573788239,
+     "2": 0.27363414982048256,
+     "3": 0.25259907254995567
+    },
+    "score": 1.3801498930287146,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.11449821265403985,
+    "probabilities": {
+     "approve": 0.3358736594905299,
+     "hold": 0.26880442766244866,
+     "manual_review": 0.3293083083181818,
+     "reject": 0.06601360452883964
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.13454438716234393,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5217529025487551,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.17424154574076298,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04375030731002333,
+     "1": 0.36992574600754163,
+     "2": 0.3806811593055722,
+     "3": 0.20564278737686284
+    },
+    "score": 1.7482164267492746,
+    "type": "score"
+   }
+  },
+  "ms": 269.41654190886766
+ },
+ "invoice_processing_000072": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.1772364196109534,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.38292731470821506,
+     "1": 0.05980677681140798,
+     "2": 0.268482735635919,
+     "3": 0.2887831728444579
+    },
+    "score": 1.4631217666166199,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.13571293834763062,
+    "probabilities": {
+     "approve": 0.3356479441283761,
+     "hold": 0.24998643366099707,
+     "manual_review": 0.35178470376072296,
+     "reject": 0.06258091844990384
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.09573451592565697,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.4687362291702893,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.18155860192512038,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.044929751428793505,
+     "1": 0.3666902888036498,
+     "2": 0.3861689514438403,
+     "3": 0.2022110083237164
+    },
+    "score": 1.7456612166624796,
+    "type": "score"
+   }
+  },
+  "ms": 287.0837500086054
+ },
+ "invoice_processing_000073": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.18753079571681677,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.30387733904372255,
+     "1": 0.05784754388572577,
+     "2": 0.2476270202829391,
+     "3": 0.3906480967876126
+    },
+    "score": 1.7250458748144415,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.1944280620590879,
+    "probabilities": {
+     "approve": 0.28369484020638525,
+     "hold": 0.2410382676915927,
+     "manual_review": 0.39582104654431594,
+     "reject": 0.07944584555770615
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.0977945322628749,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.3726647040087119,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.24807895800769084,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04873453221675437,
+     "1": 0.4360592185057681,
+     "2": 0.34307216732848766,
+     "3": 0.17213408194898988
+    },
+    "score": 1.6386057990097131,
+    "type": "score"
+   }
+  },
+  "ms": 295.01683404669166
+ },
+ "invoice_processing_000074": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.26303463622793277,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4472759771709496,
+     "1": 0.0774339197322873,
+     "2": 0.2609728261873825,
+     "3": 0.21431727690938063
+    },
+    "score": 1.2423314028351942,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.22177746209887403,
+    "probabilities": {
+     "approve": 0.4163330965741555,
+     "hold": 0.210933369263626,
+     "manual_review": 0.31692380648148255,
+     "reject": 0.05580972768073592
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.08667110136191779,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5679971412410632,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.20391446637524555,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04294598061884947,
+     "1": 0.3631486611537302,
+     "2": 0.40293584978143415,
+     "3": 0.19096950844598617
+    },
+    "score": 1.741928886054557,
+    "type": "score"
+   }
+  },
+  "ms": 281.9184589898214
+ },
+ "invoice_processing_000075": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.1487177594249982,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.36153831956874866,
+     "1": 0.07558833553073474,
+     "2": 0.26514767655862603,
+     "3": 0.29772566834189057
+    },
+    "score": 1.4990606936736586,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.13380975654529847,
+    "probabilities": {
+     "approve": 0.30861661604473284,
+     "hold": 0.28528400488410754,
+     "manual_review": 0.35035731740897386,
+     "reject": 0.05574206166218574
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.11048320134489782,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.47121755761305517,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.18347468406677048,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04649065980369425,
+     "1": 0.3608317234201139,
+     "2": 0.38760601305007786,
+     "3": 0.205071603726114
+    },
+    "score": 1.7512585606986115,
+    "type": "score"
+   }
+  },
+  "ms": 295.9460000274703
+ },
+ "invoice_processing_000076": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.13171112794228734,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.3487833459567155,
+     "1": 0.07372649581488969,
+     "2": 0.2323094302734468,
+     "3": 0.34518072795494803
+    },
+    "score": 1.5738875402266275,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.12645736716003478,
+    "probabilities": {
+     "approve": 0.3378802448937569,
+     "hold": 0.2397579487948239,
+     "manual_review": 0.3448430253700261,
+     "reject": 0.07751878094139314
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.08427485771553779,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.45578424645595206,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.16950592339093773,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04005626532789234,
+     "1": 0.36503070666093146,
+     "2": 0.3771294425432033,
+     "3": 0.21778358546797294
+    },
+    "score": 1.7726403481512567,
+    "type": "score"
+   }
+  },
+  "ms": 271.0879580117762
+ },
+ "invoice_processing_000077": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.27997497232280816,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4599812292421061,
+     "1": 0.06283131889662008,
+     "2": 0.22538045885947594,
+     "3": 0.25180699300179793
+    },
+    "score": 1.2690132156209657,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.2062709279227218,
+    "probabilities": {
+     "approve": 0.40470319594204135,
+     "hold": 0.221579475266749,
+     "manual_review": 0.3066566540426107,
+     "reject": 0.0670606747485989
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.11058547927856582,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5538201518937432,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.20620791309819567,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04304625877826613,
+     "1": 0.3745344853095829,
+     "2": 0.40465593482364676,
+     "3": 0.1777633210885042
+    },
+    "score": 1.7171363182223889,
+    "type": "score"
+   }
+  },
+  "ms": 277.72133296821266
+ },
+ "invoice_processing_000078": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.17027451880930422,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.33378148655406564,
+     "1": 0.05969219946994555,
+     "2": 0.22882042486901066,
+     "3": 0.37770588910697817
+    },
+    "score": 1.6504507165289013,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.19699126874739914,
+    "probabilities": {
+     "approve": 0.2991790493982668,
+     "hold": 0.21329172775664768,
+     "manual_review": 0.39774345156054935,
+     "reject": 0.08978577128453617
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.10276061136713747,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.41742506266559687,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.18654678491508533,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04186561148872008,
+     "1": 0.389910088686314,
+     "2": 0.3519278210072846,
+     "3": 0.21629647881768133
+    },
+    "score": 1.7426551671539272,
+    "type": "score"
+   }
+  },
+  "ms": 263.98395805153996
+ },
+ "invoice_processing_000079": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.16545375922932717,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.3740903194219954,
+     "1": 0.06287714192019288,
+     "2": 0.2018537478757949,
+     "3": 0.36117879078201687
+    },
+    "score": 1.550121010017833,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.15568884414283723,
+    "probabilities": {
+     "approve": 0.3667666331071279,
+     "hold": 0.2038890092624865,
+     "manual_review": 0.35289590797211523,
+     "reject": 0.07644844965827036
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.08144594065762609,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.4548689182498713,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.20251455427019924,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04535796389390943,
+     "1": 0.4018859157026494,
+     "2": 0.3582920147486295,
+     "3": 0.19446410565481168
+    },
+    "score": 1.7018622621643433,
+    "type": "score"
+   }
+  },
+  "ms": 288.29020890407264
+ },
+ "invoice_processing_000080": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.2089583661256853,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.406718774594264,
+     "1": 0.06378542253196012,
+     "2": 0.3099956875380972,
+     "3": 0.21950011533567867
+    },
+    "score": 1.3422771436151906,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.13260571545911573,
+    "probabilities": {
+     "approve": 0.3494542865943368,
+     "hold": 0.2772291513653166,
+     "manual_review": 0.31154722631324416,
+     "reject": 0.06176933572710242
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.11025856472308954,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.49456535843468197,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2085537851655491,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.042842515691354256,
+     "1": 0.36137287180785255,
+     "2": 0.4064153388741618,
+     "3": 0.18936927362663136
+    },
+    "score": 1.7423113704360702,
+    "type": "score"
+   }
+  },
+  "ms": 281.2009169720113
+ },
+ "invoice_processing_000081": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.2815862821479808,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4611897116109856,
+     "1": 0.07224492909157804,
+     "2": 0.22980030836087129,
+     "3": 0.23676505093656505
+    },
+    "score": 1.242140698623016,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.21401586880680035,
+    "probabilities": {
+     "approve": 0.41051190160510026,
+     "hold": 0.20580356101375216,
+     "manual_review": 0.33278508361398673,
+     "reject": 0.05089945376716086
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.0979013851966291,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5552991498982598,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.22078016742649664,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.040491081381271346,
+     "1": 0.35623090221494236,
+     "2": 0.4155851255698725,
+     "3": 0.18769289083391383
+    },
+    "score": 1.750479825856429,
+    "type": "score"
+   }
+  },
+  "ms": 287.36833296716213
+ },
+ "invoice_processing_000082": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.22281033707319295,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4171077528048947,
+     "1": 0.07306506312643544,
+     "2": 0.23247363485896527,
+     "3": 0.27735354920970456
+    },
+    "score": 1.3700729804734797,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.18495564152745572,
+    "probabilities": {
+     "approve": 0.3887167311455918,
+     "hold": 0.20448037836733726,
+     "manual_review": 0.34013264537218396,
+     "reject": 0.06667024511488694
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.10290692758058725,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5069399732957205,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.1938060738515659,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.041703973609495675,
+     "1": 0.33753492010490493,
+     "2": 0.3953545553886744,
+     "3": 0.22540655089692493
+    },
+    "score": 1.8044636835730286,
+    "type": "score"
+   }
+  },
+  "ms": 285.08900001179427
+ },
+ "invoice_processing_000083": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.1711788925687503,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.3783841694265627,
+     "1": 0.06598804324552222,
+     "2": 0.22771010508978093,
+     "3": 0.32791768223813417
+    },
+    "score": 1.5051613001394866,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.15124448552682668,
+    "probabilities": {
+     "approve": 0.36343336414512,
+     "hold": 0.2197402492998699,
+     "manual_review": 0.32125556528943516,
+     "reject": 0.09557082126557495
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.10803432188184757,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.46892771229496616,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.18921684937871652,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.042446918633018166,
+     "1": 0.3919126370340374,
+     "2": 0.3741458895879127,
+     "3": 0.19149455474503177
+    },
+    "score": 1.714688080444958,
+    "type": "score"
+   }
+  },
+  "ms": 285.5284999823198
+ },
+ "invoice_processing_000084": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.27009653031745423,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.45257239773809066,
+     "1": 0.058196154435368526,
+     "2": 0.2108665265369303,
+     "3": 0.2783649212896105
+    },
+    "score": 1.3150239713780607,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.2057899548964833,
+    "probabilities": {
+     "approve": 0.40434246617236247,
+     "hold": 0.2173060426263598,
+     "manual_review": 0.3092649777691163,
+     "reject": 0.06908651343216143
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.09709847974159376,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5343927902322483,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.19078363526382422,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04810860156586,
+     "1": 0.39308772644786816,
+     "2": 0.38373405364003355,
+     "3": 0.17506961834623833
+    },
+    "score": 1.6857646887666502,
+    "type": "score"
+   }
+  },
+  "ms": 278.0688749626279
+ },
+ "invoice_processing_000085": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.15024816782915265,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.3626861258718645,
+     "1": 0.06590267202997736,
+     "2": 0.2105938862620522,
+     "3": 0.36081731583610593
+    },
+    "score": 1.5695423920623996,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.13702243151323948,
+    "probabilities": {
+     "approve": 0.3527668236349296,
+     "hold": 0.2194374443384614,
+     "manual_review": 0.3450424826820085,
+     "reject": 0.08275324934460052
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.0984741885595306,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.4632557376827447,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.19852261530052107,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.03712613816596103,
+     "1": 0.35479556733755574,
+     "2": 0.3988919614753908,
+     "3": 0.2091863330210924
+    },
+    "score": 1.7801384893516146,
+    "type": "score"
+   }
+  },
+  "ms": 311.4792499691248
+ },
+ "invoice_processing_000086": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.24814435021738213,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4361082626630366,
+     "1": 0.058134312998583244,
+     "2": 0.24744166822336447,
+     "3": 0.2583157561150157
+    },
+    "score": 1.3279649177903594,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.18866293114362875,
+    "probabilities": {
+     "approve": 0.39149719835772157,
+     "hold": 0.19793519653078204,
+     "manual_review": 0.3498696278668632,
+     "reject": 0.06069797724463323
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.11535749483948857,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.526644362318655,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2533713934173168,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0342885843721465,
+     "1": 0.32215417400242485,
+     "2": 0.4400285450629876,
+     "3": 0.20352869656244102
+    },
+    "score": 1.8127973538157232,
+    "type": "score"
+   }
+  },
+  "ms": 281.5826659789309
+ },
+ "invoice_processing_000087": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.15384358273099252,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.3653826870482444,
+     "1": 0.07283283601974268,
+     "2": 0.22127776710779926,
+     "3": 0.34050670982421366
+    },
+    "score": 1.5369084997079823,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.13347446886060954,
+    "probabilities": {
+     "approve": 0.35010585164545716,
+     "hold": 0.22353606946768442,
+     "manual_review": 0.34617941215500764,
+     "reject": 0.08017866673185083
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.08897416115189669,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.45978261198093673,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.17419859762478485,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04260885947965031,
+     "1": 0.38064894821858863,
+     "2": 0.37978344982348905,
+     "3": 0.196958742478272
+    },
+    "score": 1.7310920753003827,
+    "type": "score"
+   }
+  },
+  "ms": 272.76191604323685
+ },
+ "invoice_processing_000088": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.23822236831599417,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4286667762369956,
+     "1": 0.06627868971000037,
+     "2": 0.2393668480430357,
+     "3": 0.2656876860099683
+    },
+    "score": 1.3420754438259768,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.17374273697993647,
+    "probabilities": {
+     "approve": 0.38030705273495236,
+     "hold": 0.22139940756693124,
+     "manual_review": 0.33069992424265543,
+     "reject": 0.06759361545546098
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.10463660145469378,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5249959775079998,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.20053555053261687,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04769403547359907,
+     "1": 0.3595395030722785,
+     "2": 0.40040166289946266,
+     "3": 0.1923647985546598
+    },
+    "score": 1.7374372245351832,
+    "type": "score"
+   }
+  },
+  "ms": 316.41558394767344
+ },
+ "invoice_processing_000089": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.16497424622937418,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.37373068467203063,
+     "1": 0.0595683317716935,
+     "2": 0.26170712185042294,
+     "3": 0.3049938617058529
+    },
+    "score": 1.4979641605900982,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.16707736088110825,
+    "probabilities": {
+     "approve": 0.33767223035112964,
+     "hold": 0.22809133866102504,
+     "manual_review": 0.3753080206608312,
+     "reject": 0.058928410327014145
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.07527624497903758,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.46132057637877477,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2263319590309932,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04140618489184295,
+     "1": 0.32835834174344775,
+     "2": 0.4197489692732449,
+     "3": 0.2104865040914644
+    },
+    "score": 1.7993157925643306,
+    "type": "score"
+   }
+  },
+  "ms": 272.7008330402896
+ },
+ "invoice_processing_000090": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.1312827558519707,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.3301568584439844,
+     "1": 0.07270191872772006,
+     "2": 0.24867915593931753,
+     "3": 0.348462066888978
+    },
+    "score": 1.6154464312732892,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.14527291945397147,
+    "probabilities": {
+     "approve": 0.3151890740036218,
+     "hold": 0.2450477851471925,
+     "manual_review": 0.3589546895904786,
+     "reject": 0.08080845125870711
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.09892865252450449,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.4366435978031403,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.22849022437971636,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04644774754358359,
+     "1": 0.4213676682847873,
+     "2": 0.3359435100221814,
+     "3": 0.19624107414944772
+    },
+    "score": 1.6819779107774933,
+    "type": "score"
+   }
+  },
+  "ms": 277.3098750039935
+ },
+ "invoice_processing_000091": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.1743331636025701,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.38074987270192756,
+     "1": 0.06777973193516668,
+     "2": 0.27206062011724236,
+     "3": 0.27940977524566346
+    },
+    "score": 1.4501302979066417,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.15088135097653957,
+    "probabilities": {
+     "approve": 0.3348906167930754,
+     "hold": 0.23913297634977254,
+     "manual_review": 0.3631610132324047,
+     "reject": 0.06281539362474739
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.09945016329162554,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.4926434162784282,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.19549704529992948,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.042838569549657465,
+     "1": 0.36326670019156293,
+     "2": 0.3966227839749471,
+     "3": 0.1972719462838325
+    },
+    "score": 1.7483281069929548,
+    "type": "score"
+   }
+  },
+  "ms": 268.5579580720514
+ },
+ "invoice_processing_000092": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.20667088350340226,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4050031626275517,
+     "1": 0.0687507196340283,
+     "2": 0.23799062918174513,
+     "3": 0.2882554885566749
+    },
+    "score": 1.4094984436675433,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.15820250088918053,
+    "probabilities": {
+     "approve": 0.3686518756668854,
+     "hold": 0.24102663602748717,
+     "manual_review": 0.3238870215902051,
+     "reject": 0.06643446671542233
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.10162220793303066,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5137994213755915,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.22430768918380664,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04073156891606569,
+     "1": 0.3557992180044528,
+     "2": 0.418230766887855,
+     "3": 0.18523844619162647
+    },
+    "score": 1.747976090355042,
+    "type": "score"
+   }
+  },
+  "ms": 273.9988329121843
+ },
+ "invoice_processing_000093": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.21525926842641288,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.41144445131980967,
+     "1": 0.06889311670289981,
+     "2": 0.2428699896409774,
+     "3": 0.27679244233631317
+    },
+    "score": 1.385010422993794,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "manual_review",
+    "confidence": 0.1474222010917019,
+    "probabilities": {
+     "approve": 0.35734922692384896,
+     "hold": 0.2162501935286531,
+     "manual_review": 0.3605666508187764,
+     "reject": 0.06583392872872149
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.10738816306882766,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5123525452218269,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.18817726790926614,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.041559188028084386,
+     "1": 0.34752595263199476,
+     "2": 0.3911329509319496,
+     "3": 0.21978190840797124
+    },
+    "score": 1.7891375797198077,
+    "type": "score"
+   }
+  },
+  "ms": 268.10216705780476
+ },
+ "invoice_processing_000094": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.24807591595848563,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4360569369688642,
+     "1": 0.07027223237583827,
+     "2": 0.24505295945825334,
+     "3": 0.2486178711970442
+    },
+    "score": 1.3062317648834776,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.16199182431764333,
+    "probabilities": {
+     "approve": 0.3714938682382325,
+     "hold": 0.22178518733147654,
+     "manual_review": 0.3283120083674702,
+     "reject": 0.07840893606282076
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.11595959779600741,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5332965344055498,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.20181700169936043,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.046601020360066976,
+     "1": 0.35853957871355696,
+     "2": 0.4013627512745203,
+     "3": 0.19349664965185573
+    },
+    "score": 1.7417550302181648,
+    "type": "score"
+   }
+  },
+  "ms": 267.50479196198285
+ },
+ "invoice_processing_000095": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.19149732045198262,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.39362299033898696,
+     "1": 0.06875008831770045,
+     "2": 0.21739468918160404,
+     "3": 0.32023223216170854
+    },
+    "score": 1.464236163166034,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.17534662950059846,
+    "probabilities": {
+     "approve": 0.38150997212544885,
+     "hold": 0.20319130511009367,
+     "manual_review": 0.3361892041795591,
+     "reject": 0.0791095185848984
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.0903114962068139,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.4797011454632566,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.22422390204522671,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04359144116638867,
+     "1": 0.41816792653392004,
+     "2": 0.350816962034431,
+     "3": 0.18742367026526027
+    },
+    "score": 1.682072861398563,
+    "type": "score"
+   }
+  },
+  "ms": 263.6557089863345
+ },
+ "invoice_processing_000096": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.23824260853795667,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4286819564034675,
+     "1": 0.07507628370669907,
+     "2": 0.23368416150912932,
+     "3": 0.26255759838070414
+    },
+    "score": 1.3301174018670703,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.1751654930281834,
+    "probabilities": {
+     "approve": 0.38137411977113755,
+     "hold": 0.24607913143819732,
+     "manual_review": 0.29653925393268427,
+     "reject": 0.07600749485798089
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.11602775679578017,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5332388813177406,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2109990413951505,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0480471807695281,
+     "1": 0.35332006886400197,
+     "2": 0.4082492810463629,
+     "3": 0.19038346932010702
+    },
+    "score": 1.740969038917049,
+    "type": "score"
+   }
+  },
+  "ms": 267.6574169890955
+ },
+ "invoice_processing_000097": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.2568237994353051,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.4426178495764788,
+     "1": 0.06171102291450816,
+     "2": 0.2331874490964542,
+     "3": 0.2624836784125588
+    },
+    "score": 1.3155369563450932,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.17899406358584594,
+    "probabilities": {
+     "approve": 0.38424554768938446,
+     "hold": 0.22511340538381863,
+     "manual_review": 0.33205786659775827,
+     "reject": 0.058583180329038635
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.10756783778329333,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.540050633537552,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.1931151140734045,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0430951995018593,
+     "1": 0.3859874559226183,
+     "2": 0.3948363355550534,
+     "3": 0.176081009020469
+    },
+    "score": 1.703903154094132,
+    "type": "score"
+   }
+  },
+  "ms": 267.26662495639175
+ },
+ "invoice_processing_000098": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.2575916487928242,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.44319373659461814,
+     "1": 0.06972796021996343,
+     "2": 0.23560029217531214,
+     "3": 0.2514780110101063
+    },
+    "score": 1.2953625776009066,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.19121554393292062,
+    "probabilities": {
+     "approve": 0.39341165794969046,
+     "hold": 0.2486907574720359,
+     "manual_review": 0.2857964610450978,
+     "reject": 0.07210112353317583
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.12815560998273173,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5536933457831457,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.21695789253257355,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.052795800096272494,
+     "1": 0.41271841939943016,
+     "2": 0.3637268588524644,
+     "3": 0.17075892165183296
+    },
+    "score": 1.6524489020598578,
+    "type": "score"
+   }
+  },
+  "ms": 263.0902089877054
+ },
+ "invoice_processing_000099": {
+  "answers": {
+   "discrepancy_severity": {
+    "confidence": 0.21599455089108535,
+    "legend": {
+     "0": "None: everything reconciles.",
+     "1": "Trivial: rounding or a cosmetic difference.",
+     "2": "Moderate: a real difference worth confirming.",
+     "3": "Material: a large or unexplained difference."
+    },
+    "probabilities": {
+     "0": 0.411995913168314,
+     "1": 0.058830563294988064,
+     "2": 0.22698518526660466,
+     "3": 0.3021883382700933
+    },
+    "score": 1.419365948638477,
+    "type": "score"
+   },
+   "disposition": {
+    "choice": "approve",
+    "confidence": 0.14439027971727203,
+    "probabilities": {
+     "approve": 0.358292709787954,
+     "hold": 0.23193946342505817,
+     "manual_review": 0.33407813657085694,
+     "reject": 0.07568969021613083
+    },
+    "type": "choice"
+   },
+   "duplicate": {
+    "noul": 0.1106858985204315,
+    "type": "noul"
+   },
+   "matches_order": {
+    "noul": 0.5000969333242453,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.19155076677121974,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04731124318851646,
+     "1": 0.36352308724247157,
+     "2": 0.3936630750784148,
+     "3": 0.1955025944905972
+    },
+    "score": 1.7373570208710927,
+    "type": "score"
+   }
+  },
+  "ms": 269.85220902133733
+ }
+}

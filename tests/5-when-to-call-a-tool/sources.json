@@ -1,0 +1,20 @@
+{
+ "dataset": "When2Call (NVIDIA)",
+ "revision": "0582f7749df63a96fdc3070932e83e72396ace53",
+ "licence": "CC BY 4.0 (as the dataset card states)",
+ "home": "https://huggingface.co/datasets/nvidia/When2Call",
+ "files": [
+  {
+   "name": "when2call_test_mcq.jsonl",
+   "url": "https://huggingface.co/datasets/nvidia/When2Call/resolve/0582f7749df63a96fdc3070932e83e72396ace53/test/when2call_test_mcq.jsonl",
+   "sha256": "8c3694e583eeeb8dbc297e6cd90da70efc68efa4b6adb7227523e828c6b7b14c",
+   "bytes": 20424385
+  },
+  {
+   "name": "README.md",
+   "url": "https://huggingface.co/datasets/nvidia/When2Call/resolve/0582f7749df63a96fdc3070932e83e72396ace53/README.md",
+   "sha256": "14217217ba73b9421b5c8ac9b35b0c210836212ea007b65ec866513fdb67aa75",
+   "bytes": 5038
+  }
+ ]
+}

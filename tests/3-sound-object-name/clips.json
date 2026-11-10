@@ -1,0 +1,656 @@
+{
+ "what": "The 54 clips test 3 uses: 6 lives, each 4 lived things and 5 never-lived things. No clip is stored in this repository; fetch.py fetches them.",
+ "dataset": "VGGSound (H. Chen, W. Xie, A. Vedaldi, A. Zisserman, ICASSP 2020), https://www.robots.ox.ac.uk/~vgg/data/vggsound/",
+ "licence": "the annotations (YouTube id, start second, label) are CC BY 4.0, for research use; each clip belongs to its YouTube uploader",
+ "clip": "10 seconds of a YouTube video, from its start second, as VGGSound names it: <youtube_id>_<start, 6 digits>",
+ "mirror": {
+  "repo": "Loie/VGGSound (Hugging Face)",
+  "revision": "2ca3012ef85a60143a8f97b83a45bb1a7b5c2244",
+  "file": "vggsound_13.tar.gz",
+  "url": "https://huggingface.co/datasets/Loie/VGGSound/resolve/2ca3012ef85a60143a8f97b83a45bb1a7b5c2244/vggsound_13.tar.gz",
+  "bytes": 17178423733,
+  "sha256": "9ec68dfd4052919666162229db165630744ca5c9b3eaf8c8aa712ccf6988fbce",
+  "note": "one archive of about 10 000 clips; the 54 are read out of it as it streams, each checked by its sha256; the archive itself is never stored"
+ },
+ "drawn": "by the seed 0x2002A3 from the clips of this archive that are natively 1280x720 with sound at 44 100 Hz and at least 9.6 s of picture and sound: per life, 4 of the 9 lived kinds that have such a clip for every life, and one clip of each of the 5 never-lived kinds",
+ "lives": [
+  {
+   "life": 1,
+   "lived": [
+    "cEXRWxZThro_000030",
+    "d-adbXZYHxI_000034",
+    "eunWdzCBg-4_000068",
+    "e3udUb0ne5w_000012"
+   ],
+   "never": [
+    "dKY4ij01kW8_000033",
+    "cVQUaecTlpU_000027",
+    "e5aCQbqUY9I_000000",
+    "dBJdRcs-iNU_000199",
+    "e6afRiy1Xwo_000000"
+   ]
+  },
+  {
+   "life": 2,
+   "lived": [
+    "e6MrVGSu_L4_000020",
+    "cRt6_axWZqY_000020",
+    "eVN2GdLLvXY_000001",
+    "d6ShC53aTwg_000095"
+   ],
+   "never": [
+    "eQcvlyjcaPM_000030",
+    "dUZ2x-K6_9w_000004",
+    "c_PsOVPaW4w_000001",
+    "dwC5FLjmvrA_000033",
+    "bwm8FJYo3tA_000024"
+   ]
+  },
+  {
+   "life": 3,
+   "lived": [
+    "coniJoHLdB4_000030",
+    "dbsQ38u_SI0_000074",
+    "dpzhENWtxiM_000190",
+    "dY6ijs7Mn4Y_000000"
+   ],
+   "never": [
+    "cSA0kC2cKfw_000030",
+    "dMHniVpoIwA_000020",
+    "dXEFbfFTDHA_000027",
+    "cY6KAjqmoaY_000030",
+    "e6afRiy1Xwo_000013"
+   ]
+  },
+  {
+   "life": 4,
+   "lived": [
+    "dY6QjiaWJVA_000023",
+    "erY63EcMrY8_000015",
+    "dbsQ38u_SI0_000064",
+    "dsVxIfmjKpc_000012"
+   ],
+   "never": [
+    "eQcvlyjcaPM_000102",
+    "dUZ2x-K6_9w_000043",
+    "d1CHqLyj7xE_000017",
+    "ep3dX2Rm9pA_000011",
+    "cAX3IesXleY_000217"
+   ]
+  },
+  {
+   "life": 5,
+   "lived": [
+    "ervX5J6-kzM_000030",
+    "f7bSMX2A79Y_000109",
+    "dbuR-rhArk0_000017",
+    "eTYoQ9wXP6U_000000"
+   ],
+   "never": [
+    "drkWe7zM9po_000000",
+    "e2j6p-ENab4_000289",
+    "d1CHqLyj7xE_000034",
+    "dwC5FLjmvrA_000019",
+    "efi0-5LXMO0_000108"
+   ]
+  },
+  {
+   "life": 6,
+   "lived": [
+    "eSMCZfnJ5gI_000030",
+    "cSym5f2jySA_000005",
+    "eKB4nY5OWRs_000002",
+    "ciVsS-oZEPc_000144"
+   ],
+   "never": [
+    "drkWe7zM9po_000012",
+    "e2j6p-ENab4_000039",
+    "c_PsOVPaW4w_000059",
+    "f6mdUS1u2HU_000030",
+    "dAiH9mINlHM_000031"
+   ]
+  }
+ ],
+ "clips": [
+  {
+   "clip": "cEXRWxZThro_000030",
+   "youtube_id": "cEXRWxZThro",
+   "start": 30,
+   "label": "frog croaking",
+   "sha256": "290f4f1867f2af8802878d67687ad9df68ea303a5d508e7a0349e295403d76af",
+   "bytes": 2365265,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "d-adbXZYHxI_000034",
+   "youtube_id": "d-adbXZYHxI",
+   "start": 34,
+   "label": "lions roaring",
+   "sha256": "5462a8f8d8ab13b404b7e98aea1b581bcbd1fc4d6d78f3e6f8d8bdbd079fce5e",
+   "bytes": 3637323,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "eunWdzCBg-4_000068",
+   "youtube_id": "eunWdzCBg-4",
+   "start": 68,
+   "label": "chicken crowing",
+   "sha256": "57c8a65ae29e37f34d711d48277240715b878da96196d06e9b8bbe9b7e7445fe",
+   "bytes": 4671489,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "e3udUb0ne5w_000012",
+   "youtube_id": "e3udUb0ne5w",
+   "start": 12,
+   "label": "horse neighing",
+   "sha256": "72686c75b2044d82f49bd41f690309a01050b0f30790292b9447c972266fa785",
+   "bytes": 466313,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "dKY4ij01kW8_000033",
+   "youtube_id": "dKY4ij01kW8",
+   "start": 33,
+   "label": "pig oinking",
+   "sha256": "3bafb4fab4332b076b6fbd3e59575547c449a3565b5ccab4db67e16118bcf5fa",
+   "bytes": 3381896,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "cVQUaecTlpU_000027",
+   "youtube_id": "cVQUaecTlpU",
+   "start": 27,
+   "label": "goat bleating",
+   "sha256": "27a61f12713d0f4909cc7b5fccc25ac22f53832257f75c3f6de587397163ef98",
+   "bytes": 3411673,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "e5aCQbqUY9I_000000",
+   "youtube_id": "e5aCQbqUY9I",
+   "start": 0,
+   "label": "donkey, ass braying",
+   "sha256": "21477add023a15cd4a3140d19eb1ddde933f06e6ece6d54385e1163433b89896",
+   "bytes": 2972940,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "dBJdRcs-iNU_000199",
+   "youtube_id": "dBJdRcs-iNU",
+   "start": 199,
+   "label": "turkey gobbling",
+   "sha256": "fa2cd47cc4dc32733b66116f48121e4795a4906e76bf14f6d083fe3f13f62e6e",
+   "bytes": 2655016,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "e6afRiy1Xwo_000000",
+   "youtube_id": "e6afRiy1Xwo",
+   "start": 0,
+   "label": "owl hooting",
+   "sha256": "2f56637b642221b24eded8c5b283d20035cf92e77e28aaefe4f0bc0f8508dd90",
+   "bytes": 4098794,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "e6MrVGSu_L4_000020",
+   "youtube_id": "e6MrVGSu_L4",
+   "start": 20,
+   "label": "chicken crowing",
+   "sha256": "ac344ea1a537be22a400d800a982387f8293a40a6fa7a32454b16d8c2866f690",
+   "bytes": 5106381,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "cRt6_axWZqY_000020",
+   "youtube_id": "cRt6_axWZqY",
+   "start": 20,
+   "label": "dog barking",
+   "sha256": "32da9773c7f2e827220553b69cac66906149c89adbd3c9427fb8a886d81e42f4",
+   "bytes": 1614176,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "eVN2GdLLvXY_000001",
+   "youtube_id": "eVN2GdLLvXY",
+   "start": 1,
+   "label": "sheep bleating",
+   "sha256": "9fb0edba44478acb493a88ebfc55f7c24de21a4447eb6fad8b120485aaf69797",
+   "bytes": 4372674,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "d6ShC53aTwg_000095",
+   "youtube_id": "d6ShC53aTwg",
+   "start": 95,
+   "label": "cattle mooing",
+   "sha256": "96eea565a3799edbb082319bf13bb14172fbba519e9dd8a74bd2494f938f2e83",
+   "bytes": 4463325,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "eQcvlyjcaPM_000030",
+   "youtube_id": "eQcvlyjcaPM",
+   "start": 30,
+   "label": "pig oinking",
+   "sha256": "c5eaff7a6790f2ed050576e415dc78106e1abf482ff22681f1511af28469b7d4",
+   "bytes": 1784268,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "dUZ2x-K6_9w_000004",
+   "youtube_id": "dUZ2x-K6_9w",
+   "start": 4,
+   "label": "goat bleating",
+   "sha256": "c743618a7b8d7172083126f49b091297b495bfe36364865d3fed09fcaed5cb56",
+   "bytes": 3833617,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "c_PsOVPaW4w_000001",
+   "youtube_id": "c_PsOVPaW4w",
+   "start": 1,
+   "label": "donkey, ass braying",
+   "sha256": "d1af6741663d654fca1ad62915d8f35a83365acf9da58db74fb49ba318e497be",
+   "bytes": 1310412,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "dwC5FLjmvrA_000033",
+   "youtube_id": "dwC5FLjmvrA",
+   "start": 33,
+   "label": "turkey gobbling",
+   "sha256": "b23e1c3cf1946f14f7105c98f23a048cca7a0502af65ccf1c7df13e730e4688e",
+   "bytes": 2095404,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "bwm8FJYo3tA_000024",
+   "youtube_id": "bwm8FJYo3tA",
+   "start": 24,
+   "label": "owl hooting",
+   "sha256": "3db039365e4dbb0fe1b35aa4eb8aee5c87180cc55d9efbd8e538ea0d1888d0ce",
+   "bytes": 2915423,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "coniJoHLdB4_000030",
+   "youtube_id": "coniJoHLdB4",
+   "start": 30,
+   "label": "cattle mooing",
+   "sha256": "93fd1e33d730ae7afacbe7836d5544ed1878530405d0831ef62de117471a3368",
+   "bytes": 455683,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "dbsQ38u_SI0_000074",
+   "youtube_id": "dbsQ38u_SI0",
+   "start": 74,
+   "label": "elephant trumpeting",
+   "sha256": "b65b96285b942bc8102cc9983c0f1770062b50f7e2e4a0c41f3c6ffa3a44bd14",
+   "bytes": 3489754,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "dpzhENWtxiM_000190",
+   "youtube_id": "dpzhENWtxiM",
+   "start": 190,
+   "label": "frog croaking",
+   "sha256": "471caa7828c2b5d8aa33dd9e0850e8c864181e5dc15b604a78ed6984ee77e66e",
+   "bytes": 1692877,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "dY6ijs7Mn4Y_000000",
+   "youtube_id": "dY6ijs7Mn4Y",
+   "start": 0,
+   "label": "chicken crowing",
+   "sha256": "2a5b9c4e3d6c88e0dfb5ecb293bb76ab661ef82721c73d7835afaef84e20437c",
+   "bytes": 6912167,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "cSA0kC2cKfw_000030",
+   "youtube_id": "cSA0kC2cKfw",
+   "start": 30,
+   "label": "pig oinking",
+   "sha256": "1b0a2370a074025be9056ee2cbb04960d100f3ba268e316f517a7580239e9df0",
+   "bytes": 4035799,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "dMHniVpoIwA_000020",
+   "youtube_id": "dMHniVpoIwA",
+   "start": 20,
+   "label": "goat bleating",
+   "sha256": "048d26168e67bb40513f4569b3dda0be44a76bcfad687cef7f99fff650ddc750",
+   "bytes": 1782957,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "dXEFbfFTDHA_000027",
+   "youtube_id": "dXEFbfFTDHA",
+   "start": 27,
+   "label": "donkey, ass braying",
+   "sha256": "f8d545fd09bdb02beb1cac48f5665d9b27562a9d9d0b5128eba9663a5328b4d5",
+   "bytes": 3163913,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "cY6KAjqmoaY_000030",
+   "youtube_id": "cY6KAjqmoaY",
+   "start": 30,
+   "label": "turkey gobbling",
+   "sha256": "57cee9d1ee315ade14a48798b220143f507873bcf10b40ac1c4e2406003ec2fa",
+   "bytes": 2255493,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "e6afRiy1Xwo_000013",
+   "youtube_id": "e6afRiy1Xwo",
+   "start": 13,
+   "label": "owl hooting",
+   "sha256": "69bdf187fe4340e522dece93b43b669174afe69542e6e213367ff5ef056e6ca1",
+   "bytes": 4535004,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "dY6QjiaWJVA_000023",
+   "youtube_id": "dY6QjiaWJVA",
+   "start": 23,
+   "label": "chicken crowing",
+   "sha256": "043a8998d093510bb4c640a9e48b431f9e91acb1ab7f0b2ae7ee3c780b5bc991",
+   "bytes": 3833043,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "erY63EcMrY8_000015",
+   "youtube_id": "erY63EcMrY8",
+   "start": 15,
+   "label": "dog barking",
+   "sha256": "aea02286fb96c9068aacbe84e5fe9ae5212f8f3afb48356c4d94d7c9a6a174c2",
+   "bytes": 3071806,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "dbsQ38u_SI0_000064",
+   "youtube_id": "dbsQ38u_SI0",
+   "start": 64,
+   "label": "elephant trumpeting",
+   "sha256": "848af62ffab7cbcce196cb11be044b73e79eac017efba8dffa032b185066b0e1",
+   "bytes": 3465789,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "dsVxIfmjKpc_000012",
+   "youtube_id": "dsVxIfmjKpc",
+   "start": 12,
+   "label": "duck quacking",
+   "sha256": "31e5755fc2de9fc574155e187e6cf827cb1d114d1d08a40b2d60b69e9618cbb6",
+   "bytes": 729640,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "eQcvlyjcaPM_000102",
+   "youtube_id": "eQcvlyjcaPM",
+   "start": 102,
+   "label": "pig oinking",
+   "sha256": "3c40264c683fbbbec2802f5b45ae9fcdc3eb06a16d4483c5b2f69d839416fd95",
+   "bytes": 2773864,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "dUZ2x-K6_9w_000043",
+   "youtube_id": "dUZ2x-K6_9w",
+   "start": 43,
+   "label": "goat bleating",
+   "sha256": "da83acb3fd51b98a0a42ed73d6706d204f0a65e9d04d9d535a43dd43eafe9c7a",
+   "bytes": 3861469,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "d1CHqLyj7xE_000017",
+   "youtube_id": "d1CHqLyj7xE",
+   "start": 17,
+   "label": "donkey, ass braying",
+   "sha256": "b13698f72c026bf2652eae38f85688c26f6d0978d1f10d2c882e744df8f10f25",
+   "bytes": 2384392,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "ep3dX2Rm9pA_000011",
+   "youtube_id": "ep3dX2Rm9pA",
+   "start": 11,
+   "label": "turkey gobbling",
+   "sha256": "4dc2c128c0cb1c6f769f9744f5baed0fae39ae394db8adb0ac05fed70ce42654",
+   "bytes": 358326,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "cAX3IesXleY_000217",
+   "youtube_id": "cAX3IesXleY",
+   "start": 217,
+   "label": "owl hooting",
+   "sha256": "ba031f058eea2f35e07e0f4f6b7c27493e311ec32c4a52e0d681ac1975a81947",
+   "bytes": 5257081,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "ervX5J6-kzM_000030",
+   "youtube_id": "ervX5J6-kzM",
+   "start": 30,
+   "label": "sheep bleating",
+   "sha256": "37f3b3d66d68532a735515e3d8e31e8409aefcaed50c3015c18e76559b94c7af",
+   "bytes": 3430740,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "f7bSMX2A79Y_000109",
+   "youtube_id": "f7bSMX2A79Y",
+   "start": 109,
+   "label": "chicken crowing",
+   "sha256": "0f33b06c13f6d14139322a77c353766704ca071bdffd24fbe6b4f4234d2de11c",
+   "bytes": 3360620,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "dbuR-rhArk0_000017",
+   "youtube_id": "dbuR-rhArk0",
+   "start": 17,
+   "label": "lions roaring",
+   "sha256": "7b731bc9e519b45e5295d038295e4841e4c30caa7c0b16577bae7b143a6c1d0e",
+   "bytes": 3636559,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "eTYoQ9wXP6U_000000",
+   "youtube_id": "eTYoQ9wXP6U",
+   "start": 0,
+   "label": "frog croaking",
+   "sha256": "b3cfa2d281ef8db994f5c423558467314999da8d9b3d2f1bffa147b7be243d2d",
+   "bytes": 2767138,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "drkWe7zM9po_000000",
+   "youtube_id": "drkWe7zM9po",
+   "start": 0,
+   "label": "pig oinking",
+   "sha256": "a6b1552c71a8193aa0cd4f9f568d11de45b1018fa5338ed072adaa0fbff93e87",
+   "bytes": 3132453,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "e2j6p-ENab4_000289",
+   "youtube_id": "e2j6p-ENab4",
+   "start": 289,
+   "label": "goat bleating",
+   "sha256": "7986cca2c929b1df99442b64d37cf6806e08b621df37dd9861ff110ef6ef7060",
+   "bytes": 3880418,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "d1CHqLyj7xE_000034",
+   "youtube_id": "d1CHqLyj7xE",
+   "start": 34,
+   "label": "donkey, ass braying",
+   "sha256": "afa2b4f3c1bbb34e1fd7e349c351f6ec7fcadaea722ee51b2df101b7f213183c",
+   "bytes": 2651106,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "dwC5FLjmvrA_000019",
+   "youtube_id": "dwC5FLjmvrA",
+   "start": 19,
+   "label": "turkey gobbling",
+   "sha256": "c331ebd4e172a663f64acdcdef500d1d14f02f6d9f377cc7aa22519c9832c195",
+   "bytes": 831171,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "efi0-5LXMO0_000108",
+   "youtube_id": "efi0-5LXMO0",
+   "start": 108,
+   "label": "owl hooting",
+   "sha256": "fe8b05cd280968205632eaa433762e40e81dde744d8fc2d7997389a1c00bae3e",
+   "bytes": 3597041,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "eSMCZfnJ5gI_000030",
+   "youtube_id": "eSMCZfnJ5gI",
+   "start": 30,
+   "label": "dog barking",
+   "sha256": "a7b51791cdb8094512b6d79f04c50604105bce00691e7f19eb21320fd0794394",
+   "bytes": 3028951,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "cSym5f2jySA_000005",
+   "youtube_id": "cSym5f2jySA",
+   "start": 5,
+   "label": "chicken crowing",
+   "sha256": "34fcc71787641091390f2fb8ea1a066a3674dc3126c596afc42305c6d44ab6c5",
+   "bytes": 1287917,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "eKB4nY5OWRs_000002",
+   "youtube_id": "eKB4nY5OWRs",
+   "start": 2,
+   "label": "frog croaking",
+   "sha256": "2129072ed62af0603f407ddcbfffb63ca1a705187c4edeb81d126aa44a2204d6",
+   "bytes": 1790102,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "ciVsS-oZEPc_000144",
+   "youtube_id": "ciVsS-oZEPc",
+   "start": 144,
+   "label": "elephant trumpeting",
+   "sha256": "6659261b074d462e3da1a08d6a85f4745b87662fefab84b19a2c05e33bbb502f",
+   "bytes": 1536843,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "drkWe7zM9po_000012",
+   "youtube_id": "drkWe7zM9po",
+   "start": 12,
+   "label": "pig oinking",
+   "sha256": "de7e32a72f0078c56b6b806724571258cf47e26d49a68be97d3f2108c816b671",
+   "bytes": 3454634,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "e2j6p-ENab4_000039",
+   "youtube_id": "e2j6p-ENab4",
+   "start": 39,
+   "label": "goat bleating",
+   "sha256": "14da47aeb5ae817a9f2363993fab289c406a23ac8e25ef29af21771ecb941850",
+   "bytes": 1980990,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "c_PsOVPaW4w_000059",
+   "youtube_id": "c_PsOVPaW4w",
+   "start": 59,
+   "label": "donkey, ass braying",
+   "sha256": "8566b4a315ddc810625695170e37732c850df4bac6538c3b2aa25d851ef4ff57",
+   "bytes": 1192894,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "f6mdUS1u2HU_000030",
+   "youtube_id": "f6mdUS1u2HU",
+   "start": 30,
+   "label": "turkey gobbling",
+   "sha256": "bb9153af7832f23f1b426a465199c875c9ea6914c06e1192282ab9d1e1bb11ed",
+   "bytes": 4142227,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  },
+  {
+   "clip": "dAiH9mINlHM_000031",
+   "youtube_id": "dAiH9mINlHM",
+   "start": 31,
+   "label": "owl hooting",
+   "sha256": "e4dd6e72c11dab1310a1da790283e425e60fd5366245ec577604915a952a5642",
+   "bytes": 3969581,
+   "picture": "1280x720",
+   "sound_hz": 44100
+  }
+ ]
+}

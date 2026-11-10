@@ -1,0 +1,268 @@
+{
+ "test": "typed decisions",
+ "switches": {
+  "KELVIN-Way": "foam+text:N2",
+  "KELVIN-Weigh": "answer",
+  "KELVIN-Sharpness": "lived"
+ },
+ "scorer": "the dataset's own score_one, unchanged; yes/no read as {true: noul, false: 1 - noul}; means and ECE as in its main()",
+ "all": {
+  "kelvin": {
+   "n_decisions": 2000,
+   "accuracy": 0.706,
+   "kl_from_gold": 0.1621150876973368,
+   "brier": 0.08856482512506182,
+   "ece": 0.1313335092105267
+  },
+  "control_shuffled": {
+   "n_decisions": 2000,
+   "accuracy": 0.5075,
+   "kl_from_gold": 0.3303370390131858,
+   "brier": 0.180820568266515,
+   "ece": 0.05578964216079924
+  },
+  "guessing": {
+   "n_decisions": 2000,
+   "accuracy": 0.2765,
+   "kl_from_gold": 0.4444631940345052,
+   "brier": 0.2381881658355335,
+   "ece": 0.04499999999999876
+  },
+  "average_answer": {
+   "n_decisions": 2000,
+   "accuracy": 0.481,
+   "kl_from_gold": 0.3274239855400313,
+   "brier": 0.18106132474326847,
+   "ece": 0.036137641350193574
+  }
+ },
+ "areas": {
+  "agent_trace_observability": {
+   "kelvin": {
+    "n_decisions": 500,
+    "accuracy": 0.624,
+    "kl_from_gold": 0.14897574046986906,
+    "brier": 0.08676557913853683,
+    "ece": 0.10874522030123124
+   },
+   "control_shuffled": {
+    "n_decisions": 500,
+    "accuracy": 0.348,
+    "kl_from_gold": 0.3420281186198906,
+    "brier": 0.17739059111900718,
+    "ece": 0.05305491924563301
+   },
+   "guessing": {
+    "n_decisions": 500,
+    "accuracy": 0.332,
+    "kl_from_gold": 0.36919462477230003,
+    "brier": 0.188166367965156,
+    "ece": 0.03200000000000003
+   },
+   "average_answer": {
+    "n_decisions": 500,
+    "accuracy": 0.35,
+    "kl_from_gold": 0.32685432283013877,
+    "brier": 0.17097845917047977,
+    "ece": 0.04729980257309102
+   },
+   "per_question": {
+    "action": {
+     "right": 57,
+     "of": 100
+    },
+    "needs_review": {
+     "right": 78,
+     "of": 100
+    },
+    "outcome": {
+     "right": 58,
+     "of": 100
+    },
+    "risk": {
+     "right": 64,
+     "of": 100
+    },
+    "urgency": {
+     "right": 55,
+     "of": 100
+    }
+   },
+   "live_ms": 20512.5,
+   "ask_ms_p50": 267.0,
+   "ask_ms_p90": 292.3
+  },
+  "customer_service": {
+   "kelvin": {
+    "n_decisions": 500,
+    "accuracy": 0.636,
+    "kl_from_gold": 0.26312183616188084,
+    "brier": 0.14419649332872742,
+    "ece": 0.090195268964274
+   },
+   "control_shuffled": {
+    "n_decisions": 500,
+    "accuracy": 0.46,
+    "kl_from_gold": 0.4639110333116075,
+    "brier": 0.24567418967126636,
+    "ece": 0.06074807093998848
+   },
+   "guessing": {
+    "n_decisions": 500,
+    "accuracy": 0.15,
+    "kl_from_gold": 0.5997677496992271,
+    "brier": 0.297548452904406,
+    "ece": 0.13000000000000064
+   },
+   "average_answer": {
+    "n_decisions": 500,
+    "accuracy": 0.448,
+    "kl_from_gold": 0.4490834662607729,
+    "brier": 0.2392488998330426,
+    "ece": 0.05615199001284259
+   },
+   "per_question": {
+    "action": {
+     "right": 54,
+     "of": 100
+    },
+    "category": {
+     "right": 85,
+     "of": 100
+    },
+    "churn_risk": {
+     "right": 57,
+     "of": 100
+    },
+    "needs_human": {
+     "right": 71,
+     "of": 100
+    },
+    "urgency": {
+     "right": 51,
+     "of": 100
+    }
+   },
+   "live_ms": 13855.4,
+   "ask_ms_p50": 285.0,
+   "ask_ms_p90": 328.0
+  },
+  "invoice_processing": {
+   "kelvin": {
+    "n_decisions": 500,
+    "accuracy": 0.844,
+    "kl_from_gold": 0.148797784679642,
+    "brier": 0.07544360562502916,
+    "ece": 0.1493936398820747
+   },
+   "control_shuffled": {
+    "n_decisions": 500,
+    "accuracy": 0.62,
+    "kl_from_gold": 0.353137042809054,
+    "brier": 0.2119922858731566,
+    "ece": 0.09733485544717235
+   },
+   "guessing": {
+    "n_decisions": 500,
+    "accuracy": 0.454,
+    "kl_from_gold": 0.5340880084649251,
+    "brier": 0.325967089190108,
+    "ece": 0.10400000000000001
+   },
+   "average_answer": {
+    "n_decisions": 500,
+    "accuracy": 0.538,
+    "kl_from_gold": 0.3696370101805461,
+    "brier": 0.22471979245075457,
+    "ece": 0.026573556017883963
+   },
+   "per_question": {
+    "discrepancy_severity": {
+     "right": 82,
+     "of": 100
+    },
+    "disposition": {
+     "right": 78,
+     "of": 100
+    },
+    "duplicate": {
+     "right": 89,
+     "of": 100
+    },
+    "matches_order": {
+     "right": 95,
+     "of": 100
+    },
+    "urgency": {
+     "right": 78,
+     "of": 100
+    }
+   },
+   "live_ms": 44552.6,
+   "ask_ms_p50": 273.5,
+   "ask_ms_p90": 318.4
+  },
+  "security_incidents": {
+   "kelvin": {
+    "n_decisions": 500,
+    "accuracy": 0.72,
+    "kl_from_gold": 0.08756498947795535,
+    "brier": 0.047853622407953794,
+    "ece": 0.17822637591365229
+   },
+   "control_shuffled": {
+    "n_decisions": 500,
+    "accuracy": 0.602,
+    "kl_from_gold": 0.16227196131219115,
+    "brier": 0.08822520640262979,
+    "ece": 0.11900954117766521
+   },
+   "guessing": {
+    "n_decisions": 500,
+    "accuracy": 0.17,
+    "kl_from_gold": 0.27480239320156835,
+    "brier": 0.14107075328246402,
+    "ece": 0.17000000000000026
+   },
+   "average_answer": {
+    "n_decisions": 500,
+    "accuracy": 0.588,
+    "kl_from_gold": 0.16412114288866753,
+    "brier": 0.08929814751879697,
+    "ece": 0.10912482194313482
+   },
+   "per_question": {
+    "credential_compromise": {
+     "right": 67,
+     "of": 100
+    },
+    "disposition": {
+     "right": 81,
+     "of": 100
+    },
+    "severity": {
+     "right": 64,
+     "of": 100
+    },
+    "true_positive": {
+     "right": 87,
+     "of": 100
+    },
+    "urgency": {
+     "right": 61,
+     "of": 100
+    }
+   },
+   "live_ms": 35090.0,
+   "ask_ms_p50": 262.1,
+   "ask_ms_p90": 286.7
+  }
+ },
+ "control": {
+  "breaks": true,
+  "kelvin_right_control_wrong": 509,
+  "control_right_kelvin_wrong": 112,
+  "sign_test_p": 1.1613294321841624e-61
+ },
+ "run_record": "runs/2026-11-09T23-59-37+0100-typed-decisions"
+}

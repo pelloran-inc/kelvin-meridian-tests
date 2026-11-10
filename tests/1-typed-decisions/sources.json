@@ -1,0 +1,70 @@
+{
+ "dataset": "LocalLLaMA/typed-decisions",
+ "revision": "c9e8c4167bf9b47edfcba3b9580e69bddd8d9e5a",
+ "licence": "Apache-2.0 (as the dataset card states)",
+ "home": "https://huggingface.co/datasets/LocalLLaMA/typed-decisions",
+ "files": [
+  {
+   "name": "agent_trace_observability/train.parquet",
+   "url": "https://huggingface.co/datasets/LocalLLaMA/typed-decisions/resolve/c9e8c4167bf9b47edfcba3b9580e69bddd8d9e5a/agent_trace_observability/train-00000-of-00001.parquet",
+   "sha256": "e7b2f78fe539517c6a66a90c68ed671c6133194a88d27dbff5d84713af46b901",
+   "bytes": 157731
+  },
+  {
+   "name": "agent_trace_observability/test.parquet",
+   "url": "https://huggingface.co/datasets/LocalLLaMA/typed-decisions/resolve/c9e8c4167bf9b47edfcba3b9580e69bddd8d9e5a/agent_trace_observability/test-00000-of-00001.parquet",
+   "sha256": "833ad1364237b9a3fe05be2c62e632f0cb34ba372284b975140d362ab246f70d",
+   "bytes": 71362
+  },
+  {
+   "name": "customer_service/train.parquet",
+   "url": "https://huggingface.co/datasets/LocalLLaMA/typed-decisions/resolve/c9e8c4167bf9b47edfcba3b9580e69bddd8d9e5a/customer_service/train-00000-of-00001.parquet",
+   "sha256": "3e3abc2a9307bc641f60a6f9042627897ca01c145c3206211dfa9c926ba8721c",
+   "bytes": 267280
+  },
+  {
+   "name": "customer_service/test.parquet",
+   "url": "https://huggingface.co/datasets/LocalLLaMA/typed-decisions/resolve/c9e8c4167bf9b47edfcba3b9580e69bddd8d9e5a/customer_service/test-00000-of-00001.parquet",
+   "sha256": "b4e6e23b3c2add197dda74008f2ce42ff996511ff1bf9c93e8b0e6d84ac9c275",
+   "bytes": 115037
+  },
+  {
+   "name": "invoice_processing/train.parquet",
+   "url": "https://huggingface.co/datasets/LocalLLaMA/typed-decisions/resolve/c9e8c4167bf9b47edfcba3b9580e69bddd8d9e5a/invoice_processing/train-00000-of-00001.parquet",
+   "sha256": "6a5cfcd12e77e707cd9861107868a5adbb7df566ced3162bb9472cd3e348a598",
+   "bytes": 177403
+  },
+  {
+   "name": "invoice_processing/test.parquet",
+   "url": "https://huggingface.co/datasets/LocalLLaMA/typed-decisions/resolve/c9e8c4167bf9b47edfcba3b9580e69bddd8d9e5a/invoice_processing/test-00000-of-00001.parquet",
+   "sha256": "ce2adfb5201dba910b23bda6ab9678c385b580edaabbf8348b4e024c120d4b75",
+   "bytes": 79603
+  },
+  {
+   "name": "security_incidents/train.parquet",
+   "url": "https://huggingface.co/datasets/LocalLLaMA/typed-decisions/resolve/c9e8c4167bf9b47edfcba3b9580e69bddd8d9e5a/security_incidents/train-00000-of-00001.parquet",
+   "sha256": "3aae379ac25fc6434d5f5675f04b06f4310d1aac3056a0e30bb0f779aa2f0a99",
+   "bytes": 201079
+  },
+  {
+   "name": "security_incidents/test.parquet",
+   "url": "https://huggingface.co/datasets/LocalLLaMA/typed-decisions/resolve/c9e8c4167bf9b47edfcba3b9580e69bddd8d9e5a/security_incidents/test-00000-of-00001.parquet",
+   "sha256": "4d8bc1879a0b67e5d275edea21a694b06136ca2a2c3355215a7d8adea6b0c75f",
+   "bytes": 87929
+  },
+  {
+   "name": "README.md",
+   "url": "https://huggingface.co/datasets/LocalLLaMA/typed-decisions/resolve/c9e8c4167bf9b47edfcba3b9580e69bddd8d9e5a/README.md",
+   "sha256": "a3f4a5d987c27df4f6d0796babbc1b0f825ab1227c4cdea029984cd8fbd0a307",
+   "bytes": 30975,
+   "why": "the dataset card, with its licence"
+  },
+  {
+   "name": "score_with_jobs.py",
+   "url": "https://huggingface.co/datasets/LocalLLaMA/typed-decisions/resolve/c9e8c4167bf9b47edfcba3b9580e69bddd8d9e5a/bench/score_with_jobs.py",
+   "sha256": "6854ef67b8cff64ebc71e5b47d0f44e78f92124fc0d62f539095cab5625844f8",
+   "bytes": null,
+   "why": "the dataset's own scorer; its score_one is called unchanged"
+  }
+ ]
+}

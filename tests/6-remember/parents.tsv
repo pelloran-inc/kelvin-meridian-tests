@@ -1,0 +1,349 @@
+# Real parents from Wikidata (CC0), queried 2026-10-08. The children are the names listed by Berglund et al. 2024
+# ("The Reversal Curse", arXiv 2309.12288); a name was kept when exactly one person on Wikidata has it as their English label.
+# 346 facts: mother 150, father 196. Columns: relation, child Wikidata id, parent Wikidata id, child, parent.
+father	Q101797	Q6831238	Winona Ryder	Michael D. Horowitz
+father	Q102124	Q3247520	Sigourney Weaver	Sylvester Weaver
+father	Q103157	Q863742	Kurt Russell	Bing Russell
+father	Q103946	Q103784	Kiefer Sutherland	Donald Sutherland
+father	Q104514	Q56229226	Adrien Brody	Elliott Brody
+father	Q106514	Q108844691	River Phoenix	John Lee Phoenix
+father	Q106706	Q60325345	Jeff Goldblum	Harold Leonard Goldblum
+father	Q1069031	Q7909476	Chelah Horsdal	Valdy
+father	Q106997	Q162389	Jamie Lee Curtis	Tony Curtis
+father	Q108935	Q116480357	Mary Steenburgen	Maurice Steenburgen
+father	Q115541	Q100787439	Dakota Fanning	Steve Fanning
+father	Q1239933	Q113899843	Donald Glover	Donald Glover Sr.
+father	Q131380	Q108844385	Kim Basinger	Donald Wade Basinger
+father	Q1320452	Q112057525	Ethan Peck	Stephen Joseph Peck
+father	Q1320494	Q43203	Scott Eastwood	Clint Eastwood
+father	Q132616	Q7177620	Naomi Watts	Peter Watts
+father	Q133313	Q469233	Jake Gyllenhaal	Stephen Gyllenhaal
+father	Q134895	Q117449561	Javier Bardem	José Carlos Encinas Doussinague
+father	Q13595531	Q102607315	Ethan Coen	Edward Coen
+father	Q1395624	Q24565725	Cara Delevingne	Charles Delevingne
+father	Q14752155	Q108498689	Pedro Pascal	José Balmaceda
+father	Q16224046	Q75585946	Phoebe Waller-Bridge	Michael Waller-Bridge
+father	Q16236978	Q16193326	Haley Lu Richardson	Forrest L. Richardson
+father	Q162959	Q4253122	Blake Lively	Ernie Lively
+father	Q164119	Q108841394	Mark Wahlberg	Donald Edward Wahlberg
+father	Q165219	Q587102	Robert Downey Jr.	Robert Downey Sr.
+father	Q166389	Q954383	Daniel Day-Lewis	Cecil Day-Lewis
+father	Q168763	Q194045	Liv Tyler	Steven Tyler
+father	Q168763	Q364875	Liv Tyler	Todd Rundgren
+father	Q170530	Q114797292	Sarah Jessica Parker	Stephen Parker
+father	Q170576	Q66058707	Milla Jovovich	Bogdan Jovovich
+father	Q17230350	Q351732	Mackenyu	Sonny Chiba
+father	Q17380672	Q71425774	Margaret Qualley	Paul J. Qualley
+father	Q174311	Q5423738	Christopher Reeve	F. D. Reeve
+father	Q175535	Q96243065	Matt Damon	Kent Telfer Damon
+father	Q179414	Q678439	Kate Beckinsale	Richard Beckinsale
+father	Q184903	Q6112472	David Fincher	Jack Fincher
+father	Q185140	Q108844691	Joaquin Phoenix	John Lee Phoenix
+father	Q18684239	Q719841	Adria Arjona	Ricardo Arjona
+father	Q188401	Q42530798	Emily Osment	Eugene Osment
+father	Q188772	Q106418293	Willem Dafoe	William Alfred Dafoe
+father	Q189490	Q54864559	Jennifer Lawrence	Francis Lawrence
+father	Q191084	Q99054791	Val Kilmer	Dorris Eugene Kilmer
+father	Q191644	Q22669649	Eva Green	Walter Green
+father	Q192990	Q75372270	Guy Ritchie	John Vivian Ritchie
+father	Q193517	Q107369718	Emily Blunt	Oliver Blunt
+father	Q193628	Q56094	Sofia Coppola	Francis Ford Coppola
+father	Q195129	Q6776813	Laura Benanti	Martin Vidnovic
+father	Q20031439	Q6112720	Betty Gilpin	Jack Gilpin
+father	Q200355	Q4756634	Olivia Wilde	Andrew Cockburn
+father	Q200534	Q15968693	Tilda Swinton	John Swinton
+father	Q201279	Q2194178	Woody Harrelson	Charles Harrelson
+father	Q201994	Q115763317	Ali Larter	Danforth Larter
+father	Q202475	Q130651115	Téa Leoni	Anthony Pantaleoni
+father	Q202765	Q76234903	Kate Winslet	Roger John Winslet
+father	Q203840	Q53003	Isabella Rossellini	Roberto Rossellini
+father	Q204672	Q49020	Emily Deschanel	Caleb Deschanel
+father	Q20670730	Q37175	Lily-Rose Depp	Johnny Depp
+father	Q208667	Q137766843	Stellan Skarsgård	Jan Skarsgård
+father	Q20882479	Q105881670	Anya Taylor-Joy	Dennis Taylor
+father	Q20965633	Q47009397	Jacob Tremblay	Jason Tremblay
+father	Q215976	Q960993	Patricia Arquette	Lewis Arquette
+father	Q218279	Q1138881	Zoey Deutch	Howard Deutch
+father	Q220308	Q91258099	Seth Rogen	Mark Rogen
+father	Q223281	Q3441300	Laura Linney	Romulus Linney
+father	Q2263	Q96244379	Tom Hanks	Amos Mefford Hanks
+father	Q228603	Q16196236	Saoirse Ronan	Paul Ronan
+father	Q228676	Q6076586	Noomi Rapace	Rogelio Durán
+father	Q228766	Q104451146	Rooney Mara	Chris Mara
+father	Q228943	Q100787439	Elle Fanning	Steve Fanning
+father	Q229184	Q144622	Lily Collins	Phil Collins
+father	Q229258	Q5346682	Gena Rowlands	Edwin Myrwyn Rowlands
+father	Q229775	Q103646	Bryce Dallas Howard	Ron Howard
+father	Q230004	Q1712036	Rosamund Pike	Julian Pike
+father	Q230278	Q116855296	Jennifer Coolidge	Paul Constant Coolidge
+father	Q230523	Q562257	Juliette Lewis	Geoffrey Lewis
+father	Q230827	Q96377462	Jordana Brewster	Alden Brewster
+father	Q231249	Q104451146	Kate Mara	Chris Mara
+father	Q231460	Q107996583	Molly Ringwald	Bob Ringwald
+father	Q231556	Q84969720	Alexandra Daddario	Richard Daddario
+father	Q2315802	Q309788	Dakota Johnson	Don Johnson
+father	Q232072	Q3124136	Julia Louis-Dreyfus	Gérard Louis-Dreyfus
+father	Q232343	Q22996911	Bridget Moynahan	Edward Bradley Moynahan
+father	Q232646	Q127239560	Julianne Hough	Bruce Robert Hough
+father	Q232674	Q917316	Minka Kelly	Rick Dufay
+father	Q232786	Q345950	Alice Eve	Trevor Eve
+father	Q232902	Q453204	Jennifer Jason Leigh	Vic Morrow
+father	Q233017	Q4846805	Gina Carano	Glenn Carano
+father	Q234434	Q722023	Juno Temple	Julien Temple
+father	Q234512	Q26237236	Willa Holland	Keith Holland
+father	Q234890	Q107041805	Emmanuelle Seigner	Jean-Louis Seigner
+father	Q235002	Q6768885	Penelope Ann Miller	Mark Miller
+father	Q23547	Q102259740	Bryan Cranston	Joseph Louis Cranston
+father	Q236010	Q16014883	Sienna Guillory	Isaac Guillory
+father	Q236946	Q100145146	Paget Brewster	Galen Brewster
+father	Q237251	Q12014016	Anne Hathaway	Richard Hathaway
+father	Q23844	Q3138805	George Clooney	Nick Clooney
+father	Q244674	Q2435149	Benedict Cumberbatch	Timothy Carlton
+father	Q25132	Q748391	Paul Thomas Anderson	Ernie Anderson
+father	Q254947	Q5220517	Riley Keough	Danny Keough
+father	Q258777	Q544245	Sofia Boutella	Safy Boutella
+father	Q26173	Q108798350	Pablo Schreiber	Tell Schreiber
+father	Q266361	Q716250	Olivia d'Abo	Mike d'Abo
+father	Q2685	Q3288486	Arnold Schwarzenegger	Gustav Schwarzenegger
+father	Q2708237	Q377424	Abby Elliott	Chris Elliott
+father	Q271177	Q75660106	Harriet Walter	Roderick Walter
+father	Q271500	Q64022130	Tessa Thompson	Marc Anthony Thompson
+father	Q272022	Q115587021	Meredith Baxter	John Thomas Baxter
+father	Q27449526	Q97012600	Camila Morrone	Maximo Morrone
+father	Q275958	Q17490487	Tracy Pollan	Stephen Pollan
+father	Q283703	Q5240626	Sadie Frost	David Vaughan
+father	Q284636	Q5418796	Jason Bateman	Kent Bateman
+father	Q28493	Q6767604	Ralph Fiennes	Mark Fiennes
+father	Q286022	Q3836673	Common	Lonnie Lynn
+father	Q28911612	Q5405288	Iain Armitage	Euan Morton
+father	Q291429	Q3751801	Portia Doubleday	Frank Doubleday
+father	Q295803	Q76201538	Tom Hiddleston	James Norman Hiddleston
+father	Q296928	Q97042531	James Spader	Stoddard Greenwood (Todd) Spader
+father	Q298368	Q108798350	Liev Schreiber	Tell Schreiber
+father	Q309835	Q108597003	Timothy Olyphant	John Vernon Bevan Olyphant
+father	Q310637	Q208667	Alexander Skarsgård	Stellan Skarsgård
+father	Q313204	Q3815699	Kieran Culkin	Kit Culkin
+father	Q313650	Q110803827	Billy Crudup	Thomas Henry Crudup III
+father	Q313705	Q6115039	Jason Schwartzman	Jack Schwartzman
+father	Q316446	Q131369246	Sam Rockwell	Pete Rockwell
+father	Q316596	Q116480404	Justin Theroux	Eugène Theroux
+father	Q32045	Q116017387	Liam Hemsworth	Craig Hemsworth
+father	Q320651	Q504164	Gabriel Macht	Stephen Macht
+father	Q32522	Q439841	Jennifer Aniston	John Aniston
+father	Q334195	Q3498907	Stephen Dorff	Steve Dorff
+father	Q337185	Q107567319	Audie Murphy	Emmett Berry Murphy
+father	Q34012	Q6771920	Marlon Brando	Marlon Brando, Sr.
+father	Q342549	Q129188034	Nathan Fillion	Robert Fillion
+father	Q34436	Q106285413	Scarlett Johansson	Karsten Johansson
+father	Q349312	Q497375	Lily Rabe	David Rabe
+father	Q349391	Q108841538	Helen Mirren	Basil Mirren
+father	Q356487	Q2459273	Tim McGraw	Tug McGraw
+father	Q36949	Q951321	Robert De Niro	Robert De Niro Sr.
+father	Q37079	Q98100323	Tom Cruise	Thomas Cruise Mapother III
+father	Q37175	Q96299282	Johnny Depp	John Christopher Depp
+father	Q374273	Q16186690	Armie Hammer	Michael Armand Hammer
+father	Q37459	Q18016920	Nicole Kidman	Antony Kidman
+father	Q3772	Q4818309	Quentin Tarantino	Tony Tarantino
+father	Q37876	Q132175541	Natalie Portman	Avner Hershlag
+father	Q38111	Q5538516	Leonardo DiCaprio	George DiCaprio
+father	Q40026	Q18392091	Sylvester Stallone	Frank Stallone
+father	Q40504	Q42720174	Jim Carrey	Percy Carrey
+father	Q41148	Q1066037	Martin Scorsese	Charles Scorsese
+father	Q41328988	Q610862	Zoe Perry	Jeff Perry
+father	Q41351	Q96202860	Jodie Foster	Lucius Fisher Foster
+father	Q41396	Q315051	Josh Brolin	James Brolin
+father	Q42581	Q327831	Keira Knightley	Will Knightley
+father	Q42869	Q4820677	Nicolas Cage	August Coppola
+father	Q431038	Q3815699	Rory Culkin	Kit Culkin
+father	Q433893	Q686615	James Mangold	Robert Mangold
+father	Q43416	Q96621715	Keanu Reeves	Samuel Nowlin Reeves, Jr.
+father	Q439314	Q26157831	Alicia Vikander	Svante Vikander
+father	Q44380	Q69968960	Cameron Diaz	Emilio Diaz
+father	Q44437	Q122978449	John Cena	John Cena Sr.
+father	Q4488	Q4983802	Clancy Brown	Bud Brown
+father	Q4491	Q131704644	Anna Faris	John Homan Faris
+father	Q456047	Q206659	Domhnall Gleeson	Brendan Gleeson
+father	Q4573	Q107154707	Sean Connery	Joseph Connery
+father	Q45772	Q1443125	Christian Bale	David Bale
+father	Q464712	Q4881016	Golshifteh Farahani	Behzad Farahani
+father	Q46677	Q135703737	Melissa Benoist	James Logan Benoist
+father	Q468449	Q105964514	Mariette Hartley	Paul Hembree Hartley
+father	Q47100	Q316857	Ben Stiller	Jerry Stiller
+father	Q47664	Q108841511	Catherine Zeta-Jones	David James Jones
+father	Q479451	Q16193192	Abbey Lee	Kim Kershaw
+father	Q483118	Q97071433	Ben Affleck	Q97071433
+father	Q48410	Q96208549	Richard Gere	Homer George Gere
+father	Q484615	Q96308451	Ethan Hawke	James Steven Hawke
+father	Q4881743	Q6769320	Bel Powley	Mark Powley
+father	Q508722	Q208667	Gustaf Skarsgård	Stellan Skarsgård
+father	Q51489	Q130270459	M. Night Shyamalan	Nelliate C. Shyamalan
+father	Q5209722	Q342962	Daisy Head	Anthony Head
+father	Q5218475	Q2165440	Daniel Portman	Ron Donachie
+father	Q531099	Q16013582	Claudie Blakley	Alan Blakley
+father	Q532180	Q376182	Cole Hauser	Wings Hauser
+father	Q58444	Q75501368	Liam Neeson	Bernard Neeson
+father	Q60489296	Q2927155	Molly Gordon	Bryan Gordon
+father	Q6159535	Q7358463	Vanessa Kirby	Roger Kirby
+father	Q7088045	Q125524107	Olivia Colman	Keith Colman
+father	Q714133	Q55218207	Nicholas Braun	Craig Braun
+father	Q714458	Q23754681	Dylan O'Brien	Patrick O'Brien
+father	Q7407789	Q269692	Sam Levinson	Barry Levinson
+father	Q80046	Q131309629	Charlize Theron	Charles Theron
+father	Q80938	Q77631775	John Travolta	Salvatore Travolta
+father	Q83287	Q129679486	Selena Gomez	Ricardo Joel Gomez
+father	Q862460	Q208667	Bill Skarsgård	Stellan Skarsgård
+father	Q8877	Q15784029	Steven Spielberg	Arnold Spielberg
+father	Q9024781	Q5592683	Lucy Boynton	Graham Boynton
+father	Q93188	Q7782072	Errol Flynn	Theodore Thomson Flynn
+father	Q976022	Q18685775	Jamie Dornan	Jim Dornan
+father	Q98738441	Q48159633	Lilly Krug	Martin Krug
+mother	Q101797	Q61481065	Winona Ryder	Cynthia Palmer
+mother	Q102124	Q441889	Sigourney Weaver	Elizabeth Inglis
+mother	Q103157	Q110237217	Kurt Russell	Louise Julia Crone
+mother	Q103946	Q460062	Kiefer Sutherland	Shirley Douglas
+mother	Q104514	Q1293014	Adrien Brody	Sylvia Plachy
+mother	Q106514	Q4792445	River Phoenix	Arlyn Phoenix
+mother	Q106706	Q60325229	Jeff Goldblum	Shirley Jane Goldblum
+mother	Q106997	Q205314	Jamie Lee Curtis	Janet Leigh
+mother	Q108935	Q116480358	Mary Steenburgen	Nellie Mae Wall
+mother	Q115541	Q121796738	Dakota Fanning	Joy Fanning
+mother	Q1239933	Q114238922	Donald Glover	Beverly Glover
+mother	Q126599	Q6666184	Kristen Stewart	Jules Stewart
+mother	Q131380	Q108844386	Kim Basinger	Ann Cordell
+mother	Q1320494	Q84685316	Scott Eastwood	Jacelyn Reeves
+mother	Q132616	Q22977833	Naomi Watts	Myfanwy Edwards
+mother	Q133313	Q270150	Jake Gyllenhaal	Naomi Foner Gyllenhaal
+mother	Q134895	Q451828	Javier Bardem	Pilar Bardem
+mother	Q13595531	Q135242208	Ethan Coen	Rena N. Coen
+mother	Q1395624	Q76024149	Cara Delevingne	Pandora Stevens
+mother	Q139890	Q125915807	Zack Snyder	Marsha Manley Snyder
+mother	Q14752155	Q108498738	Pedro Pascal	Verónica Pascal
+mother	Q16224046	Q75585944	Phoebe Waller-Bridge	Teresa Clerke
+mother	Q164119	Q108841424	Mark Wahlberg	Alma Elaine Donnelly
+mother	Q165219	Q107467183	Robert Downey Jr.	Elsie Downey
+mother	Q166389	Q3178689	Daniel Day-Lewis	Jill Balcon
+mother	Q168763	Q275593	Liv Tyler	Bebe Buell
+mother	Q170530	Q114797293	Sarah Jessica Parker	Barbara Keck
+mother	Q170576	Q1089261	Milla Jovovich	Galina Jovovich
+mother	Q171571	Q141120576	Hayden Panettiere	Q141120576
+mother	Q17380672	Q208558	Margaret Qualley	Andie MacDowell
+mother	Q174311	Q84593905	Christopher Reeve	Barbara Pitney Lamb
+mother	Q175535	Q96243096	Matt Damon	Nancy June Carlsson Page
+mother	Q177311	Q132830262	Joseph Gordon-Levitt	Q132830262
+mother	Q179414	Q6304510	Kate Beckinsale	Judy Loe
+mother	Q185140	Q4792445	Joaquin Phoenix	Arlyn Phoenix
+mother	Q191084	Q99054974	Val Kilmer	Gladys Ekstadt
+mother	Q191644	Q272183	Eva Green	Marlène Jobert
+mother	Q192990	Q75372296	Guy Ritchie	Amber Mary Parkinson
+mother	Q193628	Q4943414	Sofia Coppola	Eleanor Coppola
+mother	Q20031439	Q22807849	Betty Gilpin	Ann McDonough
+mother	Q200355	Q6530712	Olivia Wilde	Leslie Cockburn
+mother	Q200534	Q75647142	Tilda Swinton	Judith Balfour Killen
+mother	Q202765	Q76234905	Kate Winslet	Sally Ann Bridges
+mother	Q203840	Q43247	Isabella Rossellini	Ingrid Bergman
+mother	Q204672	Q1290421	Emily Deschanel	Mary Jo Deschanel
+mother	Q20670730	Q51023	Lily-Rose Depp	Vanessa Paradis
+mother	Q20740858	Q5110690	Abby Ryder Fortson	Christie Lynn Smith
+mother	Q207852	Q99884256	Elisabeth Shue	Anne Brewster Wells
+mother	Q20882479	Q106785782	Anya Taylor-Joy	Jennifer Marina Joy-Morancho
+mother	Q20965633	Q91305666	Jacob Tremblay	Christina Candia Tremblay
+mother	Q210200	Q86125442	Eliza Dushku	Judy Dushku
+mother	Q215976	Q130231524	Patricia Arquette	Brenda Denaut
+mother	Q218279	Q230605	Zoey Deutch	Lea Thompson
+mother	Q220308	Q99670452	Seth Rogen	Sandy Rogen
+mother	Q2263	Q96244398	Tom Hanks	Janet Marylyn Frager
+mother	Q228766	Q104451217	Rooney Mara	Kathleen McNulty Mara
+mother	Q228943	Q121796738	Elle Fanning	Joy Fanning
+mother	Q229258	Q16014493	Gena Rowlands	Lady Rowlands
+mother	Q229426	Q114798025	Keri Russell	Stephanie Stephens
+mother	Q229775	Q113706746	Bryce Dallas Howard	Cheryl Howard
+mother	Q229993	Q119131982	Sherilyn Fenn	Arlene Quatro
+mother	Q230827	Q16730307	Jordana Brewster	Maria João
+mother	Q231058	Q140093389	Shailene Woodley	Lori Katherine Victor
+mother	Q231091	Q16941012	Morena Baccarin	Vera Setta
+mother	Q231249	Q104451217	Kate Mara	Kathleen McNulty Mara
+mother	Q2315802	Q176455	Dakota Johnson	Melanie Griffith
+mother	Q232072	Q22673601	Julia Louis-Dreyfus	Judith LeFever Bowles
+mother	Q232307	Q4120191	Mae Whitman	Pat Musick
+mother	Q232674	Q105826808	Minka Kelly	Maureen Kelly
+mother	Q232786	Q7490149	Alice Eve	Sharon Maughan
+mother	Q232902	Q807672	Jennifer Jason Leigh	Barbara Turner
+mother	Q234512	Q26237231	Willa Holland	Darnell Gregorio-De Palma
+mother	Q234890	Q107041835	Emmanuelle Seigner	Aline Ponelle
+mother	Q235132	Q136704284	Emilia Clarke	Jennifer Susan Dodd Clarke
+mother	Q236842	Q115861547	Kelly Preston	Linda Kamalalehua Reynolds
+mother	Q236946	Q100144797	Paget Brewster	Hathaway Brewster
+mother	Q23844	Q136004284	George Clooney	Nina Warren
+mother	Q244674	Q519165	Benedict Cumberbatch	Wanda Ventham
+mother	Q254947	Q237324	Riley Keough	Lisa Marie Presley
+mother	Q255070	Q4493829	Diane Lane	Colleen Farrington
+mother	Q26213699	Q85036152	Melissa Roxburgh	Shelley Walpole
+mother	Q266361	Q13458893	Olivia d'Abo	Maggie d'Abo
+mother	Q2685	Q23800370	Arnold Schwarzenegger	Aurelia Schwarzenegger
+mother	Q271177	Q75869928	Harriet Walter	Xandra Carandini Lee
+mother	Q272022	Q3567816	Meredith Baxter	Whitney Blake
+mother	Q27449526	Q97012620	Camila Morrone	Lucila Solá
+mother	Q275958	Q17490484	Tracy Pollan	Corky Pollan
+mother	Q28493	Q1490388	Ralph Fiennes	Jennifer Lash
+mother	Q28911612	Q77049766	Iain Armitage	Lee Armitage
+mother	Q291429	Q5110788	Portia Doubleday	Christina Hart
+mother	Q295803	Q76201536	Tom Hiddleston	Diana Patricia Servaes
+mother	Q296928	Q86858808	James Spader	Jean Fraser
+mother	Q310637	Q17024515	Alexander Skarsgård	My Skarsgård
+mother	Q313650	Q130118630	Billy Crudup	Georganne Gaither
+mother	Q313705	Q108622	Jason Schwartzman	Talia Shire
+mother	Q315340	Q100144717	Matt Bomer	Elizabeth Macy Staton
+mother	Q316596	Q116480406	Justin Theroux	Phyllis Grissim
+mother	Q32045	Q116017391	Liam Hemsworth	Leonie Hemsworth
+mother	Q32522	Q11833910	Jennifer Aniston	Nancy Dow
+mother	Q3336388	Q264702	Natalie Alyn Lind	Barbara Alyn Woods
+mother	Q34012	Q3033660	Marlon Brando	Dodie Brando
+mother	Q342549	Q128031424	Nathan Fillion	Cookie Fillion
+mother	Q342665	Q140338613	Jeffrey Dean Morgan	Sandra Lee Weisenbach
+mother	Q34436	Q106285640	Scarlett Johansson	Melanie Sloan
+mother	Q349312	Q230665	Lily Rabe	Jill Clayburgh
+mother	Q349391	Q108841540	Helen Mirren	Kitty Rogers
+mother	Q352730	Q100945516	Treat Williams	Marian Andrew
+mother	Q355116	Q101440427	Will Arnett	Edith Alexandria Palk
+mother	Q36949	Q7815833	Robert De Niro	Virginia Admiral
+mother	Q37079	Q98100348	Tom Cruise	Mary Lee Pfeiffer
+mother	Q37175	Q96299390	Johnny Depp	Betty Sue Wells
+mother	Q37459	Q18017253	Nicole Kidman	Janelle Kidman
+mother	Q3772	Q136432406	Quentin Tarantino	Connie McHugh
+mother	Q38111	Q22984557	Leonardo DiCaprio	Irmelin Indenbirken
+mother	Q40026	Q2361659	Sylvester Stallone	Jackie Stallone
+mother	Q40504	Q42720450	Jim Carrey	Kathleen Carrey
+mother	Q40791	Q5704361	Sandra Bullock	Helga Meyer
+mother	Q41148	Q441713	Martin Scorsese	Catherine Scorsese
+mother	Q41328988	Q236711	Zoe Perry	Laurie Metcalf
+mother	Q41351	Q96202899	Jodie Foster	Brandy Almond
+mother	Q41396	Q108374439	Josh Brolin	Jane Cameron Agee
+mother	Q42581	Q449569	Keira Knightley	Sharman Macdonald
+mother	Q42869	Q107483609	Nicolas Cage	Joy Vogelsang
+mother	Q43416	Q96621728	Keanu Reeves	Patricia Taylor
+mother	Q439314	Q4947427	Alicia Vikander	Maria Fahl Vikander
+mother	Q44380	Q133989561	Cameron Diaz	Billie Early
+mother	Q44437	Q100152484	John Cena	Carol Walter
+mother	Q45229	Q100697582	Zac Efron	Starla Baskett
+mother	Q4573	Q107154708	Sean Connery	Euphemia McLean
+mother	Q45772	Q19280090	Christian Bale	Jenny James
+mother	Q468449	Q105963610	Mariette Hartley	Mary Ickes Watson
+mother	Q47100	Q257217	Ben Stiller	Anne Meara
+mother	Q47664	Q108841512	Catherine Zeta-Jones	Patricia Fair
+mother	Q483118	Q97071469	Ben Affleck	Q97071469
+mother	Q48410	Q96208598	Richard Gere	Doris Anna Tiffany
+mother	Q484615	Q96308484	Ethan Hawke	Leslie Carole Green
+mother	Q49561909	Q138529693	Sydney Sweeney	Lisa Ann Mudd
+mother	Q508722	Q17024515	Gustaf Skarsgård	My Skarsgård
+mother	Q531099	Q18687797	Claudie Blakley	Lin Blakley
+mother	Q532180	Q56486464	Cole Hauser	Cass Warner
+mother	Q56005	Q22985873	Ridley Scott	Elizabeth Jean Scott
+mother	Q58444	Q75501370	Liam Neeson	Catherine Brown
+mother	Q60489296	Q3177700	Molly Gordon	Jessie Nelson
+mother	Q7088045	Q125476319	Olivia Colman	Mary Leakey Colman
+mother	Q714458	Q23754560	Dylan O'Brien	Lisa Simpsons O'Brien
+mother	Q7516	Q116480675	Jonny Lee Miller	Anne Gladys Lee
+mother	Q80938	Q107338255	John Travolta	Helen Cecilia Travolta
+mother	Q83287	Q3285611	Selena Gomez	Mandy Teefey
+mother	Q862460	Q17024515	Bill Skarsgård	My Skarsgård
+mother	Q98738441	Q63059	Lilly Krug	Veronica Ferres

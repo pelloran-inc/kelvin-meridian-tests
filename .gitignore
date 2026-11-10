@@ -1,0 +1,10 @@
+# secrets: keys only from the environment or a 0600 file outside the repo
+*.key
+keys*.tsv
+.env
+*.env
+__pycache__/
+runs/*/raw/
+data/
+.DS_Store
+runs-local/

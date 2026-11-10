@@ -1,0 +1,8 @@
+{
+ "run": "intent",
+ "started": "2026-11-10T10:09:24+01:00",
+ "address_family": "IPv4 only",
+ "address": "our test address",
+ "release": "5ddaa4fc",
+ "memories": 37
+}

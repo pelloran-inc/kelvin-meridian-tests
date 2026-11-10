@@ -1,0 +1,6702 @@
+{
+ "customer_service_000000": {
+  "answers": {
+   "action": {
+    "choice": "execute_refund",
+    "confidence": 0.20883396785338526,
+    "probabilities": {
+     "answer_directly": 0.21080061131963385,
+     "close_no_action": 0.0031699255457810775,
+     "escalate_to_human": 0.29121307366466564,
+     "execute_refund": 0.3670671742827082,
+     "request_information": 0.12774921518721122
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "delivery",
+    "confidence": 0.768447049409342,
+    "probabilities": {
+     "account": 0.004288657469021481,
+     "billing": 0.005033171207584612,
+     "delivery": 0.8147576395274737,
+     "refund": 0.12832539869273113,
+     "technical": 0.04759513310318904
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.4202943572466176,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.17379089229366967,
+     "1": 0.5652207679349632,
+     "2": 0.22996141494823677,
+     "3": 0.031026924823130332
+    },
+    "score": 1.1182243723008276,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.48398556709746154,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.38188023081574124,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.07253078139516884,
+     "1": 0.5364101731118059,
+     "2": 0.30392277269862134,
+     "3": 0.08713627279440385
+    },
+    "score": 1.40566453689226,
+    "type": "score"
+   }
+  },
+  "ms": 34081.03400003165
+ },
+ "customer_service_000001": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.2579190106448236,
+    "probabilities": {
+     "answer_directly": 0.13231132403506246,
+     "close_no_action": 0.007483639076894451,
+     "escalate_to_human": 0.40633520851585886,
+     "execute_refund": 0.17784361830311432,
+     "request_information": 0.2760262100690699
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.7881126008767338,
+    "probabilities": {
+     "account": 0.024243758762841256,
+     "billing": 0.8304900807013871,
+     "delivery": 0.03463459278702566,
+     "refund": 0.0816736611940971,
+     "technical": 0.02895790655464896
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.22408673955358593,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.06379318930768782,
+     "1": 0.41806505466518945,
+     "2": 0.39671349357420566,
+     "3": 0.12142826245291706
+    },
+    "score": 1.575776829172352,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.5724694618747168,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.408596591681795,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.02214462592534792,
+     "1": 0.2001860013947061,
+     "2": 0.5564474437613462,
+     "3": 0.22122192891859974
+    },
+    "score": 1.9767466756731977,
+    "type": "score"
+   }
+  },
+  "ms": 23761.928917025216
+ },
+ "customer_service_000002": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.2743978677657365,
+    "probabilities": {
+     "answer_directly": 0.2019784763242763,
+     "close_no_action": 0.019496597971077882,
+     "escalate_to_human": 0.4195182942125892,
+     "execute_refund": 0.021674591260814884,
+     "request_information": 0.33733204023124175
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.814012521875983,
+    "probabilities": {
+     "account": 0.05738188347228752,
+     "billing": 0.8512100175007864,
+     "delivery": 0.05128276748665838,
+     "refund": 0.014241944379817214,
+     "technical": 0.025883387160450508
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.4514476026229402,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.041116307653587425,
+     "1": 0.12393820699781417,
+     "2": 0.2463597833813932,
+     "3": 0.5885857019672052
+    },
+    "score": 2.382414879662216,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.7089363324683013,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.3674507454877842,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.013355347972393726,
+     "1": 0.16038134171777743,
+     "2": 0.5255880591158382,
+     "3": 0.3006752511939907
+    },
+    "score": 2.1135832135314256,
+    "type": "score"
+   }
+  },
+  "ms": 291.9094590470195
+ },
+ "customer_service_000003": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.3573589250109108,
+    "probabilities": {
+     "answer_directly": 0.26429430042051155,
+     "close_no_action": 0.01247786338908126,
+     "escalate_to_human": 0.4858871400087286,
+     "execute_refund": 0.0389866644194934,
+     "request_information": 0.19835403176218513
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.37174185262406134,
+    "probabilities": {
+     "account": 0.21428052574736997,
+     "billing": 0.4973934820992491,
+     "delivery": 0.05025685119820149,
+     "refund": 0.03981042960016541,
+     "technical": 0.198258711355014
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.3156045793597691,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.02871624417646698,
+     "1": 0.21719102427634493,
+     "2": 0.48670343451982684,
+     "3": 0.26738929702736125
+    },
+    "score": 1.9927657843980824,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6140858983772642,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.24094481579948215,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.01040039502992195,
+     "1": 0.14463365240687875,
+     "2": 0.4307086118496116,
+     "3": 0.4142573407135877
+    },
+    "score": 2.248822898246865,
+    "type": "score"
+   }
+  },
+  "ms": 359.563915990293
+ },
+ "customer_service_000004": {
+  "answers": {
+   "action": {
+    "choice": "answer_directly",
+    "confidence": 0.398635206369253,
+    "probabilities": {
+     "answer_directly": 0.5189081650954024,
+     "close_no_action": 0.023875461874943056,
+     "escalate_to_human": 0.3145285387374474,
+     "execute_refund": 0.0295840364810707,
+     "request_information": 0.1131037978111365
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.6300254899807881,
+    "probabilities": {
+     "account": 0.1293912874806093,
+     "billing": 0.7040203919846305,
+     "delivery": 0.03785685235064787,
+     "refund": 0.04940719066202725,
+     "technical": 0.0793242775220851
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.14481140869791567,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.16631532022409726,
+     "1": 0.269121570845423,
+     "2": 0.35860855652343676,
+     "3": 0.20595455240704302
+    },
+    "score": 1.6042023411134256,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.43158750326890843,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.16967978039947548,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.024201481796495092,
+     "1": 0.2798821037685055,
+     "2": 0.31865657913539286,
+     "3": 0.3772598352996066
+    },
+    "score": 2.0489747679381107,
+    "type": "score"
+   }
+  },
+  "ms": 314.329499960877
+ },
+ "customer_service_000005": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.19412938200354335,
+    "probabilities": {
+     "answer_directly": 0.13044883322310485,
+     "close_no_action": 0.005740638437479981,
+     "escalate_to_human": 0.3553035056028347,
+     "execute_refund": 0.32233375917428286,
+     "request_information": 0.18617326356229763
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.8624245557055703,
+    "probabilities": {
+     "account": 0.014698523682414304,
+     "billing": 0.8899396445644562,
+     "delivery": 0.0037627764328309497,
+     "refund": 0.0884097416033911,
+     "technical": 0.0031893137169075074
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.2692820087083385,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.03610077496160077,
+     "1": 0.34705761205397667,
+     "2": 0.4519615065312539,
+     "3": 0.16488010645316864
+    },
+    "score": 1.7456209444759905,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.5781912417981869,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.42963908784027954,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.010752429791234412,
+     "1": 0.1337008799112552,
+     "2": 0.5722293158802096,
+     "3": 0.2833173744173007
+    },
+    "score": 2.1281116349235765,
+    "type": "score"
+   }
+  },
+  "ms": 302.97474993858486
+ },
+ "customer_service_000006": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.594054787529732,
+    "probabilities": {
+     "answer_directly": 0.10698273914624287,
+     "close_no_action": 0.013152546180954534,
+     "escalate_to_human": 0.6752438300237855,
+     "execute_refund": 0.01492448524278794,
+     "request_information": 0.1896963994062291
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "technical",
+    "confidence": 0.6788901037554519,
+    "probabilities": {
+     "account": 0.08758762833059344,
+     "billing": 0.11848060017048113,
+     "delivery": 0.031063773521371293,
+     "refund": 0.019755914973192654,
+     "technical": 0.7431120830043615
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.22490358144579572,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.021111631933988854,
+     "1": 0.15308118265299858,
+     "2": 0.4186776860843468,
+     "3": 0.40712949932866577
+    },
+    "score": 2.2118250528076895,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.7910746504995823,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.3400530636596244,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.013688734039240279,
+     "1": 0.1249140668319852,
+     "2": 0.5050397977447183,
+     "3": 0.3563574013840562
+    },
+    "score": 2.2040658664735906,
+    "type": "score"
+   }
+  },
+  "ms": 351.98604105971754
+ },
+ "customer_service_000007": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.3472684217948999,
+    "probabilities": {
+     "answer_directly": 0.17775939237693517,
+     "close_no_action": 0.022953183303053463,
+     "escalate_to_human": 0.4778147374359199,
+     "execute_refund": 0.1424141977534175,
+     "request_information": 0.17905848913067401
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "delivery",
+    "confidence": 0.38044921328935966,
+    "probabilities": {
+     "account": 0.023943262677664286,
+     "billing": 0.07991063153091865,
+     "delivery": 0.5043593706314877,
+     "refund": 0.3491744427023124,
+     "technical": 0.04261229245761701
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.2760680079314803,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.038620653489879676,
+     "1": 0.22407913051191217,
+     "2": 0.4570510059486102,
+     "3": 0.28024921004959796
+    },
+    "score": 1.9789287725579265,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6883332561281734,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.328954068773969,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.007378833668880172,
+     "1": 0.1040520496283188,
+     "2": 0.3918535651223243,
+     "3": 0.49671555158047676
+    },
+    "score": 2.3779058346143973,
+    "type": "score"
+   }
+  },
+  "ms": 280.37754097022116
+ },
+ "customer_service_000008": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.4258287591889982,
+    "probabilities": {
+     "answer_directly": 0.17877095405374424,
+     "close_no_action": 0.010675291568280319,
+     "escalate_to_human": 0.5406630073511985,
+     "execute_refund": 0.0857003857700429,
+     "request_information": 0.184190361256734
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.18634074942201678,
+    "probabilities": {
+     "account": 0.20574151578038394,
+     "billing": 0.34907259953761344,
+     "delivery": 0.07920930945232656,
+     "refund": 0.13040667550088994,
+     "technical": 0.23556989972878611
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.2616819060082256,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.04380179109941947,
+     "1": 0.2503457207188899,
+     "2": 0.4462614295061692,
+     "3": 0.25959105867552146
+    },
+    "score": 1.9216417557577927,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.691279023921145,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2120777933335435,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.02945766930921824,
+     "1": 0.17730985572199248,
+     "2": 0.40905834500015764,
+     "3": 0.38417412996863165
+    },
+    "score": 2.147948935628203,
+    "type": "score"
+   }
+  },
+  "ms": 328.00562493503094
+ },
+ "customer_service_000009": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.4365160512606798,
+    "probabilities": {
+     "answer_directly": 0.19824009817732027,
+     "close_no_action": 0.01016542672824697,
+     "escalate_to_human": 0.5492128410085438,
+     "execute_refund": 0.030471057117245775,
+     "request_information": 0.2119105769686431
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "account",
+    "confidence": 0.18442805674277857,
+    "probabilities": {
+     "account": 0.34754244539422285,
+     "billing": 0.2228100346226104,
+     "delivery": 0.05366707495513111,
+     "refund": 0.0505650228423001,
+     "technical": 0.3254154221857355
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.268354957740991,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.029071648718655318,
+     "1": 0.2099298777560768,
+     "2": 0.45126621830574326,
+     "3": 0.30973225521952463
+    },
+    "score": 2.0416590800261374,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6865208566126547,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.3124644159780476,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.012807615167678468,
+     "1": 0.1609498485464637,
+     "2": 0.3418942243023222,
+     "3": 0.4843483119835357
+    },
+    "score": 2.297783233101715,
+    "type": "score"
+   }
+  },
+  "ms": 291.173291974701
+ },
+ "customer_service_000010": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.588963701737756,
+    "probabilities": {
+     "answer_directly": 0.11000014117591086,
+     "close_no_action": 0.010345346349176292,
+     "escalate_to_human": 0.6711709613902048,
+     "execute_refund": 0.012967372361615537,
+     "request_information": 0.19551617872309252
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "technical",
+    "confidence": 0.5408448345552178,
+    "probabilities": {
+     "account": 0.15622790775791046,
+     "billing": 0.15364541411836816,
+     "delivery": 0.04128792682300007,
+     "refund": 0.016162883656547028,
+     "technical": 0.6326758676441743
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.37480465272536395,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.014230093189606266,
+     "1": 0.16552171523105544,
+     "2": 0.531103489544023,
+     "3": 0.28914470203531534
+    },
+    "score": 2.0951628004250473,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.7825103516021079,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2704834416476762,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.00847069914094347,
+     "1": 0.15595157014080768,
+     "2": 0.3827151494824917,
+     "3": 0.4528625812357571
+    },
+    "score": 2.2799696128130624,
+    "type": "score"
+   }
+  },
+  "ms": 305.7588749798015
+ },
+ "customer_service_000011": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.4398762498326345,
+    "probabilities": {
+     "answer_directly": 0.204814133215575,
+     "close_no_action": 0.010152149771795444,
+     "escalate_to_human": 0.5519009998661076,
+     "execute_refund": 0.06764281698227748,
+     "request_information": 0.16548990016424442
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.38317184047452635,
+    "probabilities": {
+     "account": 0.20951318034376842,
+     "billing": 0.5065374723796211,
+     "delivery": 0.0845902889296489,
+     "refund": 0.10005317527846572,
+     "technical": 0.09930588306849586
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.30741819619721383,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.025682725489952464,
+     "1": 0.19625867317722287,
+     "2": 0.4805636471479104,
+     "3": 0.29749495418491423
+    },
+    "score": 2.0498708300277864,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6946863757893008,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.47939220358064655,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.006929182796732989,
+     "1": 0.11177834732471205,
+     "2": 0.2717483171930701,
+     "3": 0.6095441526854849
+    },
+    "score": 2.483907439767307,
+    "type": "score"
+   }
+  },
+  "ms": 287.7931660041213
+ },
+ "customer_service_000012": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.41047432551791185,
+    "probabilities": {
+     "answer_directly": 0.21248167897639464,
+     "close_no_action": 0.01279146582041661,
+     "escalate_to_human": 0.5283794604143295,
+     "execute_refund": 0.05293186349545275,
+     "request_information": 0.19341553129340652
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.6009064997532546,
+    "probabilities": {
+     "account": 0.06295908740702787,
+     "billing": 0.6807251998026037,
+     "delivery": 0.15141948826203577,
+     "refund": 0.04373229488079652,
+     "technical": 0.061163929647536176
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.29573999881027935,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.04277293437396817,
+     "1": 0.22888200513954626,
+     "2": 0.4718049991077095,
+     "3": 0.25654006137877605
+    },
+    "score": 1.9421121874912934,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6627079518129293,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.1911907971351968,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.02009693248527437,
+     "1": 0.19727533210133086,
+     "2": 0.38923463756199717,
+     "3": 0.3933930978513976
+    },
+    "score": 2.155923900779518,
+    "type": "score"
+   }
+  },
+  "ms": 343.62258296459913
+ },
+ "customer_service_000013": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.4569605513445837,
+    "probabilities": {
+     "answer_directly": 0.25204696660331116,
+     "close_no_action": 0.011397804325170175,
+     "escalate_to_human": 0.565568441075667,
+     "execute_refund": 0.03877328661753118,
+     "request_information": 0.13221350137832052
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "account",
+    "confidence": 0.4619637947847933,
+    "probabilities": {
+     "account": 0.5695710358278346,
+     "billing": 0.25313617380505293,
+     "delivery": 0.016213003388939943,
+     "refund": 0.01592727785104553,
+     "technical": 0.14515250912712696
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.2284168851485219,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.086838834961158,
+     "1": 0.264505134000562,
+     "2": 0.42131266386139143,
+     "3": 0.2273433671768885
+    },
+    "score": 1.7891605632540104,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6876942576847547,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.3611525972745791,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.036905292120321516,
+     "1": 0.24685939035583387,
+     "2": 0.5208644479559343,
+     "3": 0.19537086956791022
+    },
+    "score": 1.8747008949714332,
+    "type": "score"
+   }
+  },
+  "ms": 270.2563749626279
+ },
+ "customer_service_000014": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.5767257632480833,
+    "probabilities": {
+     "answer_directly": 0.11619873833770368,
+     "close_no_action": 0.006844533808945444,
+     "escalate_to_human": 0.6613806105984666,
+     "execute_refund": 0.013737104401359822,
+     "request_information": 0.20183901285352437
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "technical",
+    "confidence": 0.35300140901880317,
+    "probabilities": {
+     "account": 0.23696891949223417,
+     "billing": 0.20185679794261926,
+     "delivery": 0.059505250863751205,
+     "refund": 0.01926790448635278,
+     "technical": 0.4824011272150426
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.36316910010987885,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.036307995393152034,
+     "1": 0.24191419194212016,
+     "2": 0.5223768250824091,
+     "3": 0.1994009875823186
+    },
+    "score": 1.8848708048538942,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.7925021705690877,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2864088218396576,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.026175266905631725,
+     "1": 0.2600043390226488,
+     "2": 0.4648066163797432,
+     "3": 0.24901377769197625
+    },
+    "score": 1.9366589048580638,
+    "type": "score"
+   }
+  },
+  "ms": 281.2326669227332
+ },
+ "customer_service_000015": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.5355439659926866,
+    "probabilities": {
+     "answer_directly": 0.10885380370667129,
+     "close_no_action": 0.012525967958691708,
+     "escalate_to_human": 0.6284351727941493,
+     "execute_refund": 0.0051284403427581775,
+     "request_information": 0.2450566151977295
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "technical",
+    "confidence": 0.8048509011448335,
+    "probabilities": {
+     "account": 0.06396946953254645,
+     "billing": 0.05070861424513838,
+     "delivery": 0.03769101834484642,
+     "refund": 0.0037501769616019565,
+     "technical": 0.8438807209158667
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.2148775061001711,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.06294988427195516,
+     "1": 0.35337907835567695,
+     "2": 0.4111581295751283,
+     "3": 0.1725129077972396
+    },
+    "score": 1.6932340608976524,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.7345402195254741,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.24935109875646,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.02614661730070556,
+     "1": 0.2603807734507574,
+     "2": 0.437013324067345,
+     "3": 0.27645928518119206
+    },
+    "score": 1.9637852771290236,
+    "type": "score"
+   }
+  },
+  "ms": 264.30729101412
+ },
+ "customer_service_000016": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.27431878682984934,
+    "probabilities": {
+     "answer_directly": 0.32052328974705,
+     "close_no_action": 0.018376540400787487,
+     "escalate_to_human": 0.41945502946387947,
+     "execute_refund": 0.047421400127611105,
+     "request_information": 0.19422374026067193
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "delivery",
+    "confidence": 0.6455373131855854,
+    "probabilities": {
+     "account": 0.05475755065825896,
+     "billing": 0.1093413686344572,
+     "delivery": 0.7164298505484683,
+     "refund": 0.08442980750521792,
+     "technical": 0.03504142265359758
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.21142501382612866,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.1039922861124894,
+     "1": 0.32192175882632895,
+     "2": 0.4085687603695965,
+     "3": 0.16551719469158513
+    },
+    "score": 1.6356108636402773,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.5558459903142019,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2314445163395952,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.009717910388905654,
+     "1": 0.15354410565863516,
+     "2": 0.41315459669776283,
+     "3": 0.4235833872546964
+    },
+    "score": 2.25060346081825,
+    "type": "score"
+   }
+  },
+  "ms": 265.25179110467434
+ },
+ "customer_service_000017": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.6221547664224355,
+    "probabilities": {
+     "answer_directly": 0.09364040492607531,
+     "close_no_action": 0.022173058694585402,
+     "escalate_to_human": 0.6977238131379484,
+     "execute_refund": 0.015817427435272143,
+     "request_information": 0.17064529580611876
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "technical",
+    "confidence": 0.6524671679273781,
+    "probabilities": {
+     "account": 0.13752184085645872,
+     "billing": 0.10660356906701263,
+     "delivery": 0.02555688205923454,
+     "refund": 0.008343973675391586,
+     "technical": 0.7219737343419025
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.3456349611498159,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.01909272027725619,
+     "1": 0.1176047887213767,
+     "2": 0.3540762701390052,
+     "3": 0.5092262208623619
+    },
+    "score": 2.3534359915864727,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.8003190436352007,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.3937483977816216,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.012591079441027744,
+     "1": 0.1015863631276305,
+     "2": 0.34051125909512553,
+     "3": 0.5453112983362162
+    },
+    "score": 2.41854277632653,
+    "type": "score"
+   }
+  },
+  "ms": 279.24325002823025
+ },
+ "customer_service_000018": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.4038580400832771,
+    "probabilities": {
+     "answer_directly": 0.19714531544804795,
+     "close_no_action": 0.00872985231220564,
+     "escalate_to_human": 0.5230864320666216,
+     "execute_refund": 0.1259207167173538,
+     "request_information": 0.14511768345577097
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.5762122543374008,
+    "probabilities": {
+     "account": 0.0953319642308849,
+     "billing": 0.6609698034699206,
+     "delivery": 0.05449431535156423,
+     "refund": 0.11855394501780205,
+     "technical": 0.07064997192982816
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.2661828439938072,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.03160019621780511,
+     "1": 0.21851290560711883,
+     "2": 0.4496371329953554,
+     "3": 0.30024976517972063
+    },
+    "score": 2.0185364671369914,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.685181491035922,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.23138995249937233,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.010117140427100373,
+     "1": 0.15070875233103687,
+     "2": 0.42354246437452925,
+     "3": 0.41563164286733356
+    },
+    "score": 2.244688609682096,
+    "type": "score"
+   }
+  },
+  "ms": 268.32258293870836
+ },
+ "customer_service_000019": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.3640022761915489,
+    "probabilities": {
+     "answer_directly": 0.2625535186996826,
+     "close_no_action": 0.013256375769636492,
+     "escalate_to_human": 0.49120182095323917,
+     "execute_refund": 0.06390179690431798,
+     "request_information": 0.16908648767312381
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.5281502591937268,
+    "probabilities": {
+     "account": 0.12991694446948593,
+     "billing": 0.6225202073549815,
+     "delivery": 0.050391205661359004,
+     "refund": 0.07112071015926139,
+     "technical": 0.12605093235491216
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.2855850595853138,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.044054304061489795,
+     "1": 0.249822980884268,
+     "2": 0.4641887946889854,
+     "3": 0.24193392036525682
+    },
+    "score": 1.9040023313580092,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6391009553837115,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.16483568590057587,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.019359537676718334,
+     "1": 0.2492841637161608,
+     "2": 0.3577295341816889,
+     "3": 0.3736267644254319
+    },
+    "score": 2.0856235253558344,
+    "type": "score"
+   }
+  },
+  "ms": 264.2784588970244
+ },
+ "customer_service_000020": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.47937520747919615,
+    "probabilities": {
+     "answer_directly": 0.19270246243580852,
+     "close_no_action": 0.013580878468382396,
+     "escalate_to_human": 0.583500165983357,
+     "execute_refund": 0.03292538208470327,
+     "request_information": 0.1772911110277489
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "technical",
+    "confidence": 0.2650766278409201,
+    "probabilities": {
+     "account": 0.1608311413661785,
+     "billing": 0.21533192968135884,
+     "delivery": 0.13785485830789998,
+     "refund": 0.0739207683718266,
+     "technical": 0.41206130227273613
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.2745065086965382,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.043804112362954235,
+     "1": 0.23693615680790855,
+     "2": 0.45587988152240366,
+     "3": 0.2633798493067336
+    },
+    "score": 1.9388354677729165,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.7013197229638208,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.23660682161297827,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.010012672133933784,
+     "1": 0.1396494965977505,
+     "2": 0.42288271505858205,
+     "3": 0.4274551162097337
+    },
+    "score": 2.2677802753441156,
+    "type": "score"
+   }
+  },
+  "ms": 288.17962505854666
+ },
+ "customer_service_000021": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.45907396026925396,
+    "probabilities": {
+     "answer_directly": 0.18393126314915062,
+     "close_no_action": 0.012466449835666912,
+     "escalate_to_human": 0.5672591682154031,
+     "execute_refund": 0.01734395342779543,
+     "request_information": 0.21899916537198388
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "technical",
+    "confidence": 0.43233594804703934,
+    "probabilities": {
+     "account": 0.24072630067139233,
+     "billing": 0.13475163563903075,
+     "delivery": 0.04696661989771248,
+     "refund": 0.031686685354232906,
+     "technical": 0.5458687584376315
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.24077873572546604,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.03165887376073688,
+     "1": 0.23197108572317363,
+     "2": 0.43058405179409953,
+     "3": 0.3057859887219899
+    },
+    "score": 2.0104971554773425,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.7009515692129489,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.3175006344498073,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.013360213679019642,
+     "1": 0.1434139715820621,
+     "2": 0.3551003389015628,
+     "3": 0.4881254758373555
+    },
+    "score": 2.317991076897254,
+    "type": "score"
+   }
+  },
+  "ms": 257.18391698319465
+ },
+ "customer_service_000022": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.3987740214782829,
+    "probabilities": {
+     "answer_directly": 0.2645075085910348,
+     "close_no_action": 0.022283176799818318,
+     "escalate_to_human": 0.5190192171826263,
+     "execute_refund": 0.008023586996144366,
+     "request_information": 0.18616651043037621
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "account",
+    "confidence": 0.5241647499465187,
+    "probabilities": {
+     "account": 0.619331799957215,
+     "billing": 0.16403698620000592,
+     "delivery": 0.04069080725571247,
+     "refund": 0.024493547415842188,
+     "technical": 0.15144685917122444
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.3954530344750958,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.030678832517741447,
+     "1": 0.18723640918454923,
+     "2": 0.5465897758563218,
+     "3": 0.23549498244138747
+    },
+    "score": 1.9869009082213553,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6358575541231877,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.28582142121583337,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.01424867719953939,
+     "1": 0.14774617401220638,
+     "2": 0.464366065911875,
+     "3": 0.3736390828763792
+    },
+    "score": 2.197395554465094,
+    "type": "score"
+   }
+  },
+  "ms": 281.01583395618945
+ },
+ "customer_service_000023": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.20285677412796993,
+    "probabilities": {
+     "answer_directly": 0.09568991446144015,
+     "close_no_action": 0.005253897525446222,
+     "escalate_to_human": 0.36228541930237596,
+     "execute_refund": 0.17790306704388972,
+     "request_information": 0.35886770166684795
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.8892688028247508,
+    "probabilities": {
+     "account": 0.017307614810698393,
+     "billing": 0.9114150422598007,
+     "delivery": 0.002768776586001586,
+     "refund": 0.06588031467440149,
+     "technical": 0.0026282516690978234
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.3825168324265132,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.0794561482620669,
+     "1": 0.5368876243198849,
+     "2": 0.3242639826787286,
+     "3": 0.059392244739319616
+    },
+    "score": 1.3635923238953007,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.5220093922211194,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.5020905147690331,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.02825220324760293,
+     "1": 0.22512549997415182,
+     "2": 0.6265678860767748,
+     "3": 0.12005441070147044
+    },
+    "score": 1.8384245042321128,
+    "type": "score"
+   }
+  },
+  "ms": 260.74375002644956
+ },
+ "customer_service_000024": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.2983646546895774,
+    "probabilities": {
+     "answer_directly": 0.3100324325424317,
+     "close_no_action": 0.011046939056134781,
+     "escalate_to_human": 0.43869172375166193,
+     "execute_refund": 0.08429013292963983,
+     "request_information": 0.15593877172013176
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.3790080022441792,
+    "probabilities": {
+     "account": 0.16280203665023418,
+     "billing": 0.5032064017953434,
+     "delivery": 0.10123162348096292,
+     "refund": 0.15801013988333107,
+     "technical": 0.07474979819012846
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.28896588001927564,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.0516288797001744,
+     "1": 0.2600637229638301,
+     "2": 0.46672441001445675,
+     "3": 0.22158298732153872
+    },
+    "score": 1.8582615049573596,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.585258402699124,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.25140741465066174,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.011383417017260795,
+     "1": 0.1735530394491259,
+     "2": 0.37650798254561696,
+     "3": 0.4385555609879963
+    },
+    "score": 2.2422356875043485,
+    "type": "score"
+   }
+  },
+  "ms": 275.77270893380046
+ },
+ "customer_service_000025": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.3880940592194261,
+    "probabilities": {
+     "answer_directly": 0.28618625201448633,
+     "close_no_action": 0.018174389386162813,
+     "escalate_to_human": 0.5104752473755408,
+     "execute_refund": 0.0338890717259417,
+     "request_information": 0.15127503949786825
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "account",
+    "confidence": 0.2330260453156019,
+    "probabilities": {
+     "account": 0.3864208362524815,
+     "billing": 0.29104718199921925,
+     "delivery": 0.11852746167127651,
+     "refund": 0.05645406967577546,
+     "technical": 0.14755045040124723
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.23716513258596938,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.05200618555482148,
+     "1": 0.23464922170985536,
+     "2": 0.42787384943947704,
+     "3": 0.28547074329584615
+    },
+    "score": 1.9468091504763478,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6356012712648444,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.17752236190445947,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.028407069068078918,
+     "1": 0.2146082514940954,
+     "2": 0.3831417714283446,
+     "3": 0.37384290800948106
+    },
+    "score": 2.102420518379228,
+    "type": "score"
+   }
+  },
+  "ms": 271.96041704155505
+ },
+ "customer_service_000026": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.34390369408888555,
+    "probabilities": {
+     "answer_directly": 0.20669535249368082,
+     "close_no_action": 0.011938940952439046,
+     "escalate_to_human": 0.4751229552711084,
+     "execute_refund": 0.14084381254308534,
+     "request_information": 0.16539893873968636
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.5508382307963786,
+    "probabilities": {
+     "account": 0.08011701212353521,
+     "billing": 0.6406705846371029,
+     "delivery": 0.12415863386837277,
+     "refund": 0.10700203709929644,
+     "technical": 0.04805173227169262
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.27920525697286264,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.05006486433060613,
+     "1": 0.3127353998356922,
+     "2": 0.45940394272964696,
+     "3": 0.17779579310405472
+    },
+    "score": 1.7649306646071503,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6544849807620342,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2549533611009227,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.023748875727798345,
+     "1": 0.24791644415493544,
+     "2": 0.44121502082569203,
+     "3": 0.2871196592915742
+    },
+    "score": 1.991705463681042,
+    "type": "score"
+   }
+  },
+  "ms": 265.89716598391533
+ },
+ "customer_service_000027": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.4369786558848795,
+    "probabilities": {
+     "answer_directly": 0.2519558823645696,
+     "close_no_action": 0.018503600300366328,
+     "escalate_to_human": 0.5495829247079036,
+     "execute_refund": 0.039622871787322336,
+     "request_information": 0.14033472083983814
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.2507486562892257,
+    "probabilities": {
+     "account": 0.35544215956158387,
+     "billing": 0.40059892503138056,
+     "delivery": 0.07764001619322188,
+     "refund": 0.03358810298966398,
+     "technical": 0.13273079622414968
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.2912298223518461,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.05789065810083609,
+     "1": 0.22132195868984728,
+     "2": 0.46842236676388455,
+     "3": 0.2523650164454321
+    },
+    "score": 1.9152617415539126,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6703200412765271,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.19953424286944518,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.03338439078198037,
+     "1": 0.21340780230737483,
+     "2": 0.3996506821520839,
+     "3": 0.3535571247585609
+    },
+    "score": 2.073380540887225,
+    "type": "score"
+   }
+  },
+  "ms": 271.96766692213714
+ },
+ "customer_service_000028": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.38593982935726645,
+    "probabilities": {
+     "answer_directly": 0.1757498133275146,
+     "close_no_action": 0.011073766100134207,
+     "escalate_to_human": 0.5087518634858131,
+     "execute_refund": 0.05701654724253265,
+     "request_information": 0.24740800984400543
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "delivery",
+    "confidence": 0.6401990770841578,
+    "probabilities": {
+     "account": 0.02639260318518619,
+     "billing": 0.07765598529522341,
+     "delivery": 0.7121592616673262,
+     "refund": 0.06817806778871714,
+     "technical": 0.11561408206354698
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.16988597131987215,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.04430336104539629,
+     "1": 0.33016127936877776,
+     "2": 0.3774144784899041,
+     "3": 0.24812088109592184
+    },
+    "score": 1.8293528796363514,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6553697143920981,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.17062971653641648,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.023673314225241007,
+     "1": 0.3090693590781369,
+     "2": 0.37797228740231237,
+     "3": 0.28928503929430976
+    },
+    "score": 1.9328690517656908,
+    "type": "score"
+   }
+  },
+  "ms": 267.6754589192569
+ },
+ "customer_service_000029": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.3952065066476218,
+    "probabilities": {
+     "answer_directly": 0.25088241609187495,
+     "close_no_action": 0.006637954414133084,
+     "escalate_to_human": 0.5161652053180974,
+     "execute_refund": 0.0920436089050661,
+     "request_information": 0.13427081527082846
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.6152990253251389,
+    "probabilities": {
+     "account": 0.058649263321052233,
+     "billing": 0.6922392202601111,
+     "delivery": 0.021986362185163894,
+     "refund": 0.17132572005927535,
+     "technical": 0.05579943417439747
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.31362388467661045,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.02481961568863485,
+     "1": 0.15941910828799608,
+     "2": 0.48521791350745785,
+     "3": 0.3305433625159112
+    },
+    "score": 2.121485022850645,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6545942115455148,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2048410304463039,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.011471647830930807,
+     "1": 0.1905463664415557,
+     "2": 0.3943512128927856,
+     "3": 0.4036307728347279
+    },
+    "score": 2.190141110731311,
+    "type": "score"
+   }
+  },
+  "ms": 277.56587497424334
+ },
+ "customer_service_000030": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.33875028399847606,
+    "probabilities": {
+     "answer_directly": 0.20255560412296322,
+     "close_no_action": 0.01891013371901646,
+     "escalate_to_human": 0.4710002271987808,
+     "execute_refund": 0.034735231497923964,
+     "request_information": 0.2727988034613156
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "delivery",
+    "confidence": 0.6300375878249034,
+    "probabilities": {
+     "account": 0.12005714647249138,
+     "billing": 0.07458089473437117,
+     "delivery": 0.7040300702599227,
+     "refund": 0.03862614213419876,
+     "technical": 0.06270574639901602
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.15537309355318243,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.10587757818990688,
+     "1": 0.36240614906560553,
+     "2": 0.36652982016488683,
+     "3": 0.1651864525796007
+    },
+    "score": 1.5910251471341814,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6147088180923304,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.20155594669878565,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.026480504280528394,
+     "1": 0.2781493654459808,
+     "2": 0.40116696002408925,
+     "3": 0.29420317024940157
+    },
+    "score": 1.963092796242364,
+    "type": "score"
+   }
+  },
+  "ms": 275.85212502162904
+ },
+ "customer_service_000031": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.517592747546979,
+    "probabilities": {
+     "answer_directly": 0.14018840231829433,
+     "close_no_action": 0.011995897819413284,
+     "escalate_to_human": 0.6140741980375832,
+     "execute_refund": 0.009787450551113604,
+     "request_information": 0.22395405127359552
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "technical",
+    "confidence": 0.5170716789024207,
+    "probabilities": {
+     "account": 0.24269919905051962,
+     "billing": 0.10450499419027298,
+     "delivery": 0.028468675707290742,
+     "refund": 0.010669787929980074,
+     "technical": 0.6136573431219365
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.3008979776311355,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.02331199399147711,
+     "1": 0.21438335320327354,
+     "2": 0.4756734832233516,
+     "3": 0.2866311695818977
+    },
+    "score": 2.02562382839567,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.7270148911557097,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.3573709017246191,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.013640605571967418,
+     "1": 0.15211500612983186,
+     "2": 0.31621621200473643,
+     "3": 0.5180281762934643
+    },
+    "score": 2.338631959019698,
+    "type": "score"
+   }
+  },
+  "ms": 279.48516700416803
+ },
+ "customer_service_000032": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.3236928483941973,
+    "probabilities": {
+     "answer_directly": 0.1835326806244049,
+     "close_no_action": 0.01109504650805576,
+     "escalate_to_human": 0.4589542787153579,
+     "execute_refund": 0.17954525185822462,
+     "request_information": 0.16687274229395685
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.2696129546595436,
+    "probabilities": {
+     "account": 0.19605753607192897,
+     "billing": 0.4156903637276349,
+     "delivery": 0.08264806202617475,
+     "refund": 0.2374716764886996,
+     "technical": 0.06813236168556176
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.27926523135677056,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.046127678667105605,
+     "1": 0.27592317180214987,
+     "2": 0.45944892351757793,
+     "3": 0.2185002260131666
+    },
+    "score": 1.8503216968768055,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.635690055542777,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.318023187557932,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.026338662324060885,
+     "1": 0.1471963989657147,
+     "2": 0.488517390668449,
+     "3": 0.3379475480417754
+    },
+    "score": 2.138073824427939,
+    "type": "score"
+   }
+  },
+  "ms": 276.8981250701472
+ },
+ "customer_service_000033": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.4142697066763319,
+    "probabilities": {
+     "answer_directly": 0.194177557204949,
+     "close_no_action": 0.023862728836148307,
+     "escalate_to_human": 0.5314157653410655,
+     "execute_refund": 0.02947895188982986,
+     "request_information": 0.22106499672800736
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "delivery",
+    "confidence": 0.7161719800101288,
+    "probabilities": {
+     "account": 0.043510815014997456,
+     "billing": 0.10417901565059759,
+     "delivery": 0.7729375840081031,
+     "refund": 0.025975442085292743,
+     "technical": 0.05339714324100913
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.2350104865868244,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.09780501665111473,
+     "1": 0.332836422601807,
+     "2": 0.4262578649401183,
+     "3": 0.14310069580695997
+    },
+    "score": 1.6146542399029236,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6930067847595686,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.17845463572166267,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.020692002245653703,
+     "1": 0.21500321397774896,
+     "2": 0.3804638069853503,
+     "3": 0.383840976791247
+    },
+    "score": 2.127453758322191,
+    "type": "score"
+   }
+  },
+  "ms": 290.6825840473175
+ },
+ "customer_service_000034": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.359059139461515,
+    "probabilities": {
+     "answer_directly": 0.13968679518182597,
+     "close_no_action": 0.014856667590387956,
+     "escalate_to_human": 0.487247311569212,
+     "execute_refund": 0.033751096011448385,
+     "request_information": 0.32445812964712567
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "delivery",
+    "confidence": 0.5526738133411827,
+    "probabilities": {
+     "account": 0.05093489912990518,
+     "billing": 0.11647010196636468,
+     "delivery": 0.6421390506729462,
+     "refund": 0.05373923238575982,
+     "technical": 0.13671671584502412
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.267181131971286,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.05987965080136876,
+     "1": 0.28990067276912834,
+     "2": 0.4503858489784645,
+     "3": 0.1998338274510384
+    },
+    "score": 1.7901738530791724,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6582761753711021,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.1922859304586768,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.016724177468750934,
+     "1": 0.20403527736023588,
+     "2": 0.38502609732700555,
+     "3": 0.3942144478440076
+    },
+    "score": 2.15673081554627,
+    "type": "score"
+   }
+  },
+  "ms": 288.8782500522211
+ },
+ "customer_service_000035": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.3037794656529318,
+    "probabilities": {
+     "answer_directly": 0.30441910499715363,
+     "close_no_action": 0.009750512763860473,
+     "escalate_to_human": 0.4430235725223455,
+     "execute_refund": 0.10044036758297414,
+     "request_information": 0.14236644213366625
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.8193442178212633,
+    "probabilities": {
+     "account": 0.03230135729829926,
+     "billing": 0.8554753742570106,
+     "delivery": 0.008731256464276449,
+     "refund": 0.07137910741416542,
+     "technical": 0.03211290456624824
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.31544350084600437,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.048253666968364105,
+     "1": 0.2737724356559507,
+     "2": 0.4865826256345033,
+     "3": 0.19139127174118192
+    },
+    "score": 1.8211115021485031,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.5825985174339311,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.15359627016263291,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.02091373060850393,
+     "1": 0.30857052793272555,
+     "2": 0.3651972026219747,
+     "3": 0.3053185388367958
+    },
+    "score": 1.9549205496870625,
+    "type": "score"
+   }
+  },
+  "ms": 286.0250410158187
+ },
+ "customer_service_000036": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.40702562358279204,
+    "probabilities": {
+     "answer_directly": 0.39892749372723246,
+     "close_no_action": 0.014414541623311577,
+     "escalate_to_human": 0.5256204988662336,
+     "execute_refund": 0.007705294316734953,
+     "request_information": 0.05333217146648736
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "account",
+    "confidence": 0.7664417810664101,
+    "probabilities": {
+     "account": 0.813153424853128,
+     "billing": 0.1157028917177997,
+     "delivery": 0.0038208556016955317,
+     "refund": 0.0068918212722738174,
+     "technical": 0.06043100655510298
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.8727139785690752,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.003634860139907489,
+     "1": 0.017077412793447277,
+     "2": 0.0747522431398389,
+     "3": 0.9045354839268064
+    },
+    "score": 2.8801883508535444,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.5945529456705296,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.35004797825471884,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.018182250599344054,
+     "1": 0.28729694159784835,
+     "2": 0.5125359836910391,
+     "3": 0.18198482411176853
+    },
+    "score": 1.8583233813152322,
+    "type": "score"
+   }
+  },
+  "ms": 270.2030419604853
+ },
+ "customer_service_000037": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.423522887334995,
+    "probabilities": {
+     "answer_directly": 0.16874960107396447,
+     "close_no_action": 0.018217402950786762,
+     "escalate_to_human": 0.538818309867996,
+     "execute_refund": 0.03748802441619949,
+     "request_information": 0.23672666169105333
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "delivery",
+    "confidence": 0.5274565724505433,
+    "probabilities": {
+     "account": 0.04750141723342666,
+     "billing": 0.1675291572644798,
+     "delivery": 0.6219652579604347,
+     "refund": 0.0337126850502539,
+     "technical": 0.12929148249140493
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.33520388942907947,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.048750891592223324,
+     "1": 0.24504204656753426,
+     "2": 0.5014029170718096,
+     "3": 0.20480414476843276
+    },
+    "score": 1.8622603150164516,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6964576548073446,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.27878657720174504,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.014583591374709454,
+     "1": 0.16310508882195354,
+     "2": 0.4590899329013088,
+     "3": 0.3632213869020282
+    },
+    "score": 2.1709491153306555,
+    "type": "score"
+   }
+  },
+  "ms": 287.0470420457423
+ },
+ "customer_service_000038": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.5678220778830614,
+    "probabilities": {
+     "answer_directly": 0.12928356340048955,
+     "close_no_action": 0.010511570189406131,
+     "escalate_to_human": 0.6542576623064491,
+     "execute_refund": 0.006716234275876765,
+     "request_information": 0.19923096982777844
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "technical",
+    "confidence": 0.29813798005514325,
+    "probabilities": {
+     "account": 0.43546835001322887,
+     "billing": 0.08445579016397403,
+     "delivery": 0.03146071033429233,
+     "refund": 0.010104765444390129,
+     "technical": 0.43851038404411463
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.3080349450622661,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.05197287493852016,
+     "1": 0.2603995311959626,
+     "2": 0.48102620879669955,
+     "3": 0.2066013850688177
+    },
+    "score": 1.8422561039958147,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.740554656823101,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.22349687880023508,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.011017604957394057,
+     "1": 0.17410134696003343,
+     "2": 0.4176226591001763,
+     "3": 0.3972583889823962
+    },
+    "score": 2.2011218321075745,
+    "type": "score"
+   }
+  },
+  "ms": 285.0402910262346
+ },
+ "customer_service_000039": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.5195598939632353,
+    "probabilities": {
+     "answer_directly": 0.08492155869603178,
+     "close_no_action": 0.014706617950818337,
+     "escalate_to_human": 0.6156479151705883,
+     "execute_refund": 0.0030406504518510086,
+     "request_information": 0.2816832577307106
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "technical",
+    "confidence": 0.8479197012138346,
+    "probabilities": {
+     "account": 0.02670563909096513,
+     "billing": 0.06305925151479186,
+     "delivery": 0.027411087822580806,
+     "refund": 0.004488260600594506,
+     "technical": 0.8783357609710677
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.44996323151738293,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.0373280852404612,
+     "1": 0.25610382948666277,
+     "2": 0.5874724236380372,
+     "3": 0.11909566163483888
+    },
+    "score": 1.7883356616672537,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.7971959739856279,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.25486901002193924,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.005530561224496187,
+     "1": 0.11814603288717444,
+     "2": 0.4411517575164544,
+     "3": 0.435171648371875
+    },
+    "score": 2.305964493035708,
+    "type": "score"
+   }
+  },
+  "ms": 282.4653750285506
+ },
+ "customer_service_000040": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.38126677819032295,
+    "probabilities": {
+     "answer_directly": 0.29871258798035366,
+     "close_no_action": 0.016231775307403957,
+     "escalate_to_human": 0.5050134225522583,
+     "execute_refund": 0.02404153491594174,
+     "request_information": 0.15600067924404226
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.3566531670837798,
+    "probabilities": {
+     "account": 0.2088028299233326,
+     "billing": 0.4853225336670238,
+     "delivery": 0.06865165171810275,
+     "refund": 0.04394692738185358,
+     "technical": 0.19327605730968722
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.28999289519573895,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.04844554513373084,
+     "1": 0.23078747733368427,
+     "2": 0.46749467139680423,
+     "3": 0.25327230613578067
+    },
+    "score": 1.9255937385346347,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6233769833448393,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.24294761699669123,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.014520493065836205,
+     "1": 0.18254093300368,
+     "2": 0.37072786118296536,
+     "3": 0.43221071274751843
+    },
+    "score": 2.2206287936121663,
+    "type": "score"
+   }
+  },
+  "ms": 286.3134579965845
+ },
+ "customer_service_000041": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.6008339238044033,
+    "probabilities": {
+     "answer_directly": 0.0841715262992287,
+     "close_no_action": 0.021950641738785148,
+     "escalate_to_human": 0.6806671390435226,
+     "execute_refund": 0.0859651191770265,
+     "request_information": 0.1272455737414371
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "technical",
+    "confidence": 0.35945334253326844,
+    "probabilities": {
+     "account": 0.06838903483015712,
+     "billing": 0.2365592297474996,
+     "delivery": 0.03185802934363566,
+     "refund": 0.17563103205209285,
+     "technical": 0.48756267402661474
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.6174008890871429,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.008506262568701175,
+     "1": 0.06883231112563015,
+     "2": 0.2096107594903116,
+     "3": 0.7130506668153571
+    },
+    "score": 2.6272058305523247,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.8016281373397012,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.653239526464395,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.00423308296719176,
+     "1": 0.05817504875905649,
+     "2": 0.19766222342545553,
+     "3": 0.7399296448482963
+    },
+    "score": 2.6732884301548565,
+    "type": "score"
+   }
+  },
+  "ms": 272.538207937032
+ },
+ "customer_service_000042": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.32857060982608643,
+    "probabilities": {
+     "answer_directly": 0.26417456640036,
+     "close_no_action": 0.012408755422285794,
+     "escalate_to_human": 0.46285648786086914,
+     "execute_refund": 0.10338115762670476,
+     "request_information": 0.15717903268978028
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.48467081359373787,
+    "probabilities": {
+     "account": 0.2370393367658347,
+     "billing": 0.5877366508749903,
+     "delivery": 0.01928611414499647,
+     "refund": 0.08669767825473114,
+     "technical": 0.06924021995944747
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.25677153036578354,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.03482970684585133,
+     "1": 0.21421565552619137,
+     "2": 0.44257864777433764,
+     "3": 0.3083759898536197
+    },
+    "score": 2.0245009206357256,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.658971006904493,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.3686544303855994,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.008547775453891533,
+     "1": 0.1754179625503129,
+     "2": 0.289543439206596,
+     "3": 0.5264908227891996
+    },
+    "score": 2.333977309331104,
+    "type": "score"
+   }
+  },
+  "ms": 334.1850000433624
+ },
+ "customer_service_000043": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.4625145414757197,
+    "probabilities": {
+     "answer_directly": 0.1700511015486151,
+     "close_no_action": 0.009909852381824862,
+     "escalate_to_human": 0.5700116331805758,
+     "execute_refund": 0.09550576603020121,
+     "request_information": 0.15452164685878297
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.263450186957096,
+    "probabilities": {
+     "account": 0.3313178152772405,
+     "billing": 0.4107601495656768,
+     "delivery": 0.048405685247672844,
+     "refund": 0.09294153897601128,
+     "technical": 0.11657481093339853
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.3679561943779128,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.021323546063557262,
+     "1": 0.19126833439922158,
+     "2": 0.5259671457834346,
+     "3": 0.2614409737537865
+    },
+    "score": 2.0275255472274503,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.7216569639890196,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2198867068211973,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.009949148120043532,
+     "1": 0.16406765764132347,
+     "2": 0.411068164122735,
+     "3": 0.414915030115898
+    },
+    "score": 2.2309490762344875,
+    "type": "score"
+   }
+  },
+  "ms": 262.578499969095
+ },
+ "customer_service_000044": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.39603005336950614,
+    "probabilities": {
+     "answer_directly": 0.2262723198794904,
+     "close_no_action": 0.017493141268441995,
+     "escalate_to_human": 0.5168240426956049,
+     "execute_refund": 0.04742020176764657,
+     "request_information": 0.19199029438881615
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "delivery",
+    "confidence": 0.24815237347610114,
+    "probabilities": {
+     "account": 0.1216240756166578,
+     "billing": 0.2431284598762083,
+     "delivery": 0.3985218987808809,
+     "refund": 0.05627824583111213,
+     "technical": 0.1804473198951409
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.21949895200900213,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.031168914965994197,
+     "1": 0.1894899511610568,
+     "2": 0.4146242140067516,
+     "3": 0.3647169198661974
+    },
+    "score": 2.112889138773152,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6920090668375062,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2502674863248955,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.011345343976619203,
+     "1": 0.13549191292931675,
+     "2": 0.4377006147436716,
+     "3": 0.4154621283503924
+    },
+    "score": 2.2572795274678374,
+    "type": "score"
+   }
+  },
+  "ms": 300.1486669527367
+ },
+ "customer_service_000045": {
+  "answers": {
+   "action": {
+    "choice": "answer_directly",
+    "confidence": 0.412384256994784,
+    "probabilities": {
+     "answer_directly": 0.5299074055958272,
+     "close_no_action": 0.03846203483901807,
+     "escalate_to_human": 0.3003350030214537,
+     "execute_refund": 0.02013035717949524,
+     "request_information": 0.11116519936420581
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.45101712364186997,
+    "probabilities": {
+     "account": 0.32539586990637404,
+     "billing": 0.560813698913496,
+     "delivery": 0.04656922775057553,
+     "refund": 0.025099627865463648,
+     "technical": 0.04212157556409076
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.11881061120554937,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.12240032709933242,
+     "1": 0.24965509406777045,
+     "2": 0.339107958404162,
+     "3": 0.2888366204287351
+    },
+    "score": 1.7943808721622996,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.408407172283864,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.20256536066410766,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.028243817245943152,
+     "1": 0.20634421585841353,
+     "2": 0.40192402049808074,
+     "3": 0.3634879463975626
+    },
+    "score": 2.1006560960472624,
+    "type": "score"
+   }
+  },
+  "ms": 295.34891701769084
+ },
+ "customer_service_000046": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.23051759357979973,
+    "probabilities": {
+     "answer_directly": 0.14875707057860516,
+     "close_no_action": 0.004935998023003387,
+     "escalate_to_human": 0.38441407486383977,
+     "execute_refund": 0.2680588111289362,
+     "request_information": 0.1938340454056155
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.7891317096798629,
+    "probabilities": {
+     "account": 0.018541313919579118,
+     "billing": 0.8313053677438903,
+     "delivery": 0.03915453781420749,
+     "refund": 0.09393988105409093,
+     "technical": 0.017058899468232126
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.24538489107908643,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.0446866267368144,
+     "1": 0.3439526199650662,
+     "2": 0.4340386683093148,
+     "3": 0.17732208498880458
+    },
+    "score": 1.7439962115501095,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6022108272491763,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.5130617506075814,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.01343638745125299,
+     "1": 0.152295427976771,
+     "2": 0.6347963129556861,
+     "3": 0.19947187161629
+    },
+    "score": 2.020303668737013,
+    "type": "score"
+   }
+  },
+  "ms": 266.5664169471711
+ },
+ "customer_service_000047": {
+  "answers": {
+   "action": {
+    "choice": "answer_directly",
+    "confidence": 0.7061954185858058,
+    "probabilities": {
+     "answer_directly": 0.7649563348686447,
+     "close_no_action": 0.007495762505119494,
+     "escalate_to_human": 0.12951513637222176,
+     "execute_refund": 0.003519074660510393,
+     "request_information": 0.09451369159350366
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.8167657414074478,
+    "probabilities": {
+     "account": 0.09946685674818144,
+     "billing": 0.8534125931259583,
+     "delivery": 0.0006817602267609881,
+     "refund": 0.006702306203879662,
+     "technical": 0.039736483695219656
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.48326407565249213,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.027537222965485057,
+     "1": 0.18405490148983722,
+     "2": 0.6124480567393691,
+     "3": 0.17595981880530864
+    },
+    "score": 1.9368304713845013,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.22476637330194071,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.6383607622911559,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.006161193202086037,
+     "1": 0.08031296629600487,
+     "2": 0.18475526878354218,
+     "3": 0.7287705717183669
+    },
+    "score": 2.63613521901819,
+    "type": "score"
+   }
+  },
+  "ms": 273.9590419223532
+ },
+ "customer_service_000048": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.4872475682350855,
+    "probabilities": {
+     "answer_directly": 0.16176267189699742,
+     "close_no_action": 0.016720712309612494,
+     "escalate_to_human": 0.5897980545880684,
+     "execute_refund": 0.03273412431658686,
+     "request_information": 0.19898443688873474
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "delivery",
+    "confidence": 0.6835816372516996,
+    "probabilities": {
+     "account": 0.04711215730703408,
+     "billing": 0.08033294957723958,
+     "delivery": 0.7468653098013597,
+     "refund": 0.037523855988789795,
+     "technical": 0.08816572732557683
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.2555782598059966,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.029079504773871615,
+     "1": 0.1882040700915938,
+     "2": 0.44168369485449743,
+     "3": 0.34103273028003717
+    },
+    "score": 2.0946696506407,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.7310711012301445,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.29593734193764343,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.009052488772083664,
+     "1": 0.13108073266179804,
+     "2": 0.3879137721128857,
+     "3": 0.47195300645323257
+    },
+    "score": 2.322767296247267,
+    "type": "score"
+   }
+  },
+  "ms": 264.7262499667704
+ },
+ "customer_service_000049": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.5096838872246174,
+    "probabilities": {
+     "answer_directly": 0.17811307598835724,
+     "close_no_action": 0.009017635899530507,
+     "escalate_to_human": 0.6077471097796939,
+     "execute_refund": 0.022472952946847844,
+     "request_information": 0.18264922538557052
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.3022257072466451,
+    "probabilities": {
+     "account": 0.2536243793386129,
+     "billing": 0.44178056579731606,
+     "delivery": 0.035251172785486784,
+     "refund": 0.030018363864553796,
+     "technical": 0.23932551821403042
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.27207383773914035,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.02503675982275784,
+     "1": 0.19919582132635763,
+     "2": 0.4540553783043553,
+     "3": 0.32171204054652924
+    },
+    "score": 2.0724426995746557,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.729001389415577,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.4536583697785052,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.00859344542563264,
+     "1": 0.12798055225019847,
+     "2": 0.27318222499029,
+     "3": 0.5902437773338789
+    },
+    "score": 2.4450763342324153,
+    "type": "score"
+   }
+  },
+  "ms": 268.42300000134856
+ },
+ "customer_service_000050": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.46459266908053165,
+    "probabilities": {
+     "answer_directly": 0.17003742046375445,
+     "close_no_action": 0.011061033676975153,
+     "escalate_to_human": 0.5716741352644253,
+     "execute_refund": 0.03522275802287647,
+     "request_information": 0.21200465257196863
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "account",
+    "confidence": 0.1692774639051064,
+    "probabilities": {
+     "account": 0.3354219711240851,
+     "billing": 0.3110905334385278,
+     "delivery": 0.07416322339343111,
+     "refund": 0.05997943133152838,
+     "technical": 0.21934484071242757
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.26716477695507174,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.03315943025312847,
+     "1": 0.21954966923872668,
+     "2": 0.4503735827163038,
+     "3": 0.29691731779184105
+    },
+    "score": 2.0110487880468573,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.7088576847592473,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.27929823046577046,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.011808542123617913,
+     "1": 0.17579302353946627,
+     "2": 0.352924761487588,
+     "3": 0.45947367284932783
+    },
+    "score": 2.2600635650626257,
+    "type": "score"
+   }
+  },
+  "ms": 267.78691599611193
+ },
+ "customer_service_000051": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.437569119406492,
+    "probabilities": {
+     "answer_directly": 0.0986316651263271,
+     "close_no_action": 0.016535556982468967,
+     "escalate_to_human": 0.5500552955251936,
+     "execute_refund": 0.054020509042655075,
+     "request_information": 0.2807569733233553
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "delivery",
+    "confidence": 0.5325533660718852,
+    "probabilities": {
+     "account": 0.05599142521063844,
+     "billing": 0.10072191734013318,
+     "delivery": 0.6260426928575081,
+     "refund": 0.07990741210315673,
+     "technical": 0.13733655248856352
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.3539630474754644,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.02778803587275418,
+     "1": 0.20222021611396304,
+     "2": 0.5154722856065983,
+     "3": 0.25451946240668444
+    },
+    "score": 1.996723174547213,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.7200968568597966,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.28136305179402954,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.010602895905401614,
+     "1": 0.1644994029911451,
+     "2": 0.46102228884552215,
+     "3": 0.3638754122579311
+    },
+    "score": 2.1781702174559827,
+    "type": "score"
+   }
+  },
+  "ms": 293.19791693706065
+ },
+ "customer_service_000052": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.3346265560852949,
+    "probabilities": {
+     "answer_directly": 0.3300835754175872,
+     "close_no_action": 0.023894147620248957,
+     "escalate_to_human": 0.46770124486823594,
+     "execute_refund": 0.0568466354045601,
+     "request_information": 0.12147439668936778
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "account",
+    "confidence": 0.23397684870024316,
+    "probabilities": {
+     "account": 0.3871814789601945,
+     "billing": 0.2711342914818352,
+     "delivery": 0.13646167194011186,
+     "refund": 0.14845352905635378,
+     "technical": 0.05676902856150468
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.4468716048836063,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.021459107892392155,
+     "1": 0.12065205040188307,
+     "2": 0.2727351380430201,
+     "3": 0.5851537036627047
+    },
+    "score": 2.4215834374760377,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6013202538185562,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.26708031235732094,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.014519382288895885,
+     "1": 0.12385812960983272,
+     "2": 0.4503102342679907,
+     "3": 0.4113122538332807
+    },
+    "score": 2.258415359645656,
+    "type": "score"
+   }
+  },
+  "ms": 261.1154579790309
+ },
+ "customer_service_000053": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.2788580087102648,
+    "probabilities": {
+     "answer_directly": 0.25397595399236933,
+     "close_no_action": 0.008475640680592991,
+     "escalate_to_human": 0.4230864069682118,
+     "execute_refund": 0.012875603280914274,
+     "request_information": 0.30158639507791163
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.8271412093857597,
+    "probabilities": {
+     "account": 0.06530187597190505,
+     "billing": 0.8617129675086078,
+     "delivery": 0.016101647972025394,
+     "refund": 0.014258461535132697,
+     "technical": 0.04262504701232902
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.3554951427364017,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.02476022220139297,
+     "1": 0.25550449319387963,
+     "2": 0.5166213570523013,
+     "3": 0.2031139275524261
+    },
+    "score": 1.8980889899557605,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.5231261583067092,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.11835551848658121,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.04370889650427749,
+     "1": 0.3387666388649359,
+     "2": 0.2961844595023531,
+     "3": 0.3213400051284335
+    },
+    "score": 1.8951555732549425,
+    "type": "score"
+   }
+  },
+  "ms": 255.6122080422938
+ },
+ "customer_service_000054": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.41623891111059486,
+    "probabilities": {
+     "answer_directly": 0.24020797373938982,
+     "close_no_action": 0.013164606126240121,
+     "escalate_to_human": 0.5329911288884759,
+     "execute_refund": 0.028493033076235255,
+     "request_information": 0.18514325816965888
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "technical",
+    "confidence": 0.24498833356157101,
+    "probabilities": {
+     "account": 0.28299071247899904,
+     "billing": 0.20103585319474693,
+     "delivery": 0.07657906613676335,
+     "refund": 0.0434037013402338,
+     "technical": 0.3959906668492568
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.22134868491748425,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.05408387477290712,
+     "1": 0.17370130941103687,
+     "2": 0.4160115136881132,
+     "3": 0.3562033021279428
+    },
+    "score": 2.0743342431710916,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6762413825058571,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.43046616880849964,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.02376984419389954,
+     "1": 0.08371243714274985,
+     "2": 0.3196680920569759,
+     "3": 0.5728496266063747
+    },
+    "score": 2.441597501075826,
+    "type": "score"
+   }
+  },
+  "ms": 292.10574994795024
+ },
+ "customer_service_000055": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.24330354985734126,
+    "probabilities": {
+     "answer_directly": 0.24007154987837673,
+     "close_no_action": 0.0064796823312502985,
+     "escalate_to_human": 0.394642839885873,
+     "execute_refund": 0.21036937490055965,
+     "request_information": 0.1484365530039403
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.6783185667713267,
+    "probabilities": {
+     "account": 0.04756478386360027,
+     "billing": 0.7426548534170614,
+     "delivery": 0.08398503889005662,
+     "refund": 0.08348926935812422,
+     "technical": 0.042306054471157484
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.30830423199344864,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.05054519651653322,
+     "1": 0.28121376635611534,
+     "2": 0.4812281739950865,
+     "3": 0.18701286313226492
+    },
+    "score": 1.8047087037430831,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.5993440526621154,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.424647391733199,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0135469238267797,
+     "1": 0.1718224554695394,
+     "2": 0.5684855437998992,
+     "3": 0.24614507690378168
+    },
+    "score": 2.0472287737806827,
+    "type": "score"
+   }
+  },
+  "ms": 276.7939999466762
+ },
+ "customer_service_000056": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.3659234261076977,
+    "probabilities": {
+     "answer_directly": 0.33819236468223607,
+     "close_no_action": 0.02071631618503532,
+     "escalate_to_human": 0.49273874088615816,
+     "execute_refund": 0.02484318811168136,
+     "request_information": 0.12350939013488905
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "account",
+    "confidence": 0.30023665894978324,
+    "probabilities": {
+     "account": 0.44018932715982656,
+     "billing": 0.32221523119741025,
+     "delivery": 0.12680691052095594,
+     "refund": 0.04316323668130419,
+     "technical": 0.06762529444050307
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.4668790774200997,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.05550164286963375,
+     "1": 0.11319079664430975,
+     "2": 0.23114825242098172,
+     "3": 0.6001593080650748
+    },
+    "score": 2.3759652256814974,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.626254874764264,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.24752595525156348,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.020102590856221316,
+     "1": 0.16648249025408982,
+     "2": 0.37777045245101626,
+     "3": 0.4356444664386726
+    },
+    "score": 2.2289567944721402,
+    "type": "score"
+   }
+  },
+  "ms": 293.6956249177456
+ },
+ "customer_service_000057": {
+  "answers": {
+   "action": {
+    "choice": "answer_directly",
+    "confidence": 0.3601216536179933,
+    "probabilities": {
+     "answer_directly": 0.48809732289439467,
+     "close_no_action": 0.01880792414908187,
+     "escalate_to_human": 0.3425160533891998,
+     "execute_refund": 0.012883626829282268,
+     "request_information": 0.1376950727380414
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.43468416562904155,
+    "probabilities": {
+     "account": 0.16110479415462087,
+     "billing": 0.5477473325032333,
+     "delivery": 0.14398041248308852,
+     "refund": 0.05088231594375934,
+     "technical": 0.09628514491529794
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.07745720504946803,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.17454080834130706,
+     "1": 0.22284801861686276,
+     "2": 0.308092903787101,
+     "3": 0.2945182692547292
+    },
+    "score": 1.7225886339552523,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.47111029410066196,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.24124590633211343,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.023220507901106927,
+     "1": 0.17862228052635723,
+     "2": 0.36722278182345075,
+     "3": 0.4309344297490851
+    },
+    "score": 2.205871133420514,
+    "type": "score"
+   }
+  },
+  "ms": 284.9534589331597
+ },
+ "customer_service_000058": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.5027302934917666,
+    "probabilities": {
+     "answer_directly": 0.14991671251267089,
+     "close_no_action": 0.0139265803187186,
+     "escalate_to_human": 0.6021842347934132,
+     "execute_refund": 0.034185076763592975,
+     "request_information": 0.1997873956116043
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "technical",
+    "confidence": 0.4293997173784173,
+    "probabilities": {
+     "account": 0.14827382158047617,
+     "billing": 0.1591769313696736,
+     "delivery": 0.11382537538542055,
+     "refund": 0.03520409776169579,
+     "technical": 0.5435197739027339
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.21024543837778986,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.03580808801979375,
+     "1": 0.21619956482734848,
+     "2": 0.4076840787833424,
+     "3": 0.34030826836951533
+    },
+    "score": 2.0524925275025794,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.7465704334559917,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2810604827160918,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.008841886714341978,
+     "1": 0.12684538491457567,
+     "2": 0.46079536203706883,
+     "3": 0.4035173663340135
+    },
+    "score": 2.258988207990754,
+    "type": "score"
+   }
+  },
+  "ms": 282.5229170266539
+ },
+ "customer_service_000059": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.34235961593692044,
+    "probabilities": {
+     "answer_directly": 0.22082681188004583,
+     "close_no_action": 0.01994646443123783,
+     "escalate_to_human": 0.47388769274953635,
+     "execute_refund": 0.04207549762228809,
+     "request_information": 0.24326353331689188
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "delivery",
+    "confidence": 0.7905557188681451,
+    "probabilities": {
+     "account": 0.033512300723462556,
+     "billing": 0.05543225464379487,
+     "delivery": 0.8324445750945161,
+     "refund": 0.041271785732612455,
+     "technical": 0.03733908380561403
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.1941677602379129,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.03750373838987026,
+     "1": 0.24099451335383737,
+     "2": 0.3956258201784347,
+     "3": 0.3258759280778577
+    },
+    "score": 2.00987393794428,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6477228340113131,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.3074406330742397,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.01028096533734036,
+     "1": 0.17990008877810237,
+     "2": 0.4805804748056798,
+     "3": 0.3292384710788775
+    },
+    "score": 2.1287764516260945,
+    "type": "score"
+   }
+  },
+  "ms": 276.63000009488314
+ },
+ "customer_service_000060": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.2690003877699506,
+    "probabilities": {
+     "answer_directly": 0.2340733829599095,
+     "close_no_action": 0.012052173236922974,
+     "escalate_to_human": 0.4152003102159605,
+     "execute_refund": 0.15346808397086756,
+     "request_information": 0.1852060496163395
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.6052010043520744,
+    "probabilities": {
+     "account": 0.04601948956557613,
+     "billing": 0.6841608034816595,
+     "delivery": 0.12051150766245847,
+     "refund": 0.11630377269359887,
+     "technical": 0.033004426596706965
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.2570204533754072,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.03793984847678842,
+     "1": 0.2430259285838862,
+     "2": 0.4427653400315554,
+     "3": 0.27626888290776996
+    },
+    "score": 1.9573632573703068,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.5911031834025441,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.343307955772768,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.011338280815708021,
+     "1": 0.14631143692144263,
+     "2": 0.3348693154332734,
+     "3": 0.507480966829576
+    },
+    "score": 2.3384929682767175,
+    "type": "score"
+   }
+  },
+  "ms": 281.46479197312146
+ },
+ "customer_service_000061": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.3041041627182671,
+    "probabilities": {
+     "answer_directly": 0.30108192805693346,
+     "close_no_action": 0.017080595404735176,
+     "escalate_to_human": 0.4432833301746137,
+     "execute_refund": 0.06973672644999415,
+     "request_information": 0.16881741991372354
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.27883888168662563,
+    "probabilities": {
+     "account": 0.21810859313522382,
+     "billing": 0.4230711053493005,
+     "delivery": 0.15713707528261306,
+     "refund": 0.1270983967206073,
+     "technical": 0.07458482951225531
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.17138256845451894,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.07180238457239675,
+     "1": 0.23033937120563863,
+     "2": 0.3785369263408892,
+     "3": 0.31932131788107543
+    },
+    "score": 1.9453771775306432,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.5950913666932737,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.22141027012482203,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.01580385497537502,
+     "1": 0.16311492569047958,
+     "2": 0.4160577025936165,
+     "3": 0.4050235167405289
+    },
+    "score": 2.2103008810992995,
+    "type": "score"
+   }
+  },
+  "ms": 289.129790966399
+ },
+ "customer_service_000062": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.374547081252149,
+    "probabilities": {
+     "answer_directly": 0.21074581102091455,
+     "close_no_action": 0.01739019214673806,
+     "escalate_to_human": 0.49963766500171913,
+     "execute_refund": 0.037841701028432796,
+     "request_information": 0.23438463080219543
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "delivery",
+    "confidence": 0.8872051328286765,
+    "probabilities": {
+     "account": 0.016524997332729524,
+     "billing": 0.031031735851132992,
+     "delivery": 0.9097641062629412,
+     "refund": 0.020164616117585098,
+     "technical": 0.02251454443561118
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.16902063842150494,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.10037700619077139,
+     "1": 0.3767654788161287,
+     "2": 0.35496546724069356,
+     "3": 0.1678920477524063
+    },
+    "score": 1.5903725565547346,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6676596449804603,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.15412229034642508,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0216337060564551,
+     "1": 0.3203760831489117,
+     "2": 0.3655917177598188,
+     "3": 0.29239849303481436
+    },
+    "score": 1.9287549977729923,
+    "type": "score"
+   }
+  },
+  "ms": 272.41291606333107
+ },
+ "customer_service_000063": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.36627692072404994,
+    "probabilities": {
+     "answer_directly": 0.23930120349783687,
+     "close_no_action": 0.007667326132645876,
+     "escalate_to_human": 0.4930215365792399,
+     "execute_refund": 0.10785939774425671,
+     "request_information": 0.15215053604602063
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.606164929108537,
+    "probabilities": {
+     "account": 0.07052091502912831,
+     "billing": 0.6849319432868296,
+     "delivery": 0.02086753424103304,
+     "refund": 0.19208025095244224,
+     "technical": 0.0315993564905668
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.32340234001868406,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.0265009755006934,
+     "1": 0.22502292212791578,
+     "2": 0.49255175501401305,
+     "3": 0.25592434735737773
+    },
+    "score": 1.977899474228075,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6426513064556763,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2558446792494164,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.014050408119089886,
+     "1": 0.16387282644259485,
+     "2": 0.380193256001253,
+     "3": 0.4418835094370623
+    },
+    "score": 2.249909866756288,
+    "type": "score"
+   }
+  },
+  "ms": 265.97370905801654
+ },
+ "customer_service_000064": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.5751740033874543,
+    "probabilities": {
+     "answer_directly": 0.11207834357045171,
+     "close_no_action": 0.014628425826189818,
+     "escalate_to_human": 0.6601392027099634,
+     "execute_refund": 0.023988181137044175,
+     "request_information": 0.18916584675635084
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "technical",
+    "confidence": 0.5186922337128417,
+    "probabilities": {
+     "account": 0.11821455082831542,
+     "billing": 0.1728348837018662,
+     "delivery": 0.06486152369059495,
+     "refund": 0.02913525480895005,
+     "technical": 0.6149537869702734
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.2699568630352276,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.04709261424014055,
+     "1": 0.24939761483140127,
+     "2": 0.4524676472764207,
+     "3": 0.2510421236520375
+    },
+    "score": 1.9074592803403552,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.7656978671446136,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.26734942835737313,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.012973528143689045,
+     "1": 0.1635071495207243,
+     "2": 0.45051207126802983,
+     "3": 0.37300725106755683
+    },
+    "score": 2.1835530452594547,
+    "type": "score"
+   }
+  },
+  "ms": 307.56774998735636
+ },
+ "customer_service_000065": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.4681208117425011,
+    "probabilities": {
+     "answer_directly": 0.2011243179645446,
+     "close_no_action": 0.008932133490294336,
+     "escalate_to_human": 0.5744966493940009,
+     "execute_refund": 0.031416832750056946,
+     "request_information": 0.18403006640110314
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "technical",
+    "confidence": 0.14848432256390875,
+    "probabilities": {
+     "account": 0.3013171419278018,
+     "billing": 0.30840555508162676,
+     "delivery": 0.029785330401588695,
+     "refund": 0.04170451453785576,
+     "technical": 0.318787458051127
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.22154472630590605,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.022948231167768878,
+     "1": 0.17858380200476057,
+     "2": 0.41615854472942954,
+     "3": 0.382309422098041
+    },
+    "score": 2.1578291577577424,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.7139081533461322,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.30695545287605724,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.010156448482061561,
+     "1": 0.15000079432728788,
+     "2": 0.35962616753360765,
+     "3": 0.48021658965704295
+    },
+    "score": 2.309902898365632,
+    "type": "score"
+   }
+  },
+  "ms": 298.06116595864296
+ },
+ "customer_service_000066": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.2957677821208433,
+    "probabilities": {
+     "answer_directly": 0.232310047547499,
+     "close_no_action": 0.008393411905213548,
+     "escalate_to_human": 0.4366142256966747,
+     "execute_refund": 0.18270259862214253,
+     "request_information": 0.1399797162284702
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.607823272987649,
+    "probabilities": {
+     "account": 0.08909411811128684,
+     "billing": 0.6862586183901193,
+     "delivery": 0.04267760305694012,
+     "refund": 0.09828437517080137,
+     "technical": 0.08368528527085241
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.3335202833973461,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.031909224394169544,
+     "1": 0.2609066569536058,
+     "2": 0.5001402125480096,
+     "3": 0.20704390610421508
+    },
+    "score": 1.8823188003622702,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6169318904513532,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.3594490382176329,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.008638849475051542,
+     "1": 0.1449465997977683,
+     "2": 0.5195867786632247,
+     "3": 0.32682777206395547
+    },
+    "score": 2.164603473316084,
+    "type": "score"
+   }
+  },
+  "ms": 271.0184169700369
+ },
+ "customer_service_000067": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.32378400783993244,
+    "probabilities": {
+     "answer_directly": 0.1954005889934813,
+     "close_no_action": 0.016727547431912033,
+     "escalate_to_human": 0.45902720627194593,
+     "execute_refund": 0.04803598964008285,
+     "request_information": 0.2808086676625779
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "delivery",
+    "confidence": 0.8423445309309401,
+    "probabilities": {
+     "account": 0.025059620600168205,
+     "billing": 0.03884685743745663,
+     "delivery": 0.8738756247447521,
+     "refund": 0.034566151149272306,
+     "technical": 0.027651746068350715
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.1317805936865979,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.07978946325264273,
+     "1": 0.31767804134047145,
+     "2": 0.3488354452649484,
+     "3": 0.25369705014193744
+    },
+    "score": 1.7764400822961806,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6524919946057857,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.19721588220476538,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.018217120299568106,
+     "1": 0.24393906535591928,
+     "2": 0.39791191165357404,
+     "3": 0.3399319026909386
+    },
+    "score": 2.059558596735883,
+    "type": "score"
+   }
+  },
+  "ms": 284.2286659870297
+ },
+ "customer_service_000068": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.5032182352094556,
+    "probabilities": {
+     "answer_directly": 0.17814811224217345,
+     "close_no_action": 0.030113400298920182,
+     "escalate_to_human": 0.6025745881675645,
+     "execute_refund": 0.027414701021974547,
+     "request_information": 0.16174919826936732
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "delivery",
+    "confidence": 0.8181377578902189,
+    "probabilities": {
+     "account": 0.022004857394984895,
+     "billing": 0.040336453910795704,
+     "delivery": 0.8545102063121751,
+     "refund": 0.02487181771539118,
+     "technical": 0.058276664666653065
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.40402145463947,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.03840643895331147,
+     "1": 0.21127075183809838,
+     "2": 0.5530160909796025,
+     "3": 0.19730671822898763
+    },
+    "score": 1.909223088484266,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.7380378388486382,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.26092330830720795,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.011354822524024893,
+     "1": 0.1254566154728167,
+     "2": 0.41749608077275246,
+     "3": 0.44569248123040595
+    },
+    "score": 2.2975262207095395,
+    "type": "score"
+   }
+  },
+  "ms": 304.7987499739975
+ },
+ "customer_service_000069": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.3230586769964455,
+    "probabilities": {
+     "answer_directly": 0.3012213586129989,
+     "close_no_action": 0.013176500843121308,
+     "escalate_to_human": 0.45844694159715643,
+     "execute_refund": 0.08416021905289524,
+     "request_information": 0.1429949798938281
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.8830091338955612,
+    "probabilities": {
+     "account": 0.022016585402697676,
+     "billing": 0.9064073071164489,
+     "delivery": 0.00851440768230505,
+     "refund": 0.04917453416644695,
+     "technical": 0.013887165632101447
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.2737111820697657,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.054576679834711074,
+     "1": 0.3332241305602504,
+     "2": 0.45528338655232425,
+     "3": 0.15691580305271427
+    },
+    "score": 1.7145383128230418,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.5841224691796278,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.19080625131840687,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.028005377209807433,
+     "1": 0.39310468848880514,
+     "2": 0.37006950776048325,
+     "3": 0.20882042654090416
+    },
+    "score": 1.759704983632484,
+    "type": "score"
+   }
+  },
+  "ms": 288.5906659066677
+ },
+ "customer_service_000070": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.47604969502246,
+    "probabilities": {
+     "answer_directly": 0.1357532831564082,
+     "close_no_action": 0.014212538232485765,
+     "escalate_to_human": 0.580839756017968,
+     "execute_refund": 0.011464895924379576,
+     "request_information": 0.2577295266687585
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "technical",
+    "confidence": 0.7325690194244578,
+    "probabilities": {
+     "account": 0.06896417845043298,
+     "billing": 0.1003771994741611,
+     "delivery": 0.02877538053945839,
+     "refund": 0.01582802599638128,
+     "technical": 0.7860552155395663
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.3192063087944476,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.03121006027689791,
+     "1": 0.2508421595847287,
+     "2": 0.4894047315958357,
+     "3": 0.22854304854253768
+    },
+    "score": 1.915280768404013,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6923810466829039,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.3677179338962728,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.011116930521140673,
+     "1": 0.12277629693988601,
+     "2": 0.34031832211676877,
+     "3": 0.5257884504222046
+    },
+    "score": 2.3807782924400374,
+    "type": "score"
+   }
+  },
+  "ms": 270.9207080770284
+ },
+ "customer_service_000071": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.3936769981736573,
+    "probabilities": {
+     "answer_directly": 0.28985508093521883,
+     "close_no_action": 0.03132281957015352,
+     "escalate_to_human": 0.5149415985389258,
+     "execute_refund": 0.0013846722582535756,
+     "request_information": 0.1624958286974483
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "account",
+    "confidence": 0.7881127931848069,
+    "probabilities": {
+     "account": 0.8304902345478454,
+     "billing": 0.04370060305709157,
+     "delivery": 0.009555395938070435,
+     "refund": 0.005346785022553055,
+     "technical": 0.11090698143443953
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.5312077091743714,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.023501810032105115,
+     "1": 0.13494063389249866,
+     "2": 0.6484057818807786,
+     "3": 0.19315177419461765
+    },
+    "score": 2.0112075202379085,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6091009483610343,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.4858806723432383,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.01710941106582941,
+     "1": 0.15372929708608085,
+     "2": 0.6144105042574287,
+     "3": 0.21475078759066105
+    },
+    "score": 2.0268026683729214,
+    "type": "score"
+   }
+  },
+  "ms": 318.41237493790686
+ },
+ "customer_service_000072": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.2920577020246701,
+    "probabilities": {
+     "answer_directly": 0.29783766892649527,
+     "close_no_action": 0.016691076573426836,
+     "escalate_to_human": 0.43364616161973607,
+     "execute_refund": 0.05138832973439346,
+     "request_information": 0.20043676314594835
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.2231868649587423,
+    "probabilities": {
+     "account": 0.15106432281161883,
+     "billing": 0.37854949196699383,
+     "delivery": 0.22971232059683466,
+     "refund": 0.09552633646197467,
+     "technical": 0.145147528162578
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.17800757021999156,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.06976610317012905,
+     "1": 0.24496365180853083,
+     "2": 0.38350567766499366,
+     "3": 0.30176456735634644
+    },
+    "score": 1.9172687092075573,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6142628436575933,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.27679145869272964,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.01911149554347264,
+     "1": 0.190310739604955,
+     "2": 0.33298417083202514,
+     "3": 0.45759359401954725
+    },
+    "score": 2.229059863327647,
+    "type": "score"
+   }
+  },
+  "ms": 329.4942080974579
+ },
+ "customer_service_000073": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.5510826279246277,
+    "probabilities": {
+     "answer_directly": 0.12640979760466062,
+     "close_no_action": 0.010924721046967015,
+     "escalate_to_human": 0.6408661023397022,
+     "execute_refund": 0.022043814069824728,
+     "request_information": 0.1997555649388454
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "technical",
+    "confidence": 0.411461763637754,
+    "probabilities": {
+     "account": 0.1633090478484745,
+     "billing": 0.21899907261384113,
+     "delivery": 0.07213615274901825,
+     "refund": 0.016386315878462884,
+     "technical": 0.5291694109102032
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.20250586222195133,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.0401937742005671,
+     "1": 0.20735885287133163,
+     "2": 0.4018793966664635,
+     "3": 0.3505679762616378
+    },
+    "score": 2.0628215749891723,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.7670917064322809,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.35056453003300403,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.016321797721311083,
+     "1": 0.153943365420455,
+     "2": 0.512923397524753,
+     "3": 0.3168114393334809
+    },
+    "score": 2.130224478470404,
+    "type": "score"
+   }
+  },
+  "ms": 273.84250005707145
+ },
+ "customer_service_000074": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.6344340506083465,
+    "probabilities": {
+     "answer_directly": 0.11194113793046373,
+     "close_no_action": 0.027284838199911326,
+     "escalate_to_human": 0.7075472404866772,
+     "execute_refund": 0.023981982862899848,
+     "request_information": 0.12924480052004791
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "delivery",
+    "confidence": 0.7810105593034533,
+    "probabilities": {
+     "account": 0.011490558462911513,
+     "billing": 0.04437292861300089,
+     "delivery": 0.8248084474427627,
+     "refund": 0.021396246613690793,
+     "technical": 0.09793181886763407
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.2981655219123087,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.0790635882333225,
+     "1": 0.47362414143423154,
+     "2": 0.3532330340245516,
+     "3": 0.09407923630789433
+    },
+    "score": 1.4623279184070177,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.7779669113124642,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.27916573447761306,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.007277379334299244,
+     "1": 0.11031400200826004,
+     "2": 0.4593743008582098,
+     "3": 0.42303431779923095
+    },
+    "score": 2.2981655571223727,
+    "type": "score"
+   }
+  },
+  "ms": 331.8551250267774
+ },
+ "customer_service_000075": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.3425033972449365,
+    "probabilities": {
+     "answer_directly": 0.15626322700988204,
+     "close_no_action": 0.019647689884048473,
+     "escalate_to_human": 0.4740027177959492,
+     "execute_refund": 0.11264653301750889,
+     "request_information": 0.23743983229261137
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "delivery",
+    "confidence": 0.32386668913512406,
+    "probabilities": {
+     "account": 0.06642468526122938,
+     "billing": 0.11342406398660106,
+     "delivery": 0.45909335130809925,
+     "refund": 0.2181260470746188,
+     "technical": 0.14293185236945152
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.3822007999381644,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.021115351476056823,
+     "1": 0.14222991994451564,
+     "2": 0.3000041286258042,
+     "3": 0.5366505999536233
+    },
+    "score": 2.352189977056994,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.7206243847911289,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.44263568066521825,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.010824361499466363,
+     "1": 0.09358884159365889,
+     "2": 0.3136100364079611,
+     "3": 0.5819767604989137
+    },
+    "score": 2.466739195906322,
+    "type": "score"
+   }
+  },
+  "ms": 286.677333060652
+ },
+ "customer_service_000076": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.3930511328438602,
+    "probabilities": {
+     "answer_directly": 0.16215263104965913,
+     "close_no_action": 0.013918868878615485,
+     "escalate_to_human": 0.5144409062750881,
+     "execute_refund": 0.043682248772211066,
+     "request_information": 0.2658053450244262
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "delivery",
+    "confidence": 0.402817328206846,
+    "probabilities": {
+     "account": 0.10472685472828884,
+     "billing": 0.2009426065363704,
+     "delivery": 0.5222538625654768,
+     "refund": 0.058483711696126955,
+     "technical": 0.113592964473737
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.31917919026991287,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.03444110792774422,
+     "1": 0.23682411705324288,
+     "2": 0.48938439270243467,
+     "3": 0.2393503823165782
+    },
+    "score": 1.9336440494078468,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6519392337611379,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2204918584455311,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.013625053727636924,
+     "1": 0.20926150753492004,
+     "2": 0.4153688938341483,
+     "3": 0.36174454490329466
+    },
+    "score": 2.1252329299131008,
+    "type": "score"
+   }
+  },
+  "ms": 314.9343749973923
+ },
+ "customer_service_000077": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.4833388749812829,
+    "probabilities": {
+     "answer_directly": 0.17529369141453546,
+     "close_no_action": 0.01327398816255926,
+     "escalate_to_human": 0.5866710999850263,
+     "execute_refund": 0.041268589144614856,
+     "request_information": 0.18349263129326407
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "account",
+    "confidence": 0.25649036881805487,
+    "probabilities": {
+     "account": 0.40519229505444393,
+     "billing": 0.31989133904341405,
+     "delivery": 0.04023092664506167,
+     "refund": 0.042247703285793144,
+     "technical": 0.1924377359712872
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.29058935856573465,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.019746754782837578,
+     "1": 0.16447866604033237,
+     "2": 0.467942018924301,
+     "3": 0.34783256025252907
+    },
+    "score": 2.1438603846465214,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.7316355398263285,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.4070779594990472,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.008372681506009167,
+     "1": 0.13684279112137823,
+     "2": 0.2994760577483272,
+     "3": 0.5553084696242854
+    },
+    "score": 2.4017203154908886,
+    "type": "score"
+   }
+  },
+  "ms": 301.66929098777473
+ },
+ "customer_service_000078": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.3622492544738014,
+    "probabilities": {
+     "answer_directly": 0.16134208121806728,
+     "close_no_action": 0.00932006712838828,
+     "escalate_to_human": 0.4897994035790411,
+     "execute_refund": 0.17507661818983217,
+     "request_information": 0.16446182988467115
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "technical",
+    "confidence": 0.22649259859778742,
+    "probabilities": {
+     "account": 0.05736116926046716,
+     "billing": 0.10290970156156756,
+     "delivery": 0.08464472809067206,
+     "refund": 0.37389032220906326,
+     "technical": 0.3811940788782299
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.39764272834118186,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.017501491467626272,
+     "1": 0.15775874577406163,
+     "2": 0.2765077165024257,
+     "3": 0.5482320462558864
+    },
+    "score": 2.3554703175465725,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6769783687104527,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.6167575698440375,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.007276075662346696,
+     "1": 0.04997093166297863,
+     "2": 0.2301848152916465,
+     "3": 0.7125681773830281
+    },
+    "score": 2.6480450943953557,
+    "type": "score"
+   }
+  },
+  "ms": 308.73712501488626
+ },
+ "customer_service_000079": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.41943103788828484,
+    "probabilities": {
+     "answer_directly": 0.2204552043575197,
+     "close_no_action": 0.010648392246002092,
+     "escalate_to_human": 0.5355448303106278,
+     "execute_refund": 0.023797332524951847,
+     "request_information": 0.2095542405608985
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.4294182067004696,
+    "probabilities": {
+     "account": 0.18189878281716546,
+     "billing": 0.5435345653603757,
+     "delivery": 0.06043670407541877,
+     "refund": 0.028440805151819792,
+     "technical": 0.18568914259522024
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.231306955060839,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.04952830369764619,
+     "1": 0.2565376061088241,
+     "2": 0.42348021629562926,
+     "3": 0.27045387389790043
+    },
+    "score": 1.914859660393784,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6819322819698995,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.22735038876532485,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.012206612745442751,
+     "1": 0.20812127595184565,
+     "2": 0.35915931972871795,
+     "3": 0.4205127915739936
+    },
+    "score": 2.1879782901312623,
+    "type": "score"
+   }
+  },
+  "ms": 322.3355420632288
+ },
+ "customer_service_000080": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.3999415232736847,
+    "probabilities": {
+     "answer_directly": 0.13446312439523242,
+     "close_no_action": 0.01764027456561616,
+     "escalate_to_human": 0.5199532186189477,
+     "execute_refund": 0.03291511531475108,
+     "request_information": 0.29502826710545266
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "delivery",
+    "confidence": 0.5735288574357345,
+    "probabilities": {
+     "account": 0.06061873026620713,
+     "billing": 0.12873664608992927,
+     "delivery": 0.6588230859485875,
+     "refund": 0.04918211495839716,
+     "technical": 0.102639422736879
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.30801709546029543,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.032350928248042185,
+     "1": 0.22358679838589052,
+     "2": 0.4810128215952216,
+     "3": 0.2630494517708457
+    },
+    "score": 1.9747607968888707,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6847637098116334,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.32673151548952206,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.009144045129240322,
+     "1": 0.13050345695551602,
+     "2": 0.3653038612981021,
+     "3": 0.49504863661714155
+    },
+    "score": 2.346257089403145,
+    "type": "score"
+   }
+  },
+  "ms": 282.53733296878636
+ },
+ "customer_service_000081": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.41538042970713585,
+    "probabilities": {
+     "answer_directly": 0.220904390412083,
+     "close_no_action": 0.009844934294293086,
+     "escalate_to_human": 0.5323043437657087,
+     "execute_refund": 0.03295537515874393,
+     "request_information": 0.2039909563691713
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "technical",
+    "confidence": 0.1741535741099539,
+    "probabilities": {
+     "account": 0.3126556564724116,
+     "billing": 0.24539285987605883,
+     "delivery": 0.05498139257446983,
+     "refund": 0.04764723178909663,
+     "technical": 0.33932285928796313
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.22216669116744225,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.03249757704954174,
+     "1": 0.2334339827879972,
+     "2": 0.4166250183755817,
+     "3": 0.31744342178687934
+    },
+    "score": 2.0190142848997983,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6691610481906298,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.26907204335015383,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.018035894781956493,
+     "1": 0.18003635493741477,
+     "2": 0.3501237177680134,
+     "3": 0.45180403251261536
+    },
+    "score": 2.2356958880112874,
+    "type": "score"
+   }
+  },
+  "ms": 314.9664580123499
+ },
+ "customer_service_000082": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.5113745659096115,
+    "probabilities": {
+     "answer_directly": 0.15908842861494585,
+     "close_no_action": 0.011302573044962058,
+     "escalate_to_human": 0.6090996527276892,
+     "execute_refund": 0.04775569248912262,
+     "request_information": 0.17275365312328028
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.1656999529017532,
+    "probabilities": {
+     "account": 0.3170643299391795,
+     "billing": 0.33255996232140256,
+     "delivery": 0.0900307592594629,
+     "refund": 0.05361615697208259,
+     "technical": 0.2067287915078725
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.31141015849522663,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.02873951419260515,
+     "1": 0.20423283026471384,
+     "2": 0.48355761887141996,
+     "3": 0.2834700366712611
+    },
+    "score": 2.0217581780213374,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.751122327173447,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.21110069969878054,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.018689024020126278,
+     "1": 0.22443188233898687,
+     "2": 0.4083255247740854,
+     "3": 0.3485535688668015
+    },
+    "score": 2.086743638487562,
+    "type": "score"
+   }
+  },
+  "ms": 281.9473339477554
+ },
+ "customer_service_000083": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.472431322811654,
+    "probabilities": {
+     "answer_directly": 0.18817925851894,
+     "close_no_action": 0.010832251021534147,
+     "escalate_to_human": 0.5779450582493232,
+     "execute_refund": 0.014172496964850541,
+     "request_information": 0.20887093524535214
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "account",
+    "confidence": 0.36966203695275646,
+    "probabilities": {
+     "account": 0.4957296295622052,
+     "billing": 0.1579595277894338,
+     "delivery": 0.06045028128650695,
+     "refund": 0.022639176849305047,
+     "technical": 0.263221384512549
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.3568171189861629,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.022844404570619814,
+     "1": 0.21362282925243986,
+     "2": 0.5176128392396222,
+     "3": 0.2459199269373181
+    },
+    "score": 1.9866082885436385,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.7085769315228929,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.359286738664645,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.010652462575606139,
+     "1": 0.13095650959535066,
+     "2": 0.3389259738305595,
+     "3": 0.5194650539984838
+    },
+    "score": 2.367203619251921,
+    "type": "score"
+   }
+  },
+  "ms": 337.2377910418436
+ },
+ "customer_service_000084": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.27044500254893644,
+    "probabilities": {
+     "answer_directly": 0.30725323370047886,
+     "close_no_action": 0.012344219656673438,
+     "escalate_to_human": 0.41635600203914913,
+     "execute_refund": 0.06599767447620218,
+     "request_information": 0.1980488701274964
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "refund",
+    "confidence": 0.329309462937574,
+    "probabilities": {
+     "account": 0.11961836394725356,
+     "billing": 0.15949882656855888,
+     "delivery": 0.1261168145761722,
+     "refund": 0.46344757035005923,
+     "technical": 0.13131842455795614
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.24648354526551838,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.044707083722846444,
+     "1": 0.26224437807035444,
+     "2": 0.4348626589491388,
+     "3": 0.25818587925766034
+    },
+    "score": 1.906527333741613,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.5880744247445925,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.23985435436486643,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.016629893165894496,
+     "1": 0.16879846828887937,
+     "2": 0.3846808727715763,
+     "3": 0.4298907657736498
+    },
+    "score": 2.2278325111529815,
+    "type": "score"
+   }
+  },
+  "ms": 285.9862500336021
+ },
+ "customer_service_000085": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.4078842918736155,
+    "probabilities": {
+     "answer_directly": 0.14798893786262401,
+     "close_no_action": 0.011567529886055129,
+     "escalate_to_human": 0.5263074334988924,
+     "execute_refund": 0.02887430624777594,
+     "request_information": 0.2852617925046525
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "technical",
+    "confidence": 0.14847918847737424,
+    "probabilities": {
+     "account": 0.19130183212704321,
+     "billing": 0.1131194657179941,
+     "delivery": 0.3106455914368962,
+     "refund": 0.06614975993616709,
+     "technical": 0.3187833507818994
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.15259521757785902,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.04062223119577419,
+     "1": 0.2459587726370516,
+     "2": 0.36444641318339427,
+     "3": 0.34897258298378
+    },
+    "score": 2.02176934795518,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.7237764186157245,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.3617804531155082,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.015119608027541408,
+     "1": 0.16522692124485427,
+     "2": 0.29831813089097314,
+     "3": 0.5213353398366312
+    },
+    "score": 2.325869202536694,
+    "type": "score"
+   }
+  },
+  "ms": 319.526124978438
+ },
+ "customer_service_000086": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.404664682119962,
+    "probabilities": {
+     "answer_directly": 0.20626858793932026,
+     "close_no_action": 0.008994175620319074,
+     "escalate_to_human": 0.5237317456959696,
+     "execute_refund": 0.07070148972466103,
+     "request_information": 0.19030400101973008
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.44144602155420565,
+    "probabilities": {
+     "account": 0.09613199933706873,
+     "billing": 0.5531568172433645,
+     "delivery": 0.1040392450116287,
+     "refund": 0.09788519328439779,
+     "technical": 0.14878674512354026
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.2923816871208573,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.030791806503983634,
+     "1": 0.21444833024165808,
+     "2": 0.469286265340643,
+     "3": 0.2854735979137153
+    },
+    "score": 2.00944165466409,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6868221763568264,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.24250228287983533,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.015997822836927373,
+     "1": 0.20823399373148627,
+     "2": 0.4318767121598765,
+     "3": 0.3438914712717099
+    },
+    "score": 2.103661831866369,
+    "type": "score"
+   }
+  },
+  "ms": 309.7827499732375
+ },
+ "customer_service_000087": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.4047078669059496,
+    "probabilities": {
+     "answer_directly": 0.2123093420339108,
+     "close_no_action": 0.01153453120407215,
+     "escalate_to_human": 0.5237662935247597,
+     "execute_refund": 0.021489811791316742,
+     "request_information": 0.23090002144594068
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "technical",
+    "confidence": 0.16679452863103528,
+    "probabilities": {
+     "account": 0.21815298936931987,
+     "billing": 0.19322281977850514,
+     "delivery": 0.14977839365004852,
+     "refund": 0.10541017429729826,
+     "technical": 0.3334356229048282
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.21363918312400565,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.03369398543975182,
+     "1": 0.23766191282734184,
+     "2": 0.41022938734300424,
+     "3": 0.3184147143899021
+    },
+    "score": 2.0133648306830567,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6882584204679203,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.18632465953108182,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.016695009840595777,
+     "1": 0.20856851582725,
+     "2": 0.3849929796838429,
+     "3": 0.3897434946483114
+    },
+    "score": 2.14778495913987,
+    "type": "score"
+   }
+  },
+  "ms": 278.9107080316171
+ },
+ "customer_service_000088": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.36306201703138397,
+    "probabilities": {
+     "answer_directly": 0.19608486945160475,
+     "close_no_action": 0.010559551512784048,
+     "escalate_to_human": 0.4904496136251072,
+     "execute_refund": 0.0994448911057836,
+     "request_information": 0.2034610743047204
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.15765639942080778,
+    "probabilities": {
+     "account": 0.09105088205065856,
+     "billing": 0.32612511953664625,
+     "delivery": 0.1682100519731092,
+     "refund": 0.23585734916432302,
+     "technical": 0.178756597275263
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.26420521779310513,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.029531273157895773,
+     "1": 0.16927286063798405,
+     "2": 0.3530419528592913,
+     "3": 0.44815391334482885
+    },
+    "score": 2.219818506391053,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6823161573923032,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.30288322939527257,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.009698967321280212,
+     "1": 0.15491071637702164,
+     "2": 0.3582278942552437,
+     "3": 0.4771624220464544
+    },
+    "score": 2.3028537710268724,
+    "type": "score"
+   }
+  },
+  "ms": 306.1292499769479
+ },
+ "customer_service_000089": {
+  "answers": {
+   "action": {
+    "choice": "request_information",
+    "confidence": 0.16353400447668887,
+    "probabilities": {
+     "answer_directly": 0.3198312637300506,
+     "close_no_action": 0.012400717304682557,
+     "escalate_to_human": 0.2553508427737206,
+     "execute_refund": 0.08158997261019516,
+     "request_information": 0.3308272035813511
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.24340173820242494,
+    "probabilities": {
+     "account": 0.18410974097238247,
+     "billing": 0.39472139056193994,
+     "delivery": 0.008665378253466699,
+     "refund": 0.3071276975690887,
+     "technical": 0.10537579264312219
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.14063624271733569,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.09914875990164515,
+     "1": 0.21460401073095442,
+     "2": 0.33077004732939863,
+     "3": 0.35547718203800177
+    },
+    "score": 1.9425756515037569,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.48624355163026267,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2819598467710731,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.019507509985226414,
+     "1": 0.17644420718374781,
+     "2": 0.3425783977527209,
+     "3": 0.46146988507830483
+    },
+    "score": 2.246010657924104,
+    "type": "score"
+   }
+  },
+  "ms": 279.854082968086
+ },
+ "customer_service_000090": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.42779334331721963,
+    "probabilities": {
+     "answer_directly": 0.24307159345186888,
+     "close_no_action": 0.016306944004900376,
+     "escalate_to_human": 0.5422346746537757,
+     "execute_refund": 0.03362665183895238,
+     "request_information": 0.1647601360505026
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "account",
+    "confidence": 0.2900213225731585,
+    "probabilities": {
+     "account": 0.4320170580585268,
+     "billing": 0.25653954969492987,
+     "delivery": 0.07900613733153658,
+     "refund": 0.06305712153436104,
+     "technical": 0.16938013338064573
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.4440508551746696,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.01988409120476596,
+     "1": 0.12716135733060194,
+     "2": 0.26991641008362993,
+     "3": 0.5830381413810022
+    },
+    "score": 2.416108601640868,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.7050715683988292,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.45863940296556943,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.0076089417367321025,
+     "1": 0.1369810242807126,
+     "2": 0.26143048175837813,
+     "3": 0.5939795522241771
+    },
+    "score": 2.44178064447,
+    "type": "score"
+   }
+  },
+  "ms": 295.6595830619335
+ },
+ "customer_service_000091": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.4069379805040786,
+    "probabilities": {
+     "answer_directly": 0.20707823303773937,
+     "close_no_action": 0.010174097395954576,
+     "escalate_to_human": 0.5255503844032628,
+     "execute_refund": 0.04950831914556391,
+     "request_information": 0.20768896601747927
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.48090660373160043,
+    "probabilities": {
+     "account": 0.12337874821071465,
+     "billing": 0.5847252829852804,
+     "delivery": 0.07849929640316054,
+     "refund": 0.06773539679962046,
+     "technical": 0.14566127560122394
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.21735678273082684,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.05260397139096837,
+     "1": 0.25440736559919624,
+     "2": 0.41301758704812014,
+     "3": 0.2799710759617152
+    },
+    "score": 1.920355767580582,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6880760313239669,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.21699604833891964,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.006992639561421254,
+     "1": 0.18733094876464204,
+     "2": 0.392929375419747,
+     "3": 0.41274703625418974
+    },
+    "score": 2.211430808366705,
+    "type": "score"
+   }
+  },
+  "ms": 298.9229579688981
+ },
+ "customer_service_000092": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.44669595877830715,
+    "probabilities": {
+     "answer_directly": 0.15725800339355417,
+     "close_no_action": 0.015038159106605806,
+     "escalate_to_human": 0.5573567670226457,
+     "execute_refund": 0.03983830490906396,
+     "request_information": 0.23050876556813032
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "delivery",
+    "confidence": 0.18389164056688445,
+    "probabilities": {
+     "account": 0.10780395413581685,
+     "billing": 0.18465108592171214,
+     "delivery": 0.34711331245350757,
+     "refund": 0.06124251252079294,
+     "technical": 0.2991891349681705
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.23688163695828238,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.03844559763296775,
+     "1": 0.25516065251481823,
+     "2": 0.4276612277187118,
+     "3": 0.2787325221335022
+    },
+    "score": 1.9466806743527483,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.7044653049801017,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.20542558311112216,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.01517287819409811,
+     "1": 0.20024831038302307,
+     "2": 0.40406918733334163,
+     "3": 0.3805096240895372
+    },
+    "score": 2.1499155573183177,
+    "type": "score"
+   }
+  },
+  "ms": 272.78850006405264
+ },
+ "customer_service_000093": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.593341738748623,
+    "probabilities": {
+     "answer_directly": 0.10762464096024474,
+     "close_no_action": 0.014082472815526464,
+     "escalate_to_human": 0.6746733909988983,
+     "execute_refund": 0.03689922218698676,
+     "request_information": 0.16672027303834375
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "technical",
+    "confidence": 0.35624723490316235,
+    "probabilities": {
+     "account": 0.2108850229300455,
+     "billing": 0.20953284235601788,
+     "delivery": 0.023509227416157717,
+     "refund": 0.07107511937524909,
+     "technical": 0.48499778792252984
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.28513202461453163,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.008702787973244697,
+     "1": 0.13061038577909492,
+     "2": 0.4638490184608987,
+     "3": 0.3968378077867617
+    },
+    "score": 2.2488218460611775,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.7970720626186183,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.4778351263671352,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.005010328828511823,
+     "1": 0.09675377271905286,
+     "2": 0.2898595536770839,
+     "3": 0.6083763447753514
+    },
+    "score": 2.501601914399275,
+    "type": "score"
+   }
+  },
+  "ms": 260.6954579241574
+ },
+ "customer_service_000094": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.34576177105138917,
+    "probabilities": {
+     "answer_directly": 0.2200825480093687,
+     "close_no_action": 0.008852975364144661,
+     "escalate_to_human": 0.47660941684111136,
+     "execute_refund": 0.15086668748217058,
+     "request_information": 0.1435883723032047
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.6036983639737765,
+    "probabilities": {
+     "account": 0.055934164538785525,
+     "billing": 0.6829586911790212,
+     "delivery": 0.05030570882644981,
+     "refund": 0.17620216496405308,
+     "technical": 0.03459927049169037
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.3377792168277273,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.03541066824389033,
+     "1": 0.24649770917287933,
+     "2": 0.5033344126207955,
+     "3": 0.2147572099624348
+    },
+    "score": 1.8974381643017746,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6563714174366316,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2238098817289512,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.01148456633269728,
+     "1": 0.18860245968961953,
+     "2": 0.38205556268096985,
+     "3": 0.4178574112967134
+    },
+    "score": 2.2062858189416996,
+    "type": "score"
+   }
+  },
+  "ms": 281.89058299176395
+ },
+ "customer_service_000095": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.4405132055440112,
+    "probabilities": {
+     "answer_directly": 0.1564183333099546,
+     "close_no_action": 0.015275516350905932,
+     "escalate_to_human": 0.552410564435209,
+     "execute_refund": 0.032137955771764946,
+     "request_information": 0.24375763013216556
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "delivery",
+    "confidence": 0.6071455250758904,
+    "probabilities": {
+     "account": 0.03141753422188648,
+     "billing": 0.10332111989192048,
+     "delivery": 0.6857164200607123,
+     "refund": 0.047685576999160165,
+     "technical": 0.13185934882632055
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.24454141378699049,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.054749389590801056,
+     "1": 0.3530315143761486,
+     "2": 0.43340606034024287,
+     "3": 0.15881303569280744
+    },
+    "score": 1.6962827421350566,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6822966121923033,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2040017063169762,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.021701589068595782,
+     "1": 0.31194681850540873,
+     "2": 0.40300127973773214,
+     "3": 0.26335031268826337
+    },
+    "score": 1.9080003160456633,
+    "type": "score"
+   }
+  },
+  "ms": 290.21933302283287
+ },
+ "customer_service_000096": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.30409732854592986,
+    "probabilities": {
+     "answer_directly": 0.28627663425777833,
+     "close_no_action": 0.017194030157114414,
+     "escalate_to_human": 0.4432778628367439,
+     "execute_refund": 0.10937406189996957,
+     "request_information": 0.1438774108483938
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "refund",
+    "confidence": 0.1800696173208166,
+    "probabilities": {
+     "account": 0.2261096780765889,
+     "billing": 0.24256570040000885,
+     "delivery": 0.11772218137396193,
+     "refund": 0.3440556938566533,
+     "technical": 0.069546746292787
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.23012630948386126,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.028960242966262213,
+     "1": 0.18115862230229796,
+     "2": 0.3672864026185439,
+     "3": 0.42259473211289594
+    },
+    "score": 2.1835156238780735,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6016227439928121,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.29440095356757157,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.007879609638398555,
+     "1": 0.12107511668319201,
+     "2": 0.4002445585027308,
+     "3": 0.4708007151756787
+    },
+    "score": 2.3339663792156893,
+    "type": "score"
+   }
+  },
+  "ms": 321.4737079106271
+ },
+ "customer_service_000097": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.552387811696717,
+    "probabilities": {
+     "answer_directly": 0.1297592938666954,
+     "close_no_action": 0.012992728485863272,
+     "escalate_to_human": 0.6419102493573736,
+     "execute_refund": 0.033978837063328944,
+     "request_information": 0.18135889122673876
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "technical",
+    "confidence": 0.24136953426138047,
+    "probabilities": {
+     "account": 0.12115768915183787,
+     "billing": 0.22348850382262217,
+     "delivery": 0.23144488223474888,
+     "refund": 0.030813297381686713,
+     "technical": 0.39309562740910436
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.31815647551153897,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.029365357804093647,
+     "1": 0.20371637833386158,
+     "2": 0.48861735663365424,
+     "3": 0.27830090722839057
+    },
+    "score": 2.0158538132863417,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.7689453463619388,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.34287066515416614,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.011846218072606246,
+     "1": 0.13169284052284327,
+     "2": 0.5071529988656246,
+     "3": 0.34930794253892583
+    },
+    "score": 2.19392266587087,
+    "type": "score"
+   }
+  },
+  "ms": 285.9750840580091
+ },
+ "customer_service_000098": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.1978144080976697,
+    "probabilities": {
+     "answer_directly": 0.1686621351080891,
+     "close_no_action": 0.0053349418093120065,
+     "escalate_to_human": 0.35825152647813574,
+     "execute_refund": 0.28266222634728555,
+     "request_information": 0.18508917025717758
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "billing",
+    "confidence": 0.8498661199065416,
+    "probabilities": {
+     "account": 0.020111047225391886,
+     "billing": 0.8798928959252332,
+     "delivery": 0.017873182645077933,
+     "refund": 0.06757541859436172,
+     "technical": 0.014547455609935171
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.2874007612399265,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.04280490029626332,
+     "1": 0.32313969223040206,
+     "2": 0.4655505709299449,
+     "3": 0.1685048365433897
+    },
+    "score": 1.759755343720461,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.5856078470763512,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.4316830657662538,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.011916243330787071,
+     "1": 0.13897951939840558,
+     "2": 0.5737622993246904,
+     "3": 0.275341937946117
+    },
+    "score": 2.1125299318861375,
+    "type": "score"
+   }
+  },
+  "ms": 284.4520000508055
+ },
+ "customer_service_000099": {
+  "answers": {
+   "action": {
+    "choice": "escalate_to_human",
+    "confidence": 0.44813903383100473,
+    "probabilities": {
+     "answer_directly": 0.22791657538097732,
+     "close_no_action": 0.012401098070010746,
+     "escalate_to_human": 0.5585112270648038,
+     "execute_refund": 0.021554996156110565,
+     "request_information": 0.17961610332809755
+    },
+    "type": "choice"
+   },
+   "category": {
+    "choice": "technical",
+    "confidence": 0.17192862716638718,
+    "probabilities": {
+     "account": 0.3375197030074092,
+     "billing": 0.20401808867786697,
+     "delivery": 0.07793748626127688,
+     "refund": 0.04298182032033722,
+     "technical": 0.33754290173310975
+    },
+    "type": "choice"
+   },
+   "churn_risk": {
+    "confidence": 0.24763651777615583,
+    "legend": {
+     "0": "No sign of dissatisfaction.",
+     "1": "Mild frustration, but the relationship is intact.",
+     "2": "Clearly unhappy; repeat problems or explicit complaints.",
+     "3": "Imminent: threatening to cancel, dispute or leave."
+    },
+    "probabilities": {
+     "0": 0.025014068384944955,
+     "1": 0.17149194299383919,
+     "2": 0.4357273883321169,
+     "3": 0.36776660028909897
+    },
+    "score": 2.14624652052537,
+    "type": "score"
+   },
+   "needs_human": {
+    "noul": 0.6860485332462833,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.2714462947709663,
+    "legend": {
+     "0": "No time pressure; can wait indefinitely.",
+     "1": "Routine; handle within the normal queue.",
+     "2": "Elevated; should be handled within the same week.",
+     "3": "Critical; requires action within the same day."
+    },
+    "probabilities": {
+     "0": 0.007371073205909381,
+     "1": 0.11729356498601856,
+     "2": 0.45358472107822473,
+     "3": 0.42175064072984736
+    },
+    "score": 2.2897149293320105,
+    "type": "score"
+   }
+  },
+  "ms": 261.9979999726638
+ }
+}
