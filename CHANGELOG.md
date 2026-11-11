@@ -7,6 +7,29 @@ made: [RELEASING.md](RELEASING.md).
 
 ## [Unreleased]
 
+## [0.0.5] - 2026-11-11
+
+### Added
+
+- **Test 8, the reversal: told one way, asked both ways** (`tests/8-the-reversal/`).
+  - KELVIN is told test 6's 346 real parent facts (Wikidata, CC0) one way only, child → parent.
+  - It is asked forward (`"state": {"subject": …}`) and the other way (`"state": {"object": …}`, "whose mother or father
+    is this person"), with a parent's several children held together, and about people who are no one's parent, which
+    must be silent.
+  - Each check prints right, wrong or silent, and its time.
+  - Its control asks the reverse questions again with the relation swapped (mother ↔ father).
+  - One memory, so it runs with `MERIDIAN_KEY`.
+  - The reverse ask (`state.object`) is answered by KELVIN Meridian from release `8f2d6cdb` (r10) on.
+  - Our run on `8f2d6cdb`: forward 50 of 50, reverse 50 of 50 (every child held for the 10 parents with several),
+    no one's parent 50 of 50 silent; the control gave the same children 0 of 50 times. p50 per ask 100–117 ms,
+    the network included.
+
+### Fixed
+
+- **The address line of every result** now names the release only once. Test 2's line said "on the published release
+  5ddaa4fc" and then "release b0984839"; it was run on `b0984839`. Every line now reads "on the published release named
+  next", followed by the run's own release. Only that wording changed in tests 1–7's `results/RESULT.md`; no number.
+
 ## [0.0.4] - 2026-11-10
 
 ### Added
@@ -95,7 +118,8 @@ made: [RELEASING.md](RELEASING.md).
 - **REPRODUCE.md:** every number the README cites, with its run record, field and command.
 - **CI:** `.github/workflows/ci.yml`, the same checks as `ci/gates.sh`, and a secret scan of every commit.
 
-[Unreleased]: https://github.com/pelloran-inc/kelvin-meridian-tests/compare/v0.0.4...HEAD
+[Unreleased]: https://github.com/pelloran-inc/kelvin-meridian-tests/compare/v0.0.5...HEAD
+[0.0.5]: https://github.com/pelloran-inc/kelvin-meridian-tests/compare/v0.0.4...v0.0.5
 [0.0.4]: https://github.com/pelloran-inc/kelvin-meridian-tests/compare/v0.0.3...v0.0.4
 [0.0.3]: https://github.com/pelloran-inc/kelvin-meridian-tests/compare/v0.0.2...v0.0.3
 [0.0.2]: https://github.com/pelloran-inc/kelvin-meridian-tests/compare/v0.0.1...v0.0.2

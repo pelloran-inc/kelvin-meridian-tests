@@ -1,6 +1,6 @@
 # Test 2 · a picture: this one, else its kind · result
 
-Address: our test address (a test door of our own, on the published release 5ddaa4fc, reached over the public internet with TLS like any tester's address), release b0984839, run record `runs/2026-11-10T18-23-27+0100-pictures`; address family: IPv4 only.
+Address: our test address (a test door of our own, on the published release named next, reached over the public internet with TLS like any tester's address), release b0984839, run record `runs/2026-11-10T18-23-27+0100-pictures`; address family: IPv4 only.
 
 KELVIN lived 500 photos and 500 documents, each told with its kind, then was asked the kind of 114 pictures, one at a time.
 

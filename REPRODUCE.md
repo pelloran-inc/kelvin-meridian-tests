@@ -7,7 +7,7 @@ keys set (see the README). Every run record is under `runs/`; each test's `resul
 All runs: release `5ddaa4fc` (test 2's latest run: `b0984839`, the release that added MB1), on our test address (a test door of our own, reached over the public internet with TLS
 like any tester's address), 2026-11-09 and 2026-11-10, Central European Time as in the run records' names.
 
-## The seven tests
+## The eight tests
 
 | Number | What it is | Run record · field | Command |
 |---|---|---|---|
@@ -33,6 +33,8 @@ like any tester's address), 2026-11-09 and 2026-11-10, Central European Time as 
 | 4 of 345 | Test 6's control, the facts shuffled: right against the truth | the same · `control_right_against_the_truth` | the same |
 | **558 of 558** · 389 of 389 | Test 7: right overall · "none of the above" where it could not know | `runs/2026-11-09T23-50-07+0100-i-dont-know/result.json` · `right_overall`, `not_known_none_of_the_above` | `python3 tests/7-i-dont-know/run.py` |
 | 0 of 169 | Test 7's control, nothing told: the told questions right | the same · `control_nothing_told.told.right` | the same |
+| **50 of 50** · **50 of 50** · 50 of 50 | Test 8: forward right · reverse right (every child held; 10 parents with several) · no one's parent silent | `runs/2026-11-11T15-05-09+0100-reversal/result.json` · `forward.right`, `reverse.right`, `no_ones_parent.silent` | `python3 tests/8-the-reversal/run.py` |
+| 0 of 50 | Test 8's control, the relation swapped: the same children given | the same · `control.swapped_relation_gave_the_same_children` | the same |
 
 ## Speed
 

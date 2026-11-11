@@ -2,13 +2,13 @@ cff-version: 1.2.0
 message: "If you use these tests or their results, please cite this repository."
 type: software
 title: "KELVIN Meridian · tests"
-abstract: "A demo and seven tests of KELVIN Meridian's API, each with a control that must break, and our results on releases 5ddaa4fc and b0984839 with every request and answer recorded."
+abstract: "A demo and eight tests of KELVIN Meridian's API, each with a control that must break, and our results on releases 5ddaa4fc, b0984839 and 8f2d6cdb with every request and answer recorded."
 authors:
   - family-names: Karim
     given-names: Sayed Amir
     affiliation: Pelloran Inc.
-version: 0.0.4
-date-released: 2026-11-10
+version: 0.0.5
+date-released: 2026-11-11
 license: Apache-2.0
 repository-code: "https://github.com/pelloran-inc/kelvin-meridian-tests"
 url: "https://pelloran.com/products/meridian/"

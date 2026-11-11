@@ -1,6 +1,6 @@
 # Test 4 · intent, and "none of the above" · result
 
-Address: our test address (a test door of our own, on the published release 5ddaa4fc, reached over the public internet with TLS like any tester's address), release 5ddaa4fc, run record `runs/2026-11-10T10-09-24+0100-intent`; address family: IPv4 only.
+Address: our test address (a test door of our own, on the published release named next, reached over the public internet with TLS like any tester's address), release 5ddaa4fc, run record `runs/2026-11-10T10-09-24+0100-intent`; address family: IPv4 only.
 
 KELVIN lived 15100 requests once each (in one request, 159.5 s) and was asked 5500 it had never seen.
 

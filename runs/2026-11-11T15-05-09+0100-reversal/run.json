@@ -1,0 +1,8 @@
+{
+ "run": "reversal",
+ "started": "2026-11-11T15:05:09+01:00",
+ "address_family": "any",
+ "address": "our test address",
+ "release": "8f2d6cdb",
+ "memories": 38
+}

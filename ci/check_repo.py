@@ -22,8 +22,8 @@ faults = []
 
 # 1 · the test folders
 tests = sorted(d for d in glob.glob("tests/*-*") if os.path.isdir(d))
-if len(tests) != 7:
-    faults.append(f"expected 7 test folders, found {len(tests)}")
+if len(tests) != 8:
+    faults.append(f"expected 8 test folders, found {len(tests)}")
 for t in tests:
     for need in ("README.md", "run.py", "results/RESULT.md", "results/result.json"):
         if not os.path.exists(os.path.join(t, need)):
@@ -85,6 +85,11 @@ CLAIMS = [
     ("runs/2026-11-09T23-50-07+0100-i-dont-know/result.json", "right_overall", 558, 0),
     ("runs/2026-11-09T23-50-07+0100-i-dont-know/result.json", "not_known_none_of_the_above", 389, 0),
     ("runs/2026-11-09T23-50-07+0100-i-dont-know/result.json", "control_nothing_told.told.right", 0, 0),
+    ("runs/2026-11-11T15-05-09+0100-reversal/result.json", "forward.right", 50, 0),
+    ("runs/2026-11-11T15-05-09+0100-reversal/result.json", "reverse.right", 50, 0),
+    ("runs/2026-11-11T15-05-09+0100-reversal/result.json", "reverse.several_children_all_held", 10, 0),
+    ("runs/2026-11-11T15-05-09+0100-reversal/result.json", "no_ones_parent.silent", 50, 0),
+    ("runs/2026-11-11T15-05-09+0100-reversal/result.json", "control.swapped_relation_gave_the_same_children", 0, 0),
 ]
 for path, field, want, tol in CLAIMS:
     try:

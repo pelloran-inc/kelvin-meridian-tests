@@ -1,0 +1,37 @@
+{
+ "test": "the reversal",
+ "facts_told": 346,
+ "told_one_way": "child -> parent",
+ "forward": {
+  "asked": 50,
+  "right": 50,
+  "wrong": 0,
+  "silent": 0
+ },
+ "reverse": {
+  "asked": 50,
+  "right": 50,
+  "wrong": 0,
+  "silent": 0,
+  "parents_with_several_children": 10,
+  "several_children_all_held": 10
+ },
+ "no_ones_parent": {
+  "asked": 50,
+  "silent": 50,
+  "answered": 0
+ },
+ "ask_ms_p50": {
+  "forward": 99.5,
+  "reverse": 117.4,
+  "no_ones_parent": 109.4
+ },
+ "control": {
+  "breaks": true,
+  "kelvin_right_control_wrong": 50,
+  "control_right_kelvin_wrong": 0,
+  "sign_test_p": 8.881784197001252e-16,
+  "swapped_relation_gave_the_same_children": 0,
+  "swapped_relation_silent": 50
+ }
+}

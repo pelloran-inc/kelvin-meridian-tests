@@ -1,6 +1,6 @@
 # Test 5 · when to call a tool · result
 
-Address: our test address (a test door of our own, on the published release 5ddaa4fc, reached over the public internet with TLS like any tester's address), release 5ddaa4fc, run record `runs/2026-11-10T00-03-02+0100-when-to-call-a-tool`; address family: not recorded (the system's default).
+Address: our test address (a test door of our own, on the published release named next, reached over the public internet with TLS like any tester's address), release 5ddaa4fc, run record `runs/2026-11-10T00-03-02+0100-when-to-call-a-tool`; address family: not recorded (the system's default).
 
 KELVIN lived 1835 items (in one request, 50.2 s) and was asked 1216 items of request families it never met.
 

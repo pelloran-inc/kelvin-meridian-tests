@@ -1,6 +1,6 @@
 # Test 1 · typed decisions · result
 
-Address: our test address (a test door of our own, on the published release 5ddaa4fc, reached over the public internet with TLS like any tester's address), release 5ddaa4fc, run record `runs/2026-11-09T23-59-37+0100-typed-decisions`; address family: not recorded (the system's default).
+Address: our test address (a test door of our own, on the published release named next, reached over the public internet with TLS like any tester's address), release 5ddaa4fc, run record `runs/2026-11-09T23-59-37+0100-typed-decisions`; address family: not recorded (the system's default).
 
 | | accuracy ↑ | KL from gold ↓ | Brier ↓ | ECE ↓ |
 |---|---|---|---|---|

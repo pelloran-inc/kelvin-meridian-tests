@@ -8,8 +8,8 @@
   <img src="https://img.shields.io/badge/license-Apache--2.0-blue.svg" alt="License: Apache-2.0">
   <img src="https://img.shields.io/badge/python-3.10%2B-blue.svg" alt="Python 3.10 or newer">
   <img src="https://img.shields.io/badge/dependencies-standard%20library-brightgreen.svg" alt="Dependencies: the standard library">
-  <img src="https://img.shields.io/badge/tests-7%20passed%20%C2%B7%207%20controls%20broke-brightgreen.svg" alt="7 tests passed, 7 controls broke">
-  <img src="https://img.shields.io/badge/releases%20tested-5ddaa4fc%20%C2%B7%20b0984839-lightgrey.svg" alt="Releases tested: 5ddaa4fc and b0984839">
+  <img src="https://img.shields.io/badge/tests-8%20passed%20%C2%B7%208%20controls%20broke-brightgreen.svg" alt="8 tests passed, 8 controls broke">
+  <img src="https://img.shields.io/badge/releases%20tested-5ddaa4fc%20%C2%B7%20b0984839%20%C2%B7%208f2d6cdb-lightgrey.svg" alt="Releases tested: 5ddaa4fc, b0984839 and 8f2d6cdb">
 </p>
 
 **Get a key, run one command, read every answer.**
@@ -24,16 +24,16 @@ guessing. It needs no training run and no graphics unit.
 
 This repository holds:
 - **a demo** that runs by itself, for a first look;
-- **seven tests** that anyone with a tester key can run, with the same data and the same controls we used;
-- **our own result of each test** on the published releases `5ddaa4fc` and, for test 2's latest run, `b0984839`, with every
-  request and every answer recorded.
+- **eight tests** that anyone with a tester key can run, with the same data and the same controls we used;
+- **our own result of each test** on the published releases `5ddaa4fc`, `b0984839` for test 2's latest run, and `8f2d6cdb`
+  for test 8, with every request and every answer recorded.
 
-## Seven claims, each with a control that must break
+## Eight claims, each with a control that must break
 
 Every test also runs a **control**: the same test in a memory of its own, with the thing that should matter taken
 away. KELVIN must clearly beat it, or the run does not count, and the script says so.
 
-| | What KELVIN does | Our result (release `5ddaa4fc`; test 2's latest run `b0984839`, the same answers) | The control that must break |
+| | What KELVIN does | Our result (release `5ddaa4fc`; test 2's latest run `b0984839`, the same answers; test 8 `8f2d6cdb`) | The control that must break |
 |---|---|---|---|
 | [**1 · Typed decisions**](tests/1-typed-decisions/) | Its only teaching is 300 solved cases per business area. It then answers 100 new cases, scored by the dataset's own scorer. | accuracy **0.706** · KL 0.162 · Brier 0.089 · ECE 0.131 | the answers shuffled: 0.508 |
 | [**2 · A picture**](tests/2-pictures/) | It is told 1 000 photos and documents, each with its kind (on the server's own count it kept 998: two of them give it nothing to keep). It knows each again, and names the kind of pictures it never saw. | **24 of 24** known as told · **50 of 60** unseen named by kind | the kinds swapped: 0 of 24 · 10 of 60 |
@@ -42,6 +42,7 @@ away. KELVIN must clearly beat it, or the run does not count, and the script say
 | [**5 · When to call a tool**](tests/5-when-to-call-a-tool/) | For requests of families it never met, it chooses: call a tool, ask for what is missing, or say it cannot. | **816 of 1 216** (0.671) | the reactions shuffled: 430 of 1 216 |
 | [**6 · Remember**](tests/6-remember/) | It is told 346 real facts. Later, in requests that do not carry them, it is asked each one. | **345 of 345** · asked twice, the same bytes · never told: 332 of 332 silent | the facts shuffled: right against the truth 4 of 345 |
 | [**7 · "I don't know"**](tests/7-i-dont-know/) | Asked what it was never told, with "none of the above" offered, it says so. | **558 of 558** right · 389 of 389 it could not know: "none of the above" | nothing told: 0 of 169 |
+| [**8 · The reversal**](tests/8-the-reversal/) | It is told 346 real facts one way only (child → parent). Then it is asked both ways: whose mother or father, and whose child (`state.object`). | forward **50 of 50** · reverse **50 of 50**, every child held for 10 parents with several · no one's parent: 50 of 50 silent | the relation swapped: the same children 0 of 50 |
 
 Each number stands in the test's `results/RESULT.md`, from our own run. [`REPRODUCE.md`](REPRODUCE.md) lists every
 number this README cites, with its run record and its command.
@@ -75,6 +76,7 @@ python3 tests/6-remember/run.py
 ```
 
 - **One key per memory.** A test keeps KELVIN's own memory and its control's; `tests/keys_needed.py` lists the names.
+  Test 8 keeps one memory, so it runs with your one key: `MERIDIAN_KEY=<your key> python3 tests/8-the-reversal/run.py`.
 - **Every run needs new memories.** A second run into the same memory would add to the first and change every answer.
   Before it teaches anything, each test asks one of its own questions in each memory, and stops if any memory is not
   silent. That question lives nothing; where a test sends switches, the door only records them with the empty memory.
