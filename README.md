@@ -75,8 +75,18 @@ export MERIDIAN_KEYS_FILE=~/meridian-keys.tsv
 python3 tests/6-remember/run.py
 ```
 
-- **One key per memory.** A test keeps KELVIN's own memory and its control's; `tests/keys_needed.py` lists the names.
-  Test 8 keeps one memory, so it runs with your one key: `MERIDIAN_KEY=<your key> python3 tests/8-the-reversal/run.py`.
+- **Two kinds of address, and what each needs.**
+  - **A tester pool** (an address given with tester keys): a key opens one memory, so a test with several memories
+    needs one key per memory (the keys file above; `tests/keys_needed.py` lists the names). Test 8 keeps one memory and
+    runs with one key: `MERIDIAN_KEY=<your key> python3 tests/8-the-reversal/run.py`.
+  - **Your own KELVIN Meridian unit:** one key opens it, and every request names its memory with the header
+    `KELVIN-Memory`. A request that names none is forgotten after its answer. The client names each memory itself, so
+    `export MERIDIAN_KEY=<your key>` is all a test needs there, whatever its number of memories.
+  - The client finds out which kind it talks to: it names the memory, and if a tester pool refuses that
+    (`memory_not_yours`), it stops naming it for the rest of the run. `MERIDIAN_MEMORY=key` or `=header` sets it.
+- **The address must keep what it is taught.** Before a test teaches anything on a unit, the client tells one made-up
+  fact in a memory of its own (`meridian-tests-keeps-check`) and asks it in the next request. If it is not answered,
+  the test stops and says why, instead of running into silence.
 - **Every run needs new memories.** A second run into the same memory would add to the first and change every answer.
   Before it teaches anything, each test asks one of its own questions in each memory, and stops if any memory is not
   silent. That question lives nothing; where a test sends switches, the door only records them with the empty memory.

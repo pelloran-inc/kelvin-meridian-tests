@@ -7,6 +7,29 @@ made: [RELEASING.md](RELEASING.md).
 
 ## [Unreleased]
 
+## [0.0.6] - 2026-11-11
+
+### Fixed
+
+- **The tests now remember on a customer's own KELVIN Meridian unit.** A tester found every ask after teaching silent
+  on a unit.
+  - The cause: on a unit, a request that names no memory (the header `KELVIN-Memory`) is forgotten after its answer.
+    The client named the memory only in a local check, assuming a tester pool, where the key alone picks it.
+  - Now `meridian.py` names the memory in every request. If a tester pool refuses that (`memory_not_yours`, 403), the
+    client stops naming it for the rest of the run and sends that request again. The pool refuses before anything is
+    lived, so nothing is taught twice.
+  - `MERIDIAN_MEMORY=key` or `=header` sets the way. Each record line says which was used (`memory_named_by`).
+- **A run record's `run.json`** now lists the memories the run used (`memories_used`) and how they were named. Before, it
+  counted the keys in the keys file. The run records already published keep theirs as they were.
+
+### Added
+
+- **The keeps check:** before a test teaches anything on a unit, one made-up fact is told in a memory of its own
+  (`meridian-tests-keeps-check`) and asked in the next request. If it is not answered, the test stops with a plain
+  message.
+- The README and every test's command say what each kind of address needs: a tester pool, one key per memory; your own
+  unit, one key.
+
 ## [0.0.5] - 2026-11-11
 
 ### Added
@@ -118,7 +141,8 @@ made: [RELEASING.md](RELEASING.md).
 - **REPRODUCE.md:** every number the README cites, with its run record, field and command.
 - **CI:** `.github/workflows/ci.yml`, the same checks as `ci/gates.sh`, and a secret scan of every commit.
 
-[Unreleased]: https://github.com/pelloran-inc/kelvin-meridian-tests/compare/v0.0.5...HEAD
+[Unreleased]: https://github.com/pelloran-inc/kelvin-meridian-tests/compare/v0.0.6...HEAD
+[0.0.6]: https://github.com/pelloran-inc/kelvin-meridian-tests/compare/v0.0.5...v0.0.6
 [0.0.5]: https://github.com/pelloran-inc/kelvin-meridian-tests/compare/v0.0.4...v0.0.5
 [0.0.4]: https://github.com/pelloran-inc/kelvin-meridian-tests/compare/v0.0.3...v0.0.4
 [0.0.3]: https://github.com/pelloran-inc/kelvin-meridian-tests/compare/v0.0.2...v0.0.3

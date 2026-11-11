@@ -22,6 +22,7 @@
 ```sh
 export MERIDIAN_URL=https://<your address>
 export MERIDIAN_KEYS_FILE=~/meridian-keys.tsv   # memories: dont-know, dont-know-nothing-told
+# on your own KELVIN Meridian unit instead: export MERIDIAN_KEY=<your key>   (the client names each memory)
 python3 tests/7-i-dont-know/run.py
 ```
 

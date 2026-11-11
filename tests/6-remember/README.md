@@ -18,6 +18,7 @@
 ```sh
 export MERIDIAN_URL=https://<your address>
 export MERIDIAN_KEYS_FILE=~/meridian-keys.tsv   # memories: remember, remember-shuffled, remember-other
+# on your own KELVIN Meridian unit instead: export MERIDIAN_KEY=<your key>   (the client names each memory)
 python3 tests/6-remember/run.py
 ```
 

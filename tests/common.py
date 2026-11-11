@@ -83,6 +83,34 @@ def require_new(m, memory, body, headers=None):
     if answered:
         stop(f"the memory '{memory}' has already lived something (it answered {', '.join(answered)} instead of staying "
                  f"silent). Every run needs new memories, so a second run never adds to the first: use new keys.")
+    require_keeps(m)
+
+
+_KEEPS_CHECKED = set()
+
+
+def require_keeps(m):
+    """The counterpart of `require_new` (0.0.6): the address must keep what a request teaches for the next request. Where
+    each request names its memory (a customer unit), one made-up fact is told in a memory of its own,
+    `meridian-tests-keeps-check`, and asked in a new request; if it is not answered, the run stops here with what to do,
+    instead of running every test into silence. On a tester pool the key holds the memory, so there is nothing to check.
+    Once a run."""
+    if m.naming != "header" or id(m) in _KEEPS_CHECKED or os.environ.get("MERIDIAN_LOCAL") == "1":
+        return
+    _KEEPS_CHECKED.add(id(m))
+    import random as _r
+    tag = "".join(_r.choice("bcdfghjklmnpqrstvwz") for _ in range(10))
+    subject, obj = f"keeps-{tag}", f"kept-{tag}"
+    q = {"keeps": {"type": "choice", "criteria": {obj: None, "nobody": None}}}
+    s1, _, raw1, _, _ = m.ask({"model": "kelvin", "state": {"facts": [{"subject": subject, "relation": "keeps", "object": obj}]}, "questions": q},
+                              memory="meridian-tests-keeps-check")
+    s2, a2, raw2, _, _ = m.ask({"model": "kelvin", "state": {"subject": subject}, "questions": q}, memory="meridian-tests-keeps-check")
+    got = ((a2 or {}).get("answers") or {}).get("keeps") or {}
+    if s1 != 200 or s2 != 200 or got.get("silent") or got.get("choice") != obj:
+        stop("this address does not keep what a request teaches for the next request: a fact told in one request was "
+             f"not answered in the next (answers {s1}, {s2}). On a KELVIN Meridian unit every request must name its memory "
+             "(the header KELVIN-Memory), which this client does; if your address is a tester pool, set MERIDIAN_MEMORY=key. "
+             "Nothing of the test was taught.")
 
 
 def sign_p(gained, lost):
@@ -128,6 +156,18 @@ def publish(test_dir, run_dir, result, markdown):
     again after a broken upload."""
     n = sent_again(run_dir)
     result = dict(result, requests_sent_again_after_a_broken_upload=n)
+    # 0.0.6: the run record names the memories the run used (before: the keys in the keys file) and how each was named
+    try:
+        lines = [json.loads(l) for l in open(os.path.join(run_dir, "requests.jsonl"))]
+        used = sorted({l["memory"] for l in lines if l.get("memory") and l["memory"] != "meridian-tests-keeps-check"})
+        named = sorted({l.get("memory_named_by") for l in lines if l.get("status") == 200 and l.get("memory_named_by")})
+        meta = json.load(open(os.path.join(run_dir, "run.json")))
+        meta.pop("memories", None)
+        meta["memories_used"] = used
+        meta["memory_named_by"] = named
+        json.dump(meta, open(os.path.join(run_dir, "run.json"), "w"), indent=1)
+    except (OSError, ValueError, KeyError):
+        pass
     markdown = (markdown.rstrip() + f"\n\nRequests sent again because their upload broke before the body was whole "
                 f"(the door never received them whole): {n}. Each broken attempt is in the run record.")
     if os.environ.get("MERIDIAN_LOCAL") == "1":

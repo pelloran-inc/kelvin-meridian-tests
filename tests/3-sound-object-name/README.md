@@ -38,6 +38,7 @@
 python3 tests/3-sound-object-name/fetch.py                # once: the mirror (about 17 GB streamed, 159 MB kept); or: youtube
 export MERIDIAN_URL=https://<your address>
 export MERIDIAN_KEYS_FILE=~/meridian-keys.tsv   # one line per memory: name<TAB>key (chmod 600)
+# on your own KELVIN Meridian unit instead: export MERIDIAN_KEY=<your key>   (the client names each memory)
 python3 tests/3-sound-object-name/run.py
 ```
 

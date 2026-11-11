@@ -129,6 +129,9 @@ class Meridian:
             sys.exit("set MERIDIAN_URL to your address: https://<your address>, given with your key")
         self.keys = _keys()
         _pin_family()
+        # 0.0.6: how this address picks a memory: "header" (a unit: each request names it), "key" (a tester pool), or
+        # None until the first answer shows it; MERIDIAN_MEMORY=header|key sets it
+        self.naming = {"header": "header", "key": "key"}.get(os.environ.get("MERIDIAN_MEMORY", ""))
         self.record = None
         self._lock = threading.Lock()  # the run record is shared by every memory's thread
         self._key_locks = {}  # one request in flight per key
@@ -158,17 +161,34 @@ class Meridian:
         sys.exit(f"no key for the memory '{memory}' in MERIDIAN_KEYS_FILE")
 
     def request(self, method, path, body=None, memory=None, headers=None):
-        """One request with the busy and limit rule. Returns (status, answer as JSON or None, raw bytes, ms, bytes sent)."""
+        """One request with the busy and limit rule. Returns (status, answer as JSON or None, raw bytes, ms, bytes sent).
+
+        **Which memory** (0.0.6): on a customer unit, a request without `KELVIN-Memory` lives in a store of its own and
+        forgets it after answering, so every request names its memory there. On a tester pool the key alone picks the
+        memory, and naming another one is refused (403 `memory_not_yours`). The client names the memory unless told
+        otherwise (`MERIDIAN_MEMORY=key`); at the first `memory_not_yours` it stops naming it for the rest of the run and
+        sends that request again (the pool refused it before anything was lived). `MERIDIAN_MEMORY=header` never
+        falls back. The way used is written in each record line (`memory_named_by`)."""
         data, ctype, form = encode(body) if body is not None else (None, "application/json", None)
         key = self.key(memory)
         hdr = {"Authorization": f"Bearer {key}", "Content-Type": ctype, **(headers or {})}
         if _local():
             hdr["KELVIN-Memory"] = memory or "demo"
             key = memory or "demo"
+        elif path == "/v1/systemone" and self.naming != "key":
+            hdr["KELVIN-Memory"] = memory or "demo"
         with self._lock:
             key_lock = self._key_locks.setdefault(key, threading.Lock())
         with key_lock:
-            return self._request(method, path, body, data, hdr, memory, headers, key, form)
+            out = self._request(method, path, body, data, hdr, memory, headers, key, form)
+            if (not _local() and "KELVIN-Memory" in hdr and out[0] == 403 and b"memory_not_yours" in (out[2] or b"")
+                    and os.environ.get("MERIDIAN_MEMORY") != "header"):
+                self.naming = "key"  # a tester pool: the key picks the memory
+                hdr.pop("KELVIN-Memory")
+                out = self._request(method, path, body, data, hdr, memory, headers, key, form)
+            elif not _local() and "KELVIN-Memory" in hdr and out[0] == 200 and self.naming is None:
+                self.naming = "header"
+            return out
 
     def _connection(self, key):
         """The key's kept connection when it can carry the next request; else a new one, connected now, before anything
@@ -207,7 +227,7 @@ class Meridian:
             sent_at = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="milliseconds")
             t0 = time.perf_counter()
             base = {"at": sent_at, "method": method, "path": path, "memory": memory, "headers": dict(headers or {}),
-                    "format": form, "body": _without_media(body)}
+                    "format": form, "memory_named_by": "header" if "KELVIN-Memory" in hdr else "key", "body": _without_media(body)}
             try:
                 conn, how = self._connection(key)
             except OSError as e:
